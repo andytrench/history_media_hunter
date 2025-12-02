@@ -1388,6 +1388,20 @@
               "ageAppropriate": true,
               "notes": "[Quick Clip] Historical methods",
               "contentType": "educational"
+            },
+            {
+              "title": "Kurzgesagt: The Emu War",
+              "type": "short",
+              "year": 2021,
+              "rating": "NR",
+              "runtime": 8,
+              "relevance": "Humorous but educational look at Australia's Great Emu War - post-WWI context in the British Empire",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=BXpu6tbFCsI"
+              },
+              "ageAppropriate": true,
+              "contentType": "educational",
+              "notes": "[Kurzgesagt] Engaging story with interwar historical context"
             }
           ]
         }
@@ -1766,6 +1780,20 @@
               "ageAppropriate": true,
               "notes": "10 parts; color footage makes war more real",
               "contentType": "educational"
+            },
+            {
+              "title": "Kurzgesagt: What if We Nuke a City?",
+              "type": "short",
+              "year": 2019,
+              "rating": "NR",
+              "runtime": 9,
+              "relevance": "Explains nuclear weapons effects - relevant to WWII atomic bombs and Cold War",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=5iPH-br_eJQ"
+              },
+              "ageAppropriate": true,
+              "contentType": "educational",
+              "notes": "[Kurzgesagt] Nuclear weapons explained - Hiroshima/Nagasaki context"
             }
           ]
         },
@@ -2001,6 +2029,34 @@
               "ageAppropriate": true,
               "notes": "Comprehensive; Kenneth Branagh narrates",
               "contentType": "educational"
+            },
+            {
+              "title": "Kurzgesagt: Nuclear Energy Explained: How Does it Work?",
+              "type": "short",
+              "year": 2015,
+              "rating": "NR",
+              "runtime": 5,
+              "relevance": "Explains nuclear technology - essential for understanding Cold War nuclear arms race",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=rcOFV4y5z8c"
+              },
+              "ageAppropriate": true,
+              "contentType": "educational",
+              "notes": "[Kurzgesagt] Nuclear technology basics"
+            },
+            {
+              "title": "Kurzgesagt: Atomic Bombs vs Nuclear Bombs: What's the Difference?",
+              "type": "short",
+              "year": 2023,
+              "rating": "NR",
+              "runtime": 10,
+              "relevance": "Detailed explanation of nuclear weapons - crucial for Cold War unit",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=pu3jLZsAW8s"
+              },
+              "ageAppropriate": true,
+              "contentType": "educational",
+              "notes": "[Kurzgesagt] Nuclear weapons technology explained"
             }
           ]
         }
@@ -2097,6 +2153,20 @@
               "ageAppropriate": true,
               "notes": "Shows traumatic partition of India and Pakistan",
               "contentType": "entertainment"
+            },
+            {
+              "title": "Kurzgesagt: Is Civilization on the Brink of Collapse?",
+              "type": "short",
+              "year": 2022,
+              "rating": "NR",
+              "runtime": 13,
+              "relevance": "Examines civilizational collapse throughout history and modern risks",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=W93XyXHI8Nw"
+              },
+              "ageAppropriate": true,
+              "contentType": "educational",
+              "notes": "[Kurzgesagt] Civilizational rise and fall patterns"
             }
           ]
         }
@@ -2245,6 +2315,20 @@
               "ageAppropriate": false,
               "notes": "R-rated; Sean Penn; covers LGBTQ rights history",
               "contentType": "entertainment"
+            },
+            {
+              "title": "Kurzgesagt: Addiction",
+              "type": "short",
+              "year": 2015,
+              "rating": "NR",
+              "runtime": 5,
+              "relevance": "Understanding addiction as a health issue - relevant to human rights and social policy",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=ao8L-0nSYzg"
+              },
+              "ageAppropriate": true,
+              "contentType": "educational",
+              "notes": "[Kurzgesagt] Social health issues"
             }
           ]
         }
@@ -2399,6 +2483,62 @@
               "ageAppropriate": true,
               "notes": "Benedict Cumberbatch; shows origins of computer age",
               "contentType": "entertainment"
+            },
+            {
+              "title": "Kurzgesagt: Why The War on Drugs Is a Huge Failure",
+              "type": "short",
+              "year": 2016,
+              "rating": "NR",
+              "runtime": 6,
+              "relevance": "Modern policy analysis - global drug trade and policy impacts",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=wJUXLqNHCaI"
+              },
+              "ageAppropriate": true,
+              "contentType": "educational",
+              "notes": "[Kurzgesagt] Modern social policy analysis"
+            },
+            {
+              "title": "Kurzgesagt: Climate Change: What Can We Do?",
+              "type": "short",
+              "year": 2021,
+              "rating": "NR",
+              "runtime": 13,
+              "relevance": "Comprehensive climate change overview - essential for modern global issues",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=yiw6_JakZFc"
+              },
+              "ageAppropriate": true,
+              "contentType": "educational",
+              "notes": "[Kurzgesagt] Climate science and solutions"
+            },
+            {
+              "title": "Kurzgesagt: Plastic Pollution: How Humans are Turning the World into Plastic",
+              "type": "short",
+              "year": 2018,
+              "rating": "NR",
+              "runtime": 8,
+              "relevance": "Environmental pollution and global responsibility",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=RS7IzU2VJIQ"
+              },
+              "ageAppropriate": true,
+              "contentType": "educational",
+              "notes": "[Kurzgesagt] Environmental issues explained"
+            },
+            {
+              "title": "Kurzgesagt: The Rise of the Machines – Why Automation is Different this Time",
+              "type": "short",
+              "year": 2017,
+              "rating": "NR",
+              "runtime": 12,
+              "relevance": "Automation and the future of work - connects industrial revolutions to modern technology",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=WSKi8HfcxEk"
+              },
+              "ageAppropriate": true,
+              "contentType": "educational",
+              "notes": "[Kurzgesagt] Industrial revolution to modern automation"
             }
           ]
         }

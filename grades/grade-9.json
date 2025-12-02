@@ -289,6 +289,34 @@
               "ageAppropriate": true,
               "notes": "[Quick Clip] Cyrus to Alexander",
               "contentType": "educational"
+            },
+            {
+              "title": "Kurzgesagt: The History and Future of Everything – Time",
+              "type": "short",
+              "year": 2013,
+              "rating": "NR",
+              "runtime": 8,
+              "relevance": "Sweeping overview of human history from Big Bang to future - great for historical perspective",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=2XkV6IpV2Y0"
+              },
+              "ageAppropriate": true,
+              "contentType": "educational",
+              "notes": "[Kurzgesagt] Big picture view of human history"
+            },
+            {
+              "title": "Kurzgesagt: What Happened Before History? Human Origins",
+              "type": "short",
+              "year": 2016,
+              "rating": "NR",
+              "runtime": 10,
+              "relevance": "Excellent animated overview of early human history and the development of civilization",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=dGiQaabX3_o"
+              },
+              "ageAppropriate": true,
+              "contentType": "educational",
+              "notes": "[Kurzgesagt] HIGHLY RECOMMENDED - Early humans and civilization"
             }
           ]
         }
@@ -1042,6 +1070,20 @@
               "ageAppropriate": true,
               "notes": "[Quick Clip] Detailed military history",
               "contentType": "educational"
+            },
+            {
+              "title": "Kurzgesagt: The Black Death – How The Deadliest Pandemic Changed History",
+              "type": "short",
+              "year": 2019,
+              "rating": "NR",
+              "runtime": 10,
+              "relevance": "Comprehensive animated explanation of the Black Death and its impact on medieval society",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=JEYh5WACqEk"
+              },
+              "ageAppropriate": true,
+              "contentType": "educational",
+              "notes": "[Kurzgesagt] ESSENTIAL - Perfect for medieval unit"
             }
           ]
         },
@@ -1292,6 +1334,20 @@
               "ageAppropriate": true,
               "notes": "Covers maritime trade connections",
               "contentType": "educational"
+            },
+            {
+              "title": "Kurzgesagt: Banking Explained – Money and Credit",
+              "type": "short",
+              "year": 2015,
+              "rating": "NR",
+              "runtime": 6,
+              "relevance": "Explains development of banking and trade systems - relevant to understanding trade networks",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=fTTGALaRZoc"
+              },
+              "ageAppropriate": true,
+              "contentType": "educational",
+              "notes": "[Kurzgesagt] Economic systems and trade"
             }
           ]
         }

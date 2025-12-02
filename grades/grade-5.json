@@ -1547,6 +1547,20 @@
               "ageAppropriate": true,
               "notes": "[Quick Clip] Requires BrainPOP subscription",
               "contentType": "educational"
+            },
+            {
+              "title": "Kurzgesagt: Overpopulation – The Human Explosion Explained",
+              "type": "short",
+              "year": 2016,
+              "rating": "NR",
+              "runtime": 6,
+              "relevance": "Explains population growth and human expansion across the globe, relevant to understanding migration and settlement patterns",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=QsBT5EQt348"
+              },
+              "ageAppropriate": true,
+              "contentType": "educational",
+              "notes": "[Kurzgesagt] Animated explainer on human population growth"
             }
           ]
         },

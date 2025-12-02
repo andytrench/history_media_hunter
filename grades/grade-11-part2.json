@@ -1126,6 +1126,20 @@
               "ageAppropriate": true,
               "notes": "HIGHLY RECOMMENDED - personal stories from the war",
               "contentType": "educational"
+            },
+            {
+              "title": "Kurzgesagt: What if We Nuke a City?",
+              "type": "short",
+              "year": 2019,
+              "rating": "NR",
+              "runtime": 9,
+              "relevance": "Explains nuclear weapons effects - relevant to WWII atomic bombs",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=5iPH-br_eJQ"
+              },
+              "ageAppropriate": true,
+              "contentType": "educational",
+              "notes": "[Kurzgesagt] Nuclear weapons - Hiroshima/Nagasaki context"
             }
           ]
         },
@@ -1251,6 +1265,34 @@
               "ageAppropriate": true,
               "notes": "Comprehensive; select relevant episodes",
               "contentType": "educational"
+            },
+            {
+              "title": "Kurzgesagt: The Side Effects of Vaccines – How High is the Risk?",
+              "type": "short",
+              "year": 2019,
+              "rating": "NR",
+              "runtime": 10,
+              "relevance": "Science and public health policy - connects to Cold War era science and modern debates",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=zBkVCpbNnkU"
+              },
+              "ageAppropriate": true,
+              "contentType": "educational",
+              "notes": "[Kurzgesagt] Public health and policy"
+            },
+            {
+              "title": "Kurzgesagt: Nuclear Energy Explained: How Does it Work?",
+              "type": "short",
+              "year": 2015,
+              "rating": "NR",
+              "runtime": 5,
+              "relevance": "Explains nuclear technology - essential for understanding Cold War nuclear arms race",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=rcOFV4y5z8c"
+              },
+              "ageAppropriate": true,
+              "contentType": "educational",
+              "notes": "[Kurzgesagt] Nuclear technology basics"
             }
           ]
         }
@@ -1508,6 +1550,20 @@
               "ageAppropriate": true,
               "notes": "[Quick Clip] School desegregation",
               "contentType": "educational"
+            },
+            {
+              "title": "Kurzgesagt: Loneliness",
+              "type": "short",
+              "year": 2019,
+              "rating": "NR",
+              "runtime": 9,
+              "relevance": "Social isolation and community - relevant to discussions of social movements and belonging",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=n3Xv_g3g-mA"
+              },
+              "ageAppropriate": true,
+              "contentType": "educational",
+              "notes": "[Kurzgesagt] Social connection and community"
             }
           ]
         }
@@ -2017,6 +2073,20 @@
               "ageAppropriate": true,
               "notes": "[Quick Clip] Historical party evolution",
               "contentType": "educational"
+            },
+            {
+              "title": "Kurzgesagt: Universal Basic Income Explained – Free Money for Everybody?",
+              "type": "short",
+              "year": 2017,
+              "rating": "NR",
+              "runtime": 7,
+              "relevance": "Modern economic policy debate - connects to US economic history and future",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=kl39KHS07Xc"
+              },
+              "ageAppropriate": true,
+              "contentType": "educational",
+              "notes": "[Kurzgesagt] Economic policy analysis"
             }
           ]
         }
@@ -2083,6 +2153,34 @@
               "ageAppropriate": true,
               "notes": "Abigail Disney on income inequality",
               "contentType": "educational"
+            },
+            {
+              "title": "Kurzgesagt: The Coronavirus Explained & What You Should Do",
+              "type": "short",
+              "year": 2020,
+              "rating": "NR",
+              "runtime": 8,
+              "relevance": "COVID-19 pandemic explanation - connects to modern US history",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=BtN-goy9VOY"
+              },
+              "ageAppropriate": true,
+              "contentType": "educational",
+              "notes": "[Kurzgesagt] Recent pandemic history"
+            },
+            {
+              "title": "Kurzgesagt: Genetic Engineering Will Change Everything Forever – CRISPR",
+              "type": "short",
+              "year": 2016,
+              "rating": "NR",
+              "runtime": 16,
+              "relevance": "Modern biotechnology and ethics - important contemporary issue",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=jAhjPd4uNFY"
+              },
+              "ageAppropriate": true,
+              "contentType": "educational",
+              "notes": "[Kurzgesagt] Science and ethics in modern America"
             }
           ]
         }

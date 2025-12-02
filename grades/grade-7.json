@@ -1497,6 +1497,20 @@
               "ageAppropriate": true,
               "notes": "[Quick Clip] NY State history essential",
               "contentType": "educational"
+            },
+            {
+              "title": "Kurzgesagt: The Rise of the Machines – Why Automation is Different this Time",
+              "type": "short",
+              "year": 2017,
+              "rating": "NR",
+              "runtime": 12,
+              "relevance": "Compares industrial revolutions and automation - connects historical industrialization to modern technology",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=WSKi8HfcxEk"
+              },
+              "ageAppropriate": true,
+              "contentType": "educational",
+              "notes": "[Kurzgesagt] Industrial revolution context for modern automation"
             }
           ]
         }
@@ -1986,6 +2000,20 @@
               "ageAppropriate": true,
               "notes": "Covers engineering challenges and Roosevelt's role",
               "contentType": "educational"
+            },
+            {
+              "title": "Kurzgesagt: The European Refugee Crisis and Syria Explained",
+              "type": "short",
+              "year": 2015,
+              "rating": "NR",
+              "runtime": 6,
+              "relevance": "Modern migration and refugee issues - connects historical immigration patterns to contemporary events",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=RvOnXh3NN9w"
+              },
+              "ageAppropriate": true,
+              "contentType": "educational",
+              "notes": "[Kurzgesagt] Explains push/pull factors of migration"
             }
           ]
         }
