@@ -1,4 +1,4 @@
--- Curriculum Media Hunter - Database Schema
+-- Archer's History - Database Schema
 -- All curriculum data stored in PostgreSQL
 
 -- Grades table

@@ -2,7 +2,7 @@
 
 ## Overview
 
-Curriculum Media Hunter is deployed using:
+Archer's History is deployed using:
 - **GitHub** - Source code repository & version control
 - **Railway** - Hosting platform with automatic deployments
 - **PostgreSQL** - Database (hosted on Railway)

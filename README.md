@@ -1,10 +1,10 @@
-# 🎬 Curriculum Media Hunter
+# 🎬 Archer's History
 
 **Educational media browser for NY State Social Studies curriculum**
 
 A beautiful, searchable database of movies, documentaries, and educational content aligned with NY State K-12 Social Studies standards. Built for the Trench family homeschool.
 
-![Curriculum Media Hunter](https://img.shields.io/badge/Education-Media%20Hunter-blue)
+![Archer's History](https://img.shields.io/badge/Education-Archer's%20History-blue)
 ![Node.js](https://img.shields.io/badge/Node.js-18+-green)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Ready-blue)
 

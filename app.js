@@ -1,5 +1,5 @@
 /**
- * Curriculum Media Hunter
+ * Archer's History
  * Educational media browser - fetches all data from API
  */
 

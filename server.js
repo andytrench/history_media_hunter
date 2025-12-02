@@ -1,5 +1,5 @@
 /**
- * Curriculum Media Hunter - Server
+ * Archer's History - Server
  * Express server with PostgreSQL for all curriculum data
  */
 
@@ -785,7 +785,7 @@ async function initDatabase() {
 
 // Start server
 app.listen(PORT, async () => {
-    console.log(`\n🎬 Curriculum Media Hunter`);
+    console.log(`\n🎬 Archer's History`);
     console.log(`   Port: ${PORT}`);
     console.log(`   Environment: ${process.env.NODE_ENV || 'development'}`);
     console.log('');
