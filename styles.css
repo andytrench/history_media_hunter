@@ -669,6 +669,48 @@ body {
 .media-type-badge.short { color: var(--success); }
 .media-type-badge.educational { color: var(--success); }
 
+/* Media Badges Container */
+.media-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    align-items: center;
+}
+
+/* Content Type Badge - Educational vs Entertainment */
+.content-type-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 0.65rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.content-type-badge.educational {
+    background: rgba(63, 185, 80, 0.15);
+    color: #3fb950;
+    border: 1px solid rgba(63, 185, 80, 0.3);
+}
+
+.content-type-badge.entertainment {
+    background: rgba(163, 113, 247, 0.15);
+    color: #a371f7;
+    border: 1px solid rgba(163, 113, 247, 0.3);
+}
+
+/* Media card visual distinction by content type */
+.media-card.educational {
+    border-left: 3px solid var(--success);
+}
+
+.media-card.entertainment {
+    border-left: 3px solid var(--accent-purple);
+}
+
 /* Watched Checkbox */
 .watched-checkbox {
     display: flex;

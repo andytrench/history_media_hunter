@@ -11,7 +11,8 @@ const state = {
     searchQuery: '',
     filters: {
         type: 'all',
-        ageAppropriate: 'all'
+        ageAppropriate: 'all',
+        contentType: 'all'
     },
     data: {},         // Grade data from API
     studentId: null,  // Current student ID
@@ -527,6 +528,9 @@ function renderMedia() {
         const filterValue = state.filters.ageAppropriate === 'true';
         media = media.filter(m => m.ageAppropriate === filterValue);
     }
+    if (state.filters.contentType !== 'all') {
+        media = media.filter(m => (m.contentType || 'entertainment') === state.filters.contentType);
+    }
 
     // Apply search
     if (state.searchQuery) {
@@ -572,12 +576,19 @@ function renderMediaCard(media, topic, index) {
     const ratingClass = getRatingClass(media.rating);
     const streamingLinks = getStreamingLinks(media);
     const watched = isWatched(media);
+    const contentType = media.contentType || 'entertainment';
+    const isEducational = contentType === 'educational';
     
     return `
-        <div class="media-card ${watched ? 'watched' : ''}" data-id="${media.id || index}">
+        <div class="media-card ${watched ? 'watched' : ''} ${contentType}" data-id="${media.id || index}">
             <div class="media-card-header">
                 <div class="media-header-row">
-                    <span class="media-type-badge ${media.type}">${getTypeIcon(media.type)} ${media.type}</span>
+                    <div class="media-badges">
+                        <span class="media-type-badge ${media.type}">${getTypeIcon(media.type)} ${media.type}</span>
+                        <span class="content-type-badge ${contentType}">
+                            ${isEducational ? '📚 Educational' : '🎭 Entertainment'}
+                        </span>
+                    </div>
                     <label class="watched-checkbox" onclick="event.stopPropagation()">
                         <input type="checkbox" ${watched ? 'checked' : ''} />
                         Watched
@@ -822,13 +833,14 @@ function handleSearch(e) {
 
 function handleFilterClick(chip) {
     const filterType = chip.closest('.filter-chips').id;
-    const value = chip.dataset.type || chip.dataset.age;
+    const value = chip.dataset.type || chip.dataset.age || chip.dataset.content;
     
     chip.closest('.filter-chips').querySelectorAll('.filter-chip').forEach(c => c.classList.remove('active'));
     chip.classList.add('active');
     
     if (filterType === 'typeFilters') state.filters.type = value;
     else if (filterType === 'ageFilters') state.filters.ageAppropriate = value;
+    else if (filterType === 'contentFilters') state.filters.contentType = value;
     
     renderMedia();
 }

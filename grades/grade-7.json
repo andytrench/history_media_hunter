@@ -33,7 +33,8 @@
                 "imdb": "https://www.imdb.com/title/tt0111825/"
               },
               "ageAppropriate": true,
-              "notes": "Show relevant episodes on Iroquois and Northeast peoples; comprehensive and respectful"
+              "notes": "Show relevant episodes on Iroquois and Northeast peoples; comprehensive and respectful",
+              "contentType": "educational"
             },
             {
               "title": "We Shall Remain: Episode 1 - After the Mayflower",
@@ -52,7 +53,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Tells story from Native American perspective; excellent primary sources"
+              "notes": "Tells story from Native American perspective; excellent primary sources",
+              "contentType": "educational"
             },
             {
               "title": "Bury My Heart at Wounded Knee",
@@ -65,7 +67,8 @@
                 "imdb": "https://www.imdb.com/title/tt0821638/"
               },
               "ageAppropriate": false,
-              "notes": "TV-14; may be appropriate for mature 7th graders; discusses difficult history"
+              "notes": "TV-14; may be appropriate for mature 7th graders; discusses difficult history",
+              "contentType": "entertainment"
             },
             {
               "title": "The Iroquois",
@@ -76,7 +79,8 @@
               "relevance": "Schlessinger Media educational video on Iroquois Confederacy",
               "links": {},
               "ageAppropriate": true,
-              "notes": "Designed for classroom use; covers government structure and daily life"
+              "notes": "Designed for classroom use; covers government structure and daily life",
+              "contentType": "educational"
             },
             {
               "title": "Kahentiiosta: Sky Woman",
@@ -87,7 +91,8 @@
               "relevance": "Documentary about Mohawk culture and the Sky Woman creation story",
               "links": {},
               "ageAppropriate": true,
-              "notes": "Authentic representation of Haudenosaunee culture"
+              "notes": "Authentic representation of Haudenosaunee culture",
+              "contentType": "educational"
             }
           ]
         }
@@ -127,7 +132,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Specifically covers New York colonial history; excellent for NY State curriculum"
+              "notes": "Specifically covers New York colonial history; excellent for NY State curriculum",
+              "contentType": "educational"
             },
             {
               "title": "National Treasure",
@@ -146,7 +152,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Fictional but sparks interest in colonial history and founding documents"
+              "notes": "Fictional but sparks interest in colonial history and founding documents",
+              "contentType": "entertainment"
             },
             {
               "title": "Last of the Mohicans",
@@ -159,7 +166,8 @@
                 "imdb": "https://www.imdb.com/title/tt0104691/"
               },
               "ageAppropriate": false,
-              "notes": "R-rated for violence; teacher reference; select scenes may work; set in NY wilderness"
+              "notes": "R-rated for violence; teacher reference; select scenes may work; set in NY wilderness",
+              "contentType": "entertainment"
             },
             {
               "title": "Gangs of New York",
@@ -172,7 +180,8 @@
                 "imdb": "https://www.imdb.com/title/tt0217505/"
               },
               "ageAppropriate": false,
-              "notes": "R-rated; NOT appropriate for classroom; shows NYC immigrant history"
+              "notes": "R-rated; NOT appropriate for classroom; shows NYC immigrant history",
+              "contentType": "entertainment"
             },
             {
               "title": "Colonial House",
@@ -191,7 +200,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Excellent for understanding daily colonial life challenges"
+              "notes": "Excellent for understanding daily colonial life challenges",
+              "contentType": "educational"
             }
           ]
         }
@@ -226,7 +236,8 @@
                 "imdb": "https://www.imdb.com/title/tt0109393/"
               },
               "ageAppropriate": true,
-              "notes": "HIGHLY RECOMMENDED - excellent educational animation; based on the book"
+              "notes": "HIGHLY RECOMMENDED - excellent educational animation; based on the book",
+              "contentType": "educational"
             },
             {
               "title": "Cathedral",
@@ -239,7 +250,8 @@
                 "imdb": "https://www.imdb.com/title/tt0285683/"
               },
               "ageAppropriate": true,
-              "notes": "Companion to Castle; shows medieval church and architecture"
+              "notes": "Companion to Castle; shows medieval church and architecture",
+              "contentType": "educational"
             },
             {
               "title": "A Knight's Tale",
@@ -252,7 +264,8 @@
                 "imdb": "https://www.imdb.com/title/tt0183790/"
               },
               "ageAppropriate": true,
-              "notes": "PG-13 but mostly clean; anachronistic music but shows medieval society well"
+              "notes": "PG-13 but mostly clean; anachronistic music but shows medieval society well",
+              "contentType": "entertainment"
             },
             {
               "title": "Robin Hood (2010)",
@@ -265,7 +278,8 @@
                 "imdb": "https://www.imdb.com/title/tt0955308/"
               },
               "ageAppropriate": false,
-              "notes": "PG-13 for battle scenes; select clips on Magna Carta may be useful"
+              "notes": "PG-13 for battle scenes; select clips on Magna Carta may be useful",
+              "contentType": "entertainment"
             },
             {
               "title": "The Name of the Rose",
@@ -278,7 +292,8 @@
                 "imdb": "https://www.imdb.com/title/tt0091605/"
               },
               "ageAppropriate": false,
-              "notes": "R-rated; teacher reference only; excellent depiction of monastic life"
+              "notes": "R-rated; teacher reference only; excellent depiction of monastic life",
+              "contentType": "entertainment"
             },
             {
               "title": "Horrible Histories: Measly Middle Ages",
@@ -291,7 +306,8 @@
                 "imdb": "https://www.imdb.com/title/tt1434549/"
               },
               "ageAppropriate": true,
-              "notes": "HIGHLY RECOMMENDED - engaging and humorous; perfect for middle school"
+              "notes": "HIGHLY RECOMMENDED - engaging and humorous; perfect for middle school",
+              "contentType": "educational"
             },
             {
               "title": "Terry Jones' Medieval Lives",
@@ -304,7 +320,8 @@
                 "imdb": "https://www.imdb.com/title/tt0411006/"
               },
               "ageAppropriate": true,
-              "notes": "8 episodes covering peasant, monk, knight, etc.; hosted by Monty Python member"
+              "notes": "8 episodes covering peasant, monk, knight, etc.; hosted by Monty Python member",
+              "contentType": "educational"
             },
             {
               "title": "The Black Death: The World's Most Devastating Plague",
@@ -315,7 +332,8 @@
               "relevance": "Great Courses documentary on the Black Death and its effects",
               "links": {},
               "ageAppropriate": true,
-              "notes": "Academic but accessible; covers pandemic's impact on medieval society"
+              "notes": "Academic but accessible; covers pandemic's impact on medieval society",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course World History: The Dark Ages",
@@ -328,7 +346,8 @@
                 "youtube": "https://www.youtube.com/watch?v=QV7CanyzhZg"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] John Green; engaging and educational"
+              "notes": "[Quick Clip] John Green; engaging and educational",
+              "contentType": "educational"
             },
             {
               "title": "TED-Ed: A Day in the Life of a Medieval Lord",
@@ -341,7 +360,8 @@
                 "youtube": "https://www.youtube.com/watch?v=p1BSSCxjhv8"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Animated medieval life"
+              "notes": "[Quick Clip] Animated medieval life",
+              "contentType": "educational"
             },
             {
               "title": "TED-Ed: The Black Death",
@@ -354,7 +374,8 @@
                 "youtube": "https://www.youtube.com/watch?v=rZy6XilXDZQ"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Historical context of pandemic"
+              "notes": "[Quick Clip] Historical context of pandemic",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course World History: The Renaissance",
@@ -367,7 +388,8 @@
                 "youtube": "https://www.youtube.com/watch?v=Vufba_ZDwbQ"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Art, science, and humanism"
+              "notes": "[Quick Clip] Art, science, and humanism",
+              "contentType": "educational"
             },
             {
               "title": "Oversimplified: Henry VIII",
@@ -380,7 +402,8 @@
                 "youtube": "https://www.youtube.com/watch?v=Yk1-nLPp5RE"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Reformation and Tudor England"
+              "notes": "[Quick Clip] Reformation and Tudor England",
+              "contentType": "educational"
             },
             {
               "title": "TED-Ed: Leonardo da Vinci's Genius",
@@ -393,7 +416,8 @@
                 "youtube": "https://www.youtube.com/watch?v=v0mX9QISNqk"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Da Vinci's inventions and art"
+              "notes": "[Quick Clip] Da Vinci's inventions and art",
+              "contentType": "educational"
             },
             {
               "title": "Simple History: Life of a Medieval Knight",
@@ -406,7 +430,8 @@
                 "youtube": "https://www.youtube.com/watch?v=aoNfVlHqxYM"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Animated medieval life"
+              "notes": "[Quick Clip] Animated medieval life",
+              "contentType": "educational"
             }
           ]
         },
@@ -434,7 +459,8 @@
                 "imdb": "https://www.imdb.com/title/tt0120631/"
               },
               "ageAppropriate": true,
-              "notes": "PG-13 but appropriate; excellent Renaissance costumes and setting"
+              "notes": "PG-13 but appropriate; excellent Renaissance costumes and setting",
+              "contentType": "entertainment"
             },
             {
               "title": "Leonardo da Vinci: The Genius",
@@ -445,7 +471,8 @@
               "relevance": "Documentary exploring da Vinci's life, art, and inventions",
               "links": {},
               "ageAppropriate": true,
-              "notes": "Great introduction to Renaissance polymath"
+              "notes": "Great introduction to Renaissance polymath",
+              "contentType": "educational"
             },
             {
               "title": "The Agony and the Ecstasy",
@@ -458,7 +485,8 @@
                 "imdb": "https://www.imdb.com/title/tt0058886/"
               },
               "ageAppropriate": true,
-              "notes": "Charlton Heston as Michelangelo; shows Renaissance art and patronage"
+              "notes": "Charlton Heston as Michelangelo; shows Renaissance art and patronage",
+              "contentType": "entertainment"
             },
             {
               "title": "Medici: Masters of Florence",
@@ -471,7 +499,8 @@
                 "imdb": "https://www.imdb.com/title/tt5057130/"
               },
               "ageAppropriate": false,
-              "notes": "TV-MA; NOT for classroom; excellent teacher reference on Renaissance Florence"
+              "notes": "TV-MA; NOT for classroom; excellent teacher reference on Renaissance Florence",
+              "contentType": "entertainment"
             },
             {
               "title": "The Story of the Renaissance",
@@ -482,7 +511,8 @@
               "relevance": "Educational documentary covering Renaissance art, science, and culture",
               "links": {},
               "ageAppropriate": true,
-              "notes": "Designed for educational use"
+              "notes": "Designed for educational use",
+              "contentType": "educational"
             },
             {
               "title": "Galileo",
@@ -495,7 +525,8 @@
                 "imdb": "https://www.imdb.com/title/tt0073034/"
               },
               "ageAppropriate": true,
-              "notes": "Depicts scientific revolution and church-science conflicts"
+              "notes": "Depicts scientific revolution and church-science conflicts",
+              "contentType": "entertainment"
             },
             {
               "title": "Crash Course US History: The Roaring 20s",
@@ -508,7 +539,8 @@
                 "youtube": "https://www.youtube.com/watch?v=VfOR1XCMf7A"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Includes Harlem Renaissance context"
+              "notes": "[Quick Clip] Includes Harlem Renaissance context",
+              "contentType": "educational"
             },
             {
               "title": "The Harlem Renaissance Explained",
@@ -521,7 +553,8 @@
                 "youtube": "https://www.youtube.com/watch?v=w3UQNPWfpjM"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] NYC cultural movement"
+              "notes": "[Quick Clip] NYC cultural movement",
+              "contentType": "educational"
             },
             {
               "title": "TED-Ed: Langston Hughes and the Harlem Renaissance",
@@ -534,7 +567,8 @@
                 "youtube": "https://www.youtube.com/watch?v=gxMXy6hJMq4"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Key Harlem figure"
+              "notes": "[Quick Clip] Key Harlem figure",
+              "contentType": "educational"
             },
             {
               "title": "Duke Ellington and the Cotton Club",
@@ -547,7 +581,8 @@
                 "youtube": "https://www.youtube.com/watch?v=t5Z9s3bJBhU"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] NYC jazz history"
+              "notes": "[Quick Clip] NYC jazz history",
+              "contentType": "educational"
             }
           ]
         },
@@ -575,7 +610,8 @@
                 "imdb": "https://www.imdb.com/title/tt0309820/"
               },
               "ageAppropriate": true,
-              "notes": "PG-13; may be appropriate for mature 7th graders; comprehensive look at Luther"
+              "notes": "PG-13; may be appropriate for mature 7th graders; comprehensive look at Luther",
+              "contentType": "entertainment"
             },
             {
               "title": "Martin Luther: The Idea that Changed the World",
@@ -588,7 +624,8 @@
                 "imdb": "https://www.imdb.com/title/tt7014528/"
               },
               "ageAppropriate": true,
-              "notes": "Made for 500th anniversary of Reformation; accessible and educational"
+              "notes": "Made for 500th anniversary of Reformation; accessible and educational",
+              "contentType": "educational"
             },
             {
               "title": "A Man for All Seasons",
@@ -601,7 +638,8 @@
                 "imdb": "https://www.imdb.com/title/tt0060665/"
               },
               "ageAppropriate": true,
-              "notes": "G-rated; excellent for discussing English Reformation and conscience"
+              "notes": "G-rated; excellent for discussing English Reformation and conscience",
+              "contentType": "entertainment"
             },
             {
               "title": "Elizabeth",
@@ -614,7 +652,8 @@
                 "imdb": "https://www.imdb.com/title/tt0127536/"
               },
               "ageAppropriate": false,
-              "notes": "R-rated; NOT for classroom; teacher reference on English Reformation"
+              "notes": "R-rated; NOT for classroom; teacher reference on English Reformation",
+              "contentType": "entertainment"
             },
             {
               "title": "The Reformation",
@@ -632,7 +671,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Straightforward educational documentary"
+              "notes": "Straightforward educational documentary",
+              "contentType": "educational"
             }
           ]
         }
@@ -666,7 +706,8 @@
                 "imdb": "https://www.imdb.com/title/tt0884140/"
               },
               "ageAppropriate": true,
-              "notes": "Focus on engineering achievements; Peter Weller narrates"
+              "notes": "Focus on engineering achievements; Peter Weller narrates",
+              "contentType": "educational"
             },
             {
               "title": "The Road to El Dorado",
@@ -679,7 +720,8 @@
                 "imdb": "https://www.imdb.com/title/tt0138749/"
               },
               "ageAppropriate": true,
-              "notes": "Fictional but excellent visual introduction to Mesoamerican aesthetics"
+              "notes": "Fictional but excellent visual introduction to Mesoamerican aesthetics",
+              "contentType": "entertainment"
             },
             {
               "title": "Conquest of the Aztec Empire",
@@ -690,7 +732,8 @@
               "relevance": "Documentary covering Cortés and the fall of Tenochtitlan",
               "links": {},
               "ageAppropriate": true,
-              "notes": "Covers both Aztec civilization and Spanish conquest"
+              "notes": "Covers both Aztec civilization and Spanish conquest",
+              "contentType": "educational"
             }
           ]
         },
@@ -723,7 +766,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Not historically accurate but fun visual introduction to Incan aesthetics"
+              "notes": "Not historically accurate but fun visual introduction to Incan aesthetics",
+              "contentType": "entertainment"
             },
             {
               "title": "Engineering an Empire: The Inca",
@@ -736,7 +780,8 @@
                 "imdb": "https://www.imdb.com/title/tt1210897/"
               },
               "ageAppropriate": true,
-              "notes": "Covers Machu Picchu, road system, and architectural achievements"
+              "notes": "Covers Machu Picchu, road system, and architectural achievements",
+              "contentType": "educational"
             },
             {
               "title": "Machu Picchu: Secrets of the Incan Empire",
@@ -747,7 +792,8 @@
               "relevance": "National Geographic documentary exploring Machu Picchu",
               "links": {},
               "ageAppropriate": true,
-              "notes": "Beautiful visuals of the famous citadel"
+              "notes": "Beautiful visuals of the famous citadel",
+              "contentType": "educational"
             }
           ]
         }
@@ -783,7 +829,8 @@
                 "youtube": "https://www.youtube.com/playlist?list=PLHPGDDYvMPxEXwfFLR8u2Hd1ZJpnhwnAh"
               },
               "ageAppropriate": true,
-              "notes": "Animated series perfect for this age; episodes 38-40 cover Constitution"
+              "notes": "Animated series perfect for this age; episodes 38-40 cover Constitution",
+              "contentType": "entertainment"
             },
             {
               "title": "A More Perfect Union: America Becomes a Nation",
@@ -796,7 +843,8 @@
                 "imdb": "https://www.imdb.com/title/tt0097927/"
               },
               "ageAppropriate": true,
-              "notes": "Made specifically for educational use; shows convention debates"
+              "notes": "Made specifically for educational use; shows convention debates",
+              "contentType": "entertainment"
             },
             {
               "title": "Schoolhouse Rock: The Preamble",
@@ -809,7 +857,8 @@
                 "youtube": "https://www.youtube.com/watch?v=0hEYvdMoF2g"
               },
               "ageAppropriate": true,
-              "notes": "Students can memorize preamble through the catchy song"
+              "notes": "Students can memorize preamble through the catchy song",
+              "contentType": "educational"
             },
             {
               "title": "The Federalist Papers: A Documentary",
@@ -820,7 +869,8 @@
               "relevance": "Documentary on Hamilton, Madison, and Jay's writings",
               "links": {},
               "ageAppropriate": true,
-              "notes": "More advanced; good for enrichment"
+              "notes": "More advanced; good for enrichment",
+              "contentType": "educational"
             }
           ]
         }
@@ -853,7 +903,8 @@
               "relevance": "History Channel documentary on the Erie Canal construction and impact",
               "links": {},
               "ageAppropriate": true,
-              "notes": "Comprehensive coverage of canal history"
+              "notes": "Comprehensive coverage of canal history",
+              "contentType": "educational"
             },
             {
               "title": "America: The Story of Us - Episode 3: Westward",
@@ -866,7 +917,8 @@
                 "imdb": "https://www.imdb.com/title/tt1644785/"
               },
               "ageAppropriate": true,
-              "notes": "Modern production with reenactments"
+              "notes": "Modern production with reenactments",
+              "contentType": "educational"
             },
             {
               "title": "The Erie Canal: A Journey Through History",
@@ -877,7 +929,8 @@
               "relevance": "Educational video specifically about the canal for students",
               "links": {},
               "ageAppropriate": true,
-              "notes": "Made for classroom use"
+              "notes": "Made for classroom use",
+              "contentType": "educational"
             },
             {
               "title": "The History of New York City",
@@ -890,7 +943,8 @@
                 "youtube": "https://www.youtube.com/watch?v=uQ6G9BzPh4o"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] NYC history overview"
+              "notes": "[Quick Clip] NYC history overview",
+              "contentType": "educational"
             },
             {
               "title": "How Did New York Get Its Name?",
@@ -903,7 +957,8 @@
                 "youtube": "https://www.youtube.com/watch?v=D_q1ek0JXks"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] New Amsterdam to New York"
+              "notes": "[Quick Clip] New Amsterdam to New York",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course US History: The Natives and the English",
@@ -916,7 +971,8 @@
                 "youtube": "https://www.youtube.com/watch?v=TTYOQ05oDOI"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] First contact and early colonization"
+              "notes": "[Quick Clip] First contact and early colonization",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course US History: The Quakers, Dutch, and Ladies",
@@ -929,7 +985,8 @@
                 "youtube": "https://www.youtube.com/watch?v=jnx-L1EqMys"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Covers Dutch NY and Pennsylvania"
+              "notes": "[Quick Clip] Covers Dutch NY and Pennsylvania",
+              "contentType": "educational"
             },
             {
               "title": "The Iroquois Confederacy and American Democracy",
@@ -942,7 +999,8 @@
                 "youtube": "https://www.youtube.com/watch?v=BNjcvERVguc"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Important NY history"
+              "notes": "[Quick Clip] Important NY history",
+              "contentType": "educational"
             }
           ]
         }
@@ -983,7 +1041,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Classic Disney; romanticized but engaging introduction to Alamo"
+              "notes": "Classic Disney; romanticized but engaging introduction to Alamo",
+              "contentType": "entertainment"
             },
             {
               "title": "The Alamo (2004)",
@@ -996,7 +1055,8 @@
                 "imdb": "https://www.imdb.com/title/tt0318974/"
               },
               "ageAppropriate": false,
-              "notes": "PG-13 for battle violence; more historically accurate; select scenes may work"
+              "notes": "PG-13 for battle violence; more historically accurate; select scenes may work",
+              "contentType": "entertainment"
             },
             {
               "title": "The West",
@@ -1015,7 +1075,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Comprehensive 8-part series; select relevant episodes"
+              "notes": "Comprehensive 8-part series; select relevant episodes",
+              "contentType": "educational"
             },
             {
               "title": "Oregon Trail: The Road to Western Expansion",
@@ -1026,7 +1087,8 @@
               "relevance": "Documentary on pioneer migration to Oregon",
               "links": {},
               "ageAppropriate": true,
-              "notes": "Covers challenges and experiences of pioneers"
+              "notes": "Covers challenges and experiences of pioneers",
+              "contentType": "educational"
             }
           ]
         }
@@ -1067,7 +1129,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "HIGHLY RECOMMENDED for NY curriculum; can show in segments"
+              "notes": "HIGHLY RECOMMENDED for NY curriculum; can show in segments",
+              "contentType": "educational"
             },
             {
               "title": "Iron Jawed Angels",
@@ -1080,7 +1143,8 @@
                 "imdb": "https://www.imdb.com/title/tt0338139/"
               },
               "ageAppropriate": true,
-              "notes": "Covers later suffrage movement; powerful depiction of struggle for vote"
+              "notes": "Covers later suffrage movement; powerful depiction of struggle for vote",
+              "contentType": "entertainment"
             },
             {
               "title": "One Woman, One Vote",
@@ -1098,7 +1162,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Comprehensive look at entire suffrage movement"
+              "notes": "Comprehensive look at entire suffrage movement",
+              "contentType": "educational"
             },
             {
               "title": "Suffragette",
@@ -1111,7 +1176,8 @@
                 "imdb": "https://www.imdb.com/title/tt3077214/"
               },
               "ageAppropriate": true,
-              "notes": "PG-13; set in Britain but shows suffrage struggle"
+              "notes": "PG-13; set in Britain but shows suffrage struggle",
+              "contentType": "entertainment"
             }
           ]
         }
@@ -1152,7 +1218,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "HIGHLY RECOMMENDED - perfect for NY curriculum; engaging musical about labor"
+              "notes": "HIGHLY RECOMMENDED - perfect for NY curriculum; engaging musical about labor",
+              "contentType": "entertainment"
             },
             {
               "title": "Oliver Twist (2005)",
@@ -1165,7 +1232,8 @@
                 "imdb": "https://www.imdb.com/title/tt0380599/"
               },
               "ageAppropriate": true,
-              "notes": "Set in England but excellent for understanding industrial era conditions"
+              "notes": "Set in England but excellent for understanding industrial era conditions",
+              "contentType": "entertainment"
             },
             {
               "title": "The Men Who Built America",
@@ -1178,7 +1246,8 @@
                 "imdb": "https://www.imdb.com/title/tt2167393/"
               },
               "ageAppropriate": true,
-              "notes": "8-part series; covers industrialists who shaped America; some based in NY"
+              "notes": "8-part series; covers industrialists who shaped America; some based in NY",
+              "contentType": "educational"
             },
             {
               "title": "An American Tail",
@@ -1191,7 +1260,8 @@
                 "imdb": "https://www.imdb.com/title/tt0090633/"
               },
               "ageAppropriate": true,
-              "notes": "Covers immigration to NYC during industrial era; accessible introduction"
+              "notes": "Covers immigration to NYC during industrial era; accessible introduction",
+              "contentType": "entertainment"
             },
             {
               "title": "Crash Course US History: Taxes & Smuggling",
@@ -1204,7 +1274,8 @@
                 "youtube": "https://www.youtube.com/watch?v=X-zHagVGedE"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Taxation without representation"
+              "notes": "[Quick Clip] Taxation without representation",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course US History: The Constitution",
@@ -1217,7 +1288,8 @@
                 "youtube": "https://www.youtube.com/watch?v=bO7FQsCcbD8"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] How Constitution was created"
+              "notes": "[Quick Clip] How Constitution was created",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course US History: The Bill of Rights",
@@ -1230,7 +1302,8 @@
                 "youtube": "https://www.youtube.com/watch?v=Zbl4ESQgLQA"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Rights and freedoms"
+              "notes": "[Quick Clip] Rights and freedoms",
+              "contentType": "educational"
             },
             {
               "title": "Hip Hughes: The 3/5 Compromise",
@@ -1243,7 +1316,8 @@
                 "youtube": "https://www.youtube.com/watch?v=QfVdxWv2A-0"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Difficult but important topic"
+              "notes": "[Quick Clip] Difficult but important topic",
+              "contentType": "educational"
             },
             {
               "title": "TED-Ed: What Is the Electoral College?",
@@ -1256,7 +1330,8 @@
                 "youtube": "https://www.youtube.com/watch?v=W9H3gvnN468"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Presidential election process"
+              "notes": "[Quick Clip] Presidential election process",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course US History: Industrial Economy",
@@ -1269,7 +1344,8 @@
                 "youtube": "https://www.youtube.com/watch?v=r6tRp-zRUJs"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Big business and tycoons"
+              "notes": "[Quick Clip] Big business and tycoons",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course US History: Westward Expansion",
@@ -1282,7 +1358,8 @@
                 "youtube": "https://www.youtube.com/watch?v=Q16OZkgSXfM"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Manifest Destiny and impact"
+              "notes": "[Quick Clip] Manifest Destiny and impact",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course US History: Immigration",
@@ -1295,7 +1372,8 @@
                 "youtube": "https://www.youtube.com/watch?v=Dc0-z15fMss"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Great wave of immigration"
+              "notes": "[Quick Clip] Great wave of immigration",
+              "contentType": "educational"
             },
             {
               "title": "Simple History: Triangle Shirtwaist Factory Fire",
@@ -1308,7 +1386,8 @@
                 "youtube": "https://www.youtube.com/watch?v=WKCktFn6JKw"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Important NY labor event"
+              "notes": "[Quick Clip] Important NY labor event",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course US History: Progressive Era",
@@ -1321,7 +1400,8 @@
                 "youtube": "https://www.youtube.com/watch?v=i0Q4zPR4G7M"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Muckrakers and reforms"
+              "notes": "[Quick Clip] Muckrakers and reforms",
+              "contentType": "educational"
             },
             {
               "title": "The Erie Canal Song - History",
@@ -1334,7 +1414,8 @@
                 "youtube": "https://www.youtube.com/watch?v=HKzRbqMCAHA"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] NY State history essential"
+              "notes": "[Quick Clip] NY State history essential",
+              "contentType": "educational"
             }
           ]
         }
@@ -1368,7 +1449,8 @@
                 "imdb": "https://www.imdb.com/title/tt4648786/"
               },
               "ageAppropriate": true,
-              "notes": "PG-13 but appropriate; excellent modern telling of Tubman's story"
+              "notes": "PG-13 but appropriate; excellent modern telling of Tubman's story",
+              "contentType": "entertainment"
             },
             {
               "title": "Glory",
@@ -1381,7 +1463,8 @@
                 "imdb": "https://www.imdb.com/title/tt0097441/"
               },
               "ageAppropriate": false,
-              "notes": "R-rated for war violence; teacher reference; excellent for Black soldiers' story"
+              "notes": "R-rated for war violence; teacher reference; excellent for Black soldiers' story",
+              "contentType": "entertainment"
             },
             {
               "title": "Lincoln",
@@ -1394,7 +1477,8 @@
                 "imdb": "https://www.imdb.com/title/tt0443272/"
               },
               "ageAppropriate": true,
-              "notes": "PG-13; excellent for mature 7th graders; shows political process"
+              "notes": "PG-13; excellent for mature 7th graders; shows political process",
+              "contentType": "entertainment"
             },
             {
               "title": "The Civil War (Ken Burns)",
@@ -1413,7 +1497,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Select appropriate episodes; Episode 4 covers New York draft riots"
+              "notes": "Select appropriate episodes; Episode 4 covers New York draft riots",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course US History: Slavery",
@@ -1426,7 +1511,8 @@
                 "youtube": "https://www.youtube.com/watch?v=Ajn9g5Gsv98"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Comprehensive slavery overview"
+              "notes": "[Quick Clip] Comprehensive slavery overview",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course US History: The Civil War Part 1",
@@ -1439,7 +1525,8 @@
                 "youtube": "https://www.youtube.com/watch?v=rY9zHNOjGrs"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Causes through 1862"
+              "notes": "[Quick Clip] Causes through 1862",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course US History: The Civil War Part 2",
@@ -1452,7 +1539,8 @@
                 "youtube": "https://www.youtube.com/watch?v=roNmeOOJCDY"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] 1863 through war's end"
+              "notes": "[Quick Clip] 1863 through war's end",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course US History: Reconstruction",
@@ -1465,7 +1553,8 @@
                 "youtube": "https://www.youtube.com/watch?v=nowsS7pMApI"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Reconstruction era and failures"
+              "notes": "[Quick Clip] Reconstruction era and failures",
+              "contentType": "educational"
             },
             {
               "title": "Extra History: The Haitian Revolution",
@@ -1478,7 +1567,8 @@
                 "youtube": "https://www.youtube.com/watch?v=5A_o-nU5s4I&list=PLhyKYa0YJ_5BuNVhOt8Ls82Cr20yo6Y_p"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Extra Credits series; very engaging"
+              "notes": "[Quick Clip] Extra Credits series; very engaging",
+              "contentType": "educational"
             }
           ]
         }
@@ -1519,7 +1609,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Excellent modern documentary; 4 hours can be shown in segments"
+              "notes": "Excellent modern documentary; 4 hours can be shown in segments",
+              "contentType": "educational"
             },
             {
               "title": "Birth of a Nation (1915) - Clips for Analysis",
@@ -1532,7 +1623,8 @@
                 "imdb": "https://www.imdb.com/title/tt0004972/"
               },
               "ageAppropriate": false,
-              "notes": "DO NOT SHOW - only mention for understanding how history was distorted"
+              "notes": "DO NOT SHOW - only mention for understanding how history was distorted",
+              "contentType": "entertainment"
             },
             {
               "title": "The 13th",
@@ -1551,7 +1643,8 @@
                 ]
               },
               "ageAppropriate": false,
-              "notes": "TV-MA; may be appropriate for mature students with preview; connects past to present"
+              "notes": "TV-MA; may be appropriate for mature students with preview; connects past to present",
+              "contentType": "educational"
             }
           ]
         }
@@ -1586,7 +1679,8 @@
                 "imdb": "https://www.imdb.com/title/tt0427309/"
               },
               "ageAppropriate": true,
-              "notes": "PG-13; inspiring film about Black education and achievement in Jim Crow era"
+              "notes": "PG-13; inspiring film about Black education and achievement in Jim Crow era",
+              "contentType": "entertainment"
             },
             {
               "title": "Jazz (Ken Burns)",
@@ -1605,7 +1699,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Episodes 4-5 cover Jazz Age and Harlem; extensive but excellent"
+              "notes": "Episodes 4-5 cover Jazz Age and Harlem; extensive but excellent",
+              "contentType": "educational"
             },
             {
               "title": "Harlem Renaissance: American Art from the 1920s and 1930s",
@@ -1616,7 +1711,8 @@
               "relevance": "Documentary focused on visual arts of Harlem Renaissance",
               "links": {},
               "ageAppropriate": true,
-              "notes": "Covers artists like Aaron Douglas and Jacob Lawrence"
+              "notes": "Covers artists like Aaron Douglas and Jacob Lawrence",
+              "contentType": "educational"
             },
             {
               "title": "Duke Ellington: Reminiscing in Tempo",
@@ -1629,7 +1725,8 @@
                 "imdb": "https://www.imdb.com/title/tt0140826/"
               },
               "ageAppropriate": true,
-              "notes": "Covers Ellington's career in Harlem's Cotton Club"
+              "notes": "Covers Ellington's career in Harlem's Cotton Club",
+              "contentType": "educational"
             }
           ]
         }
@@ -1670,7 +1767,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "ESSENTIAL for NY curriculum; covers NYC labor history"
+              "notes": "ESSENTIAL for NY curriculum; covers NYC labor history",
+              "contentType": "educational"
             },
             {
               "title": "The Jungle (audiobook selections)",
@@ -1681,7 +1779,8 @@
               "relevance": "Upton Sinclair's muckraking novel about meatpacking industry",
               "links": {},
               "ageAppropriate": true,
-              "notes": "Read selected passages; too graphic to read in full but important"
+              "notes": "Read selected passages; too graphic to read in full but important",
+              "contentType": "educational"
             },
             {
               "title": "TR: The Story of Theodore Roosevelt",
@@ -1700,7 +1799,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "NY native; covers progressive reforms; 4-part series"
+              "notes": "NY native; covers progressive reforms; 4-part series",
+              "contentType": "educational"
             },
             {
               "title": "The Gilded Age",
@@ -1713,7 +1813,8 @@
                 "imdb": "https://www.imdb.com/title/tt4834544/"
               },
               "ageAppropriate": false,
-              "notes": "TV-14; NOT for full classroom use; shows era's NYC society"
+              "notes": "TV-14; NOT for full classroom use; shows era's NYC society",
+              "contentType": "entertainment"
             }
           ]
         }
@@ -1747,7 +1848,8 @@
                 "imdb": "https://www.imdb.com/title/tt0120042/"
               },
               "ageAppropriate": true,
-              "notes": "Tom Berenger as Roosevelt; covers formation of Rough Riders and Cuba campaign"
+              "notes": "Tom Berenger as Roosevelt; covers formation of Rough Riders and Cuba campaign",
+              "contentType": "entertainment"
             },
             {
               "title": "Crucible of Empire: The Spanish-American War",
@@ -1765,7 +1867,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Comprehensive coverage of the war and its implications"
+              "notes": "Comprehensive coverage of the war and its implications",
+              "contentType": "educational"
             },
             {
               "title": "A Man, A Plan, A Canal: Panama",
@@ -1783,7 +1886,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Covers engineering challenges and Roosevelt's role"
+              "notes": "Covers engineering challenges and Roosevelt's role",
+              "contentType": "educational"
             }
           ]
         }

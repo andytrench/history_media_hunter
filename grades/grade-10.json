@@ -32,7 +32,8 @@
                 "imdb": "https://www.imdb.com/title/tt0120744/"
               },
               "ageAppropriate": true,
-              "notes": "Leonardo DiCaprio; good depiction of French court life"
+              "notes": "Leonardo DiCaprio; good depiction of French court life",
+              "contentType": "entertainment"
             },
             {
               "title": "Marie Antoinette",
@@ -45,7 +46,8 @@
                 "imdb": "https://www.imdb.com/title/tt0422720/"
               },
               "ageAppropriate": true,
-              "notes": "PG-13; beautiful Versailles visuals; leads into French Revolution"
+              "notes": "PG-13; beautiful Versailles visuals; leads into French Revolution",
+              "contentType": "entertainment"
             },
             {
               "title": "Versailles (TV Series)",
@@ -58,7 +60,8 @@
                 "imdb": "https://www.imdb.com/title/tt3830558/"
               },
               "ageAppropriate": false,
-              "notes": "TV-MA; NOT for classroom; teacher reference on absolute monarchy"
+              "notes": "TV-MA; NOT for classroom; teacher reference on absolute monarchy",
+              "contentType": "entertainment"
             },
             {
               "title": "Peter the Great (1986)",
@@ -71,7 +74,8 @@
                 "imdb": "https://www.imdb.com/title/tt0090483/"
               },
               "ageAppropriate": true,
-              "notes": "Maximilian Schell; comprehensive look at Russian absolutism"
+              "notes": "Maximilian Schell; comprehensive look at Russian absolutism",
+              "contentType": "entertainment"
             }
           ]
         }
@@ -104,7 +108,8 @@
               "relevance": "Documentary covering Enlightenment philosophers and ideas",
               "links": {},
               "ageAppropriate": true,
-              "notes": "Covers major thinkers and their influence"
+              "notes": "Covers major thinkers and their influence",
+              "contentType": "educational"
             },
             {
               "title": "Dangerous Liaisons",
@@ -117,7 +122,8 @@
                 "imdb": "https://www.imdb.com/title/tt0094947/"
               },
               "ageAppropriate": false,
-              "notes": "R-rated; NOT for classroom; depicts pre-revolutionary French elite"
+              "notes": "R-rated; NOT for classroom; depicts pre-revolutionary French elite",
+              "contentType": "entertainment"
             },
             {
               "title": "Liberty! The American Revolution",
@@ -136,7 +142,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "6-part series; shows how Enlightenment influenced American founders"
+              "notes": "6-part series; shows how Enlightenment influenced American founders",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course World History: The Enlightenment",
@@ -149,7 +156,8 @@
                 "youtube": "https://www.youtube.com/watch?v=5eLSX3QG3QY"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Locke, Voltaire, Rousseau"
+              "notes": "[Quick Clip] Locke, Voltaire, Rousseau",
+              "contentType": "educational"
             },
             {
               "title": "TED-Ed: What Caused the French Revolution?",
@@ -162,7 +170,8 @@
                 "youtube": "https://www.youtube.com/watch?v=lTTvKwCylFY"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Quick overview"
+              "notes": "[Quick Clip] Quick overview",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course World History: The French Revolution",
@@ -175,7 +184,8 @@
                 "youtube": "https://www.youtube.com/watch?v=lTTvKwCylFY"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] 1789 to Thermidor"
+              "notes": "[Quick Clip] 1789 to Thermidor",
+              "contentType": "educational"
             },
             {
               "title": "Oversimplified: The French Revolution (Part 1)",
@@ -188,7 +198,8 @@
                 "youtube": "https://www.youtube.com/watch?v=8qRZcXIODNU"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] HIGHLY RECOMMENDED - engaging"
+              "notes": "[Quick Clip] HIGHLY RECOMMENDED - engaging",
+              "contentType": "educational"
             },
             {
               "title": "Oversimplified: The French Revolution (Part 2)",
@@ -201,7 +212,8 @@
                 "youtube": "https://www.youtube.com/watch?v=EQmjXM4VK2U"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Continues through Directory"
+              "notes": "[Quick Clip] Continues through Directory",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course World History: The Industrial Revolution",
@@ -214,7 +226,8 @@
                 "youtube": "https://www.youtube.com/watch?v=zhL5DCizj5c"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Factory system, urbanization"
+              "notes": "[Quick Clip] Factory system, urbanization",
+              "contentType": "educational"
             },
             {
               "title": "TED-Ed: The Industrial Revolution (4-Part Series)",
@@ -227,7 +240,8 @@
                 "youtube": "https://www.youtube.com/watch?v=GYln_S21Gts"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Comprehensive series"
+              "notes": "[Quick Clip] Comprehensive series",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course World History: Latin American Revolutions",
@@ -240,7 +254,8 @@
                 "youtube": "https://www.youtube.com/watch?v=ZBw35Ze3bg8"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Bolivar, Haiti, Mexico"
+              "notes": "[Quick Clip] Bolivar, Haiti, Mexico",
+              "contentType": "educational"
             }
           ]
         }
@@ -280,7 +295,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "HIGHLY RECOMMENDED - engaging musical; some language"
+              "notes": "HIGHLY RECOMMENDED - engaging musical; some language",
+              "contentType": "entertainment"
             },
             {
               "title": "John Adams",
@@ -293,7 +309,8 @@
                 "imdb": "https://www.imdb.com/title/tt0472027/"
               },
               "ageAppropriate": true,
-              "notes": "Paul Giamatti; excellent for understanding founding era"
+              "notes": "Paul Giamatti; excellent for understanding founding era",
+              "contentType": "entertainment"
             },
             {
               "title": "1776",
@@ -306,7 +323,8 @@
                 "imdb": "https://www.imdb.com/title/tt0068156/"
               },
               "ageAppropriate": true,
-              "notes": "G-rated; engaging way to learn about Declaration debates"
+              "notes": "G-rated; engaging way to learn about Declaration debates",
+              "contentType": "entertainment"
             }
           ]
         },
@@ -334,7 +352,8 @@
                 "imdb": "https://www.imdb.com/title/tt1707386/"
               },
               "ageAppropriate": true,
-              "notes": "Actually depicts later period but captures revolutionary spirit; Hugh Jackman"
+              "notes": "Actually depicts later period but captures revolutionary spirit; Hugh Jackman",
+              "contentType": "entertainment"
             },
             {
               "title": "A Tale of Two Cities",
@@ -347,7 +366,8 @@
                 "imdb": "https://www.imdb.com/title/tt0027067/"
               },
               "ageAppropriate": true,
-              "notes": "Classic adaptation; shows Terror period"
+              "notes": "Classic adaptation; shows Terror period",
+              "contentType": "entertainment"
             },
             {
               "title": "The French Revolution",
@@ -360,7 +380,8 @@
                 "imdb": "https://www.imdb.com/title/tt0484852/"
               },
               "ageAppropriate": true,
-              "notes": "Can be shown in segments; detailed coverage"
+              "notes": "Can be shown in segments; detailed coverage",
+              "contentType": "educational"
             },
             {
               "title": "Napoleon (2023)",
@@ -373,7 +394,8 @@
                 "imdb": "https://www.imdb.com/title/tt13287846/"
               },
               "ageAppropriate": false,
-              "notes": "R-rated; spectacular visuals; teacher reference for Napoleon era"
+              "notes": "R-rated; spectacular visuals; teacher reference for Napoleon era",
+              "contentType": "entertainment"
             },
             {
               "title": "Napoleon",
@@ -391,7 +413,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "4 parts; comprehensive look at Napoleon's life and impact"
+              "notes": "4 parts; comprehensive look at Napoleon's life and impact",
+              "contentType": "educational"
             }
           ]
         },
@@ -419,7 +442,8 @@
                 "imdb": "https://www.imdb.com/title/tt2265792/"
               },
               "ageAppropriate": false,
-              "notes": "R-rated; Spanish language; select scenes may work"
+              "notes": "R-rated; Spanish language; select scenes may work",
+              "contentType": "entertainment"
             },
             {
               "title": "The Other Conquest",
@@ -432,7 +456,8 @@
                 "imdb": "https://www.imdb.com/title/tt0174793/"
               },
               "ageAppropriate": false,
-              "notes": "R-rated; NOT for classroom; Spanish language"
+              "notes": "R-rated; NOT for classroom; Spanish language",
+              "contentType": "entertainment"
             },
             {
               "title": "Égalité for All: Toussaint Louverture and the Haitian Revolution",
@@ -450,7 +475,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Covers first successful slave revolution"
+              "notes": "Covers first successful slave revolution",
+              "contentType": "educational"
             }
           ]
         }
@@ -486,7 +512,8 @@
                 "imdb": "https://www.imdb.com/title/tt0380599/"
               },
               "ageAppropriate": true,
-              "notes": "Roman Polanski version; shows workhouses and poverty"
+              "notes": "Roman Polanski version; shows workhouses and poverty",
+              "contentType": "entertainment"
             },
             {
               "title": "North and South",
@@ -499,7 +526,8 @@
                 "imdb": "https://www.imdb.com/title/tt0417349/"
               },
               "ageAppropriate": true,
-              "notes": "4-part series; shows factories, labor conditions, class tensions"
+              "notes": "4-part series; shows factories, labor conditions, class tensions",
+              "contentType": "educational"
             },
             {
               "title": "The Victorian Slum",
@@ -510,7 +538,8 @@
               "relevance": "BBC documentary recreating Victorian slum conditions",
               "links": {},
               "ageAppropriate": true,
-              "notes": "5-part series; shows real conditions of industrial era poor"
+              "notes": "5-part series; shows real conditions of industrial era poor",
+              "contentType": "educational"
             },
             {
               "title": "The Men Who Built America",
@@ -523,7 +552,8 @@
                 "imdb": "https://www.imdb.com/title/tt2167393/"
               },
               "ageAppropriate": true,
-              "notes": "8 parts; covers Carnegie, Rockefeller, Morgan, Ford"
+              "notes": "8 parts; covers Carnegie, Rockefeller, Morgan, Ford",
+              "contentType": "educational"
             },
             {
               "title": "Newsies",
@@ -542,7 +572,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "HIGHLY RECOMMENDED - engaging introduction to labor issues"
+              "notes": "HIGHLY RECOMMENDED - engaging introduction to labor issues",
+              "contentType": "entertainment"
             }
           ]
         }
@@ -576,7 +607,8 @@
                 "imdb": "https://www.imdb.com/title/tt0962736/"
               },
               "ageAppropriate": true,
-              "notes": "PG; Emily Blunt; shows Victorian era Britain"
+              "notes": "PG; Emily Blunt; shows Victorian era Britain",
+              "contentType": "entertainment"
             },
             {
               "title": "Victoria & Abdul",
@@ -589,7 +621,8 @@
                 "imdb": "https://www.imdb.com/title/tt5816682/"
               },
               "ageAppropriate": true,
-              "notes": "Judi Dench; shows late Victorian Britain-India relations"
+              "notes": "Judi Dench; shows late Victorian Britain-India relations",
+              "contentType": "entertainment"
             }
           ]
         }
@@ -624,7 +657,8 @@
                 "imdb": "https://www.imdb.com/title/tt0395169/"
               },
               "ageAppropriate": true,
-              "notes": "PG-13; powerful but intense; shows colonialism's lasting effects"
+              "notes": "PG-13; powerful but intense; shows colonialism's lasting effects",
+              "contentType": "entertainment"
             },
             {
               "title": "Out of Africa",
@@ -637,7 +671,8 @@
                 "imdb": "https://www.imdb.com/title/tt0089755/"
               },
               "ageAppropriate": true,
-              "notes": "PG; Meryl Streep; shows colonial Africa"
+              "notes": "PG; Meryl Streep; shows colonial Africa",
+              "contentType": "entertainment"
             },
             {
               "title": "King Leopold's Ghost",
@@ -650,7 +685,8 @@
                 "imdb": "https://www.imdb.com/title/tt0910965/"
               },
               "ageAppropriate": true,
-              "notes": "Disturbing content but important; covers Congo exploitation"
+              "notes": "Disturbing content but important; covers Congo exploitation",
+              "contentType": "educational"
             },
             {
               "title": "Africa's Great Civilizations",
@@ -669,7 +705,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Episode 5-6 cover colonial period and resistance"
+              "notes": "Episode 5-6 cover colonial period and resistance",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course World History: Imperialism",
@@ -682,7 +719,8 @@
                 "youtube": "https://www.youtube.com/watch?v=alJaltUmrGo"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Scramble for Africa, Asia"
+              "notes": "[Quick Clip] Scramble for Africa, Asia",
+              "contentType": "educational"
             },
             {
               "title": "TED-Ed: The Scramble for Africa",
@@ -695,7 +733,8 @@
                 "youtube": "https://www.youtube.com/watch?v=4GXNsM1KHng"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Berlin Conference context"
+              "notes": "[Quick Clip] Berlin Conference context",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course World History: Opium Wars",
@@ -708,7 +747,8 @@
                 "youtube": "https://www.youtube.com/watch?v=fA-_2b6kFXg"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] China and European powers"
+              "notes": "[Quick Clip] China and European powers",
+              "contentType": "educational"
             },
             {
               "title": "History Matters: Why Did Britain Colonize India?",
@@ -721,7 +761,8 @@
                 "youtube": "https://www.youtube.com/watch?v=3mZWjW3c-Z8"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Quick explanation"
+              "notes": "[Quick Clip] Quick explanation",
+              "contentType": "educational"
             },
             {
               "title": "Extra History: The Scramble for Africa",
@@ -734,7 +775,8 @@
                 "youtube": "https://www.youtube.com/watch?v=Sj8XnPSnt4k&list=PLhyKYa0YJ_5CAYJyW4Xb8YzKyhP1ht2cX"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Animated detailed history"
+              "notes": "[Quick Clip] Animated detailed history",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course World History: Samurai, Daimyo, Matthew Perry, and Gunboat Diplomacy",
@@ -747,7 +789,8 @@
                 "youtube": "https://www.youtube.com/watch?v=Mh5LY4Mz15o"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Meiji Restoration context"
+              "notes": "[Quick Clip] Meiji Restoration context",
+              "contentType": "educational"
             }
           ]
         }
@@ -782,7 +825,8 @@
                 "imdb": "https://www.imdb.com/title/tt0083987/"
               },
               "ageAppropriate": true,
-              "notes": "HIGHLY RECOMMENDED - Academy Award winner; Ben Kingsley"
+              "notes": "HIGHLY RECOMMENDED - Academy Award winner; Ben Kingsley",
+              "contentType": "entertainment"
             },
             {
               "title": "A Passage to India",
@@ -795,7 +839,8 @@
                 "imdb": "https://www.imdb.com/title/tt0087892/"
               },
               "ageAppropriate": true,
-              "notes": "Shows British-Indian relations and colonialism"
+              "notes": "Shows British-Indian relations and colonialism",
+              "contentType": "entertainment"
             },
             {
               "title": "The Last Emperor",
@@ -808,7 +853,8 @@
                 "imdb": "https://www.imdb.com/title/tt0093389/"
               },
               "ageAppropriate": true,
-              "notes": "Beautiful; covers end of Chinese empire through WWII"
+              "notes": "Beautiful; covers end of Chinese empire through WWII",
+              "contentType": "entertainment"
             },
             {
               "title": "55 Days at Peking",
@@ -821,7 +867,8 @@
                 "imdb": "https://www.imdb.com/title/tt0056800/"
               },
               "ageAppropriate": true,
-              "notes": "Charlton Heston; shows Western imperialism in China"
+              "notes": "Charlton Heston; shows Western imperialism in China",
+              "contentType": "entertainment"
             },
             {
               "title": "The Opium War",
@@ -834,7 +881,8 @@
                 "imdb": "https://www.imdb.com/title/tt0119847/"
               },
               "ageAppropriate": true,
-              "notes": "Chinese perspective on British imperialism"
+              "notes": "Chinese perspective on British imperialism",
+              "contentType": "entertainment"
             }
           ]
         }
@@ -869,7 +917,8 @@
                 "imdb": "https://www.imdb.com/title/tt1568911/"
               },
               "ageAppropriate": true,
-              "notes": "PG-13; emotional but appropriate; shows WWI from unique perspective"
+              "notes": "PG-13; emotional but appropriate; shows WWI from unique perspective",
+              "contentType": "entertainment"
             },
             {
               "title": "1917",
@@ -882,7 +931,8 @@
                 "imdb": "https://www.imdb.com/title/tt8579674/"
               },
               "ageAppropriate": false,
-              "notes": "R-rated; NOT for classroom; stunning visuals for teacher reference"
+              "notes": "R-rated; NOT for classroom; stunning visuals for teacher reference",
+              "contentType": "entertainment"
             },
             {
               "title": "They Shall Not Grow Old",
@@ -895,7 +945,8 @@
                 "imdb": "https://www.imdb.com/title/tt7905466/"
               },
               "ageAppropriate": false,
-              "notes": "R-rated; powerful restored footage; select scenes may work"
+              "notes": "R-rated; powerful restored footage; select scenes may work",
+              "contentType": "entertainment"
             },
             {
               "title": "The Great War",
@@ -906,7 +957,8 @@
               "relevance": "BBC 26-part documentary on WWI",
               "links": {},
               "ageAppropriate": true,
-              "notes": "Classic documentary; comprehensive; select relevant episodes"
+              "notes": "Classic documentary; comprehensive; select relevant episodes",
+              "contentType": "educational"
             },
             {
               "title": "Paths of Glory",
@@ -919,7 +971,8 @@
                 "imdb": "https://www.imdb.com/title/tt0050825/"
               },
               "ageAppropriate": true,
-              "notes": "Kirk Douglas; shows futility of war; anti-war message"
+              "notes": "Kirk Douglas; shows futility of war; anti-war message",
+              "contentType": "entertainment"
             },
             {
               "title": "All Quiet on the Western Front",
@@ -938,7 +991,8 @@
                 ]
               },
               "ageAppropriate": false,
-              "notes": "R-rated; excellent German perspective; select scenes"
+              "notes": "R-rated; excellent German perspective; select scenes",
+              "contentType": "entertainment"
             },
             {
               "title": "Sergeant York",
@@ -951,7 +1005,8 @@
                 "imdb": "https://www.imdb.com/title/tt0034167/"
               },
               "ageAppropriate": true,
-              "notes": "Gary Cooper; shows American experience in WWI"
+              "notes": "Gary Cooper; shows American experience in WWI",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course World History: Archdukes, Cynicism, and WWI",
@@ -964,7 +1019,8 @@
                 "youtube": "https://www.youtube.com/watch?v=_XPZQ0LAlR4"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Assassination to war"
+              "notes": "[Quick Clip] Assassination to war",
+              "contentType": "educational"
             },
             {
               "title": "Oversimplified: WWI (Part 1)",
@@ -977,7 +1033,8 @@
                 "youtube": "https://www.youtube.com/watch?v=dHSQAEam2yc"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] HIGHLY RECOMMENDED"
+              "notes": "[Quick Clip] HIGHLY RECOMMENDED",
+              "contentType": "educational"
             },
             {
               "title": "Oversimplified: WWI (Part 2)",
@@ -990,7 +1047,8 @@
                 "youtube": "https://www.youtube.com/watch?v=Mun1dKkc_As"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] War through Treaty of Versailles"
+              "notes": "[Quick Clip] War through Treaty of Versailles",
+              "contentType": "educational"
             },
             {
               "title": "TED-Ed: The Treaty of Versailles",
@@ -1003,7 +1061,8 @@
                 "youtube": "https://www.youtube.com/watch?v=mPEGRwVMOV8"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Seeds of WWII"
+              "notes": "[Quick Clip] Seeds of WWII",
+              "contentType": "educational"
             },
             {
               "title": "Epic History TV: WWI Documentary",
@@ -1016,7 +1075,8 @@
                 "youtube": "https://www.youtube.com/watch?v=KBp1MkcaToU"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Detailed animated maps"
+              "notes": "[Quick Clip] Detailed animated maps",
+              "contentType": "educational"
             },
             {
               "title": "Simple History: Life in the Trenches",
@@ -1029,7 +1089,8 @@
                 "youtube": "https://www.youtube.com/watch?v=9CI8p1M0x7g"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Soldier experience"
+              "notes": "[Quick Clip] Soldier experience",
+              "contentType": "educational"
             },
             {
               "title": "Oversimplified: WWII (Part 1)",
@@ -1042,7 +1103,8 @@
                 "youtube": "https://www.youtube.com/watch?v=_uk_6vfqwTA"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] HIGHLY RECOMMENDED"
+              "notes": "[Quick Clip] HIGHLY RECOMMENDED",
+              "contentType": "educational"
             },
             {
               "title": "Oversimplified: WWII (Part 2)",
@@ -1055,7 +1117,8 @@
                 "youtube": "https://www.youtube.com/watch?v=fo2Rb9h788s"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] D-Day to atomic bomb"
+              "notes": "[Quick Clip] D-Day to atomic bomb",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course World History: WWII",
@@ -1068,7 +1131,8 @@
                 "youtube": "https://www.youtube.com/watch?v=Q78COTwT7nE"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Complete war overview"
+              "notes": "[Quick Clip] Complete war overview",
+              "contentType": "educational"
             },
             {
               "title": "TED-Ed: The Holocaust and Ordinary Germans",
@@ -1081,7 +1145,8 @@
                 "youtube": "https://www.youtube.com/watch?v=B6N6iNzN2fs"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] How it happened"
+              "notes": "[Quick Clip] How it happened",
+              "contentType": "educational"
             },
             {
               "title": "Extra History: D-Day",
@@ -1094,7 +1159,8 @@
                 "youtube": "https://www.youtube.com/watch?v=QYS0i8CZ8yw&list=PLhyKYa0YJ_5AiJmDG6v_lITyLLnkKrvNL"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Detailed D-Day history"
+              "notes": "[Quick Clip] Detailed D-Day history",
+              "contentType": "educational"
             },
             {
               "title": "Simple History: Pearl Harbor",
@@ -1107,7 +1173,8 @@
                 "youtube": "https://www.youtube.com/watch?v=rVZfqfXSbWo"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] US enters war"
+              "notes": "[Quick Clip] US enters war",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course World History: The Cold War",
@@ -1120,7 +1187,8 @@
                 "youtube": "https://www.youtube.com/watch?v=y9HjvHZfCUI"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] US-Soviet rivalry"
+              "notes": "[Quick Clip] US-Soviet rivalry",
+              "contentType": "educational"
             },
             {
               "title": "Oversimplified: Cold War (Part 1)",
@@ -1133,7 +1201,8 @@
                 "youtube": "https://www.youtube.com/watch?v=I79TpDe3t2g"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Origins through crises"
+              "notes": "[Quick Clip] Origins through crises",
+              "contentType": "educational"
             },
             {
               "title": "Oversimplified: Cold War (Part 2)",
@@ -1146,7 +1215,8 @@
                 "youtube": "https://www.youtube.com/watch?v=OIYy32RuHao"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Vietnam through fall of USSR"
+              "notes": "[Quick Clip] Vietnam through fall of USSR",
+              "contentType": "educational"
             },
             {
               "title": "TED-Ed: The Cuban Missile Crisis",
@@ -1159,7 +1229,8 @@
                 "youtube": "https://www.youtube.com/watch?v=bwWW3sbk4EU"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] 13 days that changed world"
+              "notes": "[Quick Clip] 13 days that changed world",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course World History: Decolonization",
@@ -1172,7 +1243,8 @@
                 "youtube": "https://www.youtube.com/watch?v=OMtl-Rf52to"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Africa, Asia independence"
+              "notes": "[Quick Clip] Africa, Asia independence",
+              "contentType": "educational"
             },
             {
               "title": "Simple History: Fall of the Berlin Wall",
@@ -1185,7 +1257,8 @@
                 "youtube": "https://www.youtube.com/watch?v=6D6YnU6Yzlg"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] 1989 and aftermath"
+              "notes": "[Quick Clip] 1989 and aftermath",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course World History: Globalization I",
@@ -1198,7 +1271,8 @@
                 "youtube": "https://www.youtube.com/watch?v=s_iwrt7D5OA"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Trade, culture, technology"
+              "notes": "[Quick Clip] Trade, culture, technology",
+              "contentType": "educational"
             },
             {
               "title": "TED-Ed: 9/11 and the War on Terror",
@@ -1211,7 +1285,8 @@
                 "youtube": "https://www.youtube.com/watch?v=h0FNlPb3GbU"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Modern terrorism context"
+              "notes": "[Quick Clip] Modern terrorism context",
+              "contentType": "educational"
             },
             {
               "title": "Kurzgesagt: Climate Change Overview",
@@ -1224,7 +1299,8 @@
                 "youtube": "https://www.youtube.com/watch?v=wbR-5mHI6bo"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Animated climate science"
+              "notes": "[Quick Clip] Animated climate science",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course World History: How and Why We Read",
@@ -1237,7 +1313,8 @@
                 "youtube": "https://www.youtube.com/watch?v=MSYw502dJNY"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Historical methods"
+              "notes": "[Quick Clip] Historical methods",
+              "contentType": "educational"
             }
           ]
         }
@@ -1278,7 +1355,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "G-rated; fictional but good starting point for discussion"
+              "notes": "G-rated; fictional but good starting point for discussion",
+              "contentType": "entertainment"
             },
             {
               "title": "Doctor Zhivago",
@@ -1291,7 +1369,8 @@
                 "imdb": "https://www.imdb.com/title/tt0059113/"
               },
               "ageAppropriate": true,
-              "notes": "David Lean epic; Omar Sharif; shows revolutionary era"
+              "notes": "David Lean epic; Omar Sharif; shows revolutionary era",
+              "contentType": "entertainment"
             },
             {
               "title": "Reds",
@@ -1304,7 +1383,8 @@
                 "imdb": "https://www.imdb.com/title/tt0082979/"
               },
               "ageAppropriate": true,
-              "notes": "PG; American journalist's perspective on revolution"
+              "notes": "PG; American journalist's perspective on revolution",
+              "contentType": "entertainment"
             },
             {
               "title": "The Russian Revolution",
@@ -1315,7 +1395,8 @@
               "relevance": "Documentary on the 1917 revolution",
               "links": {},
               "ageAppropriate": true,
-              "notes": "Made for 100th anniversary; comprehensive coverage"
+              "notes": "Made for 100th anniversary; comprehensive coverage",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course World History: The Russian Revolution",
@@ -1328,7 +1409,8 @@
                 "youtube": "https://www.youtube.com/watch?v=kllhI1DEt4w"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Lenin, Bolsheviks"
+              "notes": "[Quick Clip] Lenin, Bolsheviks",
+              "contentType": "educational"
             },
             {
               "title": "Oversimplified: The Russian Revolution",
@@ -1341,7 +1423,8 @@
                 "youtube": "https://www.youtube.com/watch?v=1H5f3YLhBWY"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Engaging overview"
+              "notes": "[Quick Clip] Engaging overview",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course World History: Fascism and Mussolini",
@@ -1354,7 +1437,8 @@
                 "youtube": "https://www.youtube.com/watch?v=1lW7dAf5WMo"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Italy, fascist ideology"
+              "notes": "[Quick Clip] Italy, fascist ideology",
+              "contentType": "educational"
             },
             {
               "title": "Oversimplified: Hitler (Part 1)",
@@ -1367,7 +1451,8 @@
                 "youtube": "https://www.youtube.com/watch?v=ATlila3e9dM"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Rise of Nazi party"
+              "notes": "[Quick Clip] Rise of Nazi party",
+              "contentType": "educational"
             },
             {
               "title": "Oversimplified: Hitler (Part 2)",
@@ -1380,7 +1465,8 @@
                 "youtube": "https://www.youtube.com/watch?v=FuLN_V2fZ6k"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Road to WWII"
+              "notes": "[Quick Clip] Road to WWII",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course World History: The Great Depression",
@@ -1393,7 +1479,8 @@
                 "youtube": "https://www.youtube.com/watch?v=GCQfMWAikyU"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Global economic collapse"
+              "notes": "[Quick Clip] Global economic collapse",
+              "contentType": "educational"
             }
           ]
         },
@@ -1421,7 +1508,8 @@
                 "imdb": "https://www.imdb.com/title/tt0032553/"
               },
               "ageAppropriate": true,
-              "notes": "G-rated; Chaplin's famous anti-fascist speech"
+              "notes": "G-rated; Chaplin's famous anti-fascist speech",
+              "contentType": "entertainment"
             },
             {
               "title": "Triumph of the Will",
@@ -1434,7 +1522,8 @@
                 "imdb": "https://www.imdb.com/title/tt0025913/"
               },
               "ageAppropriate": false,
-              "notes": "PROPAGANDA - show clips ONLY for analysis; discuss manipulation"
+              "notes": "PROPAGANDA - show clips ONLY for analysis; discuss manipulation",
+              "contentType": "educational"
             },
             {
               "title": "The Rise of Evil",
@@ -1447,7 +1536,8 @@
                 "imdb": "https://www.imdb.com/title/tt0322788/"
               },
               "ageAppropriate": true,
-              "notes": "Robert Carlyle; shows how Hitler came to power"
+              "notes": "Robert Carlyle; shows how Hitler came to power",
+              "contentType": "entertainment"
             },
             {
               "title": "The World at War",
@@ -1460,7 +1550,8 @@
                 "imdb": "https://www.imdb.com/title/tt0071075/"
               },
               "ageAppropriate": true,
-              "notes": "Laurence Olivier narrates; select relevant episodes"
+              "notes": "Laurence Olivier narrates; select relevant episodes",
+              "contentType": "educational"
             }
           ]
         }
@@ -1495,7 +1586,8 @@
                 "imdb": "https://www.imdb.com/title/tt5013056/"
               },
               "ageAppropriate": true,
-              "notes": "PG-13; intense but minimal graphic violence; shows British resilience"
+              "notes": "PG-13; intense but minimal graphic violence; shows British resilience",
+              "contentType": "entertainment"
             },
             {
               "title": "Saving Private Ryan",
@@ -1508,7 +1600,8 @@
                 "imdb": "https://www.imdb.com/title/tt0120815/"
               },
               "ageAppropriate": false,
-              "notes": "R-rated; NOT for classroom; D-Day landing sequence for reference"
+              "notes": "R-rated; NOT for classroom; D-Day landing sequence for reference",
+              "contentType": "entertainment"
             },
             {
               "title": "The Longest Day",
@@ -1521,7 +1614,8 @@
                 "imdb": "https://www.imdb.com/title/tt0056197/"
               },
               "ageAppropriate": true,
-              "notes": "G-rated; all-star cast; comprehensive D-Day coverage"
+              "notes": "G-rated; all-star cast; comprehensive D-Day coverage",
+              "contentType": "entertainment"
             },
             {
               "title": "Tora! Tora! Tora!",
@@ -1534,7 +1628,8 @@
                 "imdb": "https://www.imdb.com/title/tt0066473/"
               },
               "ageAppropriate": true,
-              "notes": "G-rated; shows both sides of Pearl Harbor"
+              "notes": "G-rated; shows both sides of Pearl Harbor",
+              "contentType": "entertainment"
             },
             {
               "title": "Midway",
@@ -1547,7 +1642,8 @@
                 "imdb": "https://www.imdb.com/title/tt6924650/"
               },
               "ageAppropriate": true,
-              "notes": "PG-13; modern effects; shows Pacific Theater"
+              "notes": "PG-13; modern effects; shows Pacific Theater",
+              "contentType": "entertainment"
             },
             {
               "title": "The World at War",
@@ -1560,7 +1656,8 @@
                 "imdb": "https://www.imdb.com/title/tt0071075/"
               },
               "ageAppropriate": true,
-              "notes": "26 episodes; Laurence Olivier narrates; comprehensive"
+              "notes": "26 episodes; Laurence Olivier narrates; comprehensive",
+              "contentType": "educational"
             },
             {
               "title": "WWII in HD",
@@ -1573,7 +1670,8 @@
                 "imdb": "https://www.imdb.com/title/tt1508238/"
               },
               "ageAppropriate": true,
-              "notes": "10 parts; color footage makes war more real"
+              "notes": "10 parts; color footage makes war more real",
+              "contentType": "educational"
             }
           ]
         },
@@ -1602,7 +1700,8 @@
                 "imdb": "https://www.imdb.com/title/tt0914798/"
               },
               "ageAppropriate": true,
-              "notes": "PG-13; age-appropriate introduction; emotionally powerful"
+              "notes": "PG-13; age-appropriate introduction; emotionally powerful",
+              "contentType": "entertainment"
             },
             {
               "title": "The Diary of Anne Frank",
@@ -1615,7 +1714,8 @@
                 "imdb": "https://www.imdb.com/title/tt0052738/"
               },
               "ageAppropriate": true,
-              "notes": "Academy Award winner; excellent for this topic"
+              "notes": "Academy Award winner; excellent for this topic",
+              "contentType": "entertainment"
             },
             {
               "title": "Schindler's List",
@@ -1628,7 +1728,8 @@
                 "imdb": "https://www.imdb.com/title/tt0108052/"
               },
               "ageAppropriate": false,
-              "notes": "R-rated; may be shown with parental permission; essential film"
+              "notes": "R-rated; may be shown with parental permission; essential film",
+              "contentType": "entertainment"
             },
             {
               "title": "Life is Beautiful",
@@ -1641,7 +1742,8 @@
                 "imdb": "https://www.imdb.com/title/tt0118799/"
               },
               "ageAppropriate": true,
-              "notes": "PG-13; Roberto Benigni; Italian language; touching approach"
+              "notes": "PG-13; Roberto Benigni; Italian language; touching approach",
+              "contentType": "entertainment"
             },
             {
               "title": "The Pianist",
@@ -1654,7 +1756,8 @@
                 "imdb": "https://www.imdb.com/title/tt0253474/"
               },
               "ageAppropriate": false,
-              "notes": "R-rated; Polanski; select scenes appropriate"
+              "notes": "R-rated; Polanski; select scenes appropriate",
+              "contentType": "entertainment"
             },
             {
               "title": "Shoah",
@@ -1667,7 +1770,8 @@
                 "imdb": "https://www.imdb.com/title/tt0090015/"
               },
               "ageAppropriate": true,
-              "notes": "9+ hours; extremely comprehensive; select segments"
+              "notes": "9+ hours; extremely comprehensive; select segments",
+              "contentType": "educational"
             },
             {
               "title": "Night and Fog",
@@ -1680,7 +1784,8 @@
                 "imdb": "https://www.imdb.com/title/tt0048434/"
               },
               "ageAppropriate": false,
-              "notes": "Disturbing imagery; teacher discretion required"
+              "notes": "Disturbing imagery; teacher discretion required",
+              "contentType": "educational"
             }
           ]
         }
@@ -1717,7 +1822,8 @@
                 "imdb": "https://www.imdb.com/title/tt6294822/"
               },
               "ageAppropriate": true,
-              "notes": "Spielberg; Meryl Streep, Tom Hanks; journalism during Vietnam"
+              "notes": "Spielberg; Meryl Streep, Tom Hanks; journalism during Vietnam",
+              "contentType": "entertainment"
             },
             {
               "title": "Thirteen Days",
@@ -1730,7 +1836,8 @@
                 "imdb": "https://www.imdb.com/title/tt0146309/"
               },
               "ageAppropriate": true,
-              "notes": "Kevin Costner; tense dramatization of nuclear crisis"
+              "notes": "Kevin Costner; tense dramatization of nuclear crisis",
+              "contentType": "entertainment"
             },
             {
               "title": "The Spy Who Came in from the Cold",
@@ -1743,7 +1850,8 @@
                 "imdb": "https://www.imdb.com/title/tt0059749/"
               },
               "ageAppropriate": true,
-              "notes": "Richard Burton; shows bleak reality of Cold War"
+              "notes": "Richard Burton; shows bleak reality of Cold War",
+              "contentType": "entertainment"
             },
             {
               "title": "Dr. Strangelove",
@@ -1756,7 +1864,8 @@
                 "imdb": "https://www.imdb.com/title/tt0057012/"
               },
               "ageAppropriate": true,
-              "notes": "PG; dark comedy about MAD doctrine"
+              "notes": "PG; dark comedy about MAD doctrine",
+              "contentType": "entertainment"
             },
             {
               "title": "Bridge of Spies",
@@ -1769,7 +1878,8 @@
                 "imdb": "https://www.imdb.com/title/tt3682448/"
               },
               "ageAppropriate": true,
-              "notes": "Tom Hanks; shows Cold War espionage and diplomacy"
+              "notes": "Tom Hanks; shows Cold War espionage and diplomacy",
+              "contentType": "entertainment"
             },
             {
               "title": "The Cold War",
@@ -1782,7 +1892,8 @@
                 "imdb": "https://www.imdb.com/title/tt0170896/"
               },
               "ageAppropriate": true,
-              "notes": "Comprehensive; Kenneth Branagh narrates"
+              "notes": "Comprehensive; Kenneth Branagh narrates",
+              "contentType": "educational"
             }
           ]
         }
@@ -1816,7 +1927,8 @@
                 "imdb": "https://www.imdb.com/title/tt0083987/"
               },
               "ageAppropriate": true,
-              "notes": "PG; essential for decolonization unit"
+              "notes": "PG; essential for decolonization unit",
+              "contentType": "entertainment"
             },
             {
               "title": "A Cry Freedom",
@@ -1829,7 +1941,8 @@
                 "imdb": "https://www.imdb.com/title/tt0092804/"
               },
               "ageAppropriate": true,
-              "notes": "Denzel Washington as Biko; shows apartheid"
+              "notes": "Denzel Washington as Biko; shows apartheid",
+              "contentType": "entertainment"
             },
             {
               "title": "Mandela: Long Walk to Freedom",
@@ -1842,7 +1955,8 @@
                 "imdb": "https://www.imdb.com/title/tt2304771/"
               },
               "ageAppropriate": true,
-              "notes": "Idris Elba; covers apartheid struggle"
+              "notes": "Idris Elba; covers apartheid struggle",
+              "contentType": "entertainment"
             },
             {
               "title": "The Battle of Algiers",
@@ -1855,7 +1969,8 @@
                 "imdb": "https://www.imdb.com/title/tt0058946/"
               },
               "ageAppropriate": true,
-              "notes": "Italian neorealism; influential film on decolonization"
+              "notes": "Italian neorealism; influential film on decolonization",
+              "contentType": "entertainment"
             },
             {
               "title": "Viceroy's House",
@@ -1868,7 +1983,8 @@
                 "imdb": "https://www.imdb.com/title/tt4977530/"
               },
               "ageAppropriate": true,
-              "notes": "Shows traumatic partition of India and Pakistan"
+              "notes": "Shows traumatic partition of India and Pakistan",
+              "contentType": "entertainment"
             }
           ]
         }
@@ -1901,7 +2017,8 @@
               "relevance": "Documentary on 1989 events and end of Cold War",
               "links": {},
               "ageAppropriate": true,
-              "notes": "30th anniversary documentary; covers collapse of communism"
+              "notes": "30th anniversary documentary; covers collapse of communism",
+              "contentType": "educational"
             },
             {
               "title": "Zero Dark Thirty",
@@ -1914,7 +2031,8 @@
                 "imdb": "https://www.imdb.com/title/tt1790885/"
               },
               "ageAppropriate": false,
-              "notes": "R-rated; NOT for classroom; teacher reference on War on Terror"
+              "notes": "R-rated; NOT for classroom; teacher reference on War on Terror",
+              "contentType": "entertainment"
             },
             {
               "title": "Charlie Wilson's War",
@@ -1927,7 +2045,8 @@
                 "imdb": "https://www.imdb.com/title/tt0472062/"
               },
               "ageAppropriate": false,
-              "notes": "R-rated; Tom Hanks; shows Cold War Afghanistan connection"
+              "notes": "R-rated; Tom Hanks; shows Cold War Afghanistan connection",
+              "contentType": "entertainment"
             }
           ]
         }
@@ -1962,7 +2081,8 @@
                 "imdb": "https://www.imdb.com/title/tt1020072/"
               },
               "ageAppropriate": true,
-              "notes": "Powerful depiction of civil rights struggle"
+              "notes": "Powerful depiction of civil rights struggle",
+              "contentType": "entertainment"
             },
             {
               "title": "12 Years a Slave",
@@ -1975,7 +2095,8 @@
                 "imdb": "https://www.imdb.com/title/tt2024544/"
               },
               "ageAppropriate": false,
-              "notes": "R-rated; powerful; may be shown with parental permission"
+              "notes": "R-rated; powerful; may be shown with parental permission",
+              "contentType": "entertainment"
             },
             {
               "title": "Suffragette",
@@ -1988,7 +2109,8 @@
                 "imdb": "https://www.imdb.com/title/tt3077214/"
               },
               "ageAppropriate": true,
-              "notes": "Carey Mulligan; shows suffragette struggle"
+              "notes": "Carey Mulligan; shows suffragette struggle",
+              "contentType": "entertainment"
             },
             {
               "title": "Milk",
@@ -2001,7 +2123,8 @@
                 "imdb": "https://www.imdb.com/title/tt1013753/"
               },
               "ageAppropriate": false,
-              "notes": "R-rated; Sean Penn; covers LGBTQ rights history"
+              "notes": "R-rated; Sean Penn; covers LGBTQ rights history",
+              "contentType": "entertainment"
             }
           ]
         }
@@ -2036,7 +2159,8 @@
                 "imdb": "https://www.imdb.com/title/tt1596363/"
               },
               "ageAppropriate": false,
-              "notes": "R-rated; excellent for understanding financial systems"
+              "notes": "R-rated; excellent for understanding financial systems",
+              "contentType": "entertainment"
             },
             {
               "title": "Inside Job",
@@ -2049,7 +2173,8 @@
                 "imdb": "https://www.imdb.com/title/tt1645089/"
               },
               "ageAppropriate": true,
-              "notes": "Academy Award winner; explains global economics"
+              "notes": "Academy Award winner; explains global economics",
+              "contentType": "educational"
             },
             {
               "title": "Inequality for All",
@@ -2062,7 +2187,8 @@
                 "imdb": "https://www.imdb.com/title/tt2215151/"
               },
               "ageAppropriate": true,
-              "notes": "PG; accessible explanation of economic inequality"
+              "notes": "PG; accessible explanation of economic inequality",
+              "contentType": "educational"
             }
           ]
         }
@@ -2103,7 +2229,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "HIGHLY RECOMMENDED - relevant for students; good discussion starter"
+              "notes": "HIGHLY RECOMMENDED - relevant for students; good discussion starter",
+              "contentType": "educational"
             },
             {
               "title": "An Inconvenient Truth",
@@ -2116,7 +2243,8 @@
                 "imdb": "https://www.imdb.com/title/tt0497116/"
               },
               "ageAppropriate": true,
-              "notes": "PG; foundational climate change documentary"
+              "notes": "PG; foundational climate change documentary",
+              "contentType": "educational"
             },
             {
               "title": "Steve Jobs",
@@ -2129,7 +2257,8 @@
                 "imdb": "https://www.imdb.com/title/tt2080374/"
               },
               "ageAppropriate": false,
-              "notes": "R-rated; Michael Fassbender; shows tech revolution"
+              "notes": "R-rated; Michael Fassbender; shows tech revolution",
+              "contentType": "entertainment"
             },
             {
               "title": "The Imitation Game",
@@ -2142,7 +2271,8 @@
                 "imdb": "https://www.imdb.com/title/tt2084970/"
               },
               "ageAppropriate": true,
-              "notes": "Benedict Cumberbatch; shows origins of computer age"
+              "notes": "Benedict Cumberbatch; shows origins of computer age",
+              "contentType": "entertainment"
             }
           ]
         }

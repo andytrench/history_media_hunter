@@ -39,7 +39,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Morgan Freeman narrates; excellent production quality"
+              "notes": "Morgan Freeman narrates; excellent production quality",
+              "contentType": "educational"
             },
             {
               "title": "The Prince of Egypt",
@@ -52,7 +53,8 @@
                 "imdb": "https://www.imdb.com/title/tt0120794/"
               },
               "ageAppropriate": true,
-              "notes": "Beautiful animation; shows Egyptian architecture, society, and religious themes"
+              "notes": "Beautiful animation; shows Egyptian architecture, society, and religious themes",
+              "contentType": "entertainment"
             },
             {
               "title": "Egypt: Engineering an Empire",
@@ -65,7 +67,8 @@
                 "imdb": "https://www.imdb.com/title/tt0884131/"
               },
               "ageAppropriate": true,
-              "notes": "Covers pyramids, temples, and Egyptian achievements"
+              "notes": "Covers pyramids, temples, and Egyptian achievements",
+              "contentType": "educational"
             },
             {
               "title": "Secrets of the Dead: Egypt's Darkest Hour",
@@ -83,7 +86,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Archaeological investigation; shows climate change effects"
+              "notes": "Archaeological investigation; shows climate change effects",
+              "contentType": "educational"
             },
             {
               "title": "The Mummy (1999)",
@@ -96,7 +100,8 @@
                 "imdb": "https://www.imdb.com/title/tt0120616/"
               },
               "ageAppropriate": true,
-              "notes": "Fiction but sparks interest in Egyptian history and archaeology"
+              "notes": "Fiction but sparks interest in Egyptian history and archaeology",
+              "contentType": "entertainment"
             },
             {
               "title": "Ancient Mesopotamia: This History, Our History",
@@ -107,7 +112,8 @@
               "relevance": "Oriental Institute documentary on Mesopotamian civilizations",
               "links": {},
               "ageAppropriate": true,
-              "notes": "Academic but accessible; covers Sumer, Babylon, Assyria"
+              "notes": "Academic but accessible; covers Sumer, Babylon, Assyria",
+              "contentType": "educational"
             },
             {
               "title": "First Civilizations",
@@ -126,7 +132,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Covers cities, war, religion, and trade in early civilizations"
+              "notes": "Covers cities, war, religion, and trade in early civilizations",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course World History: Mesopotamia",
@@ -139,7 +146,8 @@
                 "youtube": "https://www.youtube.com/watch?v=sohXPx_XZ6Y"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] John Green; engaging overview"
+              "notes": "[Quick Clip] John Green; engaging overview",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course World History: Ancient Egypt",
@@ -152,7 +160,8 @@
                 "youtube": "https://www.youtube.com/watch?v=Z3Wvw6BivVI"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Pharaohs, pyramids, Nile"
+              "notes": "[Quick Clip] Pharaohs, pyramids, Nile",
+              "contentType": "educational"
             },
             {
               "title": "TED-Ed: How to Speak Egyptian",
@@ -165,7 +174,8 @@
                 "youtube": "https://www.youtube.com/watch?v=yeQcmxM2W5M"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Fun language lesson"
+              "notes": "[Quick Clip] Fun language lesson",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course World History: Alexander the Great",
@@ -178,7 +188,8 @@
                 "youtube": "https://www.youtube.com/watch?v=0LsrkWDCvxg"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Hellenistic spread"
+              "notes": "[Quick Clip] Hellenistic spread",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course World History: The Roman Empire",
@@ -191,7 +202,8 @@
                 "youtube": "https://www.youtube.com/watch?v=oPf27gAup9U"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Republic to Empire"
+              "notes": "[Quick Clip] Republic to Empire",
+              "contentType": "educational"
             },
             {
               "title": "TED-Ed: What Romans Actually Ate for Dinner",
@@ -204,7 +216,8 @@
                 "youtube": "https://www.youtube.com/watch?v=3z7aPpFqXOU"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Engaging daily life topic"
+              "notes": "[Quick Clip] Engaging daily life topic",
+              "contentType": "educational"
             },
             {
               "title": "Oversimplified: The Punic Wars",
@@ -217,7 +230,8 @@
                 "youtube": "https://www.youtube.com/watch?v=EbBHk_zLTmY"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Hannibal and Roman expansion"
+              "notes": "[Quick Clip] Hannibal and Roman expansion",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course World History: Buddha and Ashoka",
@@ -230,7 +244,8 @@
                 "youtube": "https://www.youtube.com/watch?v=8Nn5uqE3C9w"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Indian history and religion"
+              "notes": "[Quick Clip] Indian history and religion",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course World History: 2000 Years of Chinese History",
@@ -243,7 +258,8 @@
                 "youtube": "https://www.youtube.com/watch?v=ylWORyToTo4"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Mandates and dynasties"
+              "notes": "[Quick Clip] Mandates and dynasties",
+              "contentType": "educational"
             },
             {
               "title": "TED-Ed: The Rise and Fall of the Persian Empire",
@@ -256,7 +272,8 @@
                 "youtube": "https://www.youtube.com/watch?v=PJqJtw7cq3A"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Cyrus to Alexander"
+              "notes": "[Quick Clip] Cyrus to Alexander",
+              "contentType": "educational"
             }
           ]
         }
@@ -293,7 +310,8 @@
                 "imdb": "https://www.imdb.com/title/tt1434549/"
               },
               "ageAppropriate": true,
-              "notes": "HIGHLY RECOMMENDED - engaging and funny while historically accurate"
+              "notes": "HIGHLY RECOMMENDED - engaging and funny while historically accurate",
+              "contentType": "educational"
             },
             {
               "title": "Horrible Histories: Rotten Romans",
@@ -306,7 +324,8 @@
                 "imdb": "https://www.imdb.com/title/tt1434549/"
               },
               "ageAppropriate": true,
-              "notes": "Makes Roman history accessible and memorable"
+              "notes": "Makes Roman history accessible and memorable",
+              "contentType": "educational"
             },
             {
               "title": "Troy (2004)",
@@ -319,7 +338,8 @@
                 "imdb": "https://www.imdb.com/title/tt0332452/"
               },
               "ageAppropriate": false,
-              "notes": "R-rated for war violence; teacher reference; spectacular visuals of ancient world"
+              "notes": "R-rated for war violence; teacher reference; spectacular visuals of ancient world",
+              "contentType": "entertainment"
             },
             {
               "title": "Alexander (2004)",
@@ -332,7 +352,8 @@
                 "imdb": "https://www.imdb.com/title/tt0346491/"
               },
               "ageAppropriate": false,
-              "notes": "R-rated; NOT for classroom; teacher reference on Alexander's empire"
+              "notes": "R-rated; NOT for classroom; teacher reference on Alexander's empire",
+              "contentType": "entertainment"
             },
             {
               "title": "Ben-Hur (1959)",
@@ -345,7 +366,8 @@
                 "imdb": "https://www.imdb.com/title/tt0052618/"
               },
               "ageAppropriate": true,
-              "notes": "G-rated classic; long but excellent for showing Roman era; Academy Award winner"
+              "notes": "G-rated classic; long but excellent for showing Roman era; Academy Award winner",
+              "contentType": "entertainment"
             },
             {
               "title": "Spartacus (1960)",
@@ -358,7 +380,8 @@
                 "imdb": "https://www.imdb.com/title/tt0054331/"
               },
               "ageAppropriate": true,
-              "notes": "Kirk Douglas classic; shows slavery in Roman Empire"
+              "notes": "Kirk Douglas classic; shows slavery in Roman Empire",
+              "contentType": "entertainment"
             },
             {
               "title": "Rome: Rise and Fall of an Empire",
@@ -371,7 +394,8 @@
                 "imdb": "https://www.imdb.com/title/tt0877013/"
               },
               "ageAppropriate": true,
-              "notes": "Comprehensive coverage; select episodes for specific topics"
+              "notes": "Comprehensive coverage; select episodes for specific topics",
+              "contentType": "educational"
             },
             {
               "title": "Engineering an Empire: Rome",
@@ -384,7 +408,8 @@
                 "imdb": "https://www.imdb.com/title/tt0756082/"
               },
               "ageAppropriate": true,
-              "notes": "Covers aqueducts, roads, Colosseum"
+              "notes": "Covers aqueducts, roads, Colosseum",
+              "contentType": "educational"
             },
             {
               "title": "The Greeks",
@@ -403,7 +428,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Modern documentary covering Greek history comprehensively"
+              "notes": "Modern documentary covering Greek history comprehensively",
+              "contentType": "educational"
             },
             {
               "title": "Cleopatra (1963)",
@@ -416,7 +442,8 @@
                 "imdb": "https://www.imdb.com/title/tt0056937/"
               },
               "ageAppropriate": true,
-              "notes": "G-rated; very long; Elizabeth Taylor; shows end of Roman Republic"
+              "notes": "G-rated; very long; Elizabeth Taylor; shows end of Roman Republic",
+              "contentType": "entertainment"
             },
             {
               "title": "Julius Caesar (1953)",
@@ -429,7 +456,8 @@
                 "imdb": "https://www.imdb.com/title/tt0045943/"
               },
               "ageAppropriate": true,
-              "notes": "Classic adaptation; good for cross-curricular with English"
+              "notes": "Classic adaptation; good for cross-curricular with English",
+              "contentType": "entertainment"
             }
           ]
         }
@@ -464,7 +492,8 @@
                 "imdb": "https://www.imdb.com/title/tt0416449/"
               },
               "ageAppropriate": false,
-              "notes": "R-rated; NOT for classroom; visually striking but historically problematic"
+              "notes": "R-rated; NOT for classroom; visually striking but historically problematic",
+              "contentType": "entertainment"
             },
             {
               "title": "Engineering an Empire: The Persians",
@@ -477,7 +506,8 @@
                 "imdb": "https://www.imdb.com/title/tt0884139/"
               },
               "ageAppropriate": true,
-              "notes": "Covers Persepolis, Royal Road, and Persian innovations"
+              "notes": "Covers Persepolis, Royal Road, and Persian innovations",
+              "contentType": "educational"
             },
             {
               "title": "The Persians: A History of Iran",
@@ -488,7 +518,8 @@
               "relevance": "Documentary series on Persian/Iranian history",
               "links": {},
               "ageAppropriate": true,
-              "notes": "Comprehensive coverage of Persian civilization"
+              "notes": "Comprehensive coverage of Persian civilization",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course World History: The Mughal Empire",
@@ -501,7 +532,8 @@
                 "youtube": "https://www.youtube.com/watch?v=9-M5I9i_qdU"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Akbar, Taj Mahal"
+              "notes": "[Quick Clip] Akbar, Taj Mahal",
+              "contentType": "educational"
             },
             {
               "title": "TED-Ed: The Taj Mahal: A Monument to Eternal Love",
@@ -514,7 +546,8 @@
                 "youtube": "https://www.youtube.com/watch?v=MbcM6lFwTRQ"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Mughal architecture"
+              "notes": "[Quick Clip] Mughal architecture",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course World History: The Ottoman Empire",
@@ -527,7 +560,8 @@
                 "youtube": "https://www.youtube.com/watch?v=lTTvKwCylFY"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Suleiman the Magnificent"
+              "notes": "[Quick Clip] Suleiman the Magnificent",
+              "contentType": "educational"
             },
             {
               "title": "Extra History: Suleiman the Magnificent",
@@ -540,7 +574,8 @@
                 "youtube": "https://www.youtube.com/watch?v=d_w7GEQz1AE&list=PLhyKYa0YJ_5CL-krstYn532QY1Ayo27s1"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Animated Ottoman history"
+              "notes": "[Quick Clip] Animated Ottoman history",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course World History: Ming China",
@@ -553,7 +588,8 @@
                 "youtube": "https://www.youtube.com/watch?v=J4r6OXF2ZH4"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Forbidden City, exploration"
+              "notes": "[Quick Clip] Forbidden City, exploration",
+              "contentType": "educational"
             },
             {
               "title": "History Matters: Why Did China Stop Exploring?",
@@ -566,7 +602,8 @@
                 "youtube": "https://www.youtube.com/watch?v=h0OUHihqEcE"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Quick explanation"
+              "notes": "[Quick Clip] Quick explanation",
+              "contentType": "educational"
             },
             {
               "title": "Kings and Generals: Samurai, Daimyo, Matthew Perry, and Gunboat Diplomacy",
@@ -579,7 +616,8 @@
                 "youtube": "https://www.youtube.com/watch?v=Mh5LY4Mz15o"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Japanese history"
+              "notes": "[Quick Clip] Japanese history",
+              "contentType": "educational"
             }
           ]
         }
@@ -622,7 +660,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Shows Chinese culture, military, family honor; Great Wall shown"
+              "notes": "Shows Chinese culture, military, family honor; Great Wall shown",
+              "contentType": "entertainment"
             },
             {
               "title": "Kung Fu Panda",
@@ -635,7 +674,8 @@
                 "imdb": "https://www.imdb.com/title/tt0441773/"
               },
               "ageAppropriate": true,
-              "notes": "Not historical but excellent for Chinese cultural elements"
+              "notes": "Not historical but excellent for Chinese cultural elements",
+              "contentType": "entertainment"
             },
             {
               "title": "China: A Century of Revolution",
@@ -653,7 +693,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Comprehensive; select early episodes for ancient history"
+              "notes": "Comprehensive; select early episodes for ancient history",
+              "contentType": "educational"
             },
             {
               "title": "The Story of China",
@@ -672,7 +713,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Michael Wood presents; excellent for ancient dynasties"
+              "notes": "Michael Wood presents; excellent for ancient dynasties",
+              "contentType": "educational"
             },
             {
               "title": "Secrets of the Dead: China's Terracotta Warriors",
@@ -690,7 +732,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Excellent for Qin Dynasty and first emperor"
+              "notes": "Excellent for Qin Dynasty and first emperor",
+              "contentType": "educational"
             },
             {
               "title": "The Buddha",
@@ -709,7 +752,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Richard Gere narrates; covers origins of Buddhism in India"
+              "notes": "Richard Gere narrates; covers origins of Buddhism in India",
+              "contentType": "educational"
             },
             {
               "title": "The Story of India",
@@ -728,7 +772,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Michael Wood; covers ancient India through modern era"
+              "notes": "Michael Wood; covers ancient India through modern era",
+              "contentType": "educational"
             },
             {
               "title": "Little Buddha",
@@ -741,7 +786,8 @@
                 "imdb": "https://www.imdb.com/title/tt0107426/"
               },
               "ageAppropriate": true,
-              "notes": "PG; Keanu Reeves as Siddhartha; beautiful visuals of Buddhist teachings"
+              "notes": "PG; Keanu Reeves as Siddhartha; beautiful visuals of Buddhist teachings",
+              "contentType": "entertainment"
             },
             {
               "title": "Hero (2002)",
@@ -754,7 +800,8 @@
                 "imdb": "https://www.imdb.com/title/tt0299977/"
               },
               "ageAppropriate": true,
-              "notes": "PG-13; shows Qin Dynasty; beautiful cinematography of ancient China"
+              "notes": "PG-13; shows Qin Dynasty; beautiful cinematography of ancient China",
+              "contentType": "entertainment"
             }
           ]
         }
@@ -789,7 +836,8 @@
                 "imdb": "https://www.imdb.com/title/tt0364531/"
               },
               "ageAppropriate": true,
-              "notes": "4-part series covering Byzantine civilization comprehensively"
+              "notes": "4-part series covering Byzantine civilization comprehensively",
+              "contentType": "educational"
             },
             {
               "title": "Engineering an Empire: Byzantines",
@@ -802,7 +850,8 @@
                 "imdb": "https://www.imdb.com/title/tt0884121/"
               },
               "ageAppropriate": true,
-              "notes": "Covers Hagia Sophia, walls of Constantinople"
+              "notes": "Covers Hagia Sophia, walls of Constantinople",
+              "contentType": "educational"
             },
             {
               "title": "The Fall of Constantinople",
@@ -813,7 +862,8 @@
               "relevance": "Documentary on the 1453 Ottoman conquest",
               "links": {},
               "ageAppropriate": true,
-              "notes": "Covers the end of Byzantine Empire"
+              "notes": "Covers the end of Byzantine Empire",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course World History: Islam",
@@ -826,7 +876,8 @@
                 "youtube": "https://www.youtube.com/watch?v=TpcbfxtdoI8"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Respectful overview"
+              "notes": "[Quick Clip] Respectful overview",
+              "contentType": "educational"
             },
             {
               "title": "TED-Ed: The Golden Age of Islam",
@@ -839,7 +890,8 @@
                 "youtube": "https://www.youtube.com/watch?v=WMOqKPT8pss"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Science, math, medicine"
+              "notes": "[Quick Clip] Science, math, medicine",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course World History: Mansa Musa and Mali",
@@ -852,7 +904,8 @@
                 "youtube": "https://www.youtube.com/watch?v=jvnU0v6hcUo"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] ESSENTIAL - West African history"
+              "notes": "[Quick Clip] ESSENTIAL - West African history",
+              "contentType": "educational"
             },
             {
               "title": "TED-Ed: Mansa Musa, One of the Wealthiest People Who Ever Lived",
@@ -865,7 +918,8 @@
                 "youtube": "https://www.youtube.com/watch?v=O3YJMaL55TM"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Mali's legendary ruler"
+              "notes": "[Quick Clip] Mali's legendary ruler",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course World History: Fall of the Roman Empire",
@@ -878,7 +932,8 @@
                 "youtube": "https://www.youtube.com/watch?v=3PszVWZNWVA"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Transition to medieval"
+              "notes": "[Quick Clip] Transition to medieval",
+              "contentType": "educational"
             },
             {
               "title": "Extra History: Byzantine Empire",
@@ -891,7 +946,8 @@
                 "youtube": "https://www.youtube.com/watch?v=Okph9wt8I0A&list=PLhyKYa0YJ_5BNTUc1fwlXFuodoGo_u6TH"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Animated history; engaging"
+              "notes": "[Quick Clip] Animated history; engaging",
+              "contentType": "educational"
             },
             {
               "title": "TED-Ed: The Silk Road: History's First World Wide Web",
@@ -904,7 +960,8 @@
                 "youtube": "https://www.youtube.com/watch?v=vn3e37VWc0k"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Trade and cultural exchange"
+              "notes": "[Quick Clip] Trade and cultural exchange",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course World History: Venice and the Ottoman Empire",
@@ -917,7 +974,8 @@
                 "youtube": "https://www.youtube.com/watch?v=UN-II_jBzzo"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Mediterranean trade"
+              "notes": "[Quick Clip] Mediterranean trade",
+              "contentType": "educational"
             },
             {
               "title": "Kings and Generals: Fall of Constantinople",
@@ -930,7 +988,8 @@
                 "youtube": "https://www.youtube.com/watch?v=p8CMYD_4qZQ"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Detailed military history"
+              "notes": "[Quick Clip] Detailed military history",
+              "contentType": "educational"
             }
           ]
         },
@@ -958,7 +1017,8 @@
                 "imdb": "https://www.imdb.com/title/tt0074896/"
               },
               "ageAppropriate": true,
-              "notes": "PG; respectful portrayal; Muhammad not depicted (per Islamic tradition)"
+              "notes": "PG; respectful portrayal; Muhammad not depicted (per Islamic tradition)",
+              "contentType": "entertainment"
             },
             {
               "title": "Islam: Empire of Faith",
@@ -977,7 +1037,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "3-part series; Ben Kingsley narrates; covers Golden Age"
+              "notes": "3-part series; Ben Kingsley narrates; covers Golden Age",
+              "contentType": "educational"
             },
             {
               "title": "Science and Islam",
@@ -990,7 +1051,8 @@
                 "imdb": "https://www.imdb.com/title/tt1359600/"
               },
               "ageAppropriate": true,
-              "notes": "3-part series on algebra, astronomy, medicine in Islamic Golden Age"
+              "notes": "3-part series on algebra, astronomy, medicine in Islamic Golden Age",
+              "contentType": "educational"
             },
             {
               "title": "Lost Secrets of the Quran",
@@ -1001,7 +1063,8 @@
               "relevance": "Documentary exploring early Islamic history",
               "links": {},
               "ageAppropriate": true,
-              "notes": "Academic approach to early Islamic texts"
+              "notes": "Academic approach to early Islamic texts",
+              "contentType": "educational"
             }
           ]
         }
@@ -1042,7 +1105,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "HIGHLY RECOMMENDED - 6 parts covering Ghana, Mali, Great Zimbabwe"
+              "notes": "HIGHLY RECOMMENDED - 6 parts covering Ghana, Mali, Great Zimbabwe",
+              "contentType": "educational"
             },
             {
               "title": "Lost Kingdoms of Africa",
@@ -1055,7 +1119,8 @@
                 "imdb": "https://www.imdb.com/title/tt1672766/"
               },
               "ageAppropriate": true,
-              "notes": "4-part series covering Ethiopia, Asante, Zimbabwe, Benin"
+              "notes": "4-part series covering Ethiopia, Asante, Zimbabwe, Benin",
+              "contentType": "educational"
             },
             {
               "title": "Mansa Musa: The Richest Man Who Ever Lived",
@@ -1066,7 +1131,8 @@
               "relevance": "Documentary on Mali Empire's legendary ruler",
               "links": {},
               "ageAppropriate": true,
-              "notes": "Covers Musa's famous pilgrimage and Mali's wealth"
+              "notes": "Covers Musa's famous pilgrimage and Mali's wealth",
+              "contentType": "educational"
             },
             {
               "title": "Black Panther",
@@ -1085,7 +1151,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Fictional but celebrates African culture; good discussion starter"
+              "notes": "Fictional but celebrates African culture; good discussion starter",
+              "contentType": "entertainment"
             }
           ]
         }
@@ -1118,7 +1185,8 @@
               "relevance": "Classic NHK/CCTV documentary series retracing the Silk Road",
               "links": {},
               "ageAppropriate": true,
-              "notes": "12-part series; comprehensive coverage of the ancient route"
+              "notes": "12-part series; comprehensive coverage of the ancient route",
+              "contentType": "educational"
             },
             {
               "title": "Marco Polo (Netflix)",
@@ -1131,7 +1199,8 @@
                 "imdb": "https://www.imdb.com/title/tt2189461/"
               },
               "ageAppropriate": false,
-              "notes": "TV-MA; NOT for classroom; shows Silk Road era"
+              "notes": "TV-MA; NOT for classroom; shows Silk Road era",
+              "contentType": "entertainment"
             },
             {
               "title": "The Adventures of Marco Polo",
@@ -1144,7 +1213,8 @@
                 "imdb": "https://www.imdb.com/title/tt0029824/"
               },
               "ageAppropriate": true,
-              "notes": "Old but accessible introduction to Polo's travels"
+              "notes": "Old but accessible introduction to Polo's travels",
+              "contentType": "entertainment"
             },
             {
               "title": "Caravans: Indian Tales",
@@ -1155,7 +1225,8 @@
               "relevance": "Documentary on ancient Indian Ocean trade routes",
               "links": {},
               "ageAppropriate": true,
-              "notes": "Covers maritime trade connections"
+              "notes": "Covers maritime trade connections",
+              "contentType": "educational"
             }
           ]
         }
@@ -1191,7 +1262,8 @@
                 "imdb": "https://www.imdb.com/title/tt0109393/"
               },
               "ageAppropriate": true,
-              "notes": "HIGHLY RECOMMENDED - educational and engaging"
+              "notes": "HIGHLY RECOMMENDED - educational and engaging",
+              "contentType": "educational"
             },
             {
               "title": "The Crusades: Crescent & the Cross",
@@ -1204,7 +1276,8 @@
                 "imdb": "https://www.imdb.com/title/tt0460831/"
               },
               "ageAppropriate": true,
-              "notes": "Presents both Christian and Muslim perspectives"
+              "notes": "Presents both Christian and Muslim perspectives",
+              "contentType": "educational"
             },
             {
               "title": "Monty Python and the Holy Grail",
@@ -1217,7 +1290,8 @@
                 "imdb": "https://www.imdb.com/title/tt0071853/"
               },
               "ageAppropriate": true,
-              "notes": "PG; humorous but actually teaches about medieval society; some crude humor"
+              "notes": "PG; humorous but actually teaches about medieval society; some crude humor",
+              "contentType": "entertainment"
             },
             {
               "title": "A Knight's Tale",
@@ -1230,7 +1304,8 @@
                 "imdb": "https://www.imdb.com/title/tt0183790/"
               },
               "ageAppropriate": true,
-              "notes": "PG-13; anachronistic music but shows medieval social structure well"
+              "notes": "PG-13; anachronistic music but shows medieval social structure well",
+              "contentType": "entertainment"
             },
             {
               "title": "The Black Death: The World's Most Devastating Plague",
@@ -1241,7 +1316,8 @@
               "relevance": "Great Courses documentary on the Black Death",
               "links": {},
               "ageAppropriate": true,
-              "notes": "Comprehensive; covers pandemic's social and economic effects"
+              "notes": "Comprehensive; covers pandemic's social and economic effects",
+              "contentType": "educational"
             },
             {
               "title": "Terry Jones' Medieval Lives",
@@ -1254,7 +1330,8 @@
                 "imdb": "https://www.imdb.com/title/tt0411006/"
               },
               "ageAppropriate": true,
-              "notes": "8 episodes on peasant, monk, knight, damsel, etc."
+              "notes": "8 episodes on peasant, monk, knight, damsel, etc.",
+              "contentType": "educational"
             }
           ]
         }
@@ -1289,7 +1366,8 @@
                 "imdb": "https://www.imdb.com/title/tt0058886/"
               },
               "ageAppropriate": true,
-              "notes": "Charlton Heston as Michelangelo; shows Renaissance art and patronage"
+              "notes": "Charlton Heston as Michelangelo; shows Renaissance art and patronage",
+              "contentType": "entertainment"
             },
             {
               "title": "Leonardo: The Man Who Saved Science",
@@ -1307,7 +1385,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Covers da Vinci as artist, inventor, scientist"
+              "notes": "Covers da Vinci as artist, inventor, scientist",
+              "contentType": "educational"
             },
             {
               "title": "Ever After: A Cinderella Story",
@@ -1320,7 +1399,8 @@
                 "imdb": "https://www.imdb.com/title/tt0120631/"
               },
               "ageAppropriate": true,
-              "notes": "Shows Renaissance fashion, society; Drew Barrymore stars"
+              "notes": "Shows Renaissance fashion, society; Drew Barrymore stars",
+              "contentType": "entertainment"
             },
             {
               "title": "Galileo's Battle for the Heavens",
@@ -1338,7 +1418,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Covers Scientific Revolution and church-science conflicts"
+              "notes": "Covers Scientific Revolution and church-science conflicts",
+              "contentType": "educational"
             },
             {
               "title": "The Medici: Godfathers of the Renaissance",
@@ -1357,7 +1438,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "4-part series on art patronage and Renaissance Florence"
+              "notes": "4-part series on art patronage and Renaissance Florence",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course World History: The Renaissance",
@@ -1370,7 +1452,8 @@
                 "youtube": "https://www.youtube.com/watch?v=Vufba_ZDwbQ"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Art, humanism, science"
+              "notes": "[Quick Clip] Art, humanism, science",
+              "contentType": "educational"
             },
             {
               "title": "TED-Ed: The Chemistry of Cold War Colors",
@@ -1383,7 +1466,8 @@
                 "youtube": "https://www.youtube.com/watch?v=8a7MJEF0OMY"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Renaissance art techniques"
+              "notes": "[Quick Clip] Renaissance art techniques",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course World History: Luther and the Protestant Reformation",
@@ -1396,7 +1480,8 @@
                 "youtube": "https://www.youtube.com/watch?v=1o8oIELbNxE"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Martin Luther and 95 Theses"
+              "notes": "[Quick Clip] Martin Luther and 95 Theses",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course World History: The Age of Exploration",
@@ -1409,7 +1494,8 @@
                 "youtube": "https://www.youtube.com/watch?v=wOclF9eP5uM"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Columbus, Vasco da Gama"
+              "notes": "[Quick Clip] Columbus, Vasco da Gama",
+              "contentType": "educational"
             },
             {
               "title": "TED-Ed: How the Compass Unlocked the World",
@@ -1422,7 +1508,8 @@
                 "youtube": "https://www.youtube.com/watch?v=I3V2Np9kB8U"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Exploration technology"
+              "notes": "[Quick Clip] Exploration technology",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course World History: The Columbian Exchange",
@@ -1435,7 +1522,8 @@
                 "youtube": "https://www.youtube.com/watch?v=HQPA5oNpfM4"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] ESSENTIAL - plants, animals, disease"
+              "notes": "[Quick Clip] ESSENTIAL - plants, animals, disease",
+              "contentType": "educational"
             },
             {
               "title": "Extra History: Admiral Zheng He",
@@ -1448,7 +1536,8 @@
                 "youtube": "https://www.youtube.com/watch?v=NI9mLCPi6g8&list=PLhyKYa0YJ_5Aq7g4bil7bnGi0A8gTsawu"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Chinese exploration before Europeans"
+              "notes": "[Quick Clip] Chinese exploration before Europeans",
+              "contentType": "educational"
             },
             {
               "title": "TED-Ed: The Atlantic Slave Trade",
@@ -1461,7 +1550,8 @@
                 "youtube": "https://www.youtube.com/watch?v=3NXC4Q_4JVg"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Important but sensitive topic"
+              "notes": "[Quick Clip] Important but sensitive topic",
+              "contentType": "educational"
             }
           ]
         },
@@ -1489,7 +1579,8 @@
                 "imdb": "https://www.imdb.com/title/tt0309820/"
               },
               "ageAppropriate": true,
-              "notes": "Joseph Fiennes as Luther; comprehensive look at Reformation"
+              "notes": "Joseph Fiennes as Luther; comprehensive look at Reformation",
+              "contentType": "entertainment"
             },
             {
               "title": "Martin Luther: The Idea that Changed the World",
@@ -1502,7 +1593,8 @@
                 "imdb": "https://www.imdb.com/title/tt7014528/"
               },
               "ageAppropriate": true,
-              "notes": "Hugh Bonneville narrates; accessible introduction"
+              "notes": "Hugh Bonneville narrates; accessible introduction",
+              "contentType": "educational"
             },
             {
               "title": "A Man for All Seasons",
@@ -1515,7 +1607,8 @@
                 "imdb": "https://www.imdb.com/title/tt0060665/"
               },
               "ageAppropriate": true,
-              "notes": "G-rated; excellent for discussing conscience and religious conflict"
+              "notes": "G-rated; excellent for discussing conscience and religious conflict",
+              "contentType": "entertainment"
             }
           ]
         }
@@ -1550,7 +1643,8 @@
                 "imdb": "https://www.imdb.com/title/tt0103594/"
               },
               "ageAppropriate": false,
-              "notes": "PG-13; Ridley Scott film; select scenes for classroom"
+              "notes": "PG-13; Ridley Scott film; select scenes for classroom",
+              "contentType": "entertainment"
             },
             {
               "title": "Conquistadors",
@@ -1569,7 +1663,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Michael Wood; 4 parts covering Cortés, Pizarro, Orellana, Cabeza de Vaca"
+              "notes": "Michael Wood; 4 parts covering Cortés, Pizarro, Orellana, Cabeza de Vaca",
+              "contentType": "educational"
             },
             {
               "title": "The Age of Exploration",
@@ -1580,7 +1675,8 @@
               "relevance": "Documentary covering European exploration era",
               "links": {},
               "ageAppropriate": true,
-              "notes": "Covers motivations and consequences of exploration"
+              "notes": "Covers motivations and consequences of exploration",
+              "contentType": "educational"
             }
           ]
         }
@@ -1621,7 +1717,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "3-part series; covers Columbian Exchange effects"
+              "notes": "3-part series; covers Columbian Exchange effects",
+              "contentType": "educational"
             },
             {
               "title": "1491: Before Columbus",
@@ -1632,7 +1729,8 @@
               "relevance": "Documentary on Americas before European contact",
               "links": {},
               "ageAppropriate": true,
-              "notes": "Shows pre-contact civilizations and exchange aftermath"
+              "notes": "Shows pre-contact civilizations and exchange aftermath",
+              "contentType": "educational"
             }
           ]
         }
@@ -1673,7 +1771,8 @@
                 ]
               },
               "ageAppropriate": false,
-              "notes": "TV-MA; NOT for classroom; excellent visuals of Ottoman conquest"
+              "notes": "TV-MA; NOT for classroom; excellent visuals of Ottoman conquest",
+              "contentType": "entertainment"
             },
             {
               "title": "Islam: Empire of Faith - The Ottomans",
@@ -1691,7 +1790,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Part of larger series; covers Ottoman culture and expansion"
+              "notes": "Part of larger series; covers Ottoman culture and expansion",
+              "contentType": "educational"
             },
             {
               "title": "Engineering an Empire: The Ottomans",
@@ -1704,7 +1804,8 @@
                 "imdb": "https://www.imdb.com/title/tt0884138/"
               },
               "ageAppropriate": true,
-              "notes": "Covers Istanbul's architecture and engineering achievements"
+              "notes": "Covers Istanbul's architecture and engineering achievements",
+              "contentType": "educational"
             }
           ]
         }
@@ -1739,7 +1840,8 @@
                 "imdb": "https://www.imdb.com/title/tt0449994/"
               },
               "ageAppropriate": true,
-              "notes": "Very long; beautiful visuals; shows religious tolerance under Akbar"
+              "notes": "Very long; beautiful visuals; shows religious tolerance under Akbar",
+              "contentType": "entertainment"
             },
             {
               "title": "The Story of India: Ages of Gold",
@@ -1757,7 +1859,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Michael Wood; covers Mughal golden age"
+              "notes": "Michael Wood; covers Mughal golden age",
+              "contentType": "educational"
             },
             {
               "title": "Secrets of the Taj Mahal",
@@ -1768,7 +1871,8 @@
               "relevance": "Documentary on the construction of the Taj Mahal",
               "links": {},
               "ageAppropriate": true,
-              "notes": "Explores architecture and love story behind the monument"
+              "notes": "Explores architecture and love story behind the monument",
+              "contentType": "educational"
             }
           ]
         }
@@ -1809,7 +1913,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Covers Forbidden City, Zheng He, and Ming achievements"
+              "notes": "Covers Forbidden City, Zheng He, and Ming achievements",
+              "contentType": "educational"
             },
             {
               "title": "The Last Emperor",
@@ -1822,7 +1927,8 @@
                 "imdb": "https://www.imdb.com/title/tt0093389/"
               },
               "ageAppropriate": true,
-              "notes": "PG-13; later period but shows Forbidden City beautifully"
+              "notes": "PG-13; later period but shows Forbidden City beautifully",
+              "contentType": "entertainment"
             },
             {
               "title": "China: Forbidden City",
@@ -1833,7 +1939,8 @@
               "relevance": "Documentary exploring the Forbidden City",
               "links": {},
               "ageAppropriate": true,
-              "notes": "Explores architecture and imperial Chinese life"
+              "notes": "Explores architecture and imperial Chinese life",
+              "contentType": "educational"
             },
             {
               "title": "1421: The Year China Discovered the World",
@@ -1844,7 +1951,8 @@
               "relevance": "Documentary on Zheng He's voyages (controversial thesis)",
               "links": {},
               "ageAppropriate": true,
-              "notes": "Claims disputed but good for discussing Chinese exploration"
+              "notes": "Claims disputed but good for discussing Chinese exploration",
+              "contentType": "educational"
             }
           ]
         }
@@ -1877,7 +1985,8 @@
               "relevance": "Documentary covering Persian architectural heritage",
               "links": {},
               "ageAppropriate": true,
-              "notes": "Covers Safavid Isfahan and Persian artistic achievements"
+              "notes": "Covers Safavid Isfahan and Persian artistic achievements",
+              "contentType": "educational"
             },
             {
               "title": "Engineering an Empire: The Persians",
@@ -1890,7 +1999,8 @@
                 "imdb": "https://www.imdb.com/title/tt0884139/"
               },
               "ageAppropriate": true,
-              "notes": "Covers Persian engineering from ancient to Safavid era"
+              "notes": "Covers Persian engineering from ancient to Safavid era",
+              "contentType": "educational"
             }
           ]
         }
@@ -1925,7 +2035,8 @@
                 "imdb": "https://www.imdb.com/title/tt0884140/"
               },
               "ageAppropriate": true,
-              "notes": "Covers Tenochtitlan and Aztec achievements"
+              "notes": "Covers Tenochtitlan and Aztec achievements",
+              "contentType": "educational"
             },
             {
               "title": "Engineering an Empire: The Inca",
@@ -1938,7 +2049,8 @@
                 "imdb": "https://www.imdb.com/title/tt1210897/"
               },
               "ageAppropriate": true,
-              "notes": "Covers Machu Picchu and Incan roads"
+              "notes": "Covers Machu Picchu and Incan roads",
+              "contentType": "educational"
             },
             {
               "title": "The Road to El Dorado",
@@ -1951,7 +2063,8 @@
                 "imdb": "https://www.imdb.com/title/tt0138749/"
               },
               "ageAppropriate": true,
-              "notes": "Fictional but excellent visual introduction"
+              "notes": "Fictional but excellent visual introduction",
+              "contentType": "entertainment"
             },
             {
               "title": "Conquistadors: The Fall of the Aztec Empire",
@@ -1969,7 +2082,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Michael Wood; covers Cortés and fall of Tenochtitlan"
+              "notes": "Michael Wood; covers Cortés and fall of Tenochtitlan",
+              "contentType": "educational"
             }
           ]
         }

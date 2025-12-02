@@ -35,7 +35,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "HIGHLY RECOMMENDED - 4 parts; best modern documentary on era"
+              "notes": "HIGHLY RECOMMENDED - 4 parts; best modern documentary on era",
+              "contentType": "educational"
             },
             {
               "title": "The Civil War (Ken Burns) - Episode 9",
@@ -54,7 +55,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Transition from war to Reconstruction"
+              "notes": "Transition from war to Reconstruction",
+              "contentType": "educational"
             },
             {
               "title": "Lincoln",
@@ -67,7 +69,8 @@
                 "imdb": "https://www.imdb.com/title/tt0443272/"
               },
               "ageAppropriate": true,
-              "notes": "Excellent for understanding constitutional amendments"
+              "notes": "Excellent for understanding constitutional amendments",
+              "contentType": "entertainment"
             },
             {
               "title": "Crash Course Economics: Intro to Economics",
@@ -80,7 +83,8 @@
                 "youtube": "https://www.youtube.com/watch?v=3ez10ADR_gM"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Foundation concepts"
+              "notes": "[Quick Clip] Foundation concepts",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course Economics: GDP",
@@ -93,7 +97,8 @@
                 "youtube": "https://www.youtube.com/watch?v=OVVTWPqnr6s"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Economic measurement"
+              "notes": "[Quick Clip] Economic measurement",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course Economics: The Stock Market",
@@ -106,7 +111,8 @@
                 "youtube": "https://www.youtube.com/watch?v=_P9x9hvDqpg"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Markets explained"
+              "notes": "[Quick Clip] Markets explained",
+              "contentType": "educational"
             },
             {
               "title": "Kurzgesagt: Universal Basic Income Explained",
@@ -119,7 +125,8 @@
                 "youtube": "https://www.youtube.com/watch?v=kl39KHS07Xc"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Modern economic debate"
+              "notes": "[Quick Clip] Modern economic debate",
+              "contentType": "educational"
             },
             {
               "title": "Vox: Why American Healthcare is So Expensive",
@@ -132,7 +139,8 @@
                 "youtube": "https://www.youtube.com/watch?v=tNla9nyRMmQ"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Current policy issue"
+              "notes": "[Quick Clip] Current policy issue",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course US History: How to Read",
@@ -145,7 +153,8 @@
                 "youtube": "https://www.youtube.com/watch?v=MSYw502dJNY"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] How historians work"
+              "notes": "[Quick Clip] How historians work",
+              "contentType": "educational"
             },
             {
               "title": "TED-Ed: How to Spot a Misleading Graph",
@@ -158,7 +167,8 @@
                 "youtube": "https://www.youtube.com/watch?v=E91bGT9BjYk"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Critical thinking skill"
+              "notes": "[Quick Clip] Critical thinking skill",
+              "contentType": "educational"
             },
             {
               "title": "C-SPAN: Declaration of Independence",
@@ -171,7 +181,8 @@
                 "youtube": "https://www.youtube.com/watch?v=DSv7yJJhUDA"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Document analysis"
+              "notes": "[Quick Clip] Document analysis",
+              "contentType": "educational"
             },
             {
               "title": "National Archives: Constitution Overview",
@@ -184,7 +195,8 @@
                 "youtube": "https://www.youtube.com/watch?v=t0B6F-eS8_Q"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Original document context"
+              "notes": "[Quick Clip] Original document context",
+              "contentType": "educational"
             }
           ]
         },
@@ -217,7 +229,8 @@
                 ]
               },
               "ageAppropriate": false,
-              "notes": "TV-MA; powerful; covers from Reconstruction to present"
+              "notes": "TV-MA; powerful; covers from Reconstruction to present",
+              "contentType": "educational"
             },
             {
               "title": "Separate But Equal",
@@ -230,7 +243,8 @@
                 "imdb": "https://www.imdb.com/title/tt0102896/"
               },
               "ageAppropriate": true,
-              "notes": "Shows establishment of 'separate but equal'"
+              "notes": "Shows establishment of 'separate but equal'",
+              "contentType": "entertainment"
             }
           ]
         }
@@ -264,7 +278,8 @@
                 "imdb": "https://www.imdb.com/title/tt2167393/"
               },
               "ageAppropriate": true,
-              "notes": "HIGHLY RECOMMENDED - 8 parts; excellent for Gilded Age"
+              "notes": "HIGHLY RECOMMENDED - 8 parts; excellent for Gilded Age",
+              "contentType": "educational"
             },
             {
               "title": "The Gilded Age",
@@ -277,7 +292,8 @@
                 "imdb": "https://www.imdb.com/title/tt4834544/"
               },
               "ageAppropriate": true,
-              "notes": "Julian Fellowes; shows era's wealth and inequality"
+              "notes": "Julian Fellowes; shows era's wealth and inequality",
+              "contentType": "entertainment"
             },
             {
               "title": "There Will Be Blood",
@@ -290,7 +306,8 @@
                 "imdb": "https://www.imdb.com/title/tt0469494/"
               },
               "ageAppropriate": false,
-              "notes": "R-rated; Daniel Day-Lewis; shows oil baron rise"
+              "notes": "R-rated; Daniel Day-Lewis; shows oil baron rise",
+              "contentType": "entertainment"
             }
           ]
         },
@@ -317,7 +334,8 @@
                 "imdb": "https://www.imdb.com/title/tt0090633/"
               },
               "ageAppropriate": true,
-              "notes": "Accessible introduction to immigrant experience"
+              "notes": "Accessible introduction to immigrant experience",
+              "contentType": "entertainment"
             },
             {
               "title": "The Godfather Part II",
@@ -330,7 +348,8 @@
                 "imdb": "https://www.imdb.com/title/tt0071562/"
               },
               "ageAppropriate": false,
-              "notes": "R-rated; select Ellis Island scenes only"
+              "notes": "R-rated; select Ellis Island scenes only",
+              "contentType": "entertainment"
             },
             {
               "title": "Golden Door",
@@ -343,7 +362,8 @@
                 "imdb": "https://www.imdb.com/title/tt0465188/"
               },
               "ageAppropriate": true,
-              "notes": "Italian language; shows immigration journey"
+              "notes": "Italian language; shows immigration journey",
+              "contentType": "entertainment"
             },
             {
               "title": "The Immigrant",
@@ -356,7 +376,8 @@
                 "imdb": "https://www.imdb.com/title/tt1951181/"
               },
               "ageAppropriate": false,
-              "notes": "R-rated; James Gray film; shows immigrant exploitation"
+              "notes": "R-rated; James Gray film; shows immigrant exploitation",
+              "contentType": "entertainment"
             }
           ]
         },
@@ -389,7 +410,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "HIGHLY RECOMMENDED - engaging musical about labor"
+              "notes": "HIGHLY RECOMMENDED - engaging musical about labor",
+              "contentType": "entertainment"
             },
             {
               "title": "Triangle Fire",
@@ -408,7 +430,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "ESSENTIAL - shows workplace safety issues"
+              "notes": "ESSENTIAL - shows workplace safety issues",
+              "contentType": "educational"
             },
             {
               "title": "Matewan",
@@ -421,7 +444,8 @@
                 "imdb": "https://www.imdb.com/title/tt0093509/"
               },
               "ageAppropriate": true,
-              "notes": "Later period but shows labor struggle well"
+              "notes": "Later period but shows labor struggle well",
+              "contentType": "entertainment"
             },
             {
               "title": "Norma Rae",
@@ -434,7 +458,8 @@
                 "imdb": "https://www.imdb.com/title/tt0079638/"
               },
               "ageAppropriate": true,
-              "notes": "Academy Award; later period but labor themes"
+              "notes": "Academy Award; later period but labor themes",
+              "contentType": "entertainment"
             }
           ]
         }
@@ -474,7 +499,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "4-part series; covers progressive reforms"
+              "notes": "4-part series; covers progressive reforms",
+              "contentType": "educational"
             },
             {
               "title": "Iron Jawed Angels",
@@ -487,7 +513,8 @@
                 "imdb": "https://www.imdb.com/title/tt0338139/"
               },
               "ageAppropriate": true,
-              "notes": "Hillary Swank; shows suffragette struggle"
+              "notes": "Hillary Swank; shows suffragette struggle",
+              "contentType": "entertainment"
             },
             {
               "title": "Crash Course US History: The Vietnam War",
@@ -500,7 +527,8 @@
                 "youtube": "https://www.youtube.com/watch?v=4jQ7GVbGxlE"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] US involvement in Vietnam"
+              "notes": "[Quick Clip] US involvement in Vietnam",
+              "contentType": "educational"
             },
             {
               "title": "Oversimplified: Vietnam War (Part 1)",
@@ -513,7 +541,8 @@
                 "youtube": "https://www.youtube.com/watch?v=7vFrjMq5E8A"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Background through escalation"
+              "notes": "[Quick Clip] Background through escalation",
+              "contentType": "educational"
             },
             {
               "title": "Oversimplified: Vietnam War (Part 2)",
@@ -526,7 +555,8 @@
                 "youtube": "https://www.youtube.com/watch?v=eJQYDlhMwek"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Tet through fall of Saigon"
+              "notes": "[Quick Clip] Tet through fall of Saigon",
+              "contentType": "educational"
             },
             {
               "title": "TED-Ed: The History of the Hippie Culture",
@@ -539,7 +569,8 @@
                 "youtube": "https://www.youtube.com/watch?v=RGCHLl4DPVg"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Cultural revolution"
+              "notes": "[Quick Clip] Cultural revolution",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course US History: Nixon and Watergate",
@@ -552,7 +583,8 @@
                 "youtube": "https://www.youtube.com/watch?v=Zx0x4Q3eFgI"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Scandal and resignation"
+              "notes": "[Quick Clip] Scandal and resignation",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course US History: Women's Movement",
@@ -565,7 +597,8 @@
                 "youtube": "https://www.youtube.com/watch?v=HGEMscZE5dY"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Women's rights movement"
+              "notes": "[Quick Clip] Women's rights movement",
+              "contentType": "educational"
             }
           ]
         }
@@ -599,7 +632,8 @@
                 "imdb": "https://www.imdb.com/title/tt0120042/"
               },
               "ageAppropriate": true,
-              "notes": "Tom Berenger as Roosevelt; shows Cuba campaign"
+              "notes": "Tom Berenger as Roosevelt; shows Cuba campaign",
+              "contentType": "entertainment"
             },
             {
               "title": "Crucible of Empire: The Spanish-American War",
@@ -617,7 +651,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Comprehensive coverage of the war"
+              "notes": "Comprehensive coverage of the war",
+              "contentType": "educational"
             },
             {
               "title": "A Man, A Plan, A Canal: Panama",
@@ -635,7 +670,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Engineering and Roosevelt's role"
+              "notes": "Engineering and Roosevelt's role",
+              "contentType": "educational"
             }
           ]
         }
@@ -669,7 +705,8 @@
                 "imdb": "https://www.imdb.com/title/tt0034167/"
               },
               "ageAppropriate": true,
-              "notes": "Classic; shows American experience in WWI"
+              "notes": "Classic; shows American experience in WWI",
+              "contentType": "educational"
             },
             {
               "title": "The Great War",
@@ -687,7 +724,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Focus on American involvement"
+              "notes": "Focus on American involvement",
+              "contentType": "educational"
             },
             {
               "title": "War Horse",
@@ -700,7 +738,8 @@
                 "imdb": "https://www.imdb.com/title/tt1568911/"
               },
               "ageAppropriate": true,
-              "notes": "Emotional but appropriate; shows WWI conditions"
+              "notes": "Emotional but appropriate; shows WWI conditions",
+              "contentType": "entertainment"
             }
           ]
         }
@@ -734,7 +773,8 @@
                 "imdb": "https://www.imdb.com/title/tt1343092/"
               },
               "ageAppropriate": true,
-              "notes": "Leonardo DiCaprio; captures Jazz Age excess"
+              "notes": "Leonardo DiCaprio; captures Jazz Age excess",
+              "contentType": "entertainment"
             },
             {
               "title": "Boardwalk Empire",
@@ -747,7 +787,8 @@
                 "imdb": "https://www.imdb.com/title/tt0979432/"
               },
               "ageAppropriate": false,
-              "notes": "TV-MA; NOT for classroom; excellent Prohibition era setting"
+              "notes": "TV-MA; NOT for classroom; excellent Prohibition era setting",
+              "contentType": "entertainment"
             },
             {
               "title": "Chicago",
@@ -760,7 +801,8 @@
                 "imdb": "https://www.imdb.com/title/tt0299658/"
               },
               "ageAppropriate": true,
-              "notes": "Shows 1920s crime, media, and culture"
+              "notes": "Shows 1920s crime, media, and culture",
+              "contentType": "entertainment"
             },
             {
               "title": "Jazz (Ken Burns)",
@@ -779,7 +821,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Extensive; select relevant episodes"
+              "notes": "Extensive; select relevant episodes",
+              "contentType": "educational"
             }
           ]
         }
@@ -813,7 +856,8 @@
                 "imdb": "https://www.imdb.com/title/tt0352248/"
               },
               "ageAppropriate": true,
-              "notes": "Russell Crowe; shows Depression's impact on ordinary people"
+              "notes": "Russell Crowe; shows Depression's impact on ordinary people",
+              "contentType": "entertainment"
             },
             {
               "title": "The Grapes of Wrath",
@@ -826,7 +870,8 @@
                 "imdb": "https://www.imdb.com/title/tt0032551/"
               },
               "ageAppropriate": true,
-              "notes": "HIGHLY RECOMMENDED - Henry Fonda; essential Depression film"
+              "notes": "HIGHLY RECOMMENDED - Henry Fonda; essential Depression film",
+              "contentType": "entertainment"
             },
             {
               "title": "Surviving the Dust Bowl",
@@ -844,7 +889,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Covers environmental and human disaster"
+              "notes": "Covers environmental and human disaster",
+              "contentType": "educational"
             },
             {
               "title": "The 1929 Stock Market Crash",
@@ -855,7 +901,8 @@
               "relevance": "History Channel documentary on crash",
               "links": {},
               "ageAppropriate": true,
-              "notes": "Covers crash and immediate aftermath"
+              "notes": "Covers crash and immediate aftermath",
+              "contentType": "educational"
             }
           ]
         },
@@ -888,7 +935,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "4.5 hours; comprehensive coverage"
+              "notes": "4.5 hours; comprehensive coverage",
+              "contentType": "educational"
             },
             {
               "title": "The Roosevelts: An Intimate History",
@@ -907,7 +955,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "7-part series; extensive FDR coverage"
+              "notes": "7-part series; extensive FDR coverage",
+              "contentType": "educational"
             }
           ]
         }
@@ -942,7 +991,8 @@
                 "imdb": "https://www.imdb.com/title/tt0120815/"
               },
               "ageAppropriate": false,
-              "notes": "R-rated; extremely graphic D-Day; select scenes only"
+              "notes": "R-rated; extremely graphic D-Day; select scenes only",
+              "contentType": "entertainment"
             },
             {
               "title": "Band of Brothers",
@@ -955,7 +1005,8 @@
                 "imdb": "https://www.imdb.com/title/tt0185906/"
               },
               "ageAppropriate": false,
-              "notes": "TV-MA; but historically accurate and respectful"
+              "notes": "TV-MA; but historically accurate and respectful",
+              "contentType": "entertainment"
             },
             {
               "title": "The Pacific",
@@ -968,7 +1019,8 @@
                 "imdb": "https://www.imdb.com/title/tt0374463/"
               },
               "ageAppropriate": false,
-              "notes": "TV-MA; companion to Band of Brothers"
+              "notes": "TV-MA; companion to Band of Brothers",
+              "contentType": "entertainment"
             },
             {
               "title": "Pearl Harbor",
@@ -981,7 +1033,8 @@
                 "imdb": "https://www.imdb.com/title/tt0213149/"
               },
               "ageAppropriate": true,
-              "notes": "PG-13; spectacular attack sequence; romantic subplot"
+              "notes": "PG-13; spectacular attack sequence; romantic subplot",
+              "contentType": "entertainment"
             },
             {
               "title": "Hacksaw Ridge",
@@ -994,7 +1047,8 @@
                 "imdb": "https://www.imdb.com/title/tt2119532/"
               },
               "ageAppropriate": false,
-              "notes": "R-rated; intense combat; powerful faith story"
+              "notes": "R-rated; intense combat; powerful faith story",
+              "contentType": "entertainment"
             },
             {
               "title": "Tora! Tora! Tora!",
@@ -1007,7 +1061,8 @@
                 "imdb": "https://www.imdb.com/title/tt0066473/"
               },
               "ageAppropriate": true,
-              "notes": "G-rated; historically accurate; shows both sides"
+              "notes": "G-rated; historically accurate; shows both sides",
+              "contentType": "entertainment"
             },
             {
               "title": "The War (Ken Burns)",
@@ -1026,7 +1081,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "HIGHLY RECOMMENDED - personal stories from the war"
+              "notes": "HIGHLY RECOMMENDED - personal stories from the war",
+              "contentType": "educational"
             }
           ]
         },
@@ -1053,7 +1109,8 @@
                 "imdb": "https://www.imdb.com/title/tt0108052/"
               },
               "ageAppropriate": false,
-              "notes": "R-rated; essential Holocaust film; very intense"
+              "notes": "R-rated; essential Holocaust film; very intense",
+              "contentType": "entertainment"
             },
             {
               "title": "The Diary of Anne Frank",
@@ -1066,7 +1123,8 @@
                 "imdb": "https://www.imdb.com/title/tt0052738/"
               },
               "ageAppropriate": true,
-              "notes": "Academy Award winner; accessible for students"
+              "notes": "Academy Award winner; accessible for students",
+              "contentType": "entertainment"
             },
             {
               "title": "The Boy in the Striped Pajamas",
@@ -1079,7 +1137,8 @@
                 "imdb": "https://www.imdb.com/title/tt0914798/"
               },
               "ageAppropriate": true,
-              "notes": "PG-13; age-appropriate introduction to Holocaust"
+              "notes": "PG-13; age-appropriate introduction to Holocaust",
+              "contentType": "entertainment"
             },
             {
               "title": "Shoah",
@@ -1092,7 +1151,8 @@
                 "imdb": "https://www.imdb.com/title/tt0090015/"
               },
               "ageAppropriate": true,
-              "notes": "9+ hours; select sections; no archival footage"
+              "notes": "9+ hours; select sections; no archival footage",
+              "contentType": "educational"
             }
           ]
         }
@@ -1126,7 +1186,8 @@
                 "imdb": "https://www.imdb.com/title/tt3682448/"
               },
               "ageAppropriate": true,
-              "notes": "Tom Hanks; excellent Cold War spy film"
+              "notes": "Tom Hanks; excellent Cold War spy film",
+              "contentType": "entertainment"
             },
             {
               "title": "The Cold War (CNN)",
@@ -1139,7 +1200,8 @@
                 "imdb": "https://www.imdb.com/title/tt0170896/"
               },
               "ageAppropriate": true,
-              "notes": "Comprehensive; select relevant episodes"
+              "notes": "Comprehensive; select relevant episodes",
+              "contentType": "educational"
             }
           ]
         }
@@ -1173,7 +1235,8 @@
                 "imdb": "https://www.imdb.com/title/tt0120789/"
               },
               "ageAppropriate": true,
-              "notes": "Clever commentary on 1950s idealized TV world"
+              "notes": "Clever commentary on 1950s idealized TV world",
+              "contentType": "entertainment"
             },
             {
               "title": "Revolutionary Road",
@@ -1186,7 +1249,8 @@
                 "imdb": "https://www.imdb.com/title/tt0959337/"
               },
               "ageAppropriate": false,
-              "notes": "R-rated; NOT for classroom; shows conformity pressure"
+              "notes": "R-rated; NOT for classroom; shows conformity pressure",
+              "contentType": "entertainment"
             },
             {
               "title": "October Sky",
@@ -1199,7 +1263,8 @@
                 "imdb": "https://www.imdb.com/title/tt0132477/"
               },
               "ageAppropriate": true,
-              "notes": "HIGHLY RECOMMENDED - space race and 1950s America"
+              "notes": "HIGHLY RECOMMENDED - space race and 1950s America",
+              "contentType": "entertainment"
             }
           ]
         }
@@ -1233,7 +1298,8 @@
                 "imdb": "https://www.imdb.com/title/tt1020072/"
               },
               "ageAppropriate": true,
-              "notes": "HIGHLY RECOMMENDED - David Oyelowo as King"
+              "notes": "HIGHLY RECOMMENDED - David Oyelowo as King",
+              "contentType": "entertainment"
             },
             {
               "title": "The Butler",
@@ -1246,7 +1312,8 @@
                 "imdb": "https://www.imdb.com/title/tt1327773/"
               },
               "ageAppropriate": true,
-              "notes": "Forest Whitaker; spans decades of civil rights"
+              "notes": "Forest Whitaker; spans decades of civil rights",
+              "contentType": "entertainment"
             },
             {
               "title": "Hidden Figures",
@@ -1259,7 +1326,8 @@
                 "imdb": "https://www.imdb.com/title/tt4846340/"
               },
               "ageAppropriate": true,
-              "notes": "HIGHLY RECOMMENDED - space race meets civil rights"
+              "notes": "HIGHLY RECOMMENDED - space race meets civil rights",
+              "contentType": "entertainment"
             },
             {
               "title": "The Help",
@@ -1272,7 +1340,8 @@
                 "imdb": "https://www.imdb.com/title/tt1454029/"
               },
               "ageAppropriate": true,
-              "notes": "Shows Jim Crow era from workers' perspective"
+              "notes": "Shows Jim Crow era from workers' perspective",
+              "contentType": "entertainment"
             },
             {
               "title": "Eyes on the Prize",
@@ -1291,7 +1360,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "ESSENTIAL - 14 hours; definitive civil rights documentary"
+              "notes": "ESSENTIAL - 14 hours; definitive civil rights documentary",
+              "contentType": "educational"
             },
             {
               "title": "MLK/FBI",
@@ -1304,7 +1374,8 @@
                 "imdb": "https://www.imdb.com/title/tt9358228/"
               },
               "ageAppropriate": true,
-              "notes": "Modern documentary on FBI's campaign against King"
+              "notes": "Modern documentary on FBI's campaign against King",
+              "contentType": "educational"
             },
             {
               "title": "TED-Ed: The History of Marriage for Same-Sex Couples",
@@ -1317,7 +1388,8 @@
                 "youtube": "https://www.youtube.com/watch?v=yd3Tk_VBNAQ"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Civil rights evolution"
+              "notes": "[Quick Clip] Civil rights evolution",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course US History: Civil Rights Movement",
@@ -1330,7 +1402,8 @@
                 "youtube": "https://www.youtube.com/watch?v=S64zRnnn4Po"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] MLK through legislation"
+              "notes": "[Quick Clip] MLK through legislation",
+              "contentType": "educational"
             },
             {
               "title": "Vox: Mass Incarceration in the US",
@@ -1343,7 +1416,8 @@
                 "youtube": "https://www.youtube.com/watch?v=NaPBcUUqbew"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Criminal justice reform"
+              "notes": "[Quick Clip] Criminal justice reform",
+              "contentType": "educational"
             },
             {
               "title": "TED-Ed: Why is the US Incarceration Rate So High?",
@@ -1356,7 +1430,8 @@
                 "youtube": "https://www.youtube.com/watch?v=NaPBcUUqbew"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Policy analysis"
+              "notes": "[Quick Clip] Policy analysis",
+              "contentType": "educational"
             },
             {
               "title": "Khan Academy: Brown v. Board of Education",
@@ -1369,7 +1444,8 @@
                 "youtube": "https://www.youtube.com/watch?v=TTGHLdr-iak"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] School desegregation"
+              "notes": "[Quick Clip] School desegregation",
+              "contentType": "educational"
             }
           ]
         }
@@ -1409,7 +1485,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "ESSENTIAL - comprehensive; select episodes"
+              "notes": "ESSENTIAL - comprehensive; select episodes",
+              "contentType": "educational"
             },
             {
               "title": "Forrest Gump",
@@ -1422,7 +1499,8 @@
                 "imdb": "https://www.imdb.com/title/tt0109830/"
               },
               "ageAppropriate": true,
-              "notes": "Covers Vietnam, civil rights, counterculture"
+              "notes": "Covers Vietnam, civil rights, counterculture",
+              "contentType": "entertainment"
             },
             {
               "title": "Platoon",
@@ -1435,7 +1513,8 @@
                 "imdb": "https://www.imdb.com/title/tt0091763/"
               },
               "ageAppropriate": false,
-              "notes": "R-rated; intense; academy award winner"
+              "notes": "R-rated; intense; academy award winner",
+              "contentType": "entertainment"
             },
             {
               "title": "Full Metal Jacket",
@@ -1448,7 +1527,8 @@
                 "imdb": "https://www.imdb.com/title/tt0093058/"
               },
               "ageAppropriate": false,
-              "notes": "R-rated; NOT for classroom; shows war's dehumanization"
+              "notes": "R-rated; NOT for classroom; shows war's dehumanization",
+              "contentType": "entertainment"
             },
             {
               "title": "Good Morning, Vietnam",
@@ -1461,7 +1541,8 @@
                 "imdb": "https://www.imdb.com/title/tt0093105/"
               },
               "ageAppropriate": false,
-              "notes": "R-rated; language; but more comedic approach to era"
+              "notes": "R-rated; language; but more comedic approach to era",
+              "contentType": "entertainment"
             }
           ]
         }
@@ -1495,7 +1576,8 @@
                 "imdb": "https://www.imdb.com/title/tt0109830/"
               },
               "ageAppropriate": true,
-              "notes": "Comprehensive cultural journey through decades"
+              "notes": "Comprehensive cultural journey through decades",
+              "contentType": "entertainment"
             },
             {
               "title": "The Trial of the Chicago 7",
@@ -1514,7 +1596,8 @@
                 ]
               },
               "ageAppropriate": false,
-              "notes": "R-rated; Aaron Sorkin; shows 1960s protest culture"
+              "notes": "R-rated; Aaron Sorkin; shows 1960s protest culture",
+              "contentType": "entertainment"
             },
             {
               "title": "All the President's Men",
@@ -1527,7 +1610,8 @@
                 "imdb": "https://www.imdb.com/title/tt0074119/"
               },
               "ageAppropriate": true,
-              "notes": "ESSENTIAL - journalism and Watergate"
+              "notes": "ESSENTIAL - journalism and Watergate",
+              "contentType": "entertainment"
             }
           ]
         }
@@ -1561,7 +1645,8 @@
                 "imdb": "https://www.imdb.com/title/tt4687110/"
               },
               "ageAppropriate": false,
-              "notes": "TV-MA; Cate Blanchett as Phyllis Schlafly; ERA debate"
+              "notes": "TV-MA; Cate Blanchett as Phyllis Schlafly; ERA debate",
+              "contentType": "entertainment"
             },
             {
               "title": "Iron Jawed Angels",
@@ -1574,7 +1659,8 @@
                 "imdb": "https://www.imdb.com/title/tt0338139/"
               },
               "ageAppropriate": true,
-              "notes": "Covers suffrage movement's final push"
+              "notes": "Covers suffrage movement's final push",
+              "contentType": "entertainment"
             },
             {
               "title": "Not for Ourselves Alone",
@@ -1593,7 +1679,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "3.5 hours on suffrage pioneers"
+              "notes": "3.5 hours on suffrage pioneers",
+              "contentType": "educational"
             },
             {
               "title": "RBG",
@@ -1606,7 +1693,8 @@
                 "imdb": "https://www.imdb.com/title/tt7689964/"
               },
               "ageAppropriate": true,
-              "notes": "Women's rights through Ginsburg's career"
+              "notes": "Women's rights through Ginsburg's career",
+              "contentType": "educational"
             }
           ]
         }
@@ -1645,7 +1733,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "4-hour comprehensive Reagan biography"
+              "notes": "4-hour comprehensive Reagan biography",
+              "contentType": "educational"
             },
             {
               "title": "The Reagan Show",
@@ -1658,7 +1747,8 @@
                 "imdb": "https://www.imdb.com/title/tt6427592/"
               },
               "ageAppropriate": true,
-              "notes": "Reagan's media savvy and Cold War diplomacy"
+              "notes": "Reagan's media savvy and Cold War diplomacy",
+              "contentType": "educational"
             },
             {
               "title": "Miracle",
@@ -1671,7 +1761,8 @@
                 "imdb": "https://www.imdb.com/title/tt0349825/"
               },
               "ageAppropriate": true,
-              "notes": "Cold War context through sports"
+              "notes": "Cold War context through sports",
+              "contentType": "entertainment"
             }
           ]
         }
@@ -1705,7 +1796,8 @@
                 "imdb": "https://www.imdb.com/title/tt0475276/"
               },
               "ageAppropriate": false,
-              "notes": "R-rated; intense; respectful treatment of 9/11"
+              "notes": "R-rated; intense; respectful treatment of 9/11",
+              "contentType": "entertainment"
             },
             {
               "title": "Zero Dark Thirty",
@@ -1718,7 +1810,8 @@
                 "imdb": "https://www.imdb.com/title/tt1790885/"
               },
               "ageAppropriate": false,
-              "notes": "R-rated; NOT for classroom; shows post-9/11 intelligence"
+              "notes": "R-rated; NOT for classroom; shows post-9/11 intelligence",
+              "contentType": "entertainment"
             },
             {
               "title": "The Social Dilemma",
@@ -1737,7 +1830,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Excellent for contemporary issues discussion"
+              "notes": "Excellent for contemporary issues discussion",
+              "contentType": "educational"
             },
             {
               "title": "13th",
@@ -1756,7 +1850,8 @@
                 ]
               },
               "ageAppropriate": false,
-              "notes": "TV-MA; Ava DuVernay; connects history to present"
+              "notes": "TV-MA; Ava DuVernay; connects history to present",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course US History: The Reagan Revolution",
@@ -1769,7 +1864,8 @@
                 "youtube": "https://www.youtube.com/watch?v=2h2fAcS0Xaw"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Conservatism, Cold War end"
+              "notes": "[Quick Clip] Conservatism, Cold War end",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course Government: Political Parties",
@@ -1782,7 +1878,8 @@
                 "youtube": "https://www.youtube.com/watch?v=s8VOM8ET1WU"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] How parties work"
+              "notes": "[Quick Clip] How parties work",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course Government: Congressional Elections",
@@ -1795,7 +1892,8 @@
                 "youtube": "https://www.youtube.com/watch?v=wgO1rz8wX-A"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Gerrymandering, primaries"
+              "notes": "[Quick Clip] Gerrymandering, primaries",
+              "contentType": "educational"
             },
             {
               "title": "TED-Ed: What is Gerrymandering?",
@@ -1808,7 +1906,8 @@
                 "youtube": "https://www.youtube.com/watch?v=YcUDBgYodIE"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Important civics concept"
+              "notes": "[Quick Clip] Important civics concept",
+              "contentType": "educational"
             },
             {
               "title": "Crash Course Government: The Supreme Court",
@@ -1821,7 +1920,8 @@
                 "youtube": "https://www.youtube.com/watch?v=W1XtqGr4qQ0"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] How court works"
+              "notes": "[Quick Clip] How court works",
+              "contentType": "educational"
             },
             {
               "title": "Vox: How the Republican and Democratic Parties Switched",
@@ -1834,7 +1934,8 @@
                 "youtube": "https://www.youtube.com/watch?v=s8VOM8ET1WU"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Historical party evolution"
+              "notes": "[Quick Clip] Historical party evolution",
+              "contentType": "educational"
             }
           ]
         }
@@ -1868,7 +1969,8 @@
                 "imdb": "https://www.imdb.com/title/tt0497116/"
               },
               "ageAppropriate": true,
-              "notes": "Environmental/political issues"
+              "notes": "Environmental/political issues",
+              "contentType": "educational"
             },
             {
               "title": "Which Way Home",
@@ -1881,7 +1983,8 @@
                 "imdb": "https://www.imdb.com/title/tt1399646/"
               },
               "ageAppropriate": true,
-              "notes": "Immigration from children's perspective"
+              "notes": "Immigration from children's perspective",
+              "contentType": "educational"
             },
             {
               "title": "The American Dream and Other Fairy Tales",
@@ -1894,7 +1997,8 @@
                 "imdb": "https://www.imdb.com/title/tt18268852/"
               },
               "ageAppropriate": true,
-              "notes": "Abigail Disney on income inequality"
+              "notes": "Abigail Disney on income inequality",
+              "contentType": "educational"
             }
           ]
         }

@@ -65,7 +65,8 @@
                   "Research actual Mesoamerican gold work",
                   "Create a comparison chart: movie vs reality"
                 ]
-              }
+              },
+              "contentType": "entertainment"
             },
             {
               "title": "The Emperor's New Groove",
@@ -106,7 +107,8 @@
                   "Create a Venn diagram comparing movie palace to Machu Picchu",
                   "Research terraced farming"
                 ]
-              }
+              },
+              "contentType": "entertainment"
             },
             {
               "title": "Night at the Museum",
@@ -125,7 +127,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Fun introduction to museum artifacts from various civilizations including Aztec"
+              "notes": "Fun introduction to museum artifacts from various civilizations including Aztec",
+              "contentType": "entertainment"
             },
             {
               "title": "Lost Kingdoms of the Maya",
@@ -139,7 +142,8 @@
                 "streaming": []
               },
               "ageAppropriate": true,
-              "notes": "Educational documentary suitable for classroom; shows actual archaeological sites"
+              "notes": "Educational documentary suitable for classroom; shows actual archaeological sites",
+              "contentType": "educational"
             },
             {
               "title": "Engineering an Empire: The Aztecs",
@@ -153,7 +157,8 @@
                 "streaming": []
               },
               "ageAppropriate": true,
-              "notes": "Focus on engineering achievements; may need to show in segments"
+              "notes": "Focus on engineering achievements; may need to show in segments",
+              "contentType": "educational"
             },
             {
               "title": "Ancient Civilizations: Maya",
@@ -166,7 +171,8 @@
                 "streaming": []
               },
               "ageAppropriate": true,
-              "notes": "Specifically designed for classroom use; grade-appropriate"
+              "notes": "Specifically designed for classroom use; grade-appropriate",
+              "contentType": "educational"
             },
             {
               "title": "Mysteries of the Ancient World: Machu Picchu",
@@ -179,7 +185,8 @@
                 "streaming": []
               },
               "ageAppropriate": true,
-              "notes": "Beautiful visuals of Machu Picchu; discusses Incan achievements"
+              "notes": "Beautiful visuals of Machu Picchu; discusses Incan achievements",
+              "contentType": "entertainment"
             },
             {
               "title": "The Maya Civilization Explained in 11 Minutes",
@@ -192,7 +199,8 @@
                 "youtube": "https://www.youtube.com/watch?v=Q6LOrQ3BtQo"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Captivating History channel; good introduction"
+              "notes": "[Quick Clip] Captivating History channel; good introduction",
+              "contentType": "educational"
             },
             {
               "title": "The Aztec Empire Explained in 10 Minutes",
@@ -205,7 +213,8 @@
                 "youtube": "https://www.youtube.com/watch?v=Pj7m7MJRXxo"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Quick comprehensive overview"
+              "notes": "[Quick Clip] Quick comprehensive overview",
+              "contentType": "educational"
             },
             {
               "title": "The Inca Empire Explained in 14 Minutes",
@@ -218,7 +227,8 @@
                 "youtube": "https://www.youtube.com/watch?v=J1F95JT3K-c"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Covers Machu Picchu, roads, and society"
+              "notes": "[Quick Clip] Covers Machu Picchu, roads, and society",
+              "contentType": "educational"
             },
             {
               "title": "TED-Ed: The Rise and Fall of the Inca Empire",
@@ -231,7 +241,8 @@
                 "youtube": "https://www.youtube.com/watch?v=XjNsL4RRMMA"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] HIGHLY RECOMMENDED - beautiful animation"
+              "notes": "[Quick Clip] HIGHLY RECOMMENDED - beautiful animation",
+              "contentType": "educational"
             },
             {
               "title": "TED-Ed: The Rise and Fall of the Aztec Empire",
@@ -244,7 +255,8 @@
                 "youtube": "https://www.youtube.com/watch?v=7paVqUfFbk8"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Excellent 5-minute overview"
+              "notes": "[Quick Clip] Excellent 5-minute overview",
+              "contentType": "educational"
             },
             {
               "title": "TED-Ed: The Maya Myth of the Morning Star",
@@ -257,7 +269,8 @@
                 "youtube": "https://www.youtube.com/watch?v=3V1_kYK3g4Y"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Shows Maya astronomical knowledge"
+              "notes": "[Quick Clip] Shows Maya astronomical knowledge",
+              "contentType": "educational"
             },
             {
               "title": "BrainPOP: Maya Civilization",
@@ -270,7 +283,8 @@
                 "youtube": "https://www.brainpop.com/socialstudies/worldhistory/maya/"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Requires BrainPOP subscription"
+              "notes": "[Quick Clip] Requires BrainPOP subscription",
+              "contentType": "educational"
             },
             {
               "title": "Native American Regions Overview",
@@ -283,7 +297,8 @@
                 "youtube": "https://www.youtube.com/watch?v=E8tHcmZ8M_8"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Good for geographic understanding"
+              "notes": "[Quick Clip] Good for geographic understanding",
+              "contentType": "educational"
             },
             {
               "title": "The Iroquois Confederacy Explained",
@@ -296,7 +311,8 @@
                 "youtube": "https://www.youtube.com/watch?v=gfqxWCVdPPw"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Democracy origins in Native America"
+              "notes": "[Quick Clip] Democracy origins in Native America",
+              "contentType": "educational"
             },
             {
               "title": "Schoolhouse Rock: No More Kings",
@@ -309,7 +325,8 @@
                 "youtube": "https://www.youtube.com/watch?v=oex3dwFnhck"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Classic Schoolhouse Rock"
+              "notes": "[Quick Clip] Classic Schoolhouse Rock",
+              "contentType": "educational"
             },
             {
               "title": "Schoolhouse Rock: The Shot Heard Round the World",
@@ -322,7 +339,8 @@
                 "youtube": "https://www.youtube.com/watch?v=Y6ikO6LMxF4"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Memorable song about Lexington & Concord"
+              "notes": "[Quick Clip] Memorable song about Lexington & Concord",
+              "contentType": "educational"
             },
             {
               "title": "Schoolhouse Rock: Fireworks",
@@ -335,7 +353,8 @@
                 "youtube": "https://www.youtube.com/watch?v=SBNVaKLxokU"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Explains Declaration writing"
+              "notes": "[Quick Clip] Explains Declaration writing",
+              "contentType": "educational"
             },
             {
               "title": "Oversimplified: The American Revolution (Part 1)",
@@ -348,7 +367,8 @@
                 "youtube": "https://www.youtube.com/watch?v=gzALIXcY4pg"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] HIGHLY RECOMMENDED - engaging animation"
+              "notes": "[Quick Clip] HIGHLY RECOMMENDED - engaging animation",
+              "contentType": "educational"
             },
             {
               "title": "Oversimplified: The American Revolution (Part 2)",
@@ -361,7 +381,8 @@
                 "youtube": "https://www.youtube.com/watch?v=rtYC2jx1LM0"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Covers war through Treaty of Paris"
+              "notes": "[Quick Clip] Covers war through Treaty of Paris",
+              "contentType": "educational"
             },
             {
               "title": "TED-Ed: What You Might Not Know About the Declaration of Independence",
@@ -374,7 +395,8 @@
                 "youtube": "https://www.youtube.com/watch?v=yb7MI8NHmSs"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Interesting historical details"
+              "notes": "[Quick Clip] Interesting historical details",
+              "contentType": "educational"
             },
             {
               "title": "Schoolhouse Rock: The Preamble",
@@ -387,7 +409,8 @@
                 "youtube": "https://www.youtube.com/watch?v=0hEYvdMoF2g"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] ESSENTIAL - helps memorize preamble"
+              "notes": "[Quick Clip] ESSENTIAL - helps memorize preamble",
+              "contentType": "educational"
             },
             {
               "title": "Schoolhouse Rock: I'm Just a Bill",
@@ -400,7 +423,8 @@
                 "youtube": "https://www.youtube.com/watch?v=OgVKvqTItto"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] ESSENTIAL - classic civics education"
+              "notes": "[Quick Clip] ESSENTIAL - classic civics education",
+              "contentType": "educational"
             },
             {
               "title": "Schoolhouse Rock: Three Ring Government",
@@ -413,7 +437,8 @@
                 "youtube": "https://www.youtube.com/watch?v=tEPd98CbbMk"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Circus metaphor for branches"
+              "notes": "[Quick Clip] Circus metaphor for branches",
+              "contentType": "educational"
             },
             {
               "title": "Schoolhouse Rock: Elbow Room",
@@ -426,7 +451,8 @@
                 "youtube": "https://www.youtube.com/watch?v=8sIoq9mpbUs"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Manifest Destiny concept"
+              "notes": "[Quick Clip] Manifest Destiny concept",
+              "contentType": "educational"
             },
             {
               "title": "TED-Ed: Why is the US Constitution So Hard to Amend?",
@@ -439,7 +465,8 @@
                 "youtube": "https://www.youtube.com/watch?v=FwREAW4SlVY"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Good for civics understanding"
+              "notes": "[Quick Clip] Good for civics understanding",
+              "contentType": "educational"
             },
             {
               "title": "The Bill of Rights in 5 Minutes",
@@ -452,7 +479,8 @@
                 "youtube": "https://www.youtube.com/watch?v=yYEfLm5dLMg"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Concise Bill of Rights summary"
+              "notes": "[Quick Clip] Concise Bill of Rights summary",
+              "contentType": "educational"
             },
             {
               "title": "Geography Now: Canada",
@@ -465,7 +493,8 @@
                 "youtube": "https://www.youtube.com/watch?v=3DsIB9G6lHI"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Geography Now channel; thorough"
+              "notes": "[Quick Clip] Geography Now channel; thorough",
+              "contentType": "educational"
             },
             {
               "title": "Geography Now: Mexico",
@@ -478,7 +507,8 @@
                 "youtube": "https://www.youtube.com/watch?v=PhNuO48ut30"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Covers geography, culture, history"
+              "notes": "[Quick Clip] Covers geography, culture, history",
+              "contentType": "educational"
             },
             {
               "title": "Geography Now: Brazil",
@@ -491,7 +521,8 @@
                 "youtube": "https://www.youtube.com/watch?v=HpCw0dlsWn4"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Largest South American country"
+              "notes": "[Quick Clip] Largest South American country",
+              "contentType": "educational"
             },
             {
               "title": "Countries of North America Geography",
@@ -504,7 +535,8 @@
                 "youtube": "https://www.youtube.com/watch?v=cxyzT1EeB3Y"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Quick continental overview"
+              "notes": "[Quick Clip] Quick continental overview",
+              "contentType": "educational"
             },
             {
               "title": "Countries of South America Geography",
@@ -517,7 +549,8 @@
                 "youtube": "https://www.youtube.com/watch?v=5jvDh8X8K-8"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Quick continental overview"
+              "notes": "[Quick Clip] Quick continental overview",
+              "contentType": "educational"
             }
           ]
         },
@@ -574,7 +607,8 @@
                   "Research the real Pocahontas story",
                   "Write a diary entry from the real Pocahontas's perspective"
                 ]
-              }
+              },
+              "contentType": "entertainment"
             },
             {
               "title": "Brother Bear",
@@ -593,7 +627,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Good introduction to Native American spiritual beliefs and Pacific Northwest setting"
+              "notes": "Good introduction to Native American spiritual beliefs and Pacific Northwest setting",
+              "contentType": "entertainment"
             },
             {
               "title": "Spirit: Stallion of the Cimarron",
@@ -607,7 +642,8 @@
                 "streaming": []
               },
               "ageAppropriate": true,
-              "notes": "Shows Lakota culture; discusses westward expansion's impact on Native peoples"
+              "notes": "Shows Lakota culture; discusses westward expansion's impact on Native peoples",
+              "contentType": "entertainment"
             },
             {
               "title": "Kaya: An American Girl",
@@ -621,7 +657,8 @@
                 "streaming": []
               },
               "ageAppropriate": true,
-              "notes": "Historically researched; shows pre-contact Native American life; perfect for this age group"
+              "notes": "Historically researched; shows pre-contact Native American life; perfect for this age group",
+              "contentType": "entertainment"
             },
             {
               "title": "We Shall Remain: Episode 1 - After the Mayflower",
@@ -640,7 +677,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "PBS American Experience; tells story from Native American perspective"
+              "notes": "PBS American Experience; tells story from Native American perspective",
+              "contentType": "educational"
             },
             {
               "title": "500 Nations",
@@ -654,7 +692,8 @@
                 "streaming": []
               },
               "ageAppropriate": true,
-              "notes": "8-part series; show relevant episodes; excellent primary source material"
+              "notes": "8-part series; show relevant episodes; excellent primary source material",
+              "contentType": "educational"
             },
             {
               "title": "Hiawatha",
@@ -668,7 +707,8 @@
                 "streaming": []
               },
               "ageAppropriate": true,
-              "notes": "Older film; good introduction to Iroquois Confederacy concept"
+              "notes": "Older film; good introduction to Iroquois Confederacy concept",
+              "contentType": "entertainment"
             }
           ]
         }
@@ -704,7 +744,8 @@
                 "streaming": []
               },
               "ageAppropriate": false,
-              "notes": "PG-13 - preview before showing; some violent scenes; teacher may select clips"
+              "notes": "PG-13 - preview before showing; some violent scenes; teacher may select clips",
+              "contentType": "entertainment"
             },
             {
               "title": "Pocahontas",
@@ -723,7 +764,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Romanticized but good starting point for discussing exploration's impact"
+              "notes": "Romanticized but good starting point for discussing exploration's impact",
+              "contentType": "entertainment"
             },
             {
               "title": "The New World",
@@ -737,7 +779,8 @@
                 "streaming": []
               },
               "ageAppropriate": false,
-              "notes": "PG-13 - more historically accurate than Disney; select scenes for classroom"
+              "notes": "PG-13 - more historically accurate than Disney; select scenes for classroom",
+              "contentType": "entertainment"
             },
             {
               "title": "Conquistadors",
@@ -756,7 +799,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Michael Wood narrates; show relevant episodes on Spanish exploration"
+              "notes": "Michael Wood narrates; show relevant episodes on Spanish exploration",
+              "contentType": "educational"
             },
             {
               "title": "Columbus: The Lost Voyage",
@@ -769,7 +813,8 @@
                 "streaming": []
               },
               "ageAppropriate": true,
-              "notes": "Focuses on exploration challenges and navigation"
+              "notes": "Focuses on exploration challenges and navigation",
+              "contentType": "educational"
             },
             {
               "title": "TED-Ed: The Columbian Exchange",
@@ -782,7 +827,8 @@
                 "youtube": "https://www.youtube.com/watch?v=HQPA5oNpfM4"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] HIGHLY RECOMMENDED - essential topic explained well"
+              "notes": "[Quick Clip] HIGHLY RECOMMENDED - essential topic explained well",
+              "contentType": "educational"
             },
             {
               "title": "The True Story of Christopher Columbus",
@@ -795,7 +841,8 @@
                 "youtube": "https://www.youtube.com/watch?v=3hDrM76GWak"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Balanced view of Columbus"
+              "notes": "[Quick Clip] Balanced view of Columbus",
+              "contentType": "educational"
             },
             {
               "title": "Simple History: Spanish Conquistadors",
@@ -808,7 +855,8 @@
                 "youtube": "https://www.youtube.com/watch?v=xUzDC7HO-vE"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Simple History channel; animated"
+              "notes": "[Quick Clip] Simple History channel; animated",
+              "contentType": "educational"
             },
             {
               "title": "TED-Ed: What Really Happened During the Salem Witch Trials",
@@ -821,7 +869,8 @@
                 "youtube": "https://www.youtube.com/watch?v=NVd8kuufBhM"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Colonial era context"
+              "notes": "[Quick Clip] Colonial era context",
+              "contentType": "educational"
             },
             {
               "title": "Life in the 13 Colonies",
@@ -834,7 +883,8 @@
                 "youtube": "https://www.youtube.com/watch?v=o69TvQqyGdg"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Mr. Beat channel; comprehensive"
+              "notes": "[Quick Clip] Mr. Beat channel; comprehensive",
+              "contentType": "educational"
             }
           ]
         },
@@ -864,7 +914,8 @@
                 "streaming": []
               },
               "ageAppropriate": true,
-              "notes": "American Girl movie - excellent historical accuracy; perfect for this age group"
+              "notes": "American Girl movie - excellent historical accuracy; perfect for this age group",
+              "contentType": "entertainment"
             },
             {
               "title": "Squanto: A Warrior's Tale",
@@ -883,7 +934,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Shows both Native American and Pilgrim perspectives; Thanksgiving history"
+              "notes": "Shows both Native American and Pilgrim perspectives; Thanksgiving history",
+              "contentType": "entertainment"
             },
             {
               "title": "National Treasure",
@@ -902,7 +954,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Fictional treasure hunt but teaches about Declaration of Independence and colonial history"
+              "notes": "Fictional treasure hunt but teaches about Declaration of Independence and colonial history",
+              "contentType": "entertainment"
             },
             {
               "title": "Colonial House",
@@ -921,7 +974,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Shows daily life challenges; excellent for understanding colonial hardships"
+              "notes": "Shows daily life challenges; excellent for understanding colonial hardships",
+              "contentType": "educational"
             },
             {
               "title": "Desperate Crossing: The Untold Story of the Mayflower",
@@ -935,7 +989,8 @@
                 "streaming": []
               },
               "ageAppropriate": true,
-              "notes": "Detailed look at Mayflower voyage and Plymouth settlement"
+              "notes": "Detailed look at Mayflower voyage and Plymouth settlement",
+              "contentType": "educational"
             },
             {
               "title": "The Scarlet Letter",
@@ -949,7 +1004,8 @@
                 "streaming": []
               },
               "ageAppropriate": false,
-              "notes": "R-rated - NOT for classroom; teacher reference for understanding Puritan society"
+              "notes": "R-rated - NOT for classroom; teacher reference for understanding Puritan society",
+              "contentType": "entertainment"
             }
           ]
         }
@@ -987,7 +1043,8 @@
                 "streaming": []
               },
               "ageAppropriate": true,
-              "notes": "HIGHLY RECOMMENDED - specifically designed for this age group; covers Boston Tea Party through Constitution"
+              "notes": "HIGHLY RECOMMENDED - specifically designed for this age group; covers Boston Tea Party through Constitution",
+              "contentType": "entertainment"
             },
             {
               "title": "Schoolhouse Rock: America Rock",
@@ -1007,7 +1064,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Short segments perfect for introducing topics; memorable songs aid retention"
+              "notes": "Short segments perfect for introducing topics; memorable songs aid retention",
+              "contentType": "educational"
             },
             {
               "title": "Johnny Tremain",
@@ -1026,7 +1084,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Classic Disney; shows Sons of Liberty, Boston Tea Party from young person's view"
+              "notes": "Classic Disney; shows Sons of Liberty, Boston Tea Party from young person's view",
+              "contentType": "entertainment"
             },
             {
               "title": "Felicity: An American Girl Adventure",
@@ -1040,7 +1099,8 @@
                 "streaming": []
               },
               "ageAppropriate": true,
-              "notes": "American Girl movie; historically accurate; shows divided loyalties in colonies"
+              "notes": "American Girl movie; historically accurate; shows divided loyalties in colonies",
+              "contentType": "entertainment"
             },
             {
               "title": "1776",
@@ -1054,7 +1114,8 @@
                 "streaming": []
               },
               "ageAppropriate": true,
-              "notes": "G-rated musical; engaging way to learn about Declaration debates"
+              "notes": "G-rated musical; engaging way to learn about Declaration debates",
+              "contentType": "entertainment"
             },
             {
               "title": "The Crossing",
@@ -1068,7 +1129,8 @@
                 "streaming": []
               },
               "ageAppropriate": true,
-              "notes": "Jeff Daniels as Washington; good for teaching about turning points"
+              "notes": "Jeff Daniels as Washington; good for teaching about turning points",
+              "contentType": "entertainment"
             },
             {
               "title": "America: The Story of Us - Episode 1: Rebels",
@@ -1082,7 +1144,8 @@
                 "streaming": []
               },
               "ageAppropriate": true,
-              "notes": "Modern production with reenactments; engaging visuals"
+              "notes": "Modern production with reenactments; engaging visuals",
+              "contentType": "educational"
             },
             {
               "title": "The American Revolution",
@@ -1096,7 +1159,8 @@
                 "streaming": []
               },
               "ageAppropriate": true,
-              "notes": "Comprehensive documentary; show in segments"
+              "notes": "Comprehensive documentary; show in segments",
+              "contentType": "educational"
             }
           ]
         },
@@ -1130,7 +1194,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Essential viewing; memorable and effective"
+              "notes": "Essential viewing; memorable and effective",
+              "contentType": "educational"
             },
             {
               "title": "Schoolhouse Rock: The Preamble",
@@ -1149,7 +1214,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Students can memorize preamble through the song"
+              "notes": "Students can memorize preamble through the song",
+              "contentType": "educational"
             },
             {
               "title": "Schoolhouse Rock: Three Ring Government",
@@ -1168,7 +1234,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Uses circus metaphor to explain branches"
+              "notes": "Uses circus metaphor to explain branches",
+              "contentType": "educational"
             },
             {
               "title": "National Treasure",
@@ -1187,7 +1254,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Exciting way to spark interest in founding documents"
+              "notes": "Exciting way to spark interest in founding documents",
+              "contentType": "entertainment"
             },
             {
               "title": "BrainPOP: Constitution",
@@ -1205,7 +1273,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Subscription required; designed for classroom use"
+              "notes": "Subscription required; designed for classroom use",
+              "contentType": "educational"
             }
           ]
         }
@@ -1242,7 +1311,8 @@
                 "streaming": []
               },
               "ageAppropriate": true,
-              "notes": "Combines immigration and westward expansion themes"
+              "notes": "Combines immigration and westward expansion themes",
+              "contentType": "entertainment"
             },
             {
               "title": "Spirit: Stallion of the Cimarron",
@@ -1256,7 +1326,8 @@
                 "streaming": []
               },
               "ageAppropriate": true,
-              "notes": "Depicts railroad construction, cavalry, and Plains Indian culture"
+              "notes": "Depicts railroad construction, cavalry, and Plains Indian culture",
+              "contentType": "entertainment"
             },
             {
               "title": "Kirsten: An American Girl",
@@ -1270,7 +1341,8 @@
                 "streaming": []
               },
               "ageAppropriate": true,
-              "notes": "American Girl movie; shows pioneer life, immigration, frontier challenges"
+              "notes": "American Girl movie; shows pioneer life, immigration, frontier challenges",
+              "contentType": "entertainment"
             },
             {
               "title": "Lewis & Clark: Great Journey West",
@@ -1284,7 +1356,8 @@
                 "streaming": []
               },
               "ageAppropriate": true,
-              "notes": "Stunning visuals; excellent for teaching the expedition"
+              "notes": "Stunning visuals; excellent for teaching the expedition",
+              "contentType": "educational"
             },
             {
               "title": "Far and Away",
@@ -1298,7 +1371,8 @@
                 "streaming": []
               },
               "ageAppropriate": false,
-              "notes": "PG-13; select scenes about land rush may be appropriate"
+              "notes": "PG-13; select scenes about land rush may be appropriate",
+              "contentType": "entertainment"
             },
             {
               "title": "America: The Story of Us - Episode 2: Westward",
@@ -1312,7 +1386,8 @@
                 "streaming": []
               },
               "ageAppropriate": true,
-              "notes": "Modern production; covers Oregon Trail, Gold Rush"
+              "notes": "Modern production; covers Oregon Trail, Gold Rush",
+              "contentType": "educational"
             },
             {
               "title": "How the West Was Won",
@@ -1326,7 +1401,8 @@
                 "streaming": []
               },
               "ageAppropriate": true,
-              "notes": "Classic epic; long but covers major westward expansion themes"
+              "notes": "Classic epic; long but covers major westward expansion themes",
+              "contentType": "entertainment"
             },
             {
               "title": "Oversimplified: The Civil War (Part 1)",
@@ -1339,7 +1415,8 @@
                 "youtube": "https://www.youtube.com/watch?v=tsxmyL7TUJg"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Engaging animated history"
+              "notes": "[Quick Clip] Engaging animated history",
+              "contentType": "educational"
             },
             {
               "title": "Oversimplified: The Civil War (Part 2)",
@@ -1352,7 +1429,8 @@
                 "youtube": "https://www.youtube.com/watch?v=sV6uuMAnJUE"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Covers war end through Reconstruction"
+              "notes": "[Quick Clip] Covers war end through Reconstruction",
+              "contentType": "educational"
             },
             {
               "title": "TED-Ed: The Atlantic Slave Trade: What Too Few Textbooks Told You",
@@ -1365,7 +1443,8 @@
                 "youtube": "https://www.youtube.com/watch?v=3NXC4Q_4JVg"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Important historical context"
+              "notes": "[Quick Clip] Important historical context",
+              "contentType": "educational"
             },
             {
               "title": "The Underground Railroad Explained",
@@ -1378,7 +1457,8 @@
                 "youtube": "https://www.youtube.com/watch?v=Kn6GcEYQzPg"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Explains network and key figures"
+              "notes": "[Quick Clip] Explains network and key figures",
+              "contentType": "educational"
             },
             {
               "title": "TED-Ed: Harriet Tubman: The Life and Times of a Conductor",
@@ -1391,7 +1471,8 @@
                 "youtube": "https://www.youtube.com/watch?v=u8iYG9_QPHA"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Excellent Tubman overview"
+              "notes": "[Quick Clip] Excellent Tubman overview",
+              "contentType": "educational"
             },
             {
               "title": "Simple History: The Trail of Tears",
@@ -1404,7 +1485,8 @@
                 "youtube": "https://www.youtube.com/watch?v=LfBPpJqV9Fw"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Animated explanation of forced removal"
+              "notes": "[Quick Clip] Animated explanation of forced removal",
+              "contentType": "educational"
             },
             {
               "title": "BrainPOP: Civil War",
@@ -1417,7 +1499,8 @@
                 "youtube": "https://www.brainpop.com/socialstudies/ushistory/civilwar/"
               },
               "ageAppropriate": true,
-              "notes": "[Quick Clip] Requires BrainPOP subscription"
+              "notes": "[Quick Clip] Requires BrainPOP subscription",
+              "contentType": "educational"
             }
           ]
         },
@@ -1452,7 +1535,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Age-appropriate documentary designed for educational use"
+              "notes": "Age-appropriate documentary designed for educational use",
+              "contentType": "educational"
             },
             {
               "title": "Addy: An American Girl Story",
@@ -1466,7 +1550,8 @@
                 "streaming": []
               },
               "ageAppropriate": true,
-              "notes": "HIGHLY RECOMMENDED for this age; historically researched; appropriate treatment of slavery"
+              "notes": "HIGHLY RECOMMENDED for this age; historically researched; appropriate treatment of slavery",
+              "contentType": "entertainment"
             },
             {
               "title": "Follow the Drinking Gourd",
@@ -1479,7 +1564,8 @@
                 "streaming": []
               },
               "ageAppropriate": true,
-              "notes": "LeVar Burton narrates; accessible introduction to Underground Railroad"
+              "notes": "LeVar Burton narrates; accessible introduction to Underground Railroad",
+              "contentType": "educational"
             },
             {
               "title": "Freedom Song",
@@ -1493,7 +1579,8 @@
                 "streaming": []
               },
               "ageAppropriate": true,
-              "notes": "While set in 1960s, connects slavery's legacy to Civil Rights movement"
+              "notes": "While set in 1960s, connects slavery's legacy to Civil Rights movement",
+              "contentType": "entertainment"
             },
             {
               "title": "Abraham Lincoln: Vampire Hunter",
@@ -1507,7 +1594,8 @@
                 "streaming": []
               },
               "ageAppropriate": false,
-              "notes": "DO NOT USE - R-rated fiction that misrepresents history"
+              "notes": "DO NOT USE - R-rated fiction that misrepresents history",
+              "contentType": "entertainment"
             },
             {
               "title": "Abe Lincoln in Illinois",
@@ -1521,7 +1609,8 @@
                 "streaming": []
               },
               "ageAppropriate": true,
-              "notes": "Black and white classic; shows Lincoln's journey to presidency"
+              "notes": "Black and white classic; shows Lincoln's journey to presidency",
+              "contentType": "entertainment"
             },
             {
               "title": "The Civil War (Ken Burns) - Selected Episodes",
@@ -1540,7 +1629,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Select segments carefully; some content may be intense; excellent primary sources"
+              "notes": "Select segments carefully; some content may be intense; excellent primary sources",
+              "contentType": "educational"
             },
             {
               "title": "Liberty's Kids: Episodes on Slavery",
@@ -1554,7 +1644,8 @@
                 "streaming": []
               },
               "ageAppropriate": true,
-              "notes": "Age-appropriate treatment of slavery in colonial/revolutionary context"
+              "notes": "Age-appropriate treatment of slavery in colonial/revolutionary context",
+              "contentType": "entertainment"
             }
           ]
         }
@@ -1595,7 +1686,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Excellent introduction to Mexican culture; beautiful animation"
+              "notes": "Excellent introduction to Mexican culture; beautiful animation",
+              "contentType": "entertainment"
             },
             {
               "title": "Encanto",
@@ -1614,7 +1706,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "Showcases Colombian landscapes, music, and cultural heritage"
+              "notes": "Showcases Colombian landscapes, music, and cultural heritage",
+              "contentType": "entertainment"
             },
             {
               "title": "Rio",
@@ -1628,7 +1721,8 @@
                 "streaming": []
               },
               "ageAppropriate": true,
-              "notes": "Shows Brazilian geography, Carnival, and environmental issues"
+              "notes": "Shows Brazilian geography, Carnival, and environmental issues",
+              "contentType": "entertainment"
             },
             {
               "title": "Moana",
@@ -1647,7 +1741,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "While Pacific Islands aren't Western Hemisphere, useful for comparing cultures"
+              "notes": "While Pacific Islands aren't Western Hemisphere, useful for comparing cultures",
+              "contentType": "entertainment"
             },
             {
               "title": "The Boy Who Harnessed the Wind",
@@ -1666,7 +1761,8 @@
                 ]
               },
               "ageAppropriate": true,
-              "notes": "While set in Africa, excellent for discussing global issues and innovation"
+              "notes": "While set in Africa, excellent for discussing global issues and innovation",
+              "contentType": "educational"
             }
           ]
         }

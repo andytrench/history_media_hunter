@@ -127,9 +127,9 @@ async function processGrade(gradeNum, config) {
                         await pool.query(`
                             INSERT INTO media (
                                 topic_id, title, type, year, rating, runtime,
-                                relevance, notes, age_appropriate, links, lesson_plan
+                                relevance, notes, age_appropriate, content_type, links, lesson_plan
                             )
-                            VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11)
+                            VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12)
                         `, [
                             topicId,
                             media.title,
@@ -140,6 +140,7 @@ async function processGrade(gradeNum, config) {
                             media.relevance || null,
                             media.notes || null,
                             media.ageAppropriate !== false,
+                            media.contentType || 'entertainment',
                             JSON.stringify(media.links || {}),
                             media.lessonPlan ? JSON.stringify(media.lessonPlan) : null
                         ]);

@@ -123,6 +123,7 @@ app.get('/api/grades/:gradeNum', async (req, res) => {
                                        'relevance', m.relevance,
                                        'notes', m.notes,
                                        'ageAppropriate', m.age_appropriate,
+                                       'contentType', m.content_type,
                                        'links', m.links,
                                        'lessonPlan', m.lesson_plan
                                    ) ORDER BY m.title

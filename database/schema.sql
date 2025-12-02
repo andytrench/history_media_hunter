@@ -53,6 +53,7 @@ CREATE TABLE IF NOT EXISTS media (
     relevance TEXT,
     notes TEXT,
     age_appropriate BOOLEAN DEFAULT true,
+    content_type VARCHAR(20) DEFAULT 'entertainment', -- educational, entertainment
     
     -- Links stored as JSONB for flexibility
     links JSONB DEFAULT '{}',
