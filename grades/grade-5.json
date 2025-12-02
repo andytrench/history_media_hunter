@@ -1,0 +1,1123 @@
+{
+  "grade": 5,
+  "lastUpdated": "2025-12-02",
+  "curriculumStandard": "New York State K-12 Social Studies Framework - Grade 5: The Western Hemisphere",
+  "curriculumFocus": "Geography, history, and cultures of the Western Hemisphere including the development of cultures, civilizations, and empires",
+  "categories": [
+    {
+      "id": "western-hemisphere-civilizations",
+      "name": "Western Hemisphere Civilizations",
+      "order": 1,
+      "topics": [
+        {
+          "id": "mesoamerica",
+          "name": "Mesoamerica (Maya, Aztec, and Inca)",
+          "description": "The curriculum covers the foundations, characteristics, and environmental adaptations of these complex societies",
+          "order": 1,
+          "subtopics": [
+            "Maya civilization - astronomy, mathematics, writing system",
+            "Aztec empire - Tenochtitlan, religion, warfare",
+            "Inca society - road systems, terraced farming, Machu Picchu",
+            "Agricultural innovations and environmental adaptations",
+            "Religion, art, and architecture"
+          ],
+          "media": [
+            {
+              "title": "The Road to El Dorado",
+              "type": "movie",
+              "year": 2000,
+              "rating": "PG",
+              "runtime": 89,
+              "relevance": "Animated adventure introducing Mesoamerican cultures, myths, and the legend of El Dorado",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0138749/",
+                "youtube": "https://www.youtube.com/results?search_query=road+to+el+dorado+full+movie",
+                "justwatch": "https://www.justwatch.com/us/movie/the-road-to-el-dorado",
+                "streaming": [
+                  {"service": "Netflix", "url": "https://www.netflix.com/title/60000432"},
+                  {"service": "Amazon", "url": "https://www.amazon.com/gp/video/detail/B001EBV0JK"}
+                ]
+              },
+              "ageAppropriate": true,
+              "notes": "Fictional but excellent visual introduction to Mesoamerican aesthetics and architecture",
+              "lessonPlan": {
+                "objectives": ["Identify key elements of Mesoamerican architecture and art", "Compare fictional vs historical El Dorado legends", "Discuss cultural encounters between Europeans and indigenous peoples"],
+                "preActivities": ["Locate El Dorado legends on a map", "Review vocabulary: Mesoamerica, conquistador, temple, pyramid"],
+                "discussionQuestions": ["How does the film portray indigenous people?", "What was the real El Dorado legend?", "How accurate are the buildings and cities shown?"],
+                "extensions": ["Research actual Mesoamerican gold work", "Create a comparison chart: movie vs reality"]
+              }
+            },
+            {
+              "title": "The Emperor's New Groove",
+              "type": "movie",
+              "year": 2000,
+              "rating": "G",
+              "runtime": 78,
+              "relevance": "Comedic look at Incan-inspired culture, architecture, and society",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0120917/",
+                "youtube": "https://www.youtube.com/results?search_query=emperor%27s+new+groove+trailer",
+                "justwatch": "https://www.justwatch.com/us/movie/the-emperors-new-groove",
+                "streaming": [
+                  {"service": "Disney+", "url": "https://www.disneyplus.com/movies/the-emperors-new-groove/3qZBVdraVfIw"}
+                ]
+              },
+              "ageAppropriate": true,
+              "notes": "Lighthearted but shows Incan-style palaces, llamas, and Andean landscapes",
+              "lessonPlan": {
+                "objectives": ["Identify Incan architectural features", "Understand Andean geography and climate", "Explore the role of llamas in Incan society"],
+                "preActivities": ["Locate Andes Mountains and Peru on map", "Show images of real Incan architecture for comparison"],
+                "discussionQuestions": ["What elements of the film reflect real Incan culture?", "How did geography affect Incan civilization?", "What role did animals play in Incan life?"],
+                "extensions": ["Create a Venn diagram comparing movie palace to Machu Picchu", "Research terraced farming"]
+              }
+            },
+            {
+              "title": "Night at the Museum",
+              "type": "movie",
+              "year": 2006,
+              "rating": "PG",
+              "runtime": 108,
+              "relevance": "Features Aztec exhibits and artifacts coming to life in a museum setting",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0477347/",
+                "streaming": [{"service": "Disney+", "url": ""}]
+              },
+              "ageAppropriate": true,
+              "notes": "Fun introduction to museum artifacts from various civilizations including Aztec"
+            },
+            {
+              "title": "Lost Kingdoms of the Maya",
+              "type": "documentary",
+              "year": 1993,
+              "rating": "NR",
+              "runtime": 60,
+              "relevance": "National Geographic documentary exploring Maya civilization archaeology",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0304336/",
+                "streaming": []
+              },
+              "ageAppropriate": true,
+              "notes": "Educational documentary suitable for classroom; shows actual archaeological sites"
+            },
+            {
+              "title": "Engineering an Empire: The Aztecs",
+              "type": "documentary",
+              "year": 2006,
+              "rating": "TV-PG",
+              "runtime": 44,
+              "relevance": "History Channel documentary on Aztec engineering and Tenochtitlan",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0884140/",
+                "streaming": []
+              },
+              "ageAppropriate": true,
+              "notes": "Focus on engineering achievements; may need to show in segments"
+            },
+            {
+              "title": "Ancient Civilizations: Maya",
+              "type": "educational",
+              "year": 2010,
+              "rating": "NR",
+              "runtime": 23,
+              "relevance": "Schlessinger Media educational video on Maya civilization",
+              "links": {
+                "streaming": []
+              },
+              "ageAppropriate": true,
+              "notes": "Specifically designed for classroom use; grade-appropriate"
+            },
+            {
+              "title": "Mysteries of the Ancient World: Machu Picchu",
+              "type": "documentary",
+              "year": 2007,
+              "rating": "NR",
+              "runtime": 50,
+              "relevance": "Explores the Incan citadel and engineering achievements",
+              "links": {
+                "streaming": []
+              },
+              "ageAppropriate": true,
+              "notes": "Beautiful visuals of Machu Picchu; discusses Incan achievements"
+            }
+          ]
+        },
+        {
+          "id": "native-american-cultural-regions",
+          "name": "Native American Cultural Regions",
+          "description": "The study of various Native American groups and their interactions with their environment and later with European settlers",
+          "order": 2,
+          "subtopics": [
+            "Eastern Woodlands peoples - Iroquois Confederacy",
+            "Plains nations - buffalo culture, nomadic life",
+            "Southwest cultures - Pueblo peoples, desert adaptations",
+            "Pacific Northwest tribes - totem poles, salmon fishing",
+            "Environmental adaptations by region",
+            "First contact with Europeans"
+          ],
+          "media": [
+            {
+              "title": "Pocahontas",
+              "type": "movie",
+              "year": 1995,
+              "rating": "G",
+              "runtime": 81,
+              "relevance": "Depicts Powhatan culture and early English contact in Virginia",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0114148/",
+                "youtube": "https://www.youtube.com/results?search_query=pocahontas+disney+trailer",
+                "justwatch": "https://www.justwatch.com/us/movie/pocahontas",
+                "streaming": [
+                  {"service": "Disney+", "url": "https://www.disneyplus.com/movies/pocahontas/1CPmvJoKl0es"}
+                ]
+              },
+              "ageAppropriate": true,
+              "notes": "Historically romanticized - excellent discussion starter about real history vs Hollywood; depicts Eastern Woodlands culture",
+              "lessonPlan": {
+                "objectives": ["Compare Disney's portrayal with historical records", "Understand Powhatan culture and Eastern Woodlands life", "Analyze first contact between English colonists and Native Americans"],
+                "preActivities": ["Show map of Jamestown colony location", "Review vocabulary: colony, chief, Powhatan Confederacy"],
+                "discussionQuestions": ["How old was the real Pocahontas when colonists arrived?", "What did the Powhatan people really think of the colonists?", "How does Hollywood change history and why?"],
+                "extensions": ["Research the real Pocahontas story", "Write a diary entry from the real Pocahontas's perspective"]
+              }
+            },
+            {
+              "title": "Brother Bear",
+              "type": "movie",
+              "year": 2003,
+              "rating": "G",
+              "runtime": 85,
+              "relevance": "Features Pacific Northwest indigenous culture, spirituality, and connection to nature",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0328880/",
+                "streaming": [{"service": "Disney+", "url": ""}]
+              },
+              "ageAppropriate": true,
+              "notes": "Good introduction to Native American spiritual beliefs and Pacific Northwest setting"
+            },
+            {
+              "title": "Spirit: Stallion of the Cimarron",
+              "type": "movie",
+              "year": 2002,
+              "rating": "G",
+              "runtime": 83,
+              "relevance": "Depicts Plains Indian culture and their relationship with horses",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0166813/",
+                "streaming": []
+              },
+              "ageAppropriate": true,
+              "notes": "Shows Lakota culture; discusses westward expansion's impact on Native peoples"
+            },
+            {
+              "title": "Kaya: An American Girl",
+              "type": "movie",
+              "year": 2005,
+              "rating": "NR",
+              "runtime": 84,
+              "relevance": "American Girl film set in 1764 featuring a Nez Perce girl in the Pacific Northwest",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0793434/",
+                "streaming": []
+              },
+              "ageAppropriate": true,
+              "notes": "Historically researched; shows pre-contact Native American life; perfect for this age group"
+            },
+            {
+              "title": "We Shall Remain: Episode 1 - After the Mayflower",
+              "type": "documentary",
+              "year": 2009,
+              "rating": "NR",
+              "runtime": 90,
+              "relevance": "PBS documentary on Wampanoag people and early contact with Pilgrims",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt1340561/",
+                "streaming": [{"service": "PBS", "url": ""}]
+              },
+              "ageAppropriate": true,
+              "notes": "PBS American Experience; tells story from Native American perspective"
+            },
+            {
+              "title": "500 Nations",
+              "type": "documentary",
+              "year": 1995,
+              "rating": "NR",
+              "runtime": 372,
+              "relevance": "Kevin Costner narrates comprehensive documentary on Native American history",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0111825/",
+                "streaming": []
+              },
+              "ageAppropriate": true,
+              "notes": "8-part series; show relevant episodes; excellent primary source material"
+            },
+            {
+              "title": "Hiawatha",
+              "type": "movie",
+              "year": 1952,
+              "rating": "NR",
+              "runtime": 80,
+              "relevance": "Classic film about the legendary Iroquois leader who helped form the Iroquois Confederacy",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0044703/",
+                "streaming": []
+              },
+              "ageAppropriate": true,
+              "notes": "Older film; good introduction to Iroquois Confederacy concept"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "european-exploration-colonial-life",
+      "name": "European Exploration and Colonial Life",
+      "order": 2,
+      "topics": [
+        {
+          "id": "european-exploration",
+          "name": "European Exploration",
+          "description": "Motivations, encounters, and the effects of exploration on the Americas",
+          "order": 1,
+          "subtopics": [
+            "Columbus and Spanish exploration",
+            "Motives: Gold, Glory, God",
+            "The Columbian Exchange",
+            "Impact on indigenous peoples",
+            "Portuguese, Spanish, French, English explorers"
+          ],
+          "media": [
+            {
+              "title": "1492: Conquest of Paradise",
+              "type": "movie",
+              "year": 1992,
+              "rating": "PG-13",
+              "runtime": 154,
+              "relevance": "Depicts Columbus's voyages and early encounters with indigenous peoples",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0103594/",
+                "streaming": []
+              },
+              "ageAppropriate": false,
+              "notes": "PG-13 - preview before showing; some violent scenes; teacher may select clips"
+            },
+            {
+              "title": "Pocahontas",
+              "type": "movie",
+              "year": 1995,
+              "rating": "G",
+              "runtime": 81,
+              "relevance": "Shows early English exploration and settlement in Virginia",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0114148/",
+                "streaming": [{"service": "Disney+", "url": ""}]
+              },
+              "ageAppropriate": true,
+              "notes": "Romanticized but good starting point for discussing exploration's impact"
+            },
+            {
+              "title": "The New World",
+              "type": "movie",
+              "year": 2005,
+              "rating": "PG-13",
+              "runtime": 135,
+              "relevance": "Terrence Malick's artistic depiction of Jamestown founding and Pocahontas story",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0402399/",
+                "streaming": []
+              },
+              "ageAppropriate": false,
+              "notes": "PG-13 - more historically accurate than Disney; select scenes for classroom"
+            },
+            {
+              "title": "Conquistadors",
+              "type": "documentary",
+              "year": 2000,
+              "rating": "NR",
+              "runtime": 240,
+              "relevance": "BBC/PBS documentary following routes of Spanish conquistadors",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0273116/",
+                "streaming": [{"service": "PBS", "url": ""}]
+              },
+              "ageAppropriate": true,
+              "notes": "Michael Wood narrates; show relevant episodes on Spanish exploration"
+            },
+            {
+              "title": "Columbus: The Lost Voyage",
+              "type": "documentary",
+              "year": 2007,
+              "rating": "NR",
+              "runtime": 60,
+              "relevance": "History Channel documentary examining Columbus's fourth voyage",
+              "links": {
+                "streaming": []
+              },
+              "ageAppropriate": true,
+              "notes": "Focuses on exploration challenges and navigation"
+            }
+          ]
+        },
+        {
+          "id": "colonial-america",
+          "name": "Colonial America",
+          "description": "Life in the colonies, the development of social structures, and the lead-up to the American Revolution",
+          "order": 2,
+          "subtopics": [
+            "Jamestown settlement - first permanent English colony",
+            "Plymouth Colony - Pilgrims and Mayflower Compact",
+            "New England colonies - Puritans, town meetings",
+            "Middle colonies - diversity, trade",
+            "Southern colonies - plantations, enslaved labor",
+            "Colonial daily life - clothing, food, work"
+          ],
+          "media": [
+            {
+              "title": "Felicity: An American Girl Adventure",
+              "type": "movie",
+              "year": 2005,
+              "rating": "NR",
+              "runtime": 84,
+              "relevance": "Set in colonial Williamsburg, Virginia in 1775; shows colonial life and revolutionary tensions",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0424322/",
+                "streaming": []
+              },
+              "ageAppropriate": true,
+              "notes": "American Girl movie - excellent historical accuracy; perfect for this age group"
+            },
+            {
+              "title": "Squanto: A Warrior's Tale",
+              "type": "movie",
+              "year": 1994,
+              "rating": "PG",
+              "runtime": 102,
+              "relevance": "Disney film about Squanto and his role helping Plymouth colonists",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0111271/",
+                "streaming": [{"service": "Disney+", "url": ""}]
+              },
+              "ageAppropriate": true,
+              "notes": "Shows both Native American and Pilgrim perspectives; Thanksgiving history"
+            },
+            {
+              "title": "National Treasure",
+              "type": "movie",
+              "year": 2004,
+              "rating": "PG",
+              "runtime": 131,
+              "relevance": "Adventure film featuring American history, colonial artifacts, and founding documents",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0368891/",
+                "streaming": [{"service": "Disney+", "url": ""}]
+              },
+              "ageAppropriate": true,
+              "notes": "Fictional treasure hunt but teaches about Declaration of Independence and colonial history"
+            },
+            {
+              "title": "Colonial House",
+              "type": "documentary",
+              "year": 2004,
+              "rating": "NR",
+              "runtime": 480,
+              "relevance": "PBS reality series where modern families live as 1628 colonists",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0386702/",
+                "streaming": [{"service": "PBS", "url": ""}]
+              },
+              "ageAppropriate": true,
+              "notes": "Shows daily life challenges; excellent for understanding colonial hardships"
+            },
+            {
+              "title": "Desperate Crossing: The Untold Story of the Mayflower",
+              "type": "documentary",
+              "year": 2006,
+              "rating": "NR",
+              "runtime": 120,
+              "relevance": "History Channel documentary on Pilgrims' journey and first year",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0865560/",
+                "streaming": []
+              },
+              "ageAppropriate": true,
+              "notes": "Detailed look at Mayflower voyage and Plymouth settlement"
+            },
+            {
+              "title": "The Scarlet Letter",
+              "type": "movie",
+              "year": 1995,
+              "rating": "R",
+              "runtime": 135,
+              "relevance": "Depicts Puritan New England society and values",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0114345/",
+                "streaming": []
+              },
+              "ageAppropriate": false,
+              "notes": "R-rated - NOT for classroom; teacher reference for understanding Puritan society"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "founding-united-states",
+      "name": "Founding of the United States",
+      "order": 3,
+      "topics": [
+        {
+          "id": "american-revolution-independence",
+          "name": "American Revolution and Independence",
+          "description": "The causes of the war, key figures, the Declaration of Independence, and the creation of the Constitution",
+          "order": 1,
+          "subtopics": [
+            "Taxation without representation",
+            "Boston Tea Party and colonial protests",
+            "Key figures: Washington, Jefferson, Adams, Franklin",
+            "Declaration of Independence - July 4, 1776",
+            "Revolutionary War battles",
+            "Treaty of Paris 1783"
+          ],
+          "media": [
+            {
+              "title": "Liberty's Kids",
+              "type": "series",
+              "year": 2002,
+              "rating": "TV-Y7",
+              "runtime": 30,
+              "relevance": "40-episode animated series covering the American Revolution through young reporters' eyes",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0310874/",
+                "youtube": "https://www.youtube.com/playlist?list=PLHPGDDYvMPxEXwfFLR8u2Hd1ZJpnhwnAh",
+                "streaming": []
+              },
+              "ageAppropriate": true,
+              "notes": "HIGHLY RECOMMENDED - specifically designed for this age group; covers Boston Tea Party through Constitution"
+            },
+            {
+              "title": "Schoolhouse Rock: America Rock",
+              "type": "educational",
+              "year": 1975,
+              "rating": "TV-Y",
+              "runtime": 3,
+              "relevance": "Classic animated shorts: 'The Shot Heard Round the World', 'No More Kings', 'Fireworks'",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0069627/",
+                "youtube": "https://www.youtube.com/watch?v=Y6ikO6LMxF4",
+                "streaming": [{"service": "Disney+", "url": ""}]
+              },
+              "ageAppropriate": true,
+              "notes": "Short segments perfect for introducing topics; memorable songs aid retention"
+            },
+            {
+              "title": "Johnny Tremain",
+              "type": "movie",
+              "year": 1957,
+              "rating": "NR",
+              "runtime": 80,
+              "relevance": "Disney classic about a young silversmith's apprentice in Boston during the Revolution",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0050561/",
+                "streaming": [{"service": "Disney+", "url": ""}]
+              },
+              "ageAppropriate": true,
+              "notes": "Classic Disney; shows Sons of Liberty, Boston Tea Party from young person's view"
+            },
+            {
+              "title": "Felicity: An American Girl Adventure",
+              "type": "movie",
+              "year": 2005,
+              "rating": "NR",
+              "runtime": 84,
+              "relevance": "Shows colonial Williamsburg on the eve of Revolution; addresses loyalty conflicts",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0424322/",
+                "streaming": []
+              },
+              "ageAppropriate": true,
+              "notes": "American Girl movie; historically accurate; shows divided loyalties in colonies"
+            },
+            {
+              "title": "1776",
+              "type": "movie",
+              "year": 1972,
+              "rating": "G",
+              "runtime": 141,
+              "relevance": "Musical depicting the Continental Congress debates leading to Declaration of Independence",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0068156/",
+                "streaming": []
+              },
+              "ageAppropriate": true,
+              "notes": "G-rated musical; engaging way to learn about Declaration debates"
+            },
+            {
+              "title": "The Crossing",
+              "type": "movie",
+              "year": 2000,
+              "rating": "NR",
+              "runtime": 89,
+              "relevance": "A&E film depicting Washington's crossing of the Delaware River",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0210438/",
+                "streaming": []
+              },
+              "ageAppropriate": true,
+              "notes": "Jeff Daniels as Washington; good for teaching about turning points"
+            },
+            {
+              "title": "America: The Story of Us - Episode 1: Rebels",
+              "type": "documentary",
+              "year": 2010,
+              "rating": "TV-PG",
+              "runtime": 44,
+              "relevance": "History Channel documentary covering the American Revolution",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt1644785/",
+                "streaming": []
+              },
+              "ageAppropriate": true,
+              "notes": "Modern production with reenactments; engaging visuals"
+            },
+            {
+              "title": "The American Revolution",
+              "type": "documentary",
+              "year": 1994,
+              "rating": "NR",
+              "runtime": 240,
+              "relevance": "A&E documentary series narrated by Charles Kuralt",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0296839/",
+                "streaming": []
+              },
+              "ageAppropriate": true,
+              "notes": "Comprehensive documentary; show in segments"
+            }
+          ]
+        },
+        {
+          "id": "us-government-civics",
+          "name": "U.S. Government and Civics",
+          "description": "The three branches of government, the Bill of Rights, and the rights and responsibilities of citizens",
+          "order": 2,
+          "subtopics": [
+            "Constitutional Convention",
+            "Three branches of government",
+            "Checks and balances",
+            "Bill of Rights - first ten amendments",
+            "Citizenship rights and responsibilities"
+          ],
+          "media": [
+            {
+              "title": "Schoolhouse Rock: I'm Just a Bill",
+              "type": "short",
+              "year": 1975,
+              "rating": "TV-Y",
+              "runtime": 3,
+              "relevance": "Classic song explaining how a bill becomes a law",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=OgVKvqTItto",
+                "streaming": [{"service": "Disney+", "url": ""}]
+              },
+              "ageAppropriate": true,
+              "notes": "Essential viewing; memorable and effective"
+            },
+            {
+              "title": "Schoolhouse Rock: The Preamble",
+              "type": "short",
+              "year": 1975,
+              "rating": "TV-Y",
+              "runtime": 3,
+              "relevance": "Sets the Constitution's preamble to music",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=0hEYvdMoF2g",
+                "streaming": [{"service": "Disney+", "url": ""}]
+              },
+              "ageAppropriate": true,
+              "notes": "Students can memorize preamble through the song"
+            },
+            {
+              "title": "Schoolhouse Rock: Three Ring Government",
+              "type": "short",
+              "year": 1979,
+              "rating": "TV-Y",
+              "runtime": 3,
+              "relevance": "Explains the three branches of government",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=tEPd98CbbMk",
+                "streaming": [{"service": "Disney+", "url": ""}]
+              },
+              "ageAppropriate": true,
+              "notes": "Uses circus metaphor to explain branches"
+            },
+            {
+              "title": "National Treasure",
+              "type": "movie",
+              "year": 2004,
+              "rating": "PG",
+              "runtime": 131,
+              "relevance": "Adventure featuring the Declaration of Independence and founding history",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0368891/",
+                "streaming": [{"service": "Disney+", "url": ""}]
+              },
+              "ageAppropriate": true,
+              "notes": "Exciting way to spark interest in founding documents"
+            },
+            {
+              "title": "BrainPOP: Constitution",
+              "type": "educational",
+              "year": 2000,
+              "rating": "NR",
+              "runtime": 5,
+              "relevance": "Animated educational video explaining the Constitution",
+              "links": {
+                "streaming": [{"service": "BrainPOP", "url": "https://www.brainpop.com/socialstudies/usgovernment/constitution/"}]
+              },
+              "ageAppropriate": true,
+              "notes": "Subscription required; designed for classroom use"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expansion-conflict",
+      "name": "Expansion and Conflict",
+      "order": 4,
+      "topics": [
+        {
+          "id": "westward-expansion",
+          "name": "Westward Expansion",
+          "description": "The movement of people across the continent and the related social changes and conflicts",
+          "order": 1,
+          "subtopics": [
+            "Louisiana Purchase",
+            "Lewis and Clark Expedition",
+            "Oregon Trail - pioneer life",
+            "California Gold Rush",
+            "Manifest Destiny concept",
+            "Impact on Native Americans"
+          ],
+          "media": [
+            {
+              "title": "An American Tail: Fievel Goes West",
+              "type": "movie",
+              "year": 1991,
+              "rating": "G",
+              "runtime": 75,
+              "relevance": "Animated tale of westward migration through immigrant mouse family",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0101329/",
+                "streaming": []
+              },
+              "ageAppropriate": true,
+              "notes": "Combines immigration and westward expansion themes"
+            },
+            {
+              "title": "Spirit: Stallion of the Cimarron",
+              "type": "movie",
+              "year": 2002,
+              "rating": "G",
+              "runtime": 83,
+              "relevance": "Shows westward expansion's impact through a wild horse's perspective",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0166813/",
+                "streaming": []
+              },
+              "ageAppropriate": true,
+              "notes": "Depicts railroad construction, cavalry, and Plains Indian culture"
+            },
+            {
+              "title": "Kirsten: An American Girl",
+              "type": "movie",
+              "year": 2005,
+              "rating": "NR",
+              "runtime": 84,
+              "relevance": "Swedish immigrant girl's journey to Minnesota frontier in 1854",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0460701/",
+                "streaming": []
+              },
+              "ageAppropriate": true,
+              "notes": "American Girl movie; shows pioneer life, immigration, frontier challenges"
+            },
+            {
+              "title": "Lewis & Clark: Great Journey West",
+              "type": "documentary",
+              "year": 2002,
+              "rating": "NR",
+              "runtime": 40,
+              "relevance": "IMAX documentary following the expedition route",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0321480/",
+                "streaming": []
+              },
+              "ageAppropriate": true,
+              "notes": "Stunning visuals; excellent for teaching the expedition"
+            },
+            {
+              "title": "Far and Away",
+              "type": "movie",
+              "year": 1992,
+              "rating": "PG-13",
+              "runtime": 140,
+              "relevance": "Irish immigrants seeking land in Oklahoma Land Rush",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0104231/",
+                "streaming": []
+              },
+              "ageAppropriate": false,
+              "notes": "PG-13; select scenes about land rush may be appropriate"
+            },
+            {
+              "title": "America: The Story of Us - Episode 2: Westward",
+              "type": "documentary",
+              "year": 2010,
+              "rating": "TV-PG",
+              "runtime": 44,
+              "relevance": "History Channel episode on westward expansion",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt1644785/",
+                "streaming": []
+              },
+              "ageAppropriate": true,
+              "notes": "Modern production; covers Oregon Trail, Gold Rush"
+            },
+            {
+              "title": "How the West Was Won",
+              "type": "movie",
+              "year": 1962,
+              "rating": "G",
+              "runtime": 162,
+              "relevance": "Epic depicting 50 years of westward expansion through one family",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0056085/",
+                "streaming": []
+              },
+              "ageAppropriate": true,
+              "notes": "Classic epic; long but covers major westward expansion themes"
+            }
+          ]
+        },
+        {
+          "id": "civil-war-reconstruction",
+          "name": "Civil War and Reconstruction",
+          "description": "The causes of the war (including the antebellum period and the abolitionist movement), major events, and the post-war Reconstruction era",
+          "order": 2,
+          "subtopics": [
+            "Slavery in America",
+            "Abolitionist movement",
+            "Underground Railroad",
+            "Key figures: Lincoln, Douglass, Tubman",
+            "Causes of the Civil War",
+            "Emancipation Proclamation",
+            "Reconstruction"
+          ],
+          "media": [
+            {
+              "title": "Harriet Tubman: They Called Her Moses",
+              "type": "documentary",
+              "year": 2018,
+              "rating": "NR",
+              "runtime": 45,
+              "relevance": "PBS documentary about Harriet Tubman and the Underground Railroad",
+              "links": {
+                "streaming": [{"service": "PBS", "url": "https://www.pbs.org/video/harriet-tubman-they-called-her-moses-qipbxn/"}]
+              },
+              "ageAppropriate": true,
+              "notes": "Age-appropriate documentary designed for educational use"
+            },
+            {
+              "title": "Addy: An American Girl Story",
+              "type": "movie",
+              "year": 2001,
+              "rating": "NR",
+              "runtime": 85,
+              "relevance": "American Girl movie about an enslaved girl escaping to freedom during Civil War",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0301661/",
+                "streaming": []
+              },
+              "ageAppropriate": true,
+              "notes": "HIGHLY RECOMMENDED for this age; historically researched; appropriate treatment of slavery"
+            },
+            {
+              "title": "Follow the Drinking Gourd",
+              "type": "educational",
+              "year": 1992,
+              "rating": "NR",
+              "runtime": 30,
+              "relevance": "Reading Rainbow special about the Underground Railroad and the song",
+              "links": {
+                "streaming": []
+              },
+              "ageAppropriate": true,
+              "notes": "LeVar Burton narrates; accessible introduction to Underground Railroad"
+            },
+            {
+              "title": "Freedom Song",
+              "type": "movie",
+              "year": 2000,
+              "rating": "PG",
+              "runtime": 117,
+              "relevance": "TNT film about a young freedom rider in the 1960s (connects to Civil Rights)",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0175916/",
+                "streaming": []
+              },
+              "ageAppropriate": true,
+              "notes": "While set in 1960s, connects slavery's legacy to Civil Rights movement"
+            },
+            {
+              "title": "Abraham Lincoln: Vampire Hunter",
+              "type": "movie",
+              "year": 2012,
+              "rating": "R",
+              "runtime": 105,
+              "relevance": "NOT RECOMMENDED - fictional; included as example of what to avoid",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt1611224/",
+                "streaming": []
+              },
+              "ageAppropriate": false,
+              "notes": "DO NOT USE - R-rated fiction that misrepresents history"
+            },
+            {
+              "title": "Abe Lincoln in Illinois",
+              "type": "movie",
+              "year": 1940,
+              "rating": "NR",
+              "runtime": 110,
+              "relevance": "Classic biographical drama about Lincoln's early life and rise to presidency",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0032181/",
+                "streaming": []
+              },
+              "ageAppropriate": true,
+              "notes": "Black and white classic; shows Lincoln's journey to presidency"
+            },
+            {
+              "title": "The Civil War (Ken Burns) - Selected Episodes",
+              "type": "documentary",
+              "year": 1990,
+              "rating": "NR",
+              "runtime": 690,
+              "relevance": "Definitive documentary on the Civil War; select age-appropriate segments",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0098769/",
+                "streaming": [{"service": "PBS", "url": ""}]
+              },
+              "ageAppropriate": true,
+              "notes": "Select segments carefully; some content may be intense; excellent primary sources"
+            },
+            {
+              "title": "Liberty's Kids: Episodes on Slavery",
+              "type": "series",
+              "year": 2002,
+              "rating": "TV-Y7",
+              "runtime": 30,
+              "relevance": "Several episodes address slavery and the founders' compromises",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0310874/",
+                "streaming": []
+              },
+              "ageAppropriate": true,
+              "notes": "Age-appropriate treatment of slavery in colonial/revolutionary context"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "modern-era-case-studies",
+      "name": "Modern Era Case Studies",
+      "order": 5,
+      "topics": [
+        {
+          "id": "contemporary-issues-nyc",
+          "name": "Contemporary Issues (NYC Specific)",
+          "description": "Case studies of different modern countries in the Western Hemisphere to compare government and economic systems and explore current events",
+          "order": 1,
+          "subtopics": [
+            "Comparing governments in Western Hemisphere",
+            "Economic systems: capitalism, socialism",
+            "Canada and the United States relations",
+            "Latin American countries today",
+            "Current events in the Americas"
+          ],
+          "media": [
+            {
+              "title": "Coco",
+              "type": "movie",
+              "year": 2017,
+              "rating": "PG",
+              "runtime": 105,
+              "relevance": "Explores Mexican culture, traditions, and family values through Día de los Muertos",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt2380307/",
+                "streaming": [{"service": "Disney+", "url": ""}]
+              },
+              "ageAppropriate": true,
+              "notes": "Excellent introduction to Mexican culture; beautiful animation"
+            },
+            {
+              "title": "Encanto",
+              "type": "movie",
+              "year": 2021,
+              "rating": "PG",
+              "runtime": 102,
+              "relevance": "Explores Colombian culture, family dynamics, and community",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt2953050/",
+                "streaming": [{"service": "Disney+", "url": ""}]
+              },
+              "ageAppropriate": true,
+              "notes": "Showcases Colombian landscapes, music, and cultural heritage"
+            },
+            {
+              "title": "Rio",
+              "type": "movie",
+              "year": 2011,
+              "rating": "G",
+              "runtime": 96,
+              "relevance": "Animated film set in Rio de Janeiro, Brazil showcasing Brazilian culture",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt1436562/",
+                "streaming": []
+              },
+              "ageAppropriate": true,
+              "notes": "Shows Brazilian geography, Carnival, and environmental issues"
+            },
+            {
+              "title": "Moana",
+              "type": "movie",
+              "year": 2016,
+              "rating": "PG",
+              "runtime": 107,
+              "relevance": "Polynesian culture and Pacific Island navigation",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt3521164/",
+                "streaming": [{"service": "Disney+", "url": ""}]
+              },
+              "ageAppropriate": true,
+              "notes": "While Pacific Islands aren't Western Hemisphere, useful for comparing cultures"
+            },
+            {
+              "title": "The Boy Who Harnessed the Wind",
+              "type": "movie",
+              "year": 2019,
+              "rating": "PG",
+              "runtime": 113,
+              "relevance": "True story of innovation from Malawi - connects to global citizenship themes",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt7533152/",
+                "streaming": [{"service": "Netflix", "url": ""}]
+              },
+              "ageAppropriate": true,
+              "notes": "While set in Africa, excellent for discussing global issues and innovation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quick-clips",
+      "name": "Quick Clips & Educational Shorts",
+      "order": 99,
+      "description": "Short-form educational content from YouTube, TED-Ed, Crash Course, and other sources - perfect for warm-ups, lesson supplements, or quick reviews",
+      "topics": [
+        {
+          "id": "mesoamerica-shorts",
+          "name": "Ancient Americas Quick Clips",
+          "description": "Short videos about Maya, Aztec, Inca, and Native American civilizations",
+          "order": 1,
+          "subtopics": ["Maya", "Aztec", "Inca", "Native Americans"],
+          "media": [
+            {"title": "The Maya Civilization Explained in 11 Minutes", "type": "short", "year": 2020, "rating": "NR", "runtime": 11, "relevance": "Quick overview of Maya civilization", "links": {"youtube": "https://www.youtube.com/watch?v=Q6LOrQ3BtQo"}, "ageAppropriate": true, "notes": "Captivating History channel; good introduction"},
+            {"title": "The Aztec Empire Explained in 10 Minutes", "type": "short", "year": 2020, "rating": "NR", "runtime": 10, "relevance": "Overview of Aztec civilization", "links": {"youtube": "https://www.youtube.com/watch?v=Pj7m7MJRXxo"}, "ageAppropriate": true, "notes": "Quick comprehensive overview"},
+            {"title": "The Inca Empire Explained in 14 Minutes", "type": "short", "year": 2019, "rating": "NR", "runtime": 14, "relevance": "Overview of Incan civilization", "links": {"youtube": "https://www.youtube.com/watch?v=J1F95JT3K-c"}, "ageAppropriate": true, "notes": "Covers Machu Picchu, roads, and society"},
+            {"title": "TED-Ed: The Rise and Fall of the Inca Empire", "type": "short", "year": 2018, "rating": "NR", "runtime": 5, "relevance": "Animated TED-Ed lesson on Inca Empire", "links": {"youtube": "https://www.youtube.com/watch?v=XjNsL4RRMMA"}, "ageAppropriate": true, "notes": "HIGHLY RECOMMENDED - beautiful animation"},
+            {"title": "TED-Ed: The Rise and Fall of the Aztec Empire", "type": "short", "year": 2019, "rating": "NR", "runtime": 5, "relevance": "Animated TED-Ed lesson on Aztec Empire", "links": {"youtube": "https://www.youtube.com/watch?v=7paVqUfFbk8"}, "ageAppropriate": true, "notes": "Excellent 5-minute overview"},
+            {"title": "TED-Ed: The Maya Myth of the Morning Star", "type": "short", "year": 2017, "rating": "NR", "runtime": 5, "relevance": "Maya mythology and astronomy", "links": {"youtube": "https://www.youtube.com/watch?v=3V1_kYK3g4Y"}, "ageAppropriate": true, "notes": "Shows Maya astronomical knowledge"},
+            {"title": "BrainPOP: Maya Civilization", "type": "short", "year": 2015, "rating": "NR", "runtime": 5, "relevance": "BrainPOP intro to Maya", "links": {"youtube": "https://www.brainpop.com/socialstudies/worldhistory/maya/"}, "ageAppropriate": true, "notes": "Requires BrainPOP subscription"},
+            {"title": "Native American Regions Overview", "type": "short", "year": 2020, "rating": "NR", "runtime": 8, "relevance": "Overview of Native American cultural regions", "links": {"youtube": "https://www.youtube.com/watch?v=E8tHcmZ8M_8"}, "ageAppropriate": true, "notes": "Good for geographic understanding"},
+            {"title": "The Iroquois Confederacy Explained", "type": "short", "year": 2021, "rating": "NR", "runtime": 10, "relevance": "History of the Haudenosaunee", "links": {"youtube": "https://www.youtube.com/watch?v=gfqxWCVdPPw"}, "ageAppropriate": true, "notes": "Democracy origins in Native America"}
+          ]
+        },
+        {
+          "id": "exploration-shorts",
+          "name": "European Exploration Quick Clips",
+          "description": "Short videos about Columbus, explorers, and the Age of Exploration",
+          "order": 2,
+          "subtopics": ["Columbus", "Columbian Exchange", "Conquistadors"],
+          "media": [
+            {"title": "TED-Ed: The Columbian Exchange", "type": "short", "year": 2019, "rating": "NR", "runtime": 5, "relevance": "Explains exchange of plants, animals, diseases", "links": {"youtube": "https://www.youtube.com/watch?v=HQPA5oNpfM4"}, "ageAppropriate": true, "notes": "HIGHLY RECOMMENDED - essential topic explained well"},
+            {"title": "The True Story of Christopher Columbus", "type": "short", "year": 2020, "rating": "NR", "runtime": 12, "relevance": "More accurate history of Columbus", "links": {"youtube": "https://www.youtube.com/watch?v=3hDrM76GWak"}, "ageAppropriate": true, "notes": "Balanced view of Columbus"},
+            {"title": "Simple History: Spanish Conquistadors", "type": "short", "year": 2019, "rating": "NR", "runtime": 7, "relevance": "Overview of Spanish conquest", "links": {"youtube": "https://www.youtube.com/watch?v=xUzDC7HO-vE"}, "ageAppropriate": true, "notes": "Simple History channel; animated"},
+            {"title": "TED-Ed: What Really Happened During the Salem Witch Trials", "type": "short", "year": 2020, "rating": "NR", "runtime": 6, "relevance": "Colonial America witch trials", "links": {"youtube": "https://www.youtube.com/watch?v=NVd8kuufBhM"}, "ageAppropriate": true, "notes": "Colonial era context"},
+            {"title": "Life in the 13 Colonies", "type": "short", "year": 2020, "rating": "NR", "runtime": 15, "relevance": "Overview of colonial life", "links": {"youtube": "https://www.youtube.com/watch?v=o69TvQqyGdg"}, "ageAppropriate": true, "notes": "Mr. Beat channel; comprehensive"}
+          ]
+        },
+        {
+          "id": "revolution-shorts",
+          "name": "American Revolution Quick Clips",
+          "description": "Short videos about the causes and events of the American Revolution",
+          "order": 3,
+          "subtopics": ["Causes", "Key Events", "Key Figures", "Constitution"],
+          "media": [
+            {"title": "Schoolhouse Rock: No More Kings", "type": "short", "year": 1975, "rating": "TV-Y", "runtime": 3, "relevance": "Animated song about colonial rebellion", "links": {"youtube": "https://www.youtube.com/watch?v=oex3dwFnhck"}, "ageAppropriate": true, "notes": "Classic Schoolhouse Rock"},
+            {"title": "Schoolhouse Rock: The Shot Heard Round the World", "type": "short", "year": 1975, "rating": "TV-Y", "runtime": 3, "relevance": "Start of the Revolution song", "links": {"youtube": "https://www.youtube.com/watch?v=Y6ikO6LMxF4"}, "ageAppropriate": true, "notes": "Memorable song about Lexington & Concord"},
+            {"title": "Schoolhouse Rock: Fireworks", "type": "short", "year": 1975, "rating": "TV-Y", "runtime": 3, "relevance": "Declaration of Independence song", "links": {"youtube": "https://www.youtube.com/watch?v=SBNVaKLxokU"}, "ageAppropriate": true, "notes": "Explains Declaration writing"},
+            {"title": "Oversimplified: The American Revolution (Part 1)", "type": "short", "year": 2019, "rating": "NR", "runtime": 16, "relevance": "Animated humorous overview of Revolution", "links": {"youtube": "https://www.youtube.com/watch?v=gzALIXcY4pg"}, "ageAppropriate": true, "notes": "HIGHLY RECOMMENDED - engaging animation"},
+            {"title": "Oversimplified: The American Revolution (Part 2)", "type": "short", "year": 2019, "rating": "NR", "runtime": 18, "relevance": "Continuation covering war and victory", "links": {"youtube": "https://www.youtube.com/watch?v=rtYC2jx1LM0"}, "ageAppropriate": true, "notes": "Covers war through Treaty of Paris"},
+            {"title": "TED-Ed: What You Might Not Know About the Declaration of Independence", "type": "short", "year": 2014, "rating": "NR", "runtime": 4, "relevance": "Lesser-known facts about Declaration", "links": {"youtube": "https://www.youtube.com/watch?v=yb7MI8NHmSs"}, "ageAppropriate": true, "notes": "Interesting historical details"}
+          ]
+        },
+        {
+          "id": "civics-shorts",
+          "name": "Government & Civics Quick Clips",
+          "description": "Short videos about US government, Constitution, and citizenship",
+          "order": 4,
+          "subtopics": ["Constitution", "Bill of Rights", "Branches of Government"],
+          "media": [
+            {"title": "Schoolhouse Rock: The Preamble", "type": "short", "year": 1975, "rating": "TV-Y", "runtime": 3, "relevance": "Constitution preamble set to music", "links": {"youtube": "https://www.youtube.com/watch?v=0hEYvdMoF2g"}, "ageAppropriate": true, "notes": "ESSENTIAL - helps memorize preamble"},
+            {"title": "Schoolhouse Rock: I'm Just a Bill", "type": "short", "year": 1975, "rating": "TV-Y", "runtime": 3, "relevance": "How a bill becomes law", "links": {"youtube": "https://www.youtube.com/watch?v=OgVKvqTItto"}, "ageAppropriate": true, "notes": "ESSENTIAL - classic civics education"},
+            {"title": "Schoolhouse Rock: Three Ring Government", "type": "short", "year": 1979, "rating": "TV-Y", "runtime": 3, "relevance": "Three branches of government", "links": {"youtube": "https://www.youtube.com/watch?v=tEPd98CbbMk"}, "ageAppropriate": true, "notes": "Circus metaphor for branches"},
+            {"title": "Schoolhouse Rock: Elbow Room", "type": "short", "year": 1976, "rating": "TV-Y", "runtime": 3, "relevance": "Westward expansion song", "links": {"youtube": "https://www.youtube.com/watch?v=8sIoq9mpbUs"}, "ageAppropriate": true, "notes": "Manifest Destiny concept"},
+            {"title": "TED-Ed: Why is the US Constitution So Hard to Amend?", "type": "short", "year": 2016, "rating": "NR", "runtime": 5, "relevance": "Amendment process explained", "links": {"youtube": "https://www.youtube.com/watch?v=FwREAW4SlVY"}, "ageAppropriate": true, "notes": "Good for civics understanding"},
+            {"title": "The Bill of Rights in 5 Minutes", "type": "short", "year": 2020, "rating": "NR", "runtime": 5, "relevance": "Quick overview of first 10 amendments", "links": {"youtube": "https://www.youtube.com/watch?v=yYEfLm5dLMg"}, "ageAppropriate": true, "notes": "Concise Bill of Rights summary"}
+          ]
+        },
+        {
+          "id": "expansion-civil-war-shorts",
+          "name": "Expansion & Civil War Quick Clips",
+          "description": "Short videos about westward expansion, slavery, and the Civil War",
+          "order": 5,
+          "subtopics": ["Westward Expansion", "Slavery", "Underground Railroad", "Civil War"],
+          "media": [
+            {"title": "Oversimplified: The Civil War (Part 1)", "type": "short", "year": 2019, "rating": "NR", "runtime": 15, "relevance": "Animated overview of Civil War causes and early war", "links": {"youtube": "https://www.youtube.com/watch?v=tsxmyL7TUJg"}, "ageAppropriate": true, "notes": "Engaging animated history"},
+            {"title": "Oversimplified: The Civil War (Part 2)", "type": "short", "year": 2019, "rating": "NR", "runtime": 18, "relevance": "Later Civil War and aftermath", "links": {"youtube": "https://www.youtube.com/watch?v=sV6uuMAnJUE"}, "ageAppropriate": true, "notes": "Covers war end through Reconstruction"},
+            {"title": "TED-Ed: The Atlantic Slave Trade: What Too Few Textbooks Told You", "type": "short", "year": 2014, "rating": "NR", "runtime": 6, "relevance": "Important context on Atlantic slave trade", "links": {"youtube": "https://www.youtube.com/watch?v=3NXC4Q_4JVg"}, "ageAppropriate": true, "notes": "Important historical context"},
+            {"title": "The Underground Railroad Explained", "type": "short", "year": 2020, "rating": "NR", "runtime": 8, "relevance": "How the Underground Railroad worked", "links": {"youtube": "https://www.youtube.com/watch?v=Kn6GcEYQzPg"}, "ageAppropriate": true, "notes": "Explains network and key figures"},
+            {"title": "TED-Ed: Harriet Tubman: The Life and Times of a Conductor", "type": "short", "year": 2019, "rating": "NR", "runtime": 5, "relevance": "Harriet Tubman biography", "links": {"youtube": "https://www.youtube.com/watch?v=u8iYG9_QPHA"}, "ageAppropriate": true, "notes": "Excellent Tubman overview"},
+            {"title": "Simple History: The Trail of Tears", "type": "short", "year": 2018, "rating": "NR", "runtime": 5, "relevance": "Cherokee removal explained", "links": {"youtube": "https://www.youtube.com/watch?v=LfBPpJqV9Fw"}, "ageAppropriate": true, "notes": "Animated explanation of forced removal"},
+            {"title": "BrainPOP: Civil War", "type": "short", "year": 2015, "rating": "NR", "runtime": 5, "relevance": "Civil War overview for students", "links": {"youtube": "https://www.brainpop.com/socialstudies/ushistory/civilwar/"}, "ageAppropriate": true, "notes": "Requires BrainPOP subscription"}
+          ]
+        },
+        {
+          "id": "geography-shorts",
+          "name": "Western Hemisphere Geography Quick Clips",
+          "description": "Short videos about geography of North and South America",
+          "order": 6,
+          "subtopics": ["Physical Geography", "Countries", "Regions"],
+          "media": [
+            {"title": "Geography Now: Canada", "type": "short", "year": 2020, "rating": "NR", "runtime": 20, "relevance": "Comprehensive look at Canada", "links": {"youtube": "https://www.youtube.com/watch?v=3DsIB9G6lHI"}, "ageAppropriate": true, "notes": "Geography Now channel; thorough"},
+            {"title": "Geography Now: Mexico", "type": "short", "year": 2018, "rating": "NR", "runtime": 18, "relevance": "Comprehensive look at Mexico", "links": {"youtube": "https://www.youtube.com/watch?v=PhNuO48ut30"}, "ageAppropriate": true, "notes": "Covers geography, culture, history"},
+            {"title": "Geography Now: Brazil", "type": "short", "year": 2017, "rating": "NR", "runtime": 17, "relevance": "Comprehensive look at Brazil", "links": {"youtube": "https://www.youtube.com/watch?v=HpCw0dlsWn4"}, "ageAppropriate": true, "notes": "Largest South American country"},
+            {"title": "Countries of North America Geography", "type": "short", "year": 2020, "rating": "NR", "runtime": 10, "relevance": "All North American countries", "links": {"youtube": "https://www.youtube.com/watch?v=cxyzT1EeB3Y"}, "ageAppropriate": true, "notes": "Quick continental overview"},
+            {"title": "Countries of South America Geography", "type": "short", "year": 2020, "rating": "NR", "runtime": 12, "relevance": "All South American countries", "links": {"youtube": "https://www.youtube.com/watch?v=5jvDh8X8K-8"}, "ageAppropriate": true, "notes": "Quick continental overview"}
+          ]
+        }
+      ]
+    }
+  ]
+}

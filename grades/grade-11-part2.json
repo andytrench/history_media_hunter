@@ -1,0 +1,479 @@
+{
+  "_note": "This is part 2 of Grade 11 - merge with grade-11.json categories array",
+  "categories": [
+    {
+      "id": "reconstruction",
+      "name": "Reconstruction",
+      "order": 11,
+      "topics": [
+        {
+          "id": "reconstruction-era",
+          "name": "Reconstruction Era",
+          "description": "Rebuilding the South, 13th, 14th, and 15th Amendments, and challenges of reunification",
+          "order": 1,
+          "subtopics": ["Reconstruction amendments", "Freedmen's Bureau", "Carpetbaggers", "Scalawags"],
+          "media": [
+            {"title": "Reconstruction: America After the Civil War", "type": "documentary", "year": 2019, "rating": "NR", "runtime": 240, "relevance": "Henry Louis Gates Jr. PBS documentary on Reconstruction", "links": {"imdb": "https://www.imdb.com/title/tt9308306/", "streaming": [{"service": "PBS", "url": ""}]}, "ageAppropriate": true, "notes": "HIGHLY RECOMMENDED - 4 parts; best modern documentary on era"},
+            {"title": "The Civil War (Ken Burns) - Episode 9", "type": "documentary", "year": 1990, "rating": "NR", "runtime": 70, "relevance": "Final episode covers Reconstruction beginnings", "links": {"imdb": "https://www.imdb.com/title/tt0098769/", "streaming": [{"service": "PBS", "url": ""}]}, "ageAppropriate": true, "notes": "Transition from war to Reconstruction"},
+            {"title": "Lincoln", "type": "movie", "year": 2012, "rating": "PG-13", "runtime": 150, "relevance": "Final scenes show 13th Amendment passage", "links": {"imdb": "https://www.imdb.com/title/tt0443272/"}, "ageAppropriate": true, "notes": "Excellent for understanding constitutional amendments"}
+          ]
+        },
+        {
+          "id": "end-reconstruction",
+          "name": "End of Reconstruction",
+          "description": "Compromise of 1877, withdrawal of federal troops, and rise of Jim Crow laws",
+          "order": 2,
+          "subtopics": ["Compromise of 1877", "Jim Crow laws", "Sharecropping", "Black Codes"],
+          "media": [
+            {"title": "The 13th", "type": "documentary", "year": 2016, "rating": "TV-MA", "runtime": 100, "relevance": "Ava DuVernay documentary connecting slavery to modern incarceration", "links": {"imdb": "https://www.imdb.com/title/tt5895028/", "streaming": [{"service": "Netflix", "url": ""}]}, "ageAppropriate": false, "notes": "TV-MA; powerful; covers from Reconstruction to present"},
+            {"title": "Separate But Equal", "type": "movie", "year": 1991, "rating": "NR", "runtime": 193, "relevance": "TV movie on Plessy v. Ferguson and segregation", "links": {"imdb": "https://www.imdb.com/title/tt0102896/"}, "ageAppropriate": true, "notes": "Shows establishment of 'separate but equal'"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "industrial-america",
+      "name": "Industrial America",
+      "order": 12,
+      "topics": [
+        {
+          "id": "gilded-age",
+          "name": "Gilded Age",
+          "description": "Rapid industrialization, rise of big business, and wealth inequality",
+          "order": 1,
+          "subtopics": ["Robber barons", "Carnegie and Rockefeller", "Monopolies", "Trusts"],
+          "media": [
+            {"title": "The Men Who Built America", "type": "documentary", "year": 2012, "rating": "TV-PG", "runtime": 360, "relevance": "History Channel series on Vanderbilt, Carnegie, Rockefeller, Morgan", "links": {"imdb": "https://www.imdb.com/title/tt2167393/"}, "ageAppropriate": true, "notes": "HIGHLY RECOMMENDED - 8 parts; excellent for Gilded Age"},
+            {"title": "The Gilded Age", "type": "series", "year": 2022, "rating": "TV-14", "runtime": 60, "relevance": "HBO drama set in 1880s New York high society", "links": {"imdb": "https://www.imdb.com/title/tt4834544/"}, "ageAppropriate": true, "notes": "Julian Fellowes; shows era's wealth and inequality"},
+            {"title": "There Will Be Blood", "type": "movie", "year": 2007, "rating": "R", "runtime": 158, "relevance": "Oil industry during Gilded Age", "links": {"imdb": "https://www.imdb.com/title/tt0469494/"}, "ageAppropriate": false, "notes": "R-rated; Daniel Day-Lewis; shows oil baron rise"}
+          ]
+        },
+        {
+          "id": "immigration-urbanization",
+          "name": "Immigration and Urbanization",
+          "description": "Mass immigration from Europe and Asia, urbanization, and city life",
+          "order": 2,
+          "subtopics": ["Ellis Island", "Angel Island", "Tenements", "Urban growth"],
+          "media": [
+            {"title": "An American Tail", "type": "movie", "year": 1986, "rating": "G", "runtime": 77, "relevance": "Animated film about Russian Jewish immigrant family", "links": {"imdb": "https://www.imdb.com/title/tt0090633/"}, "ageAppropriate": true, "notes": "Accessible introduction to immigrant experience"},
+            {"title": "The Godfather Part II", "type": "movie", "year": 1974, "rating": "R", "runtime": 202, "relevance": "Immigration scenes at Ellis Island", "links": {"imdb": "https://www.imdb.com/title/tt0071562/"}, "ageAppropriate": false, "notes": "R-rated; select Ellis Island scenes only"},
+            {"title": "Golden Door", "type": "movie", "year": 2006, "rating": "PG-13", "runtime": 118, "relevance": "Italian immigration to America at Ellis Island", "links": {"imdb": "https://www.imdb.com/title/tt0465188/"}, "ageAppropriate": true, "notes": "Italian language; shows immigration journey"},
+            {"title": "The Immigrant", "type": "movie", "year": 2013, "rating": "R", "runtime": 120, "relevance": "Polish immigrant woman at Ellis Island", "links": {"imdb": "https://www.imdb.com/title/tt1951181/"}, "ageAppropriate": false, "notes": "R-rated; James Gray film; shows immigrant exploitation"}
+          ]
+        },
+        {
+          "id": "labor-movement",
+          "name": "Labor Movement",
+          "description": "Rise of labor unions, strikes, and workers' rights",
+          "order": 3,
+          "subtopics": ["AFL", "Knights of Labor", "Strikes", "Working conditions"],
+          "media": [
+            {"title": "Newsies", "type": "movie", "year": 1992, "rating": "PG", "runtime": 121, "relevance": "Disney musical about 1899 newsboy strike", "links": {"imdb": "https://www.imdb.com/title/tt0104990/", "streaming": [{"service": "Disney+", "url": ""}]}, "ageAppropriate": true, "notes": "HIGHLY RECOMMENDED - engaging musical about labor"},
+            {"title": "Triangle Fire", "type": "documentary", "year": 2011, "rating": "NR", "runtime": 60, "relevance": "PBS documentary on Triangle Shirtwaist Factory fire", "links": {"imdb": "https://www.imdb.com/title/tt1824242/", "streaming": [{"service": "PBS", "url": ""}]}, "ageAppropriate": true, "notes": "ESSENTIAL - shows workplace safety issues"},
+            {"title": "Matewan", "type": "movie", "year": 1987, "rating": "PG-13", "runtime": 135, "relevance": "John Sayles film about 1920 coal miners' strike", "links": {"imdb": "https://www.imdb.com/title/tt0093509/"}, "ageAppropriate": true, "notes": "Later period but shows labor struggle well"},
+            {"title": "Norma Rae", "type": "movie", "year": 1979, "rating": "PG", "runtime": 114, "relevance": "Sally Field in textile workers unionization", "links": {"imdb": "https://www.imdb.com/title/tt0079638/"}, "ageAppropriate": true, "notes": "Academy Award; later period but labor themes"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "progressive-era-11",
+      "name": "Progressive Era",
+      "order": 13,
+      "topics": [
+        {
+          "id": "progressive-reforms",
+          "name": "Progressive Reforms",
+          "description": "Reform movements addressing corruption, labor, and social issues",
+          "order": 1,
+          "subtopics": ["Muckrakers", "Trust-busting", "Political reforms", "Social reforms"],
+          "media": [
+            {"title": "TR: The Story of Theodore Roosevelt", "type": "documentary", "year": 1996, "rating": "NR", "runtime": 240, "relevance": "PBS documentary on progressive president", "links": {"imdb": "https://www.imdb.com/title/tt0115396/", "streaming": [{"service": "PBS", "url": ""}]}, "ageAppropriate": true, "notes": "4-part series; covers progressive reforms"},
+            {"title": "Iron Jawed Angels", "type": "movie", "year": 2004, "rating": "NR", "runtime": 123, "relevance": "HBO film on women's suffrage movement", "links": {"imdb": "https://www.imdb.com/title/tt0338139/"}, "ageAppropriate": true, "notes": "Hillary Swank; shows suffragette struggle"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "imperialism-11",
+      "name": "Imperialism",
+      "order": 14,
+      "topics": [
+        {
+          "id": "american-imperialism",
+          "name": "American Imperialism",
+          "description": "American expansion into the Caribbean, Pacific, and Latin America",
+          "order": 1,
+          "subtopics": ["Spanish-American War", "Panama Canal", "Philippines", "Roosevelt Corollary"],
+          "media": [
+            {"title": "Rough Riders", "type": "movie", "year": 1997, "rating": "PG-13", "runtime": 180, "relevance": "TV movie about Theodore Roosevelt in Spanish-American War", "links": {"imdb": "https://www.imdb.com/title/tt0120042/"}, "ageAppropriate": true, "notes": "Tom Berenger as Roosevelt; shows Cuba campaign"},
+            {"title": "Crucible of Empire: The Spanish-American War", "type": "documentary", "year": 1999, "rating": "NR", "runtime": 120, "relevance": "PBS documentary on Spanish-American War", "links": {"streaming": [{"service": "PBS", "url": ""}]}, "ageAppropriate": true, "notes": "Comprehensive coverage of the war"},
+            {"title": "A Man, A Plan, A Canal: Panama", "type": "documentary", "year": 1987, "rating": "NR", "runtime": 60, "relevance": "PBS documentary on Panama Canal construction", "links": {"streaming": [{"service": "PBS", "url": ""}]}, "ageAppropriate": true, "notes": "Engineering and Roosevelt's role"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world-war-1-11",
+      "name": "World War I",
+      "order": 15,
+      "topics": [
+        {
+          "id": "wwi-america",
+          "name": "America in World War I",
+          "description": "American neutrality, entry into war, and home front",
+          "order": 1,
+          "subtopics": ["Neutrality", "Unrestricted submarine warfare", "Homefront", "Wilson's 14 Points"],
+          "media": [
+            {"title": "Sergeant York", "type": "movie", "year": 1941, "rating": "NR", "runtime": 134, "relevance": "Gary Cooper as WWI hero Alvin York", "links": {"imdb": "https://www.imdb.com/title/tt0034167/"}, "ageAppropriate": true, "notes": "Classic; shows American experience in WWI"},
+            {"title": "The Great War", "type": "documentary", "year": 2017, "rating": "TV-PG", "runtime": 360, "relevance": "PBS American Experience documentary", "links": {"streaming": [{"service": "PBS", "url": ""}]}, "ageAppropriate": true, "notes": "Focus on American involvement"},
+            {"title": "War Horse", "type": "movie", "year": 2011, "rating": "PG-13", "runtime": 146, "relevance": "Spielberg WWI film following horse through war", "links": {"imdb": "https://www.imdb.com/title/tt1568911/"}, "ageAppropriate": true, "notes": "Emotional but appropriate; shows WWI conditions"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1920s",
+      "name": "1920s",
+      "order": 16,
+      "topics": [
+        {
+          "id": "roaring-twenties",
+          "name": "The Roaring Twenties",
+          "description": "Economic boom, cultural changes, and social tensions of the 1920s",
+          "order": 1,
+          "subtopics": ["Jazz Age", "Flappers", "Prohibition", "Harlem Renaissance"],
+          "media": [
+            {"title": "The Great Gatsby", "type": "movie", "year": 2013, "rating": "PG-13", "runtime": 143, "relevance": "Baz Luhrmann adaptation of Fitzgerald novel", "links": {"imdb": "https://www.imdb.com/title/tt1343092/"}, "ageAppropriate": true, "notes": "Leonardo DiCaprio; captures Jazz Age excess"},
+            {"title": "Boardwalk Empire", "type": "series", "year": 2010, "rating": "TV-MA", "runtime": 60, "relevance": "HBO series set during Prohibition", "links": {"imdb": "https://www.imdb.com/title/tt0979432/"}, "ageAppropriate": false, "notes": "TV-MA; NOT for classroom; excellent Prohibition era setting"},
+            {"title": "Chicago", "type": "movie", "year": 2002, "rating": "PG-13", "runtime": 113, "relevance": "Musical set in 1920s Chicago", "links": {"imdb": "https://www.imdb.com/title/tt0299658/"}, "ageAppropriate": true, "notes": "Shows 1920s crime, media, and culture"},
+            {"title": "Jazz (Ken Burns)", "type": "documentary", "year": 2001, "rating": "NR", "runtime": 1140, "relevance": "Episodes 4-5 cover 1920s Jazz Age", "links": {"imdb": "https://www.imdb.com/title/tt0268079/", "streaming": [{"service": "PBS", "url": ""}]}, "ageAppropriate": true, "notes": "Extensive; select relevant episodes"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "economic-crisis",
+      "name": "Economic Crisis",
+      "order": 17,
+      "topics": [
+        {
+          "id": "great-depression",
+          "name": "Great Depression",
+          "description": "Stock market crash, economic collapse, and human impact",
+          "order": 1,
+          "subtopics": ["Stock market crash", "Bank failures", "Unemployment", "Dust Bowl"],
+          "media": [
+            {"title": "Cinderella Man", "type": "movie", "year": 2005, "rating": "PG-13", "runtime": 144, "relevance": "Boxer James Braddock during Great Depression", "links": {"imdb": "https://www.imdb.com/title/tt0352248/"}, "ageAppropriate": true, "notes": "Russell Crowe; shows Depression's impact on ordinary people"},
+            {"title": "The Grapes of Wrath", "type": "movie", "year": 1940, "rating": "NR", "runtime": 129, "relevance": "Classic adaptation of Steinbeck novel on Dust Bowl migrants", "links": {"imdb": "https://www.imdb.com/title/tt0032551/"}, "ageAppropriate": true, "notes": "HIGHLY RECOMMENDED - Henry Fonda; essential Depression film"},
+            {"title": "Surviving the Dust Bowl", "type": "documentary", "year": 1998, "rating": "NR", "runtime": 60, "relevance": "PBS American Experience documentary", "links": {"streaming": [{"service": "PBS", "url": ""}]}, "ageAppropriate": true, "notes": "Covers environmental and human disaster"},
+            {"title": "The 1929 Stock Market Crash", "type": "documentary", "year": 2009, "rating": "NR", "runtime": 60, "relevance": "History Channel documentary on crash", "links": {}, "ageAppropriate": true, "notes": "Covers crash and immediate aftermath"}
+          ]
+        },
+        {
+          "id": "new-deal",
+          "name": "New Deal",
+          "description": "FDR's programs to combat the Depression",
+          "order": 2,
+          "subtopics": ["FDR", "New Deal programs", "WPA", "Social Security"],
+          "media": [
+            {"title": "FDR", "type": "documentary", "year": 1994, "rating": "NR", "runtime": 270, "relevance": "PBS American Experience documentary", "links": {"imdb": "https://www.imdb.com/title/tt0109798/", "streaming": [{"service": "PBS", "url": ""}]}, "ageAppropriate": true, "notes": "4.5 hours; comprehensive coverage"},
+            {"title": "The Roosevelts: An Intimate History", "type": "documentary", "year": 2014, "rating": "NR", "runtime": 840, "relevance": "Ken Burns documentary on Roosevelt family", "links": {"imdb": "https://www.imdb.com/title/tt3674140/", "streaming": [{"service": "PBS", "url": ""}]}, "ageAppropriate": true, "notes": "7-part series; extensive FDR coverage"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world-war-2-11",
+      "name": "World War II",
+      "order": 18,
+      "topics": [
+        {
+          "id": "wwii-america",
+          "name": "America in World War II",
+          "description": "Pearl Harbor, major campaigns, and home front during WWII",
+          "order": 1,
+          "subtopics": ["Pearl Harbor", "D-Day", "Pacific Theater", "Home front", "Atomic bomb"],
+          "media": [
+            {"title": "Saving Private Ryan", "type": "movie", "year": 1998, "rating": "R", "runtime": 169, "relevance": "Spielberg's D-Day and WWII Europe", "links": {"imdb": "https://www.imdb.com/title/tt0120815/"}, "ageAppropriate": false, "notes": "R-rated; extremely graphic D-Day; select scenes only"},
+            {"title": "Band of Brothers", "type": "series", "year": 2001, "rating": "TV-MA", "runtime": 705, "relevance": "HBO miniseries following Easy Company", "links": {"imdb": "https://www.imdb.com/title/tt0185906/"}, "ageAppropriate": false, "notes": "TV-MA; but historically accurate and respectful"},
+            {"title": "The Pacific", "type": "series", "year": 2010, "rating": "TV-MA", "runtime": 530, "relevance": "HBO miniseries on Pacific Theater", "links": {"imdb": "https://www.imdb.com/title/tt0374463/"}, "ageAppropriate": false, "notes": "TV-MA; companion to Band of Brothers"},
+            {"title": "Pearl Harbor", "type": "movie", "year": 2001, "rating": "PG-13", "runtime": 183, "relevance": "Michael Bay film on Pearl Harbor attack", "links": {"imdb": "https://www.imdb.com/title/tt0213149/"}, "ageAppropriate": true, "notes": "PG-13; spectacular attack sequence; romantic subplot"},
+            {"title": "Hacksaw Ridge", "type": "movie", "year": 2016, "rating": "R", "runtime": 139, "relevance": "Conscientious objector Desmond Doss in Pacific", "links": {"imdb": "https://www.imdb.com/title/tt2119532/"}, "ageAppropriate": false, "notes": "R-rated; intense combat; powerful faith story"},
+            {"title": "Tora! Tora! Tora!", "type": "movie", "year": 1970, "rating": "G", "runtime": 144, "relevance": "Pearl Harbor from both American and Japanese perspectives", "links": {"imdb": "https://www.imdb.com/title/tt0066473/"}, "ageAppropriate": true, "notes": "G-rated; historically accurate; shows both sides"},
+            {"title": "The War (Ken Burns)", "type": "documentary", "year": 2007, "rating": "TV-14", "runtime": 840, "relevance": "Ken Burns 7-part WWII documentary", "links": {"imdb": "https://www.imdb.com/title/tt0996994/", "streaming": [{"service": "PBS", "url": ""}]}, "ageAppropriate": true, "notes": "HIGHLY RECOMMENDED - personal stories from the war"}
+          ]
+        },
+        {
+          "id": "holocaust",
+          "name": "Holocaust",
+          "description": "Nazi persecution and genocide of Jews and others",
+          "order": 2,
+          "subtopics": ["Nazi ideology", "Concentration camps", "Liberation", "Nuremberg trials"],
+          "media": [
+            {"title": "Schindler's List", "type": "movie", "year": 1993, "rating": "R", "runtime": 195, "relevance": "Spielberg's Holocaust film about Oskar Schindler", "links": {"imdb": "https://www.imdb.com/title/tt0108052/"}, "ageAppropriate": false, "notes": "R-rated; essential Holocaust film; very intense"},
+            {"title": "The Diary of Anne Frank", "type": "movie", "year": 1959, "rating": "NR", "runtime": 180, "relevance": "Classic adaptation of Anne Frank's diary", "links": {"imdb": "https://www.imdb.com/title/tt0052738/"}, "ageAppropriate": true, "notes": "Academy Award winner; accessible for students"},
+            {"title": "The Boy in the Striped Pajamas", "type": "movie", "year": 2008, "rating": "PG-13", "runtime": 94, "relevance": "Holocaust through eyes of German commander's son", "links": {"imdb": "https://www.imdb.com/title/tt0914798/"}, "ageAppropriate": true, "notes": "PG-13; age-appropriate introduction to Holocaust"},
+            {"title": "Shoah", "type": "documentary", "year": 1985, "rating": "NR", "runtime": 566, "relevance": "Landmark documentary with survivor testimonies", "links": {"imdb": "https://www.imdb.com/title/tt0090015/"}, "ageAppropriate": true, "notes": "9+ hours; select sections; no archival footage"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cold-war",
+      "name": "Cold War",
+      "order": 19,
+      "topics": [
+        {
+          "id": "cold-war-origins",
+          "name": "Cold War Origins",
+          "description": "Post-WWII tensions, containment, and early Cold War",
+          "order": 1,
+          "subtopics": ["Iron Curtain", "Containment", "Marshall Plan", "Berlin Blockade"],
+          "media": [
+            {"title": "Bridge of Spies", "type": "movie", "year": 2015, "rating": "PG-13", "runtime": 142, "relevance": "Spielberg film on U-2 spy plane incident and prisoner exchange", "links": {"imdb": "https://www.imdb.com/title/tt3682448/"}, "ageAppropriate": true, "notes": "Tom Hanks; excellent Cold War spy film"},
+            {"title": "The Cold War (CNN)", "type": "documentary", "year": 1998, "rating": "NR", "runtime": 1440, "relevance": "24-part documentary series on Cold War", "links": {"imdb": "https://www.imdb.com/title/tt0170896/"}, "ageAppropriate": true, "notes": "Comprehensive; select relevant episodes"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1950s-america",
+      "name": "1950s America",
+      "order": 20,
+      "topics": [
+        {
+          "id": "postwar-prosperity",
+          "name": "Postwar Prosperity",
+          "description": "Economic boom, suburban growth, and conformity of the 1950s",
+          "order": 1,
+          "subtopics": ["Baby boom", "Suburbs", "Conformity", "Consumer culture"],
+          "media": [
+            {"title": "Pleasantville", "type": "movie", "year": 1998, "rating": "PG-13", "runtime": 124, "relevance": "Satire of 1950s values and conformity", "links": {"imdb": "https://www.imdb.com/title/tt0120789/"}, "ageAppropriate": true, "notes": "Clever commentary on 1950s idealized TV world"},
+            {"title": "Revolutionary Road", "type": "movie", "year": 2008, "rating": "R", "runtime": 119, "relevance": "Dark side of 1950s suburban life", "links": {"imdb": "https://www.imdb.com/title/tt0959337/"}, "ageAppropriate": false, "notes": "R-rated; NOT for classroom; shows conformity pressure"},
+            {"title": "October Sky", "type": "movie", "year": 1999, "rating": "PG", "runtime": 108, "relevance": "Coal miner's son inspired by Sputnik to build rockets", "links": {"imdb": "https://www.imdb.com/title/tt0132477/"}, "ageAppropriate": true, "notes": "HIGHLY RECOMMENDED - space race and 1950s America"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "civil-rights-movement",
+      "name": "Civil Rights Movement",
+      "order": 21,
+      "topics": [
+        {
+          "id": "civil-rights-era",
+          "name": "Civil Rights Era",
+          "description": "African American struggle for equality and key events of the movement",
+          "order": 1,
+          "subtopics": ["Brown v Board", "Montgomery Bus Boycott", "March on Washington", "Civil Rights Acts"],
+          "media": [
+            {"title": "Selma", "type": "movie", "year": 2014, "rating": "PG-13", "runtime": 128, "relevance": "MLK and the Selma to Montgomery marches", "links": {"imdb": "https://www.imdb.com/title/tt1020072/"}, "ageAppropriate": true, "notes": "HIGHLY RECOMMENDED - David Oyelowo as King"},
+            {"title": "The Butler", "type": "movie", "year": 2013, "rating": "PG-13", "runtime": 132, "relevance": "White House butler through Civil Rights era", "links": {"imdb": "https://www.imdb.com/title/tt1327773/"}, "ageAppropriate": true, "notes": "Forest Whitaker; spans decades of civil rights"},
+            {"title": "Hidden Figures", "type": "movie", "year": 2016, "rating": "PG", "runtime": 127, "relevance": "Black women mathematicians at NASA during civil rights era", "links": {"imdb": "https://www.imdb.com/title/tt4846340/"}, "ageAppropriate": true, "notes": "HIGHLY RECOMMENDED - space race meets civil rights"},
+            {"title": "The Help", "type": "movie", "year": 2011, "rating": "PG-13", "runtime": 146, "relevance": "Black domestic workers in 1960s Mississippi", "links": {"imdb": "https://www.imdb.com/title/tt1454029/"}, "ageAppropriate": true, "notes": "Shows Jim Crow era from workers' perspective"},
+            {"title": "Eyes on the Prize", "type": "documentary", "year": 1987, "rating": "NR", "runtime": 840, "relevance": "PBS landmark civil rights documentary series", "links": {"imdb": "https://www.imdb.com/title/tt0092999/", "streaming": [{"service": "PBS", "url": ""}]}, "ageAppropriate": true, "notes": "ESSENTIAL - 14 hours; definitive civil rights documentary"},
+            {"title": "MLK/FBI", "type": "documentary", "year": 2020, "rating": "NR", "runtime": 104, "relevance": "FBI surveillance of Martin Luther King Jr.", "links": {"imdb": "https://www.imdb.com/title/tt9358228/"}, "ageAppropriate": true, "notes": "Modern documentary on FBI's campaign against King"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cold-war-conflicts",
+      "name": "Cold War Conflicts",
+      "order": 22,
+      "topics": [
+        {
+          "id": "korea-vietnam",
+          "name": "Korea and Vietnam",
+          "description": "American involvement in Cold War conflicts in Asia",
+          "order": 1,
+          "subtopics": ["Korean War", "Vietnam War", "Anti-war movement", "War's impact"],
+          "media": [
+            {"title": "The Vietnam War (Ken Burns)", "type": "documentary", "year": 2017, "rating": "TV-MA", "runtime": 1080, "relevance": "Ken Burns/Lynn Novick 18-hour documentary", "links": {"imdb": "https://www.imdb.com/title/tt1877514/", "streaming": [{"service": "PBS", "url": ""}]}, "ageAppropriate": true, "notes": "ESSENTIAL - comprehensive; select episodes"},
+            {"title": "Forrest Gump", "type": "movie", "year": 1994, "rating": "PG-13", "runtime": 142, "relevance": "Vietnam War and cultural changes through one man's story", "links": {"imdb": "https://www.imdb.com/title/tt0109830/"}, "ageAppropriate": true, "notes": "Covers Vietnam, civil rights, counterculture"},
+            {"title": "Platoon", "type": "movie", "year": 1986, "rating": "R", "runtime": 120, "relevance": "Oliver Stone's Vietnam War experience", "links": {"imdb": "https://www.imdb.com/title/tt0091763/"}, "ageAppropriate": false, "notes": "R-rated; intense; academy award winner"},
+            {"title": "Full Metal Jacket", "type": "movie", "year": 1987, "rating": "R", "runtime": 116, "relevance": "Kubrick's Vietnam War film", "links": {"imdb": "https://www.imdb.com/title/tt0093058/"}, "ageAppropriate": false, "notes": "R-rated; NOT for classroom; shows war's dehumanization"},
+            {"title": "Good Morning, Vietnam", "type": "movie", "year": 1987, "rating": "R", "runtime": 121, "relevance": "Robin Williams as Vietnam DJ", "links": {"imdb": "https://www.imdb.com/title/tt0093105/"}, "ageAppropriate": false, "notes": "R-rated; language; but more comedic approach to era"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1960s-70s",
+      "name": "1960s-70s",
+      "order": 23,
+      "topics": [
+        {
+          "id": "cultural-revolutions",
+          "name": "Cultural Revolutions",
+          "description": "Social movements, counterculture, and cultural changes",
+          "order": 1,
+          "subtopics": ["Counterculture", "Woodstock", "Women's liberation", "Environmental movement"],
+          "media": [
+            {"title": "Forrest Gump", "type": "movie", "year": 1994, "rating": "PG-13", "runtime": 142, "relevance": "Covers 1960s-70s cultural changes", "links": {"imdb": "https://www.imdb.com/title/tt0109830/"}, "ageAppropriate": true, "notes": "Comprehensive cultural journey through decades"},
+            {"title": "The Trial of the Chicago 7", "type": "movie", "year": 2020, "rating": "R", "runtime": 129, "relevance": "Trial following 1968 Democratic Convention protests", "links": {"imdb": "https://www.imdb.com/title/tt1070874/", "streaming": [{"service": "Netflix", "url": ""}]}, "ageAppropriate": false, "notes": "R-rated; Aaron Sorkin; shows 1960s protest culture"},
+            {"title": "All the President's Men", "type": "movie", "year": 1976, "rating": "PG", "runtime": 138, "relevance": "Watergate scandal investigation", "links": {"imdb": "https://www.imdb.com/title/tt0074119/"}, "ageAppropriate": true, "notes": "ESSENTIAL - journalism and Watergate"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "womens-rights-11",
+      "name": "Women's Rights",
+      "order": 24,
+      "topics": [
+        {
+          "id": "womens-movement",
+          "name": "Women's Movement",
+          "description": "Women's rights movement from suffrage through modern era",
+          "order": 1,
+          "subtopics": ["Suffrage", "ERA", "Women's liberation", "Title IX"],
+          "media": [
+            {"title": "Mrs. America", "type": "series", "year": 2020, "rating": "TV-MA", "runtime": 540, "relevance": "Hulu series on ERA battle in 1970s", "links": {"imdb": "https://www.imdb.com/title/tt4687110/"}, "ageAppropriate": false, "notes": "TV-MA; Cate Blanchett as Phyllis Schlafly; ERA debate"},
+            {"title": "Iron Jawed Angels", "type": "movie", "year": 2004, "rating": "NR", "runtime": 123, "relevance": "Suffragettes fighting for 19th Amendment", "links": {"imdb": "https://www.imdb.com/title/tt0338139/"}, "ageAppropriate": true, "notes": "Covers suffrage movement's final push"},
+            {"title": "Not for Ourselves Alone", "type": "documentary", "year": 1999, "rating": "NR", "runtime": 210, "relevance": "Ken Burns on Stanton and Anthony", "links": {"imdb": "https://www.imdb.com/title/tt0181028/", "streaming": [{"service": "PBS", "url": ""}]}, "ageAppropriate": true, "notes": "3.5 hours on suffrage pioneers"},
+            {"title": "RBG", "type": "documentary", "year": 2018, "rating": "PG", "runtime": 98, "relevance": "Documentary on Ruth Bader Ginsburg", "links": {"imdb": "https://www.imdb.com/title/tt7689964/"}, "ageAppropriate": true, "notes": "Women's rights through Ginsburg's career"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cold-war-end",
+      "name": "Cold War End",
+      "order": 25,
+      "topics": [
+        {
+          "id": "reagan-bush-era",
+          "name": "Reagan/Bush Era",
+          "description": "Conservative resurgence and end of Cold War",
+          "order": 1,
+          "subtopics": ["Reagan Revolution", "Fall of Berlin Wall", "Soviet collapse", "Gulf War"],
+          "media": [
+            {"title": "Reagan", "type": "documentary", "year": 2011, "rating": "NR", "runtime": 240, "relevance": "PBS American Experience documentary", "links": {"streaming": [{"service": "PBS", "url": ""}]}, "ageAppropriate": true, "notes": "4-hour comprehensive Reagan biography"},
+            {"title": "The Reagan Show", "type": "documentary", "year": 2017, "rating": "NR", "runtime": 75, "relevance": "Reagan through his own video archives", "links": {"imdb": "https://www.imdb.com/title/tt6427592/"}, "ageAppropriate": true, "notes": "Reagan's media savvy and Cold War diplomacy"},
+            {"title": "Miracle", "type": "movie", "year": 2004, "rating": "PG", "runtime": 135, "relevance": "1980 US hockey victory over Soviets", "links": {"imdb": "https://www.imdb.com/title/tt0349825/"}, "ageAppropriate": true, "notes": "Cold War context through sports"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "modern-america",
+      "name": "Modern America",
+      "order": 26,
+      "topics": [
+        {
+          "id": "recent-history",
+          "name": "Recent History",
+          "description": "America from 1990s through present",
+          "order": 1,
+          "subtopics": ["9/11", "War on Terror", "Obama era", "Contemporary issues"],
+          "media": [
+            {"title": "United 93", "type": "movie", "year": 2006, "rating": "R", "runtime": 111, "relevance": "9/11 flight that passengers fought back", "links": {"imdb": "https://www.imdb.com/title/tt0475276/"}, "ageAppropriate": false, "notes": "R-rated; intense; respectful treatment of 9/11"},
+            {"title": "Zero Dark Thirty", "type": "movie", "year": 2012, "rating": "R", "runtime": 157, "relevance": "Hunt for Osama bin Laden", "links": {"imdb": "https://www.imdb.com/title/tt1790885/"}, "ageAppropriate": false, "notes": "R-rated; NOT for classroom; shows post-9/11 intelligence"},
+            {"title": "The Social Dilemma", "type": "documentary", "year": 2020, "rating": "PG-13", "runtime": 94, "relevance": "Social media's impact on society", "links": {"imdb": "https://www.imdb.com/title/tt11464826/", "streaming": [{"service": "Netflix", "url": ""}]}, "ageAppropriate": true, "notes": "Excellent for contemporary issues discussion"},
+            {"title": "13th", "type": "documentary", "year": 2016, "rating": "TV-MA", "runtime": 100, "relevance": "Mass incarceration and racial inequality", "links": {"imdb": "https://www.imdb.com/title/tt5895028/", "streaming": [{"service": "Netflix", "url": ""}]}, "ageAppropriate": false, "notes": "TV-MA; Ava DuVernay; connects history to present"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "contemporary-issues",
+      "name": "Contemporary Issues",
+      "order": 27,
+      "topics": [
+        {
+          "id": "current-events",
+          "name": "Current Events",
+          "description": "Contemporary American issues and challenges",
+          "order": 1,
+          "subtopics": ["Political polarization", "Technology", "Climate change", "Immigration"],
+          "media": [
+            {"title": "An Inconvenient Truth", "type": "documentary", "year": 2006, "rating": "PG", "runtime": 100, "relevance": "Al Gore's climate change documentary", "links": {"imdb": "https://www.imdb.com/title/tt0497116/"}, "ageAppropriate": true, "notes": "Environmental/political issues"},
+            {"title": "Which Way Home", "type": "documentary", "year": 2009, "rating": "NR", "runtime": 90, "relevance": "Child migrants journey to US", "links": {"imdb": "https://www.imdb.com/title/tt1399646/"}, "ageAppropriate": true, "notes": "Immigration from children's perspective"},
+            {"title": "The American Dream and Other Fairy Tales", "type": "documentary", "year": 2022, "rating": "NR", "runtime": 84, "relevance": "Wealth inequality in America", "links": {"imdb": "https://www.imdb.com/title/tt18268852/"}, "ageAppropriate": true, "notes": "Abigail Disney on income inequality"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quick-clips-part2",
+      "name": "Quick Clips & Educational Shorts (Continued)",
+      "order": 99,
+      "description": "More short-form educational content for US History - later periods and special topics",
+      "topics": [
+        {
+          "id": "vietnam-era-shorts",
+          "name": "Vietnam Era Quick Clips",
+          "description": "Short videos on Vietnam War and 1960s-70s America",
+          "order": 1,
+          "subtopics": ["Vietnam War", "Counterculture", "Watergate", "Women's Movement"],
+          "media": [
+            {"title": "Crash Course US History: The Vietnam War", "type": "short", "year": 2013, "rating": "NR", "runtime": 14, "relevance": "Vietnam War overview", "links": {"youtube": "https://www.youtube.com/watch?v=4jQ7GVbGxlE"}, "ageAppropriate": true, "notes": "US involvement in Vietnam"},
+            {"title": "Oversimplified: Vietnam War (Part 1)", "type": "short", "year": 2019, "rating": "NR", "runtime": 15, "relevance": "Animated Vietnam history", "links": {"youtube": "https://www.youtube.com/watch?v=7vFrjMq5E8A"}, "ageAppropriate": true, "notes": "Background through escalation"},
+            {"title": "Oversimplified: Vietnam War (Part 2)", "type": "short", "year": 2019, "rating": "NR", "runtime": 18, "relevance": "Vietnam conclusion", "links": {"youtube": "https://www.youtube.com/watch?v=eJQYDlhMwek"}, "ageAppropriate": true, "notes": "Tet through fall of Saigon"},
+            {"title": "TED-Ed: The History of the Hippie Culture", "type": "short", "year": 2020, "rating": "NR", "runtime": 5, "relevance": "1960s counterculture", "links": {"youtube": "https://www.youtube.com/watch?v=RGCHLl4DPVg"}, "ageAppropriate": true, "notes": "Cultural revolution"},
+            {"title": "Crash Course US History: Nixon and Watergate", "type": "short", "year": 2013, "rating": "NR", "runtime": 14, "relevance": "Nixon presidency", "links": {"youtube": "https://www.youtube.com/watch?v=Zx0x4Q3eFgI"}, "ageAppropriate": true, "notes": "Scandal and resignation"},
+            {"title": "Crash Course US History: Women's Movement", "type": "short", "year": 2013, "rating": "NR", "runtime": 13, "relevance": "Second wave feminism", "links": {"youtube": "https://www.youtube.com/watch?v=HGEMscZE5dY"}, "ageAppropriate": true, "notes": "Women's rights movement"}
+          ]
+        },
+        {
+          "id": "modern-politics-shorts",
+          "name": "Modern Politics Quick Clips",
+          "description": "Short videos on recent political history and current events",
+          "order": 2,
+          "subtopics": ["Reagan Era", "Clinton", "Bush/Obama", "Current Issues"],
+          "media": [
+            {"title": "Crash Course US History: The Reagan Revolution", "type": "short", "year": 2013, "rating": "NR", "runtime": 14, "relevance": "Reagan presidency", "links": {"youtube": "https://www.youtube.com/watch?v=2h2fAcS0Xaw"}, "ageAppropriate": true, "notes": "Conservatism, Cold War end"},
+            {"title": "Crash Course Government: Political Parties", "type": "short", "year": 2015, "rating": "NR", "runtime": 9, "relevance": "Party system explained", "links": {"youtube": "https://www.youtube.com/watch?v=s8VOM8ET1WU"}, "ageAppropriate": true, "notes": "How parties work"},
+            {"title": "Crash Course Government: Congressional Elections", "type": "short", "year": 2015, "rating": "NR", "runtime": 8, "relevance": "How Congress is elected", "links": {"youtube": "https://www.youtube.com/watch?v=wgO1rz8wX-A"}, "ageAppropriate": true, "notes": "Gerrymandering, primaries"},
+            {"title": "TED-Ed: What is Gerrymandering?", "type": "short", "year": 2017, "rating": "NR", "runtime": 5, "relevance": "Redistricting explained", "links": {"youtube": "https://www.youtube.com/watch?v=YcUDBgYodIE"}, "ageAppropriate": true, "notes": "Important civics concept"},
+            {"title": "Crash Course Government: The Supreme Court", "type": "short", "year": 2015, "rating": "NR", "runtime": 10, "relevance": "Judicial branch", "links": {"youtube": "https://www.youtube.com/watch?v=W1XtqGr4qQ0"}, "ageAppropriate": true, "notes": "How court works"},
+            {"title": "Vox: How the Republican and Democratic Parties Switched", "type": "short", "year": 2017, "rating": "NR", "runtime": 9, "relevance": "Party realignment", "links": {"youtube": "https://www.youtube.com/watch?v=s8VOM8ET1WU"}, "ageAppropriate": true, "notes": "Historical party evolution"}
+          ]
+        },
+        {
+          "id": "economics-shorts",
+          "name": "US Economics Quick Clips",
+          "description": "Short videos on American economic history and concepts",
+          "order": 3,
+          "subtopics": ["Capitalism", "Labor", "Recession", "Inequality"],
+          "media": [
+            {"title": "Crash Course Economics: Intro to Economics", "type": "short", "year": 2015, "rating": "NR", "runtime": 11, "relevance": "Economics basics", "links": {"youtube": "https://www.youtube.com/watch?v=3ez10ADR_gM"}, "ageAppropriate": true, "notes": "Foundation concepts"},
+            {"title": "Crash Course Economics: GDP", "type": "short", "year": 2015, "rating": "NR", "runtime": 10, "relevance": "Measuring the economy", "links": {"youtube": "https://www.youtube.com/watch?v=OVVTWPqnr6s"}, "ageAppropriate": true, "notes": "Economic measurement"},
+            {"title": "Crash Course Economics: The Stock Market", "type": "short", "year": 2015, "rating": "NR", "runtime": 11, "relevance": "How stocks work", "links": {"youtube": "https://www.youtube.com/watch?v=_P9x9hvDqpg"}, "ageAppropriate": true, "notes": "Markets explained"},
+            {"title": "Kurzgesagt: Universal Basic Income Explained", "type": "short", "year": 2017, "rating": "NR", "runtime": 7, "relevance": "UBI debate", "links": {"youtube": "https://www.youtube.com/watch?v=kl39KHS07Xc"}, "ageAppropriate": true, "notes": "Modern economic debate"},
+            {"title": "Vox: Why American Healthcare is So Expensive", "type": "short", "year": 2018, "rating": "NR", "runtime": 7, "relevance": "Healthcare economics", "links": {"youtube": "https://www.youtube.com/watch?v=tNla9nyRMmQ"}, "ageAppropriate": true, "notes": "Current policy issue"}
+          ]
+        },
+        {
+          "id": "social-justice-shorts",
+          "name": "Social Justice & Civil Liberties Quick Clips",
+          "description": "Short videos on civil rights, social movements, and justice issues",
+          "order": 4,
+          "subtopics": ["Civil Rights Legacy", "LGBTQ Rights", "Immigration", "Criminal Justice"],
+          "media": [
+            {"title": "TED-Ed: The History of Marriage for Same-Sex Couples", "type": "short", "year": 2020, "rating": "NR", "runtime": 5, "relevance": "LGBTQ rights history", "links": {"youtube": "https://www.youtube.com/watch?v=yd3Tk_VBNAQ"}, "ageAppropriate": true, "notes": "Civil rights evolution"},
+            {"title": "Crash Course US History: Civil Rights Movement", "type": "short", "year": 2013, "rating": "NR", "runtime": 15, "relevance": "Civil Rights era", "links": {"youtube": "https://www.youtube.com/watch?v=S64zRnnn4Po"}, "ageAppropriate": true, "notes": "MLK through legislation"},
+            {"title": "Vox: Mass Incarceration in the US", "type": "short", "year": 2016, "rating": "NR", "runtime": 6, "relevance": "Prison system analysis", "links": {"youtube": "https://www.youtube.com/watch?v=NaPBcUUqbew"}, "ageAppropriate": true, "notes": "Criminal justice reform"},
+            {"title": "TED-Ed: Why is the US Incarceration Rate So High?", "type": "short", "year": 2021, "rating": "NR", "runtime": 5, "relevance": "Mass incarceration", "links": {"youtube": "https://www.youtube.com/watch?v=NaPBcUUqbew"}, "ageAppropriate": true, "notes": "Policy analysis"},
+            {"title": "Khan Academy: Brown v. Board of Education", "type": "short", "year": 2015, "rating": "NR", "runtime": 8, "relevance": "Landmark case", "links": {"youtube": "https://www.youtube.com/watch?v=TTGHLdr-iak"}, "ageAppropriate": true, "notes": "School desegregation"}
+          ]
+        },
+        {
+          "id": "primary-source-shorts",
+          "name": "Primary Sources & Historical Thinking Quick Clips",
+          "description": "Short videos on analyzing historical documents and thinking like a historian",
+          "order": 5,
+          "subtopics": ["Primary Sources", "Historical Thinking", "Document Analysis"],
+          "media": [
+            {"title": "Crash Course US History: How to Read", "type": "short", "year": 2013, "rating": "NR", "runtime": 12, "relevance": "Historical analysis", "links": {"youtube": "https://www.youtube.com/watch?v=MSYw502dJNY"}, "ageAppropriate": true, "notes": "How historians work"},
+            {"title": "TED-Ed: How to Spot a Misleading Graph", "type": "short", "year": 2017, "rating": "NR", "runtime": 5, "relevance": "Media literacy", "links": {"youtube": "https://www.youtube.com/watch?v=E91bGT9BjYk"}, "ageAppropriate": true, "notes": "Critical thinking skill"},
+            {"title": "C-SPAN: Declaration of Independence", "type": "short", "year": 2018, "rating": "NR", "runtime": 15, "relevance": "Primary source reading", "links": {"youtube": "https://www.youtube.com/watch?v=DSv7yJJhUDA"}, "ageAppropriate": true, "notes": "Document analysis"},
+            {"title": "National Archives: Constitution Overview", "type": "short", "year": 2017, "rating": "NR", "runtime": 10, "relevance": "Primary source exploration", "links": {"youtube": "https://www.youtube.com/watch?v=t0B6F-eS8_Q"}, "ageAppropriate": true, "notes": "Original document context"}
+          ]
+        }
+      ]
+    }
+  ]
+}

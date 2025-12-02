@@ -1,0 +1,1354 @@
+{
+  "grade": 9,
+  "lastUpdated": "2025-12-02",
+  "curriculumStandard": "New York State K-12 Social Studies Framework - Grade 9: Global History and Geography I",
+  "curriculumFocus": "The Eastern Hemisphere from earliest civilizations to approximately 1750, including the development of civilizations, empires, religions, and global interactions",
+  "categories": [
+    {
+      "id": "ancient-civilizations",
+      "name": "Ancient Civilizations",
+      "order": 1,
+      "topics": [
+        {
+          "id": "paleolithic-first-civilizations",
+          "name": "Paleolithic Era and First Civilizations",
+          "description": "Beginning with the Paleolithic Era and development of the first human civilizations",
+          "order": 1,
+          "subtopics": [
+            "Hunter-gatherer societies",
+            "Neolithic Revolution - agriculture",
+            "Mesopotamia - Sumer, Babylon",
+            "Ancient Egypt - Nile civilization",
+            "River valley civilizations"
+          ],
+          "media": [
+            {
+              "title": "The Story of Us: Origins",
+              "type": "documentary",
+              "year": 2018,
+              "rating": "TV-PG",
+              "runtime": 45,
+              "relevance": "National Geographic series on human history; Episode 1 covers early civilizations",
+              "links": {"imdb": "https://www.imdb.com/title/tt8034460/", "streaming": [{"service": "Disney+", "url": ""}]},
+              "ageAppropriate": true,
+              "notes": "Morgan Freeman narrates; excellent production quality"
+            },
+            {
+              "title": "The Prince of Egypt",
+              "type": "movie",
+              "year": 1998,
+              "rating": "PG",
+              "runtime": 99,
+              "relevance": "Animated epic depicting ancient Egypt and the Exodus story",
+              "links": {"imdb": "https://www.imdb.com/title/tt0120794/"},
+              "ageAppropriate": true,
+              "notes": "Beautiful animation; shows Egyptian architecture, society, and religious themes"
+            },
+            {
+              "title": "Egypt: Engineering an Empire",
+              "type": "documentary",
+              "year": 2006,
+              "rating": "TV-PG",
+              "runtime": 90,
+              "relevance": "History Channel documentary on ancient Egyptian engineering",
+              "links": {"imdb": "https://www.imdb.com/title/tt0884131/"},
+              "ageAppropriate": true,
+              "notes": "Covers pyramids, temples, and Egyptian achievements"
+            },
+            {
+              "title": "Secrets of the Dead: Egypt's Darkest Hour",
+              "type": "documentary",
+              "year": 2019,
+              "rating": "NR",
+              "runtime": 60,
+              "relevance": "PBS documentary on the collapse of Egypt's Old Kingdom",
+              "links": {"streaming": [{"service": "PBS", "url": ""}]},
+              "ageAppropriate": true,
+              "notes": "Archaeological investigation; shows climate change effects"
+            },
+            {
+              "title": "The Mummy (1999)",
+              "type": "movie",
+              "year": 1999,
+              "rating": "PG-13",
+              "runtime": 124,
+              "relevance": "Adventure film set in ancient Egypt",
+              "links": {"imdb": "https://www.imdb.com/title/tt0120616/"},
+              "ageAppropriate": true,
+              "notes": "Fiction but sparks interest in Egyptian history and archaeology"
+            },
+            {
+              "title": "Ancient Mesopotamia: This History, Our History",
+              "type": "documentary",
+              "year": 2016,
+              "rating": "NR",
+              "runtime": 60,
+              "relevance": "Oriental Institute documentary on Mesopotamian civilizations",
+              "links": {},
+              "ageAppropriate": true,
+              "notes": "Academic but accessible; covers Sumer, Babylon, Assyria"
+            },
+            {
+              "title": "First Civilizations",
+              "type": "documentary",
+              "year": 2018,
+              "rating": "TV-PG",
+              "runtime": 240,
+              "relevance": "PBS 4-part series exploring the world's first civilizations",
+              "links": {"imdb": "https://www.imdb.com/title/tt8252942/", "streaming": [{"service": "PBS", "url": ""}]},
+              "ageAppropriate": true,
+              "notes": "Covers cities, war, religion, and trade in early civilizations"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "classical-societies",
+      "name": "Classical Societies",
+      "order": 2,
+      "topics": [
+        {
+          "id": "ancient-greece-rome",
+          "name": "Ancient Greece and Rome",
+          "description": "Examination of classical Greek and Roman civilizations, their governments, cultures, and legacies",
+          "order": 1,
+          "subtopics": [
+            "Athenian democracy - Pericles",
+            "Spartan society",
+            "Greek philosophy - Socrates, Plato, Aristotle",
+            "Alexander the Great",
+            "Roman Republic - Senate, citizenship",
+            "Roman Empire - Caesar, Augustus",
+            "Pax Romana and Roman achievements"
+          ],
+          "media": [
+            {
+              "title": "Horrible Histories: Groovy Greeks",
+              "type": "series",
+              "year": 2009,
+              "rating": "TV-G",
+              "runtime": 28,
+              "relevance": "British educational comedy covering Greek history with humor",
+              "links": {"imdb": "https://www.imdb.com/title/tt1434549/"},
+              "ageAppropriate": true,
+              "notes": "HIGHLY RECOMMENDED - engaging and funny while historically accurate"
+            },
+            {
+              "title": "Horrible Histories: Rotten Romans",
+              "type": "series",
+              "year": 2009,
+              "rating": "TV-G",
+              "runtime": 28,
+              "relevance": "British educational comedy covering Roman history",
+              "links": {"imdb": "https://www.imdb.com/title/tt1434549/"},
+              "ageAppropriate": true,
+              "notes": "Makes Roman history accessible and memorable"
+            },
+            {
+              "title": "Troy (2004)",
+              "type": "movie",
+              "year": 2004,
+              "rating": "R",
+              "runtime": 163,
+              "relevance": "Epic depicting the Trojan War based on Homer's Iliad",
+              "links": {"imdb": "https://www.imdb.com/title/tt0332452/"},
+              "ageAppropriate": false,
+              "notes": "R-rated for war violence; teacher reference; spectacular visuals of ancient world"
+            },
+            {
+              "title": "Alexander (2004)",
+              "type": "movie",
+              "year": 2004,
+              "rating": "R",
+              "runtime": 175,
+              "relevance": "Epic about Alexander the Great's conquests",
+              "links": {"imdb": "https://www.imdb.com/title/tt0346491/"},
+              "ageAppropriate": false,
+              "notes": "R-rated; NOT for classroom; teacher reference on Alexander's empire"
+            },
+            {
+              "title": "Ben-Hur (1959)",
+              "type": "movie",
+              "year": 1959,
+              "rating": "G",
+              "runtime": 212,
+              "relevance": "Epic set in Roman-occupied Judea; shows Roman society and chariot racing",
+              "links": {"imdb": "https://www.imdb.com/title/tt0052618/"},
+              "ageAppropriate": true,
+              "notes": "G-rated classic; long but excellent for showing Roman era; Academy Award winner"
+            },
+            {
+              "title": "Spartacus (1960)",
+              "type": "movie",
+              "year": 1960,
+              "rating": "PG-13",
+              "runtime": 197,
+              "relevance": "Classic epic about Roman slave revolt",
+              "links": {"imdb": "https://www.imdb.com/title/tt0054331/"},
+              "ageAppropriate": true,
+              "notes": "Kirk Douglas classic; shows slavery in Roman Empire"
+            },
+            {
+              "title": "Rome: Rise and Fall of an Empire",
+              "type": "documentary",
+              "year": 2006,
+              "rating": "TV-PG",
+              "runtime": 600,
+              "relevance": "History Channel 13-episode series on Roman history",
+              "links": {"imdb": "https://www.imdb.com/title/tt0877013/"},
+              "ageAppropriate": true,
+              "notes": "Comprehensive coverage; select episodes for specific topics"
+            },
+            {
+              "title": "Engineering an Empire: Rome",
+              "type": "documentary",
+              "year": 2005,
+              "rating": "TV-PG",
+              "runtime": 90,
+              "relevance": "History Channel documentary on Roman engineering",
+              "links": {"imdb": "https://www.imdb.com/title/tt0756082/"},
+              "ageAppropriate": true,
+              "notes": "Covers aqueducts, roads, Colosseum"
+            },
+            {
+              "title": "The Greeks",
+              "type": "documentary",
+              "year": 2016,
+              "rating": "NR",
+              "runtime": 180,
+              "relevance": "PBS/National Geographic 3-part documentary on Greek civilization",
+              "links": {"imdb": "https://www.imdb.com/title/tt5491918/", "streaming": [{"service": "PBS", "url": ""}]},
+              "ageAppropriate": true,
+              "notes": "Modern documentary covering Greek history comprehensively"
+            },
+            {
+              "title": "Cleopatra (1963)",
+              "type": "movie",
+              "year": 1963,
+              "rating": "G",
+              "runtime": 248,
+              "relevance": "Epic depicting Cleopatra, Caesar, and Mark Antony",
+              "links": {"imdb": "https://www.imdb.com/title/tt0056937/"},
+              "ageAppropriate": true,
+              "notes": "G-rated; very long; Elizabeth Taylor; shows end of Roman Republic"
+            },
+            {
+              "title": "Julius Caesar (1953)",
+              "type": "movie",
+              "year": 1953,
+              "rating": "NR",
+              "runtime": 120,
+              "relevance": "Shakespeare adaptation with Marlon Brando as Mark Antony",
+              "links": {"imdb": "https://www.imdb.com/title/tt0045943/"},
+              "ageAppropriate": true,
+              "notes": "Classic adaptation; good for cross-curricular with English"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ancient-empires",
+      "name": "Ancient Empires",
+      "order": 3,
+      "topics": [
+        {
+          "id": "persian-empire",
+          "name": "Persian Empire",
+          "description": "Study of the Persian Empire, its expansion, and conflicts with Greek city-states",
+          "order": 1,
+          "subtopics": [
+            "Cyrus the Great - founder",
+            "Achaemenid Empire organization",
+            "Persian Wars with Greece",
+            "Royal Road and administration",
+            "Zoroastrianism"
+          ],
+          "media": [
+            {
+              "title": "300 (2006)",
+              "type": "movie",
+              "year": 2006,
+              "rating": "R",
+              "runtime": 117,
+              "relevance": "Stylized depiction of Battle of Thermopylae",
+              "links": {"imdb": "https://www.imdb.com/title/tt0416449/"},
+              "ageAppropriate": false,
+              "notes": "R-rated; NOT for classroom; visually striking but historically problematic"
+            },
+            {
+              "title": "Engineering an Empire: The Persians",
+              "type": "documentary",
+              "year": 2006,
+              "rating": "TV-PG",
+              "runtime": 44,
+              "relevance": "History Channel documentary on Persian engineering achievements",
+              "links": {"imdb": "https://www.imdb.com/title/tt0884139/"},
+              "ageAppropriate": true,
+              "notes": "Covers Persepolis, Royal Road, and Persian innovations"
+            },
+            {
+              "title": "The Persians: A History of Iran",
+              "type": "documentary",
+              "year": 2012,
+              "rating": "NR",
+              "runtime": 180,
+              "relevance": "Documentary series on Persian/Iranian history",
+              "links": {},
+              "ageAppropriate": true,
+              "notes": "Comprehensive coverage of Persian civilization"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ancient-asia",
+      "name": "Ancient Asia",
+      "order": 4,
+      "topics": [
+        {
+          "id": "ancient-china-india",
+          "name": "Ancient China and India",
+          "description": "Development of early Chinese dynasties and Indian civilizations including Buddhism and Hinduism",
+          "order": 1,
+          "subtopics": [
+            "Chinese dynasties - Shang, Zhou, Qin, Han",
+            "Confucianism, Taoism, Legalism",
+            "Great Wall and Terracotta Army",
+            "Silk Road origins",
+            "Indian subcontinent - Maurya Empire",
+            "Hinduism and Buddhism origins",
+            "Gupta Golden Age"
+          ],
+          "media": [
+            {
+              "title": "Mulan (1998)",
+              "type": "movie",
+              "year": 1998,
+              "rating": "G",
+              "runtime": 88,
+              "relevance": "Animated film set during the Han Dynasty, depicts Chinese culture",
+              "links": {"imdb": "https://www.imdb.com/title/tt0120762/", "streaming": [{"service": "Disney+", "url": ""}]},
+              "ageAppropriate": true,
+              "notes": "Shows Chinese culture, military, family honor; Great Wall shown"
+            },
+            {
+              "title": "Kung Fu Panda",
+              "type": "movie",
+              "year": 2008,
+              "rating": "PG",
+              "runtime": 92,
+              "relevance": "Animated film showcasing Chinese culture, martial arts, and philosophy",
+              "links": {"imdb": "https://www.imdb.com/title/tt0441773/"},
+              "ageAppropriate": true,
+              "notes": "Not historical but excellent for Chinese cultural elements"
+            },
+            {
+              "title": "China: A Century of Revolution",
+              "type": "documentary",
+              "year": 1989,
+              "rating": "NR",
+              "runtime": 360,
+              "relevance": "PBS documentary; first part covers imperial China",
+              "links": {"streaming": [{"service": "PBS", "url": ""}]},
+              "ageAppropriate": true,
+              "notes": "Comprehensive; select early episodes for ancient history"
+            },
+            {
+              "title": "The Story of China",
+              "type": "documentary",
+              "year": 2016,
+              "rating": "NR",
+              "runtime": 360,
+              "relevance": "BBC/PBS 6-part documentary covering 4,000 years of Chinese history",
+              "links": {"imdb": "https://www.imdb.com/title/tt5296548/", "streaming": [{"service": "PBS", "url": ""}]},
+              "ageAppropriate": true,
+              "notes": "Michael Wood presents; excellent for ancient dynasties"
+            },
+            {
+              "title": "Secrets of the Dead: China's Terracotta Warriors",
+              "type": "documentary",
+              "year": 2010,
+              "rating": "NR",
+              "runtime": 60,
+              "relevance": "PBS documentary on the Terracotta Army of Qin Shi Huang",
+              "links": {"streaming": [{"service": "PBS", "url": ""}]},
+              "ageAppropriate": true,
+              "notes": "Excellent for Qin Dynasty and first emperor"
+            },
+            {
+              "title": "The Buddha",
+              "type": "documentary",
+              "year": 2010,
+              "rating": "NR",
+              "runtime": 120,
+              "relevance": "PBS documentary on the life of Buddha and spread of Buddhism",
+              "links": {"imdb": "https://www.imdb.com/title/tt1640963/", "streaming": [{"service": "PBS", "url": ""}]},
+              "ageAppropriate": true,
+              "notes": "Richard Gere narrates; covers origins of Buddhism in India"
+            },
+            {
+              "title": "The Story of India",
+              "type": "documentary",
+              "year": 2007,
+              "rating": "NR",
+              "runtime": 360,
+              "relevance": "BBC/PBS 6-part documentary on Indian history",
+              "links": {"imdb": "https://www.imdb.com/title/tt1144761/", "streaming": [{"service": "PBS", "url": ""}]},
+              "ageAppropriate": true,
+              "notes": "Michael Wood; covers ancient India through modern era"
+            },
+            {
+              "title": "Little Buddha",
+              "type": "movie",
+              "year": 1993,
+              "rating": "PG",
+              "runtime": 123,
+              "relevance": "Bernardo Bertolucci film depicting Buddha's life story",
+              "links": {"imdb": "https://www.imdb.com/title/tt0107426/"},
+              "ageAppropriate": true,
+              "notes": "PG; Keanu Reeves as Siddhartha; beautiful visuals of Buddhist teachings"
+            },
+            {
+              "title": "Hero (2002)",
+              "type": "movie",
+              "year": 2002,
+              "rating": "PG-13",
+              "runtime": 99,
+              "relevance": "Visually stunning martial arts film set during Qin unification",
+              "links": {"imdb": "https://www.imdb.com/title/tt0299977/"},
+              "ageAppropriate": true,
+              "notes": "PG-13; shows Qin Dynasty; beautiful cinematography of ancient China"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medieval-world",
+      "name": "Medieval World",
+      "order": 5,
+      "topics": [
+        {
+          "id": "byzantine-empire",
+          "name": "Byzantine Empire",
+          "description": "Eastern Roman Empire, its culture, religion, and influence",
+          "order": 1,
+          "subtopics": [
+            "Constantinople - 'New Rome'",
+            "Justinian and Theodora",
+            "Eastern Orthodox Christianity",
+            "Preservation of classical knowledge",
+            "Byzantine art and architecture"
+          ],
+          "media": [
+            {
+              "title": "Byzantium: The Lost Empire",
+              "type": "documentary",
+              "year": 1997,
+              "rating": "NR",
+              "runtime": 200,
+              "relevance": "John Romer documentary series on Byzantine history",
+              "links": {"imdb": "https://www.imdb.com/title/tt0364531/"},
+              "ageAppropriate": true,
+              "notes": "4-part series covering Byzantine civilization comprehensively"
+            },
+            {
+              "title": "Engineering an Empire: Byzantines",
+              "type": "documentary",
+              "year": 2006,
+              "rating": "TV-PG",
+              "runtime": 44,
+              "relevance": "History Channel documentary on Byzantine engineering",
+              "links": {"imdb": "https://www.imdb.com/title/tt0884121/"},
+              "ageAppropriate": true,
+              "notes": "Covers Hagia Sophia, walls of Constantinople"
+            },
+            {
+              "title": "The Fall of Constantinople",
+              "type": "documentary",
+              "year": 2014,
+              "rating": "NR",
+              "runtime": 60,
+              "relevance": "Documentary on the 1453 Ottoman conquest",
+              "links": {},
+              "ageAppropriate": true,
+              "notes": "Covers the end of Byzantine Empire"
+            }
+          ]
+        },
+        {
+          "id": "islamic-empires",
+          "name": "Islamic Empires",
+          "description": "Rise and spread of Islam, development of Islamic civilizations and Golden Age",
+          "order": 2,
+          "subtopics": [
+            "Muhammad and origins of Islam",
+            "Five Pillars of Islam",
+            "Umayyad and Abbasid Caliphates",
+            "Islamic Golden Age - science, math, medicine",
+            "Trade networks and cultural exchange"
+          ],
+          "media": [
+            {
+              "title": "The Message (1976)",
+              "type": "movie",
+              "year": 1976,
+              "rating": "PG",
+              "runtime": 177,
+              "relevance": "Epic film about the origins of Islam; made with Muslim scholars' input",
+              "links": {"imdb": "https://www.imdb.com/title/tt0074896/"},
+              "ageAppropriate": true,
+              "notes": "PG; respectful portrayal; Muhammad not depicted (per Islamic tradition)"
+            },
+            {
+              "title": "Islam: Empire of Faith",
+              "type": "documentary",
+              "year": 2000,
+              "rating": "NR",
+              "runtime": 180,
+              "relevance": "PBS documentary on the history of Islamic civilization",
+              "links": {"imdb": "https://www.imdb.com/title/tt0246170/", "streaming": [{"service": "PBS", "url": ""}]},
+              "ageAppropriate": true,
+              "notes": "3-part series; Ben Kingsley narrates; covers Golden Age"
+            },
+            {
+              "title": "Science and Islam",
+              "type": "documentary",
+              "year": 2009,
+              "rating": "NR",
+              "runtime": 180,
+              "relevance": "BBC documentary on Islamic contributions to science",
+              "links": {"imdb": "https://www.imdb.com/title/tt1359600/"},
+              "ageAppropriate": true,
+              "notes": "3-part series on algebra, astronomy, medicine in Islamic Golden Age"
+            },
+            {
+              "title": "Lost Secrets of the Quran",
+              "type": "documentary",
+              "year": 2015,
+              "rating": "NR",
+              "runtime": 60,
+              "relevance": "Documentary exploring early Islamic history",
+              "links": {},
+              "ageAppropriate": true,
+              "notes": "Academic approach to early Islamic texts"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medieval-africa",
+      "name": "Medieval Africa",
+      "order": 6,
+      "topics": [
+        {
+          "id": "african-kingdoms",
+          "name": "African Kingdoms",
+          "description": "Study of African empires including Ghana, Mali, and Songhai",
+          "order": 1,
+          "subtopics": [
+            "Ghana Empire - gold and salt trade",
+            "Mali Empire - Mansa Musa, Timbuktu",
+            "Songhai Empire",
+            "Great Zimbabwe",
+            "Trans-Saharan trade"
+          ],
+          "media": [
+            {
+              "title": "Africa's Great Civilizations",
+              "type": "documentary",
+              "year": 2017,
+              "rating": "NR",
+              "runtime": 360,
+              "relevance": "Henry Louis Gates Jr. PBS documentary on African history",
+              "links": {"imdb": "https://www.imdb.com/title/tt6398804/", "streaming": [{"service": "PBS", "url": ""}]},
+              "ageAppropriate": true,
+              "notes": "HIGHLY RECOMMENDED - 6 parts covering Ghana, Mali, Great Zimbabwe"
+            },
+            {
+              "title": "Lost Kingdoms of Africa",
+              "type": "documentary",
+              "year": 2010,
+              "rating": "NR",
+              "runtime": 240,
+              "relevance": "BBC documentary series on pre-colonial African kingdoms",
+              "links": {"imdb": "https://www.imdb.com/title/tt1672766/"},
+              "ageAppropriate": true,
+              "notes": "4-part series covering Ethiopia, Asante, Zimbabwe, Benin"
+            },
+            {
+              "title": "Mansa Musa: The Richest Man Who Ever Lived",
+              "type": "documentary",
+              "year": 2020,
+              "rating": "NR",
+              "runtime": 45,
+              "relevance": "Documentary on Mali Empire's legendary ruler",
+              "links": {},
+              "ageAppropriate": true,
+              "notes": "Covers Musa's famous pilgrimage and Mali's wealth"
+            },
+            {
+              "title": "Black Panther",
+              "type": "movie",
+              "year": 2018,
+              "rating": "PG-13",
+              "runtime": 134,
+              "relevance": "Fiction inspired by African cultures; shows advanced African civilization",
+              "links": {"imdb": "https://www.imdb.com/title/tt1825683/", "streaming": [{"service": "Disney+", "url": ""}]},
+              "ageAppropriate": true,
+              "notes": "Fictional but celebrates African culture; good discussion starter"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trade-networks",
+      "name": "Trade Networks",
+      "order": 7,
+      "topics": [
+        {
+          "id": "silk-road-trans-saharan",
+          "name": "Silk Road and Trans-Saharan Trade",
+          "description": "Expansion of trade networks connecting Asia, Africa, and Europe",
+          "order": 1,
+          "subtopics": [
+            "Silk Road routes and goods",
+            "Cultural exchange along Silk Road",
+            "Trans-Saharan caravan trade",
+            "Indian Ocean trade",
+            "Spread of ideas, diseases, technologies"
+          ],
+          "media": [
+            {
+              "title": "The Silk Road",
+              "type": "documentary",
+              "year": 1980,
+              "rating": "NR",
+              "runtime": 720,
+              "relevance": "Classic NHK/CCTV documentary series retracing the Silk Road",
+              "links": {},
+              "ageAppropriate": true,
+              "notes": "12-part series; comprehensive coverage of the ancient route"
+            },
+            {
+              "title": "Marco Polo (Netflix)",
+              "type": "series",
+              "year": 2014,
+              "rating": "TV-MA",
+              "runtime": 60,
+              "relevance": "Netflix drama about Marco Polo at Kublai Khan's court",
+              "links": {"imdb": "https://www.imdb.com/title/tt2189461/"},
+              "ageAppropriate": false,
+              "notes": "TV-MA; NOT for classroom; shows Silk Road era"
+            },
+            {
+              "title": "The Adventures of Marco Polo",
+              "type": "movie",
+              "year": 1938,
+              "rating": "NR",
+              "runtime": 104,
+              "relevance": "Classic Hollywood film about Marco Polo's journey",
+              "links": {"imdb": "https://www.imdb.com/title/tt0029824/"},
+              "ageAppropriate": true,
+              "notes": "Old but accessible introduction to Polo's travels"
+            },
+            {
+              "title": "Caravans: Indian Tales",
+              "type": "documentary",
+              "year": 2015,
+              "rating": "NR",
+              "runtime": 60,
+              "relevance": "Documentary on ancient Indian Ocean trade routes",
+              "links": {},
+              "ageAppropriate": true,
+              "notes": "Covers maritime trade connections"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medieval-europe",
+      "name": "Medieval Europe",
+      "order": 8,
+      "topics": [
+        {
+          "id": "feudalism-medieval-society",
+          "name": "Feudalism and Medieval Society",
+          "description": "European feudal system, medieval life, and the role of the Catholic Church",
+          "order": 1,
+          "subtopics": [
+            "Feudal hierarchy - kings, lords, knights, serfs",
+            "Manor system and medieval economy",
+            "Role of the Catholic Church",
+            "The Crusades",
+            "Black Death and its effects",
+            "Rise of towns and trade"
+          ],
+          "media": [
+            {
+              "title": "Castle (David Macaulay)",
+              "type": "documentary",
+              "year": 1983,
+              "rating": "NR",
+              "runtime": 58,
+              "relevance": "Animated documentary on medieval castle construction",
+              "links": {"imdb": "https://www.imdb.com/title/tt0109393/"},
+              "ageAppropriate": true,
+              "notes": "HIGHLY RECOMMENDED - educational and engaging"
+            },
+            {
+              "title": "The Crusades: Crescent & the Cross",
+              "type": "documentary",
+              "year": 2005,
+              "rating": "TV-PG",
+              "runtime": 180,
+              "relevance": "History Channel documentary on the Crusades",
+              "links": {"imdb": "https://www.imdb.com/title/tt0460831/"},
+              "ageAppropriate": true,
+              "notes": "Presents both Christian and Muslim perspectives"
+            },
+            {
+              "title": "Monty Python and the Holy Grail",
+              "type": "movie",
+              "year": 1975,
+              "rating": "PG",
+              "runtime": 91,
+              "relevance": "Comedy satirizing medieval life and Arthurian legend",
+              "links": {"imdb": "https://www.imdb.com/title/tt0071853/"},
+              "ageAppropriate": true,
+              "notes": "PG; humorous but actually teaches about medieval society; some crude humor"
+            },
+            {
+              "title": "A Knight's Tale",
+              "type": "movie",
+              "year": 2001,
+              "rating": "PG-13",
+              "runtime": 132,
+              "relevance": "Depicts medieval tournaments and social hierarchy",
+              "links": {"imdb": "https://www.imdb.com/title/tt0183790/"},
+              "ageAppropriate": true,
+              "notes": "PG-13; anachronistic music but shows medieval social structure well"
+            },
+            {
+              "title": "The Black Death: The World's Most Devastating Plague",
+              "type": "documentary",
+              "year": 2016,
+              "rating": "NR",
+              "runtime": 720,
+              "relevance": "Great Courses documentary on the Black Death",
+              "links": {},
+              "ageAppropriate": true,
+              "notes": "Comprehensive; covers pandemic's social and economic effects"
+            },
+            {
+              "title": "Terry Jones' Medieval Lives",
+              "type": "documentary",
+              "year": 2004,
+              "rating": "NR",
+              "runtime": 240,
+              "relevance": "BBC documentary examining medieval social roles",
+              "links": {"imdb": "https://www.imdb.com/title/tt0411006/"},
+              "ageAppropriate": true,
+              "notes": "8 episodes on peasant, monk, knight, damsel, etc."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "renaissance-reformation",
+      "name": "Renaissance and Reformation",
+      "order": 9,
+      "topics": [
+        {
+          "id": "renaissance",
+          "name": "Renaissance",
+          "description": "European Renaissance art, science, and humanism",
+          "order": 1,
+          "subtopics": [
+            "Italian Renaissance origins - Florence",
+            "Renaissance art - da Vinci, Michelangelo, Raphael",
+            "Humanism and classical revival",
+            "Scientific Revolution - Copernicus, Galileo",
+            "Printing press - Gutenberg"
+          ],
+          "media": [
+            {
+              "title": "The Agony and the Ecstasy",
+              "type": "movie",
+              "year": 1965,
+              "rating": "NR",
+              "runtime": 138,
+              "relevance": "Classic film about Michelangelo painting the Sistine Chapel",
+              "links": {"imdb": "https://www.imdb.com/title/tt0058886/"},
+              "ageAppropriate": true,
+              "notes": "Charlton Heston as Michelangelo; shows Renaissance art and patronage"
+            },
+            {
+              "title": "Leonardo: The Man Who Saved Science",
+              "type": "documentary",
+              "year": 2017,
+              "rating": "NR",
+              "runtime": 60,
+              "relevance": "PBS documentary on Leonardo da Vinci's contributions",
+              "links": {"streaming": [{"service": "PBS", "url": ""}]},
+              "ageAppropriate": true,
+              "notes": "Covers da Vinci as artist, inventor, scientist"
+            },
+            {
+              "title": "Ever After: A Cinderella Story",
+              "type": "movie",
+              "year": 1998,
+              "rating": "PG-13",
+              "runtime": 121,
+              "relevance": "Set during Renaissance France; Leonardo da Vinci appears as character",
+              "links": {"imdb": "https://www.imdb.com/title/tt0120631/"},
+              "ageAppropriate": true,
+              "notes": "Shows Renaissance fashion, society; Drew Barrymore stars"
+            },
+            {
+              "title": "Galileo's Battle for the Heavens",
+              "type": "documentary",
+              "year": 2002,
+              "rating": "NR",
+              "runtime": 120,
+              "relevance": "PBS NOVA documentary on Galileo and his conflict with the Church",
+              "links": {"streaming": [{"service": "PBS", "url": ""}]},
+              "ageAppropriate": true,
+              "notes": "Covers Scientific Revolution and church-science conflicts"
+            },
+            {
+              "title": "The Medici: Godfathers of the Renaissance",
+              "type": "documentary",
+              "year": 2004,
+              "rating": "NR",
+              "runtime": 240,
+              "relevance": "PBS documentary on the Medici family's role in Renaissance",
+              "links": {"imdb": "https://www.imdb.com/title/tt0426678/", "streaming": [{"service": "PBS", "url": ""}]},
+              "ageAppropriate": true,
+              "notes": "4-part series on art patronage and Renaissance Florence"
+            }
+          ]
+        },
+        {
+          "id": "protestant-reformation-9",
+          "name": "Protestant Reformation",
+          "description": "Religious reformation and its global impact",
+          "order": 2,
+          "subtopics": [
+            "Causes of Reformation - indulgences, corruption",
+            "Martin Luther - 95 Theses",
+            "Protestant denominations",
+            "Counter-Reformation",
+            "Religious wars"
+          ],
+          "media": [
+            {
+              "title": "Luther",
+              "type": "movie",
+              "year": 2003,
+              "rating": "PG-13",
+              "runtime": 123,
+              "relevance": "Biographical film on Martin Luther",
+              "links": {"imdb": "https://www.imdb.com/title/tt0309820/"},
+              "ageAppropriate": true,
+              "notes": "Joseph Fiennes as Luther; comprehensive look at Reformation"
+            },
+            {
+              "title": "Martin Luther: The Idea that Changed the World",
+              "type": "documentary",
+              "year": 2017,
+              "rating": "NR",
+              "runtime": 77,
+              "relevance": "Documentary for 500th anniversary of Reformation",
+              "links": {"imdb": "https://www.imdb.com/title/tt7014528/"},
+              "ageAppropriate": true,
+              "notes": "Hugh Bonneville narrates; accessible introduction"
+            },
+            {
+              "title": "A Man for All Seasons",
+              "type": "movie",
+              "year": 1966,
+              "rating": "G",
+              "runtime": 120,
+              "relevance": "Academy Award winner about Thomas More during English Reformation",
+              "links": {"imdb": "https://www.imdb.com/title/tt0060665/"},
+              "ageAppropriate": true,
+              "notes": "G-rated; excellent for discussing conscience and religious conflict"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "age-exploration",
+      "name": "Age of Exploration",
+      "order": 10,
+      "topics": [
+        {
+          "id": "european-exploration-9",
+          "name": "European Exploration",
+          "description": "Motivations for exploration, Age of Discovery, and encounters with the Americas",
+          "order": 1,
+          "subtopics": [
+            "Portuguese exploration - Prince Henry",
+            "Spanish exploration - Columbus",
+            "Conquistadors - Cortés, Pizarro",
+            "Effects on indigenous peoples",
+            "Global trade networks"
+          ],
+          "media": [
+            {
+              "title": "1492: Conquest of Paradise",
+              "type": "movie",
+              "year": 1992,
+              "rating": "PG-13",
+              "runtime": 154,
+              "relevance": "Epic depicting Columbus's voyages",
+              "links": {"imdb": "https://www.imdb.com/title/tt0103594/"},
+              "ageAppropriate": false,
+              "notes": "PG-13; Ridley Scott film; select scenes for classroom"
+            },
+            {
+              "title": "Conquistadors",
+              "type": "documentary",
+              "year": 2000,
+              "rating": "NR",
+              "runtime": 240,
+              "relevance": "BBC/PBS documentary retracing conquistador routes",
+              "links": {"imdb": "https://www.imdb.com/title/tt0273116/", "streaming": [{"service": "PBS", "url": ""}]},
+              "ageAppropriate": true,
+              "notes": "Michael Wood; 4 parts covering Cortés, Pizarro, Orellana, Cabeza de Vaca"
+            },
+            {
+              "title": "The Age of Exploration",
+              "type": "documentary",
+              "year": 2015,
+              "rating": "NR",
+              "runtime": 90,
+              "relevance": "Documentary covering European exploration era",
+              "links": {},
+              "ageAppropriate": true,
+              "notes": "Covers motivations and consequences of exploration"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "global-exchange",
+      "name": "Global Exchange",
+      "order": 11,
+      "topics": [
+        {
+          "id": "columbian-exchange",
+          "name": "Columbian Exchange",
+          "description": "Exchange of goods, diseases, ideas, and people between hemispheres",
+          "order": 1,
+          "subtopics": [
+            "Plants and animals exchanged",
+            "Disease impact on Americas",
+            "Silver and gold flows",
+            "Cultural exchanges",
+            "Population changes"
+          ],
+          "media": [
+            {
+              "title": "Guns, Germs, and Steel",
+              "type": "documentary",
+              "year": 2005,
+              "rating": "NR",
+              "runtime": 180,
+              "relevance": "PBS documentary based on Jared Diamond's book on civilization development",
+              "links": {"imdb": "https://www.imdb.com/title/tt0475043/", "streaming": [{"service": "PBS", "url": ""}]},
+              "ageAppropriate": true,
+              "notes": "3-part series; covers Columbian Exchange effects"
+            },
+            {
+              "title": "1491: Before Columbus",
+              "type": "documentary",
+              "year": 2017,
+              "rating": "NR",
+              "runtime": 60,
+              "relevance": "Documentary on Americas before European contact",
+              "links": {},
+              "ageAppropriate": true,
+              "notes": "Shows pre-contact civilizations and exchange aftermath"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "empires-conflict",
+      "name": "Empires and Conflict",
+      "order": 12,
+      "topics": [
+        {
+          "id": "ottoman-empire",
+          "name": "Ottoman Empire",
+          "description": "Rise and expansion of the Ottoman Empire",
+          "order": 1,
+          "subtopics": [
+            "Ottoman origins",
+            "Fall of Constantinople 1453",
+            "Suleiman the Magnificent",
+            "Ottoman society and culture",
+            "Janissaries"
+          ],
+          "media": [
+            {
+              "title": "Rise of Empires: Ottoman",
+              "type": "series",
+              "year": 2020,
+              "rating": "TV-MA",
+              "runtime": 45,
+              "relevance": "Netflix docudrama on the fall of Constantinople",
+              "links": {"imdb": "https://www.imdb.com/title/tt11650328/", "streaming": [{"service": "Netflix", "url": ""}]},
+              "ageAppropriate": false,
+              "notes": "TV-MA; NOT for classroom; excellent visuals of Ottoman conquest"
+            },
+            {
+              "title": "Islam: Empire of Faith - The Ottomans",
+              "type": "documentary",
+              "year": 2000,
+              "rating": "NR",
+              "runtime": 60,
+              "relevance": "PBS episode covering Ottoman Empire",
+              "links": {"streaming": [{"service": "PBS", "url": ""}]},
+              "ageAppropriate": true,
+              "notes": "Part of larger series; covers Ottoman culture and expansion"
+            },
+            {
+              "title": "Engineering an Empire: The Ottomans",
+              "type": "documentary",
+              "year": 2006,
+              "rating": "TV-PG",
+              "runtime": 44,
+              "relevance": "History Channel documentary on Ottoman engineering",
+              "links": {"imdb": "https://www.imdb.com/title/tt0884138/"},
+              "ageAppropriate": true,
+              "notes": "Covers Istanbul's architecture and engineering achievements"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asian-empires",
+      "name": "Asian Empires",
+      "order": 13,
+      "topics": [
+        {
+          "id": "mughal-empire",
+          "name": "Mughal Empire",
+          "description": "Mughal dynasty in India, its culture, architecture, and religious tolerance",
+          "order": 1,
+          "subtopics": [
+            "Babur and Mughal founding",
+            "Akbar's religious tolerance",
+            "Taj Mahal - Shah Jahan",
+            "Mughal art and culture",
+            "Hindu-Muslim relations"
+          ],
+          "media": [
+            {
+              "title": "Jodhaa Akbar",
+              "type": "movie",
+              "year": 2008,
+              "rating": "PG-13",
+              "runtime": 214,
+              "relevance": "Bollywood epic about Akbar and his Hindu wife",
+              "links": {"imdb": "https://www.imdb.com/title/tt0449994/"},
+              "ageAppropriate": true,
+              "notes": "Very long; beautiful visuals; shows religious tolerance under Akbar"
+            },
+            {
+              "title": "The Story of India: Ages of Gold",
+              "type": "documentary",
+              "year": 2007,
+              "rating": "NR",
+              "runtime": 60,
+              "relevance": "PBS episode covering Mughal Empire",
+              "links": {"streaming": [{"service": "PBS", "url": ""}]},
+              "ageAppropriate": true,
+              "notes": "Michael Wood; covers Mughal golden age"
+            },
+            {
+              "title": "Secrets of the Taj Mahal",
+              "type": "documentary",
+              "year": 2017,
+              "rating": "NR",
+              "runtime": 60,
+              "relevance": "Documentary on the construction of the Taj Mahal",
+              "links": {},
+              "ageAppropriate": true,
+              "notes": "Explores architecture and love story behind the monument"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "east-asian-powers",
+      "name": "East Asian Powers",
+      "order": 14,
+      "topics": [
+        {
+          "id": "ming-qing-dynasties",
+          "name": "Ming and Qing Dynasties",
+          "description": "Chinese dynasties, their achievements, and interactions with European traders",
+          "order": 1,
+          "subtopics": [
+            "Ming Dynasty achievements",
+            "Zheng He voyages",
+            "Forbidden City",
+            "Qing Dynasty",
+            "Isolation policies",
+            "European contact"
+          ],
+          "media": [
+            {
+              "title": "The Story of China: The Ming",
+              "type": "documentary",
+              "year": 2016,
+              "rating": "NR",
+              "runtime": 60,
+              "relevance": "PBS episode on Ming Dynasty",
+              "links": {"streaming": [{"service": "PBS", "url": ""}]},
+              "ageAppropriate": true,
+              "notes": "Covers Forbidden City, Zheng He, and Ming achievements"
+            },
+            {
+              "title": "The Last Emperor",
+              "type": "movie",
+              "year": 1987,
+              "rating": "PG-13",
+              "runtime": 163,
+              "relevance": "Academy Award winner about China's last emperor Puyi",
+              "links": {"imdb": "https://www.imdb.com/title/tt0093389/"},
+              "ageAppropriate": true,
+              "notes": "PG-13; later period but shows Forbidden City beautifully"
+            },
+            {
+              "title": "China: Forbidden City",
+              "type": "documentary",
+              "year": 2017,
+              "rating": "NR",
+              "runtime": 60,
+              "relevance": "Documentary exploring the Forbidden City",
+              "links": {},
+              "ageAppropriate": true,
+              "notes": "Explores architecture and imperial Chinese life"
+            },
+            {
+              "title": "1421: The Year China Discovered the World",
+              "type": "documentary",
+              "year": 2004,
+              "rating": "NR",
+              "runtime": 120,
+              "relevance": "Documentary on Zheng He's voyages (controversial thesis)",
+              "links": {},
+              "ageAppropriate": true,
+              "notes": "Claims disputed but good for discussing Chinese exploration"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gunpowder-empires",
+      "name": "Gunpowder Empires",
+      "order": 15,
+      "topics": [
+        {
+          "id": "safavid-empire",
+          "name": "Safavid Empire",
+          "description": "Persian Safavid Empire and Shia Islam",
+          "order": 1,
+          "subtopics": [
+            "Safavid founding - Ismail I",
+            "Shia Islam as state religion",
+            "Isfahan and architecture",
+            "Persian art and culture",
+            "Conflict with Ottomans"
+          ],
+          "media": [
+            {
+              "title": "Iran: A History of Its Architecture",
+              "type": "documentary",
+              "year": 2015,
+              "rating": "NR",
+              "runtime": 60,
+              "relevance": "Documentary covering Persian architectural heritage",
+              "links": {},
+              "ageAppropriate": true,
+              "notes": "Covers Safavid Isfahan and Persian artistic achievements"
+            },
+            {
+              "title": "Engineering an Empire: The Persians",
+              "type": "documentary",
+              "year": 2006,
+              "rating": "TV-PG",
+              "runtime": 44,
+              "relevance": "Includes section on Safavid Persia",
+              "links": {"imdb": "https://www.imdb.com/title/tt0884139/"},
+              "ageAppropriate": true,
+              "notes": "Covers Persian engineering from ancient to Safavid era"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pre-columbian-americas",
+      "name": "Pre-Columbian Americas",
+      "order": 16,
+      "topics": [
+        {
+          "id": "aztec-inca-empires",
+          "name": "Aztec and Inca Empires",
+          "description": "Complex societies in Mesoamerica and South America before Spanish conquest",
+          "order": 1,
+          "subtopics": [
+            "Aztec Tenochtitlan",
+            "Aztec religion and sacrifice",
+            "Incan road system",
+            "Incan government",
+            "Spanish conquest"
+          ],
+          "media": [
+            {
+              "title": "Engineering an Empire: The Aztecs",
+              "type": "documentary",
+              "year": 2006,
+              "rating": "TV-PG",
+              "runtime": 44,
+              "relevance": "History Channel documentary on Aztec engineering",
+              "links": {"imdb": "https://www.imdb.com/title/tt0884140/"},
+              "ageAppropriate": true,
+              "notes": "Covers Tenochtitlan and Aztec achievements"
+            },
+            {
+              "title": "Engineering an Empire: The Inca",
+              "type": "documentary",
+              "year": 2007,
+              "rating": "TV-PG",
+              "runtime": 44,
+              "relevance": "History Channel documentary on Incan engineering",
+              "links": {"imdb": "https://www.imdb.com/title/tt1210897/"},
+              "ageAppropriate": true,
+              "notes": "Covers Machu Picchu and Incan roads"
+            },
+            {
+              "title": "The Road to El Dorado",
+              "type": "movie",
+              "year": 2000,
+              "rating": "PG",
+              "runtime": 89,
+              "relevance": "Animated adventure in Mesoamerican-inspired setting",
+              "links": {"imdb": "https://www.imdb.com/title/tt0138749/"},
+              "ageAppropriate": true,
+              "notes": "Fictional but excellent visual introduction"
+            },
+            {
+              "title": "Conquistadors: The Fall of the Aztec Empire",
+              "type": "documentary",
+              "year": 2000,
+              "rating": "NR",
+              "runtime": 60,
+              "relevance": "PBS documentary on Spanish conquest of the Aztecs",
+              "links": {"streaming": [{"service": "PBS", "url": ""}]},
+              "ageAppropriate": true,
+              "notes": "Michael Wood; covers Cortés and fall of Tenochtitlan"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quick-clips",
+      "name": "Quick Clips & Educational Shorts",
+      "order": 99,
+      "description": "Short-form educational content from YouTube, TED-Ed, Crash Course - perfect for Global History I",
+      "topics": [
+        {
+          "id": "ancient-civ-shorts",
+          "name": "Ancient Civilizations Quick Clips",
+          "description": "Short videos on Mesopotamia, Egypt, Greece, Rome, and other ancient cultures",
+          "order": 1,
+          "subtopics": ["Mesopotamia", "Egypt", "Greece", "Rome", "China", "India"],
+          "media": [
+            {"title": "Crash Course World History: Mesopotamia", "type": "short", "year": 2012, "rating": "NR", "runtime": 12, "relevance": "Cradle of civilization overview", "links": {"youtube": "https://www.youtube.com/watch?v=sohXPx_XZ6Y"}, "ageAppropriate": true, "notes": "John Green; engaging overview"},
+            {"title": "Crash Course World History: Ancient Egypt", "type": "short", "year": 2012, "rating": "NR", "runtime": 11, "relevance": "Ancient Egypt civilization", "links": {"youtube": "https://www.youtube.com/watch?v=Z3Wvw6BivVI"}, "ageAppropriate": true, "notes": "Pharaohs, pyramids, Nile"},
+            {"title": "TED-Ed: How to Speak Egyptian", "type": "short", "year": 2016, "rating": "NR", "runtime": 5, "relevance": "Hieroglyphics explained", "links": {"youtube": "https://www.youtube.com/watch?v=yeQcmxM2W5M"}, "ageAppropriate": true, "notes": "Fun language lesson"},
+            {"title": "Crash Course World History: Alexander the Great", "type": "short", "year": 2012, "rating": "NR", "runtime": 12, "relevance": "Alexander's conquests", "links": {"youtube": "https://www.youtube.com/watch?v=0LsrkWDCvxg"}, "ageAppropriate": true, "notes": "Hellenistic spread"},
+            {"title": "Crash Course World History: The Roman Empire", "type": "short", "year": 2012, "rating": "NR", "runtime": 12, "relevance": "Rise of Rome", "links": {"youtube": "https://www.youtube.com/watch?v=oPf27gAup9U"}, "ageAppropriate": true, "notes": "Republic to Empire"},
+            {"title": "TED-Ed: What Romans Actually Ate for Dinner", "type": "short", "year": 2019, "rating": "NR", "runtime": 5, "relevance": "Roman daily life", "links": {"youtube": "https://www.youtube.com/watch?v=3z7aPpFqXOU"}, "ageAppropriate": true, "notes": "Engaging daily life topic"},
+            {"title": "Oversimplified: The Punic Wars", "type": "short", "year": 2018, "rating": "NR", "runtime": 17, "relevance": "Rome vs Carthage", "links": {"youtube": "https://www.youtube.com/watch?v=EbBHk_zLTmY"}, "ageAppropriate": true, "notes": "Hannibal and Roman expansion"},
+            {"title": "Crash Course World History: Buddha and Ashoka", "type": "short", "year": 2012, "rating": "NR", "runtime": 12, "relevance": "Buddhism and Indian empires", "links": {"youtube": "https://www.youtube.com/watch?v=8Nn5uqE3C9w"}, "ageAppropriate": true, "notes": "Indian history and religion"},
+            {"title": "Crash Course World History: 2000 Years of Chinese History", "type": "short", "year": 2012, "rating": "NR", "runtime": 12, "relevance": "Chinese dynastic history", "links": {"youtube": "https://www.youtube.com/watch?v=ylWORyToTo4"}, "ageAppropriate": true, "notes": "Mandates and dynasties"},
+            {"title": "TED-Ed: The Rise and Fall of the Persian Empire", "type": "short", "year": 2019, "rating": "NR", "runtime": 5, "relevance": "Persian Empire overview", "links": {"youtube": "https://www.youtube.com/watch?v=PJqJtw7cq3A"}, "ageAppropriate": true, "notes": "Cyrus to Alexander"}
+          ]
+        },
+        {
+          "id": "medieval-shorts",
+          "name": "Medieval World Quick Clips",
+          "description": "Short videos on Byzantine, Islamic, African, and European medieval civilizations",
+          "order": 2,
+          "subtopics": ["Byzantine", "Islamic Golden Age", "African Kingdoms", "European Middle Ages"],
+          "media": [
+            {"title": "Crash Course World History: Islam", "type": "short", "year": 2012, "rating": "NR", "runtime": 13, "relevance": "Origins and spread of Islam", "links": {"youtube": "https://www.youtube.com/watch?v=TpcbfxtdoI8"}, "ageAppropriate": true, "notes": "Respectful overview"},
+            {"title": "TED-Ed: The Golden Age of Islam", "type": "short", "year": 2015, "rating": "NR", "runtime": 5, "relevance": "Islamic Golden Age contributions", "links": {"youtube": "https://www.youtube.com/watch?v=WMOqKPT8pss"}, "ageAppropriate": true, "notes": "Science, math, medicine"},
+            {"title": "Crash Course World History: Mansa Musa and Mali", "type": "short", "year": 2012, "rating": "NR", "runtime": 11, "relevance": "Mali Empire and African trade", "links": {"youtube": "https://www.youtube.com/watch?v=jvnU0v6hcUo"}, "ageAppropriate": true, "notes": "ESSENTIAL - West African history"},
+            {"title": "TED-Ed: Mansa Musa, One of the Wealthiest People Who Ever Lived", "type": "short", "year": 2015, "rating": "NR", "runtime": 4, "relevance": "Mansa Musa's wealth", "links": {"youtube": "https://www.youtube.com/watch?v=O3YJMaL55TM"}, "ageAppropriate": true, "notes": "Mali's legendary ruler"},
+            {"title": "Crash Course World History: Fall of the Roman Empire", "type": "short", "year": 2012, "rating": "NR", "runtime": 13, "relevance": "Why Rome fell", "links": {"youtube": "https://www.youtube.com/watch?v=3PszVWZNWVA"}, "ageAppropriate": true, "notes": "Transition to medieval"},
+            {"title": "Extra History: Byzantine Empire", "type": "short", "year": 2016, "rating": "NR", "runtime": 50, "relevance": "5-part series on Byzantium", "links": {"youtube": "https://www.youtube.com/watch?v=Okph9wt8I0A&list=PLhyKYa0YJ_5BNTUc1fwlXFuodoGo_u6TH"}, "ageAppropriate": true, "notes": "Animated history; engaging"},
+            {"title": "TED-Ed: The Silk Road: History's First World Wide Web", "type": "short", "year": 2018, "rating": "NR", "runtime": 5, "relevance": "Silk Road trade overview", "links": {"youtube": "https://www.youtube.com/watch?v=vn3e37VWc0k"}, "ageAppropriate": true, "notes": "Trade and cultural exchange"},
+            {"title": "Crash Course World History: Venice and the Ottoman Empire", "type": "short", "year": 2012, "rating": "NR", "runtime": 10, "relevance": "Trade and empires", "links": {"youtube": "https://www.youtube.com/watch?v=UN-II_jBzzo"}, "ageAppropriate": true, "notes": "Mediterranean trade"},
+            {"title": "Kings and Generals: Fall of Constantinople", "type": "short", "year": 2019, "rating": "NR", "runtime": 20, "relevance": "1453 Ottoman conquest", "links": {"youtube": "https://www.youtube.com/watch?v=p8CMYD_4qZQ"}, "ageAppropriate": true, "notes": "Detailed military history"}
+          ]
+        },
+        {
+          "id": "renaissance-exploration-shorts",
+          "name": "Renaissance & Exploration Quick Clips",
+          "description": "Short videos on Renaissance, Reformation, and Age of Exploration",
+          "order": 3,
+          "subtopics": ["Renaissance", "Reformation", "Exploration", "Columbian Exchange"],
+          "media": [
+            {"title": "Crash Course World History: The Renaissance", "type": "short", "year": 2012, "rating": "NR", "runtime": 11, "relevance": "Renaissance overview", "links": {"youtube": "https://www.youtube.com/watch?v=Vufba_ZDwbQ"}, "ageAppropriate": true, "notes": "Art, humanism, science"},
+            {"title": "TED-Ed: The Chemistry of Cold War Colors", "type": "short", "year": 2017, "rating": "NR", "runtime": 5, "relevance": "Renaissance color chemistry", "links": {"youtube": "https://www.youtube.com/watch?v=8a7MJEF0OMY"}, "ageAppropriate": true, "notes": "Renaissance art techniques"},
+            {"title": "Crash Course World History: Luther and the Protestant Reformation", "type": "short", "year": 2012, "rating": "NR", "runtime": 12, "relevance": "Reformation overview", "links": {"youtube": "https://www.youtube.com/watch?v=1o8oIELbNxE"}, "ageAppropriate": true, "notes": "Martin Luther and 95 Theses"},
+            {"title": "Crash Course World History: The Age of Exploration", "type": "short", "year": 2012, "rating": "NR", "runtime": 12, "relevance": "European exploration era", "links": {"youtube": "https://www.youtube.com/watch?v=wOclF9eP5uM"}, "ageAppropriate": true, "notes": "Columbus, Vasco da Gama"},
+            {"title": "TED-Ed: How the Compass Unlocked the World", "type": "short", "year": 2020, "rating": "NR", "runtime": 5, "relevance": "Navigation technology", "links": {"youtube": "https://www.youtube.com/watch?v=I3V2Np9kB8U"}, "ageAppropriate": true, "notes": "Exploration technology"},
+            {"title": "Crash Course World History: The Columbian Exchange", "type": "short", "year": 2012, "rating": "NR", "runtime": 12, "relevance": "Global exchange after 1492", "links": {"youtube": "https://www.youtube.com/watch?v=HQPA5oNpfM4"}, "ageAppropriate": true, "notes": "ESSENTIAL - plants, animals, disease"},
+            {"title": "Extra History: Admiral Zheng He", "type": "short", "year": 2015, "rating": "NR", "runtime": 40, "relevance": "Chinese exploration (4 parts)", "links": {"youtube": "https://www.youtube.com/watch?v=NI9mLCPi6g8&list=PLhyKYa0YJ_5Aq7g4bil7bnGi0A8gTsawu"}, "ageAppropriate": true, "notes": "Chinese exploration before Europeans"},
+            {"title": "TED-Ed: The Atlantic Slave Trade", "type": "short", "year": 2014, "rating": "NR", "runtime": 6, "relevance": "Slave trade context", "links": {"youtube": "https://www.youtube.com/watch?v=3NXC4Q_4JVg"}, "ageAppropriate": true, "notes": "Important but sensitive topic"}
+          ]
+        },
+        {
+          "id": "empires-shorts",
+          "name": "Empires Quick Clips",
+          "description": "Short videos on Ottoman, Mughal, Ming/Qing, and other empires",
+          "order": 4,
+          "subtopics": ["Ottoman", "Mughal", "Ming", "Qing", "Safavid"],
+          "media": [
+            {"title": "Crash Course World History: The Mughal Empire", "type": "short", "year": 2012, "rating": "NR", "runtime": 12, "relevance": "Mughal India", "links": {"youtube": "https://www.youtube.com/watch?v=9-M5I9i_qdU"}, "ageAppropriate": true, "notes": "Akbar, Taj Mahal"},
+            {"title": "TED-Ed: The Taj Mahal: A Monument to Eternal Love", "type": "short", "year": 2017, "rating": "NR", "runtime": 5, "relevance": "Taj Mahal history", "links": {"youtube": "https://www.youtube.com/watch?v=MbcM6lFwTRQ"}, "ageAppropriate": true, "notes": "Mughal architecture"},
+            {"title": "Crash Course World History: The Ottoman Empire", "type": "short", "year": 2014, "rating": "NR", "runtime": 11, "relevance": "Ottoman overview", "links": {"youtube": "https://www.youtube.com/watch?v=lTTvKwCylFY"}, "ageAppropriate": true, "notes": "Suleiman the Magnificent"},
+            {"title": "Extra History: Suleiman the Magnificent", "type": "short", "year": 2016, "rating": "NR", "runtime": 45, "relevance": "Ottoman golden age (4 parts)", "links": {"youtube": "https://www.youtube.com/watch?v=d_w7GEQz1AE&list=PLhyKYa0YJ_5CL-krstYn532QY1Ayo27s1"}, "ageAppropriate": true, "notes": "Animated Ottoman history"},
+            {"title": "Crash Course World History: Ming China", "type": "short", "year": 2012, "rating": "NR", "runtime": 13, "relevance": "Ming Dynasty", "links": {"youtube": "https://www.youtube.com/watch?v=J4r6OXF2ZH4"}, "ageAppropriate": true, "notes": "Forbidden City, exploration"},
+            {"title": "History Matters: Why Did China Stop Exploring?", "type": "short", "year": 2020, "rating": "NR", "runtime": 4, "relevance": "Ming isolation", "links": {"youtube": "https://www.youtube.com/watch?v=h0OUHihqEcE"}, "ageAppropriate": true, "notes": "Quick explanation"},
+            {"title": "Kings and Generals: Samurai, Daimyo, Matthew Perry, and Gunboat Diplomacy", "type": "short", "year": 2019, "rating": "NR", "runtime": 18, "relevance": "Japan's isolation and opening", "links": {"youtube": "https://www.youtube.com/watch?v=Mh5LY4Mz15o"}, "ageAppropriate": true, "notes": "Japanese history"}
+          ]
+        }
+      ]
+    }
+  ]
+}

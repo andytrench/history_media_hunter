@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Media Hunter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo">
+                    <span class="logo-icon">🎬</span>
+                    <div class="logo-text">
+                        <h1>Curriculum Media Hunter</h1>
+                        <p class="tagline">Educational Films for NY State Social Studies</p>
+                    </div>
+                </div>
+                <div class="search-container">
+                    <input type="text" id="search" placeholder="Search movies, topics, or themes..." autocomplete="off">
+                    <span class="search-icon">⌘K</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Grade Selector -->
+        <nav class="grade-nav">
+            <div class="grade-tabs">
+                <button class="grade-tab active" data-grade="5">
+                    <span class="grade-number">5</span>
+                    <span class="grade-label">Western Hemisphere</span>
+                </button>
+                <button class="grade-tab" data-grade="7">
+                    <span class="grade-number">7</span>
+                    <span class="grade-label">US & NY History</span>
+                </button>
+                <button class="grade-tab" data-grade="9">
+                    <span class="grade-number">9</span>
+                    <span class="grade-label">Global History I</span>
+                </button>
+                <button class="grade-tab" data-grade="10">
+                    <span class="grade-number">10</span>
+                    <span class="grade-label">Global History II</span>
+                </button>
+                <button class="grade-tab" data-grade="11">
+                    <span class="grade-number">11</span>
+                    <span class="grade-label">US History</span>
+                </button>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <div class="sidebar-header">
+                    <h3>Categories</h3>
+                    <span class="category-count" id="categoryCount">0 categories</span>
+                </div>
+                <div class="category-list" id="categoryList">
+                    <!-- Categories loaded dynamically -->
+                </div>
+                
+                <div class="sidebar-section">
+                    <h4>Filters</h4>
+                    <div class="filter-group">
+                        <label class="filter-label">Media Type</label>
+                        <div class="filter-chips" id="typeFilters">
+                            <button class="filter-chip active" data-type="all">All</button>
+                            <button class="filter-chip" data-type="movie">Movies</button>
+                            <button class="filter-chip" data-type="documentary">Docs</button>
+                            <button class="filter-chip" data-type="series">Series</button>
+                        </div>
+                    </div>
+                    <div class="filter-group">
+                        <label class="filter-label">Age Appropriate</label>
+                        <div class="filter-chips" id="ageFilters">
+                            <button class="filter-chip active" data-age="all">All</button>
+                            <button class="filter-chip" data-age="true">Classroom Safe</button>
+                            <button class="filter-chip" data-age="false">Teacher Ref</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sidebar-stats">
+                    <div class="stat">
+                        <span class="stat-number" id="totalMovies">0</span>
+                        <span class="stat-label">Total Titles</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" id="totalTopics">0</span>
+                        <span class="stat-label">Topics</span>
+                    </div>
+                </div>
+                <div class="watched-stats" id="watchedStats">
+                    <span class="count">0</span> watched
+                </div>
+            </aside>
+
+            <!-- Content Area -->
+            <section class="content-area">
+                <div class="content-header">
+                    <div class="breadcrumb" id="breadcrumb">
+                        <span class="crumb">Grade 5</span>
+                        <span class="crumb-separator">›</span>
+                        <span class="crumb active">All Topics</span>
+                    </div>
+                    <div class="view-toggle">
+                        <button class="view-btn active" data-view="grid" title="Grid View">▦</button>
+                        <button class="view-btn" data-view="list" title="List View">☰</button>
+                    </div>
+                </div>
+
+                <!-- Topic Cards -->
+                <div class="topic-grid" id="topicGrid">
+                    <!-- Topics loaded dynamically -->
+                </div>
+
+                <!-- Media Cards -->
+                <div class="media-section" id="mediaSection">
+                    <div class="media-header">
+                        <h2 id="selectedTopic">Select a topic to view media</h2>
+                        <span class="media-count" id="mediaCount"></span>
+                    </div>
+                    <div class="media-grid" id="mediaGrid">
+                        <!-- Media cards loaded dynamically -->
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Movie Detail Modal -->
+        <div class="modal" id="movieModal">
+            <div class="modal-backdrop"></div>
+            <div class="modal-content">
+                <button class="modal-close">&times;</button>
+                <div class="modal-body" id="modalBody">
+                    <!-- Movie details loaded dynamically -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Lesson Plan Modal -->
+        <div class="modal" id="lessonModal">
+            <div class="modal-backdrop"></div>
+            <div class="modal-content modal-wide">
+                <button class="modal-close">&times;</button>
+                <div class="modal-body" id="lessonBody">
+                    <!-- Lesson plan loaded dynamically -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,1243 @@
+{
+  "grade": 7,
+  "lastUpdated": "2025-12-02",
+  "curriculumStandard": "New York State K-12 Social Studies Framework - Grade 7: History of the United States and New York",
+  "curriculumFocus": "US History from colonial times through Reconstruction, with emphasis on New York State history",
+  "categories": [
+    {
+      "id": "indigenous-societies",
+      "name": "Indigenous Societies",
+      "order": 1,
+      "topics": [
+        {
+          "id": "pre-colonial-native-americans",
+          "name": "Pre-Colonial Native Americans",
+          "description": "History of Indigenous societies prior to European colonization with focus on people, events, and places in New York State",
+          "order": 1,
+          "subtopics": [
+            "Iroquois Confederacy (Haudenosaunee) - democratic governance model",
+            "Algonquian peoples of the Northeast",
+            "Lenape (Delaware) people",
+            "Native American life in New York region",
+            "Trading networks and diplomacy"
+          ],
+          "media": [
+            {
+              "title": "500 Nations",
+              "type": "documentary",
+              "year": 1995,
+              "rating": "NR",
+              "runtime": 372,
+              "relevance": "Kevin Costner narrated 8-part documentary covering Native American history; Episode 1 covers Northeast woodland peoples",
+              "links": {"imdb": "https://www.imdb.com/title/tt0111825/"},
+              "ageAppropriate": true,
+              "notes": "Show relevant episodes on Iroquois and Northeast peoples; comprehensive and respectful"
+            },
+            {
+              "title": "We Shall Remain: Episode 1 - After the Mayflower",
+              "type": "documentary",
+              "year": 2009,
+              "rating": "NR",
+              "runtime": 90,
+              "relevance": "PBS American Experience documentary on Wampanoag people and first contact",
+              "links": {"imdb": "https://www.imdb.com/title/tt1340561/", "streaming": [{"service": "PBS", "url": ""}]},
+              "ageAppropriate": true,
+              "notes": "Tells story from Native American perspective; excellent primary sources"
+            },
+            {
+              "title": "Bury My Heart at Wounded Knee",
+              "type": "movie",
+              "year": 2007,
+              "rating": "TV-14",
+              "runtime": 133,
+              "relevance": "HBO film depicting Native American history from their perspective",
+              "links": {"imdb": "https://www.imdb.com/title/tt0821638/"},
+              "ageAppropriate": false,
+              "notes": "TV-14; may be appropriate for mature 7th graders; discusses difficult history"
+            },
+            {
+              "title": "The Iroquois",
+              "type": "educational",
+              "year": 2009,
+              "rating": "NR",
+              "runtime": 23,
+              "relevance": "Schlessinger Media educational video on Iroquois Confederacy",
+              "links": {},
+              "ageAppropriate": true,
+              "notes": "Designed for classroom use; covers government structure and daily life"
+            },
+            {
+              "title": "Kahentiiosta: Sky Woman",
+              "type": "documentary",
+              "year": 2020,
+              "rating": "NR",
+              "runtime": 60,
+              "relevance": "Documentary about Mohawk culture and the Sky Woman creation story",
+              "links": {},
+              "ageAppropriate": true,
+              "notes": "Authentic representation of Haudenosaunee culture"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "european-contact-colonization",
+      "name": "European Contact and Colonization",
+      "order": 2,
+      "topics": [
+        {
+          "id": "colonial-settlement",
+          "name": "Colonial Settlement",
+          "description": "European colonization of North America including Dutch, English, and French settlements",
+          "order": 1,
+          "subtopics": [
+            "Dutch New Amsterdam - Henry Hudson, Peter Stuyvesant",
+            "English takeover - becoming New York",
+            "French settlements in Canada and Great Lakes",
+            "Colonial New York society",
+            "Trade and commerce in colonial era"
+          ],
+          "media": [
+            {
+              "title": "New Amsterdam",
+              "type": "documentary",
+              "year": 2013,
+              "rating": "NR",
+              "runtime": 52,
+              "relevance": "PBS documentary on Dutch colonial New York",
+              "links": {"streaming": [{"service": "PBS", "url": ""}]},
+              "ageAppropriate": true,
+              "notes": "Specifically covers New York colonial history; excellent for NY State curriculum"
+            },
+            {
+              "title": "National Treasure",
+              "type": "movie",
+              "year": 2004,
+              "rating": "PG",
+              "runtime": 131,
+              "relevance": "Adventure film set partly in historical New York and Philadelphia with founding documents",
+              "links": {"imdb": "https://www.imdb.com/title/tt0368891/", "streaming": [{"service": "Disney+", "url": ""}]},
+              "ageAppropriate": true,
+              "notes": "Fictional but sparks interest in colonial history and founding documents"
+            },
+            {
+              "title": "Last of the Mohicans",
+              "type": "movie",
+              "year": 1992,
+              "rating": "R",
+              "runtime": 112,
+              "relevance": "Set during French and Indian War in colonial New York",
+              "links": {"imdb": "https://www.imdb.com/title/tt0104691/"},
+              "ageAppropriate": false,
+              "notes": "R-rated for violence; teacher reference; select scenes may work; set in NY wilderness"
+            },
+            {
+              "title": "Gangs of New York",
+              "type": "movie",
+              "year": 2002,
+              "rating": "R",
+              "runtime": 167,
+              "relevance": "Depicts 1860s New York City - NOT for classroom but useful teacher reference",
+              "links": {"imdb": "https://www.imdb.com/title/tt0217505/"},
+              "ageAppropriate": false,
+              "notes": "R-rated; NOT appropriate for classroom; shows NYC immigrant history"
+            },
+            {
+              "title": "Colonial House",
+              "type": "documentary",
+              "year": 2004,
+              "rating": "NR",
+              "runtime": 480,
+              "relevance": "PBS reality series where modern families live as 1628 colonists",
+              "links": {"imdb": "https://www.imdb.com/title/tt0386702/", "streaming": [{"service": "PBS", "url": ""}]},
+              "ageAppropriate": true,
+              "notes": "Excellent for understanding daily colonial life challenges"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medieval-renaissance-europe",
+      "name": "Medieval and Renaissance Europe",
+      "order": 3,
+      "topics": [
+        {
+          "id": "medieval-europe",
+          "name": "Medieval Europe",
+          "description": "Study of European feudalism, kingdoms, and medieval society",
+          "order": 1,
+          "subtopics": [
+            "Feudal system - lords, vassals, serfs",
+            "Castle life and warfare",
+            "Medieval church - monasteries and cathedrals",
+            "Black Death and its effects",
+            "Magna Carta and origins of rights"
+          ],
+          "media": [
+            {
+              "title": "Castle",
+              "type": "documentary",
+              "year": 1983,
+              "rating": "NR",
+              "runtime": 58,
+              "relevance": "David Macaulay animated documentary showing castle construction and medieval life",
+              "links": {"imdb": "https://www.imdb.com/title/tt0109393/"},
+              "ageAppropriate": true,
+              "notes": "HIGHLY RECOMMENDED - excellent educational animation; based on the book"
+            },
+            {
+              "title": "Cathedral",
+              "type": "documentary",
+              "year": 1985,
+              "rating": "NR",
+              "runtime": 60,
+              "relevance": "David Macaulay animated documentary on medieval cathedral construction",
+              "links": {"imdb": "https://www.imdb.com/title/tt0285683/"},
+              "ageAppropriate": true,
+              "notes": "Companion to Castle; shows medieval church and architecture"
+            },
+            {
+              "title": "A Knight's Tale",
+              "type": "movie",
+              "year": 2001,
+              "rating": "PG-13",
+              "runtime": 132,
+              "relevance": "Depicts medieval tournaments, social hierarchy, and knight culture",
+              "links": {"imdb": "https://www.imdb.com/title/tt0183790/"},
+              "ageAppropriate": true,
+              "notes": "PG-13 but mostly clean; anachronistic music but shows medieval society well"
+            },
+            {
+              "title": "Robin Hood (2010)",
+              "type": "movie",
+              "year": 2010,
+              "rating": "PG-13",
+              "runtime": 140,
+              "relevance": "Depicts medieval England, Magna Carta origins, and feudal conflicts",
+              "links": {"imdb": "https://www.imdb.com/title/tt0955308/"},
+              "ageAppropriate": false,
+              "notes": "PG-13 for battle scenes; select clips on Magna Carta may be useful"
+            },
+            {
+              "title": "The Name of the Rose",
+              "type": "movie",
+              "year": 1986,
+              "rating": "R",
+              "runtime": 131,
+              "relevance": "Set in medieval monastery; shows medieval church and scholarship",
+              "links": {"imdb": "https://www.imdb.com/title/tt0091605/"},
+              "ageAppropriate": false,
+              "notes": "R-rated; teacher reference only; excellent depiction of monastic life"
+            },
+            {
+              "title": "Horrible Histories: Measly Middle Ages",
+              "type": "series",
+              "year": 2009,
+              "rating": "TV-G",
+              "runtime": 28,
+              "relevance": "British educational comedy series covering medieval history with humor",
+              "links": {"imdb": "https://www.imdb.com/title/tt1434549/"},
+              "ageAppropriate": true,
+              "notes": "HIGHLY RECOMMENDED - engaging and humorous; perfect for middle school"
+            },
+            {
+              "title": "Terry Jones' Medieval Lives",
+              "type": "documentary",
+              "year": 2004,
+              "rating": "NR",
+              "runtime": 240,
+              "relevance": "BBC documentary series examining life of various medieval people",
+              "links": {"imdb": "https://www.imdb.com/title/tt0411006/"},
+              "ageAppropriate": true,
+              "notes": "8 episodes covering peasant, monk, knight, etc.; hosted by Monty Python member"
+            },
+            {
+              "title": "The Black Death: The World's Most Devastating Plague",
+              "type": "documentary",
+              "year": 2016,
+              "rating": "NR",
+              "runtime": 720,
+              "relevance": "Great Courses documentary on the Black Death and its effects",
+              "links": {},
+              "ageAppropriate": true,
+              "notes": "Academic but accessible; covers pandemic's impact on medieval society"
+            }
+          ]
+        },
+        {
+          "id": "renaissance-europe",
+          "name": "The Renaissance in Europe",
+          "description": "European Renaissance as a time of social, scientific, artistic, and religious rebirth from 1463 to 1650",
+          "order": 2,
+          "subtopics": [
+            "Italian Renaissance - Florence, Venice",
+            "Renaissance art - da Vinci, Michelangelo, Raphael",
+            "Scientific revolution beginnings - Galileo, Copernicus",
+            "Printing press and spread of ideas",
+            "Humanism and new ways of thinking"
+          ],
+          "media": [
+            {
+              "title": "Ever After: A Cinderella Story",
+              "type": "movie",
+              "year": 1998,
+              "rating": "PG-13",
+              "runtime": 121,
+              "relevance": "Set during Renaissance France; features Leonardo da Vinci as a character",
+              "links": {"imdb": "https://www.imdb.com/title/tt0120631/"},
+              "ageAppropriate": true,
+              "notes": "PG-13 but appropriate; excellent Renaissance costumes and setting"
+            },
+            {
+              "title": "Leonardo da Vinci: The Genius",
+              "type": "documentary",
+              "year": 2017,
+              "rating": "NR",
+              "runtime": 90,
+              "relevance": "Documentary exploring da Vinci's life, art, and inventions",
+              "links": {},
+              "ageAppropriate": true,
+              "notes": "Great introduction to Renaissance polymath"
+            },
+            {
+              "title": "The Agony and the Ecstasy",
+              "type": "movie",
+              "year": 1965,
+              "rating": "NR",
+              "runtime": 138,
+              "relevance": "Classic film about Michelangelo painting the Sistine Chapel",
+              "links": {"imdb": "https://www.imdb.com/title/tt0058886/"},
+              "ageAppropriate": true,
+              "notes": "Charlton Heston as Michelangelo; shows Renaissance art and patronage"
+            },
+            {
+              "title": "Medici: Masters of Florence",
+              "type": "series",
+              "year": 2016,
+              "rating": "TV-MA",
+              "runtime": 60,
+              "relevance": "TV series about the powerful Medici family in Renaissance Florence",
+              "links": {"imdb": "https://www.imdb.com/title/tt5057130/"},
+              "ageAppropriate": false,
+              "notes": "TV-MA; NOT for classroom; excellent teacher reference on Renaissance Florence"
+            },
+            {
+              "title": "The Story of the Renaissance",
+              "type": "documentary",
+              "year": 2009,
+              "rating": "NR",
+              "runtime": 50,
+              "relevance": "Educational documentary covering Renaissance art, science, and culture",
+              "links": {},
+              "ageAppropriate": true,
+              "notes": "Designed for educational use"
+            },
+            {
+              "title": "Galileo",
+              "type": "movie",
+              "year": 1975,
+              "rating": "PG",
+              "runtime": 145,
+              "relevance": "Biographical film about Galileo and conflict with the Church",
+              "links": {"imdb": "https://www.imdb.com/title/tt0073034/"},
+              "ageAppropriate": true,
+              "notes": "Depicts scientific revolution and church-science conflicts"
+            }
+          ]
+        },
+        {
+          "id": "protestant-reformation",
+          "name": "The Protestant Reformation",
+          "description": "Religious reformation and its impact on European society and later American colonization",
+          "order": 3,
+          "subtopics": [
+            "Martin Luther and the 95 Theses",
+            "Causes of the Reformation",
+            "Spread of Protestantism",
+            "Counter-Reformation",
+            "Religious conflicts and wars"
+          ],
+          "media": [
+            {
+              "title": "Luther",
+              "type": "movie",
+              "year": 2003,
+              "rating": "PG-13",
+              "runtime": 123,
+              "relevance": "Biographical film about Martin Luther and the Protestant Reformation",
+              "links": {"imdb": "https://www.imdb.com/title/tt0309820/"},
+              "ageAppropriate": true,
+              "notes": "PG-13; may be appropriate for mature 7th graders; comprehensive look at Luther"
+            },
+            {
+              "title": "Martin Luther: The Idea that Changed the World",
+              "type": "documentary",
+              "year": 2017,
+              "rating": "NR",
+              "runtime": 77,
+              "relevance": "Documentary narrated by Hugh Bonneville on Luther and the Reformation",
+              "links": {"imdb": "https://www.imdb.com/title/tt7014528/"},
+              "ageAppropriate": true,
+              "notes": "Made for 500th anniversary of Reformation; accessible and educational"
+            },
+            {
+              "title": "A Man for All Seasons",
+              "type": "movie",
+              "year": 1966,
+              "rating": "G",
+              "runtime": 120,
+              "relevance": "Academy Award winner about Thomas More and Henry VIII's break with Rome",
+              "links": {"imdb": "https://www.imdb.com/title/tt0060665/"},
+              "ageAppropriate": true,
+              "notes": "G-rated; excellent for discussing English Reformation and conscience"
+            },
+            {
+              "title": "Elizabeth",
+              "type": "movie",
+              "year": 1998,
+              "rating": "R",
+              "runtime": 124,
+              "relevance": "Depicts Elizabeth I and Protestant England",
+              "links": {"imdb": "https://www.imdb.com/title/tt0127536/"},
+              "ageAppropriate": false,
+              "notes": "R-rated; NOT for classroom; teacher reference on English Reformation"
+            },
+            {
+              "title": "The Reformation",
+              "type": "documentary",
+              "year": 2017,
+              "rating": "NR",
+              "runtime": 60,
+              "relevance": "PBS documentary on the Protestant Reformation",
+              "links": {"streaming": [{"service": "PBS", "url": ""}]},
+              "ageAppropriate": true,
+              "notes": "Straightforward educational documentary"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mesoamerican-civilizations",
+      "name": "Mesoamerican Civilizations",
+      "order": 4,
+      "topics": [
+        {
+          "id": "the-aztecs",
+          "name": "The Aztecs",
+          "description": "Study of Aztec civilization, governmental structure, religious ceremonies, and temples",
+          "order": 1,
+          "subtopics": [
+            "Tenochtitlan - capital city on a lake",
+            "Aztec government and emperor",
+            "Religion and human sacrifice",
+            "Spanish conquest by Cortés"
+          ],
+          "media": [
+            {
+              "title": "Engineering an Empire: The Aztecs",
+              "type": "documentary",
+              "year": 2006,
+              "rating": "TV-PG",
+              "runtime": 44,
+              "relevance": "History Channel documentary on Aztec engineering and Tenochtitlan",
+              "links": {"imdb": "https://www.imdb.com/title/tt0884140/"},
+              "ageAppropriate": true,
+              "notes": "Focus on engineering achievements; Peter Weller narrates"
+            },
+            {
+              "title": "The Road to El Dorado",
+              "type": "movie",
+              "year": 2000,
+              "rating": "PG",
+              "runtime": 89,
+              "relevance": "Animated adventure featuring Mesoamerican-inspired civilization",
+              "links": {"imdb": "https://www.imdb.com/title/tt0138749/"},
+              "ageAppropriate": true,
+              "notes": "Fictional but excellent visual introduction to Mesoamerican aesthetics"
+            },
+            {
+              "title": "Conquest of the Aztec Empire",
+              "type": "documentary",
+              "year": 2015,
+              "rating": "NR",
+              "runtime": 50,
+              "relevance": "Documentary covering Cortés and the fall of Tenochtitlan",
+              "links": {},
+              "ageAppropriate": true,
+              "notes": "Covers both Aztec civilization and Spanish conquest"
+            }
+          ]
+        },
+        {
+          "id": "the-incas",
+          "name": "The Incas",
+          "description": "Study of Incan civilization in South America, their empire, and achievements",
+          "order": 2,
+          "subtopics": [
+            "Incan Empire extent and organization",
+            "Machu Picchu and architecture",
+            "Road system and communication",
+            "Spanish conquest by Pizarro"
+          ],
+          "media": [
+            {
+              "title": "The Emperor's New Groove",
+              "type": "movie",
+              "year": 2000,
+              "rating": "G",
+              "runtime": 78,
+              "relevance": "Animated comedy set in Incan-inspired empire",
+              "links": {"imdb": "https://www.imdb.com/title/tt0120917/", "streaming": [{"service": "Disney+", "url": ""}]},
+              "ageAppropriate": true,
+              "notes": "Not historically accurate but fun visual introduction to Incan aesthetics"
+            },
+            {
+              "title": "Engineering an Empire: The Inca",
+              "type": "documentary",
+              "year": 2007,
+              "rating": "TV-PG",
+              "runtime": 44,
+              "relevance": "History Channel documentary on Incan engineering achievements",
+              "links": {"imdb": "https://www.imdb.com/title/tt1210897/"},
+              "ageAppropriate": true,
+              "notes": "Covers Machu Picchu, road system, and architectural achievements"
+            },
+            {
+              "title": "Machu Picchu: Secrets of the Incan Empire",
+              "type": "documentary",
+              "year": 2009,
+              "rating": "NR",
+              "runtime": 60,
+              "relevance": "National Geographic documentary exploring Machu Picchu",
+              "links": {},
+              "ageAppropriate": true,
+              "notes": "Beautiful visuals of the famous citadel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "founding-documents-early-republic",
+      "name": "Founding Documents and Early Republic",
+      "order": 5,
+      "topics": [
+        {
+          "id": "us-constitution",
+          "name": "The United States Constitution",
+          "description": "Development of the Constitution, Constitutional Convention, and the framework of American government",
+          "order": 1,
+          "subtopics": [
+            "Constitutional Convention in Philadelphia",
+            "Debates and compromises",
+            "Bill of Rights",
+            "Federalist vs Anti-Federalist",
+            "Ratification process"
+          ],
+          "media": [
+            {
+              "title": "Liberty's Kids: The Complete Series",
+              "type": "series",
+              "year": 2002,
+              "rating": "TV-Y7",
+              "runtime": 30,
+              "relevance": "Final episodes cover Constitutional Convention and ratification",
+              "links": {"imdb": "https://www.imdb.com/title/tt0310874/", "youtube": "https://www.youtube.com/playlist?list=PLHPGDDYvMPxEXwfFLR8u2Hd1ZJpnhwnAh"},
+              "ageAppropriate": true,
+              "notes": "Animated series perfect for this age; episodes 38-40 cover Constitution"
+            },
+            {
+              "title": "A More Perfect Union: America Becomes a Nation",
+              "type": "movie",
+              "year": 1989,
+              "rating": "NR",
+              "runtime": 97,
+              "relevance": "Dramatization of the Constitutional Convention of 1787",
+              "links": {"imdb": "https://www.imdb.com/title/tt0097927/"},
+              "ageAppropriate": true,
+              "notes": "Made specifically for educational use; shows convention debates"
+            },
+            {
+              "title": "Schoolhouse Rock: The Preamble",
+              "type": "short",
+              "year": 1975,
+              "rating": "TV-Y",
+              "runtime": 3,
+              "relevance": "Classic animated song teaching the Constitution's preamble",
+              "links": {"youtube": "https://www.youtube.com/watch?v=0hEYvdMoF2g"},
+              "ageAppropriate": true,
+              "notes": "Students can memorize preamble through the catchy song"
+            },
+            {
+              "title": "The Federalist Papers: A Documentary",
+              "type": "documentary",
+              "year": 2019,
+              "rating": "NR",
+              "runtime": 60,
+              "relevance": "Documentary on Hamilton, Madison, and Jay's writings",
+              "links": {},
+              "ageAppropriate": true,
+              "notes": "More advanced; good for enrichment"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expansion-state-history",
+      "name": "Expansion and State History",
+      "order": 6,
+      "topics": [
+        {
+          "id": "erie-canal",
+          "name": "The Erie Canal",
+          "description": "Construction and impact of the Erie Canal on New York State and national development",
+          "order": 1,
+          "subtopics": [
+            "Clinton's Big Ditch - construction challenges",
+            "Route from Albany to Buffalo",
+            "Economic impact on New York",
+            "Immigration and settlement along canal",
+            "Cultural legacy and songs"
+          ],
+          "media": [
+            {
+              "title": "The Erie Canal",
+              "type": "documentary",
+              "year": 2000,
+              "rating": "NR",
+              "runtime": 60,
+              "relevance": "History Channel documentary on the Erie Canal construction and impact",
+              "links": {},
+              "ageAppropriate": true,
+              "notes": "Comprehensive coverage of canal history"
+            },
+            {
+              "title": "America: The Story of Us - Episode 3: Westward",
+              "type": "documentary",
+              "year": 2010,
+              "rating": "TV-PG",
+              "runtime": 44,
+              "relevance": "Includes segment on Erie Canal and its role in westward expansion",
+              "links": {"imdb": "https://www.imdb.com/title/tt1644785/"},
+              "ageAppropriate": true,
+              "notes": "Modern production with reenactments"
+            },
+            {
+              "title": "The Erie Canal: A Journey Through History",
+              "type": "educational",
+              "year": 2015,
+              "rating": "NR",
+              "runtime": 30,
+              "relevance": "Educational video specifically about the canal for students",
+              "links": {},
+              "ageAppropriate": true,
+              "notes": "Made for classroom use"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expansion-westward-movement",
+      "name": "Expansion and Westward Movement",
+      "order": 7,
+      "topics": [
+        {
+          "id": "territorial-expansion",
+          "name": "Territorial Expansion",
+          "description": "American expansion including events like the Alamo and westward movement",
+          "order": 1,
+          "subtopics": [
+            "Texas independence from Mexico",
+            "The Alamo - Crockett, Bowie, Travis",
+            "Mexican-American War",
+            "Oregon Trail migration",
+            "California Gold Rush"
+          ],
+          "media": [
+            {
+              "title": "Davy Crockett: King of the Wild Frontier",
+              "type": "movie",
+              "year": 1955,
+              "rating": "NR",
+              "runtime": 93,
+              "relevance": "Disney classic featuring Davy Crockett and the Alamo",
+              "links": {"imdb": "https://www.imdb.com/title/tt0047969/", "streaming": [{"service": "Disney+", "url": ""}]},
+              "ageAppropriate": true,
+              "notes": "Classic Disney; romanticized but engaging introduction to Alamo"
+            },
+            {
+              "title": "The Alamo (2004)",
+              "type": "movie",
+              "year": 2004,
+              "rating": "PG-13",
+              "runtime": 137,
+              "relevance": "Modern retelling of the Battle of the Alamo",
+              "links": {"imdb": "https://www.imdb.com/title/tt0318974/"},
+              "ageAppropriate": false,
+              "notes": "PG-13 for battle violence; more historically accurate; select scenes may work"
+            },
+            {
+              "title": "The West",
+              "type": "documentary",
+              "year": 1996,
+              "rating": "NR",
+              "runtime": 750,
+              "relevance": "Ken Burns documentary series on westward expansion",
+              "links": {"imdb": "https://www.imdb.com/title/tt0115402/", "streaming": [{"service": "PBS", "url": ""}]},
+              "ageAppropriate": true,
+              "notes": "Comprehensive 8-part series; select relevant episodes"
+            },
+            {
+              "title": "Oregon Trail: The Road to Western Expansion",
+              "type": "documentary",
+              "year": 2012,
+              "rating": "NR",
+              "runtime": 50,
+              "relevance": "Documentary on pioneer migration to Oregon",
+              "links": {},
+              "ageAppropriate": true,
+              "notes": "Covers challenges and experiences of pioneers"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reform-movements",
+      "name": "Reform Movements",
+      "order": 8,
+      "topics": [
+        {
+          "id": "womens-rights",
+          "name": "Women's Rights",
+          "description": "Early women's rights movement including the Seneca Falls Convention",
+          "order": 1,
+          "subtopics": [
+            "Seneca Falls Convention 1848 (NY!)",
+            "Elizabeth Cady Stanton",
+            "Susan B. Anthony",
+            "Declaration of Sentiments",
+            "Early suffrage movement"
+          ],
+          "media": [
+            {
+              "title": "Not for Ourselves Alone: Elizabeth Cady Stanton & Susan B. Anthony",
+              "type": "documentary",
+              "year": 1999,
+              "rating": "NR",
+              "runtime": 210,
+              "relevance": "Ken Burns documentary on two suffrage pioneers who worked in NY State",
+              "links": {"imdb": "https://www.imdb.com/title/tt0181028/", "streaming": [{"service": "PBS", "url": ""}]},
+              "ageAppropriate": true,
+              "notes": "HIGHLY RECOMMENDED for NY curriculum; can show in segments"
+            },
+            {
+              "title": "Iron Jawed Angels",
+              "type": "movie",
+              "year": 2004,
+              "rating": "NR",
+              "runtime": 123,
+              "relevance": "HBO film about the suffrage movement (later period)",
+              "links": {"imdb": "https://www.imdb.com/title/tt0338139/"},
+              "ageAppropriate": true,
+              "notes": "Covers later suffrage movement; powerful depiction of struggle for vote"
+            },
+            {
+              "title": "One Woman, One Vote",
+              "type": "documentary",
+              "year": 1995,
+              "rating": "NR",
+              "runtime": 60,
+              "relevance": "PBS documentary on women's suffrage movement",
+              "links": {"streaming": [{"service": "PBS", "url": ""}]},
+              "ageAppropriate": true,
+              "notes": "Comprehensive look at entire suffrage movement"
+            },
+            {
+              "title": "Suffragette",
+              "type": "movie",
+              "year": 2015,
+              "rating": "PG-13",
+              "runtime": 106,
+              "relevance": "British suffrage movement; useful comparison",
+              "links": {"imdb": "https://www.imdb.com/title/tt3077214/"},
+              "ageAppropriate": true,
+              "notes": "PG-13; set in Britain but shows suffrage struggle"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "industrial-revolution",
+      "name": "Industrial Revolution",
+      "order": 9,
+      "topics": [
+        {
+          "id": "impact-industrialization",
+          "name": "Impact of Industrialization",
+          "description": "The Industrial Revolution and its effects on American society and economy",
+          "order": 1,
+          "subtopics": [
+            "Factory system",
+            "Child labor",
+            "Urbanization",
+            "New York City growth",
+            "Immigration and industry"
+          ],
+          "media": [
+            {
+              "title": "Newsies",
+              "type": "movie",
+              "year": 1992,
+              "rating": "PG",
+              "runtime": 121,
+              "relevance": "Disney musical about newsboy strike of 1899 in New York City",
+              "links": {"imdb": "https://www.imdb.com/title/tt0104990/", "streaming": [{"service": "Disney+", "url": ""}]},
+              "ageAppropriate": true,
+              "notes": "HIGHLY RECOMMENDED - perfect for NY curriculum; engaging musical about labor"
+            },
+            {
+              "title": "Oliver Twist (2005)",
+              "type": "movie",
+              "year": 2005,
+              "rating": "PG-13",
+              "runtime": 130,
+              "relevance": "Dickens adaptation showing poverty and child labor in industrial England",
+              "links": {"imdb": "https://www.imdb.com/title/tt0380599/"},
+              "ageAppropriate": true,
+              "notes": "Set in England but excellent for understanding industrial era conditions"
+            },
+            {
+              "title": "The Men Who Built America",
+              "type": "documentary",
+              "year": 2012,
+              "rating": "TV-PG",
+              "runtime": 360,
+              "relevance": "History Channel series on Vanderbilt, Rockefeller, Carnegie, Morgan",
+              "links": {"imdb": "https://www.imdb.com/title/tt2167393/"},
+              "ageAppropriate": true,
+              "notes": "8-part series; covers industrialists who shaped America; some based in NY"
+            },
+            {
+              "title": "An American Tail",
+              "type": "movie",
+              "year": 1986,
+              "rating": "G",
+              "runtime": 77,
+              "relevance": "Animated film about immigrant mouse family in 1885 New York City",
+              "links": {"imdb": "https://www.imdb.com/title/tt0090633/"},
+              "ageAppropriate": true,
+              "notes": "Covers immigration to NYC during industrial era; accessible introduction"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "civil-war-era",
+      "name": "Civil War Era",
+      "order": 10,
+      "topics": [
+        {
+          "id": "causes-civil-war",
+          "name": "Causes of the Civil War",
+          "description": "Growing sectional tensions, slavery, and states' rights leading to the Civil War",
+          "order": 1,
+          "subtopics": [
+            "Slavery expansion debates",
+            "States' rights arguments",
+            "Abolitionist movement",
+            "New York's role - abolitionists and draft riots"
+          ],
+          "media": [
+            {
+              "title": "Harriet",
+              "type": "movie",
+              "year": 2019,
+              "rating": "PG-13",
+              "runtime": 125,
+              "relevance": "Biographical film about Harriet Tubman and the Underground Railroad",
+              "links": {"imdb": "https://www.imdb.com/title/tt4648786/"},
+              "ageAppropriate": true,
+              "notes": "PG-13 but appropriate; excellent modern telling of Tubman's story"
+            },
+            {
+              "title": "Glory",
+              "type": "movie",
+              "year": 1989,
+              "rating": "R",
+              "runtime": 122,
+              "relevance": "54th Massachusetts Infantry - first Black regiment in Civil War",
+              "links": {"imdb": "https://www.imdb.com/title/tt0097441/"},
+              "ageAppropriate": false,
+              "notes": "R-rated for war violence; teacher reference; excellent for Black soldiers' story"
+            },
+            {
+              "title": "Lincoln",
+              "type": "movie",
+              "year": 2012,
+              "rating": "PG-13",
+              "runtime": 150,
+              "relevance": "Spielberg film about Lincoln and the 13th Amendment",
+              "links": {"imdb": "https://www.imdb.com/title/tt0443272/"},
+              "ageAppropriate": true,
+              "notes": "PG-13; excellent for mature 7th graders; shows political process"
+            },
+            {
+              "title": "The Civil War (Ken Burns)",
+              "type": "documentary",
+              "year": 1990,
+              "rating": "NR",
+              "runtime": 690,
+              "relevance": "Definitive 9-part documentary on the Civil War",
+              "links": {"imdb": "https://www.imdb.com/title/tt0098769/", "streaming": [{"service": "PBS", "url": ""}]},
+              "ageAppropriate": true,
+              "notes": "Select appropriate episodes; Episode 4 covers New York draft riots"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "post-war-period",
+      "name": "Post-War Period",
+      "order": 11,
+      "topics": [
+        {
+          "id": "reconstruction-beyond",
+          "name": "Reconstruction and Beyond",
+          "description": "Period following the Civil War including Reconstruction and its challenges",
+          "order": 1,
+          "subtopics": [
+            "13th, 14th, 15th Amendments",
+            "Freedmen's Bureau",
+            "Carpetbaggers and scalawags",
+            "Rise of Jim Crow",
+            "End of Reconstruction"
+          ],
+          "media": [
+            {
+              "title": "Reconstruction: America After the Civil War",
+              "type": "documentary",
+              "year": 2019,
+              "rating": "NR",
+              "runtime": 240,
+              "relevance": "Henry Louis Gates Jr. PBS documentary on Reconstruction era",
+              "links": {"imdb": "https://www.imdb.com/title/tt9308306/", "streaming": [{"service": "PBS", "url": ""}]},
+              "ageAppropriate": true,
+              "notes": "Excellent modern documentary; 4 hours can be shown in segments"
+            },
+            {
+              "title": "Birth of a Nation (1915) - Clips for Analysis",
+              "type": "movie",
+              "year": 1915,
+              "rating": "NR",
+              "runtime": 195,
+              "relevance": "Historically important but deeply racist film - for analyzing propaganda",
+              "links": {"imdb": "https://www.imdb.com/title/tt0004972/"},
+              "ageAppropriate": false,
+              "notes": "DO NOT SHOW - only mention for understanding how history was distorted"
+            },
+            {
+              "title": "The 13th",
+              "type": "documentary",
+              "year": 2016,
+              "rating": "TV-MA",
+              "runtime": 100,
+              "relevance": "Ava DuVernay documentary on 13th Amendment and mass incarceration",
+              "links": {"imdb": "https://www.imdb.com/title/tt5895028/", "streaming": [{"service": "Netflix", "url": ""}]},
+              "ageAppropriate": false,
+              "notes": "TV-MA; may be appropriate for mature students with preview; connects past to present"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cultural-movements",
+      "name": "Cultural Movements",
+      "order": 12,
+      "topics": [
+        {
+          "id": "harlem-renaissance",
+          "name": "Harlem Renaissance",
+          "description": "Celebration of African-American culture through art, music, and literature in the 1920s and 1930s",
+          "order": 1,
+          "subtopics": [
+            "Jazz Age in Harlem, NYC",
+            "Langston Hughes and poetry",
+            "Duke Ellington and jazz",
+            "Zora Neale Hurston",
+            "Cultural pride and identity"
+          ],
+          "media": [
+            {
+              "title": "The Great Debaters",
+              "type": "movie",
+              "year": 2007,
+              "rating": "PG-13",
+              "runtime": 126,
+              "relevance": "1930s Black college debate team; shows era's intellectual achievements",
+              "links": {"imdb": "https://www.imdb.com/title/tt0427309/"},
+              "ageAppropriate": true,
+              "notes": "PG-13; inspiring film about Black education and achievement in Jim Crow era"
+            },
+            {
+              "title": "Jazz (Ken Burns)",
+              "type": "documentary",
+              "year": 2001,
+              "rating": "NR",
+              "runtime": 1140,
+              "relevance": "Comprehensive documentary on jazz history including Harlem Renaissance",
+              "links": {"imdb": "https://www.imdb.com/title/tt0268079/", "streaming": [{"service": "PBS", "url": ""}]},
+              "ageAppropriate": true,
+              "notes": "Episodes 4-5 cover Jazz Age and Harlem; extensive but excellent"
+            },
+            {
+              "title": "Harlem Renaissance: American Art from the 1920s and 1930s",
+              "type": "documentary",
+              "year": 2018,
+              "rating": "NR",
+              "runtime": 60,
+              "relevance": "Documentary focused on visual arts of Harlem Renaissance",
+              "links": {},
+              "ageAppropriate": true,
+              "notes": "Covers artists like Aaron Douglas and Jacob Lawrence"
+            },
+            {
+              "title": "Duke Ellington: Reminiscing in Tempo",
+              "type": "documentary",
+              "year": 1991,
+              "rating": "NR",
+              "runtime": 88,
+              "relevance": "Documentary on Duke Ellington's life and music",
+              "links": {"imdb": "https://www.imdb.com/title/tt0140826/"},
+              "ageAppropriate": true,
+              "notes": "Covers Ellington's career in Harlem's Cotton Club"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "modern-reform",
+      "name": "Modern Reform",
+      "order": 13,
+      "topics": [
+        {
+          "id": "progressive-era",
+          "name": "Progressive Era",
+          "description": "Reform movements in government, labor, and social issues in the early 20th century",
+          "order": 1,
+          "subtopics": [
+            "Muckrakers and investigative journalism",
+            "Trust-busting and regulation",
+            "Labor reforms",
+            "Triangle Shirtwaist Factory fire (NYC!)",
+            "Political reforms"
+          ],
+          "media": [
+            {
+              "title": "Triangle Fire",
+              "type": "documentary",
+              "year": 2011,
+              "rating": "NR",
+              "runtime": 60,
+              "relevance": "PBS American Experience documentary on the Triangle Shirtwaist Factory fire in NYC",
+              "links": {"imdb": "https://www.imdb.com/title/tt1824242/", "streaming": [{"service": "PBS", "url": ""}]},
+              "ageAppropriate": true,
+              "notes": "ESSENTIAL for NY curriculum; covers NYC labor history"
+            },
+            {
+              "title": "The Jungle (audiobook selections)",
+              "type": "educational",
+              "year": 1906,
+              "rating": "NR",
+              "runtime": 60,
+              "relevance": "Upton Sinclair's muckraking novel about meatpacking industry",
+              "links": {},
+              "ageAppropriate": true,
+              "notes": "Read selected passages; too graphic to read in full but important"
+            },
+            {
+              "title": "TR: The Story of Theodore Roosevelt",
+              "type": "documentary",
+              "year": 1996,
+              "rating": "NR",
+              "runtime": 240,
+              "relevance": "PBS documentary on Theodore Roosevelt - progressive president from NY",
+              "links": {"imdb": "https://www.imdb.com/title/tt0115396/", "streaming": [{"service": "PBS", "url": ""}]},
+              "ageAppropriate": true,
+              "notes": "NY native; covers progressive reforms; 4-part series"
+            },
+            {
+              "title": "The Gilded Age",
+              "type": "series",
+              "year": 2022,
+              "rating": "TV-14",
+              "runtime": 60,
+              "relevance": "HBO drama set in 1880s New York high society",
+              "links": {"imdb": "https://www.imdb.com/title/tt4834544/"},
+              "ageAppropriate": false,
+              "notes": "TV-14; NOT for full classroom use; shows era's NYC society"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "modern-america",
+      "name": "Modern America",
+      "order": 14,
+      "topics": [
+        {
+          "id": "expansionism",
+          "name": "Expansionism",
+          "description": "United States territorial expansion in North America and other parts of the world",
+          "order": 1,
+          "subtopics": [
+            "Spanish-American War",
+            "Panama Canal",
+            "Hawaii and Pacific territories",
+            "Theodore Roosevelt's foreign policy"
+          ],
+          "media": [
+            {
+              "title": "Rough Riders",
+              "type": "movie",
+              "year": 1997,
+              "rating": "PG-13",
+              "runtime": 180,
+              "relevance": "TV miniseries about Theodore Roosevelt and the Spanish-American War",
+              "links": {"imdb": "https://www.imdb.com/title/tt0120042/"},
+              "ageAppropriate": true,
+              "notes": "Tom Berenger as Roosevelt; covers formation of Rough Riders and Cuba campaign"
+            },
+            {
+              "title": "Crucible of Empire: The Spanish-American War",
+              "type": "documentary",
+              "year": 1999,
+              "rating": "NR",
+              "runtime": 120,
+              "relevance": "PBS documentary on the Spanish-American War and American imperialism",
+              "links": {"streaming": [{"service": "PBS", "url": ""}]},
+              "ageAppropriate": true,
+              "notes": "Comprehensive coverage of the war and its implications"
+            },
+            {
+              "title": "A Man, A Plan, A Canal: Panama",
+              "type": "documentary",
+              "year": 1987,
+              "rating": "NR",
+              "runtime": 60,
+              "relevance": "PBS documentary on the construction of the Panama Canal",
+              "links": {"streaming": [{"service": "PBS", "url": ""}]},
+              "ageAppropriate": true,
+              "notes": "Covers engineering challenges and Roosevelt's role"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quick-clips",
+      "name": "Quick Clips & Educational Shorts",
+      "order": 99,
+      "description": "Short-form educational content from YouTube, TED-Ed, Crash Course, and other sources",
+      "topics": [
+        {
+          "id": "medieval-renaissance-shorts",
+          "name": "Medieval & Renaissance Quick Clips",
+          "description": "Short videos about feudalism, castles, and the Renaissance",
+          "order": 1,
+          "subtopics": ["Medieval Life", "Castles", "Renaissance", "Reformation"],
+          "media": [
+            {"title": "Crash Course World History: The Dark Ages", "type": "short", "year": 2012, "rating": "NR", "runtime": 12, "relevance": "Medieval Europe overview", "links": {"youtube": "https://www.youtube.com/watch?v=QV7CanyzhZg"}, "ageAppropriate": true, "notes": "John Green; engaging and educational"},
+            {"title": "TED-Ed: A Day in the Life of a Medieval Lord", "type": "short", "year": 2019, "rating": "NR", "runtime": 5, "relevance": "Medieval daily life", "links": {"youtube": "https://www.youtube.com/watch?v=p1BSSCxjhv8"}, "ageAppropriate": true, "notes": "Animated medieval life"},
+            {"title": "TED-Ed: The Black Death", "type": "short", "year": 2015, "rating": "NR", "runtime": 5, "relevance": "Plague and its impact", "links": {"youtube": "https://www.youtube.com/watch?v=rZy6XilXDZQ"}, "ageAppropriate": true, "notes": "Historical context of pandemic"},
+            {"title": "Crash Course World History: The Renaissance", "type": "short", "year": 2012, "rating": "NR", "runtime": 11, "relevance": "Renaissance overview", "links": {"youtube": "https://www.youtube.com/watch?v=Vufba_ZDwbQ"}, "ageAppropriate": true, "notes": "Art, science, and humanism"},
+            {"title": "Oversimplified: Henry VIII", "type": "short", "year": 2019, "rating": "NR", "runtime": 16, "relevance": "English Reformation context", "links": {"youtube": "https://www.youtube.com/watch?v=Yk1-nLPp5RE"}, "ageAppropriate": true, "notes": "Reformation and Tudor England"},
+            {"title": "TED-Ed: Leonardo da Vinci's Genius", "type": "short", "year": 2017, "rating": "NR", "runtime": 5, "relevance": "Renaissance polymath", "links": {"youtube": "https://www.youtube.com/watch?v=v0mX9QISNqk"}, "ageAppropriate": true, "notes": "Da Vinci's inventions and art"},
+            {"title": "Simple History: Life of a Medieval Knight", "type": "short", "year": 2018, "rating": "NR", "runtime": 6, "relevance": "Knights and chivalry", "links": {"youtube": "https://www.youtube.com/watch?v=aoNfVlHqxYM"}, "ageAppropriate": true, "notes": "Animated medieval life"}
+          ]
+        },
+        {
+          "id": "colonial-ny-shorts",
+          "name": "Colonial & NY History Quick Clips",
+          "description": "Short videos about colonial America with NY focus",
+          "order": 2,
+          "subtopics": ["Dutch New York", "Colonial Life", "Native Americans"],
+          "media": [
+            {"title": "The History of New York City", "type": "short", "year": 2020, "rating": "NR", "runtime": 15, "relevance": "NYC from Dutch to modern", "links": {"youtube": "https://www.youtube.com/watch?v=uQ6G9BzPh4o"}, "ageAppropriate": true, "notes": "NYC history overview"},
+            {"title": "How Did New York Get Its Name?", "type": "short", "year": 2019, "rating": "NR", "runtime": 5, "relevance": "Dutch to English transition", "links": {"youtube": "https://www.youtube.com/watch?v=D_q1ek0JXks"}, "ageAppropriate": true, "notes": "New Amsterdam to New York"},
+            {"title": "Crash Course US History: The Natives and the English", "type": "short", "year": 2013, "rating": "NR", "runtime": 13, "relevance": "Early contact period", "links": {"youtube": "https://www.youtube.com/watch?v=TTYOQ05oDOI"}, "ageAppropriate": true, "notes": "First contact and early colonization"},
+            {"title": "Crash Course US History: The Quakers, Dutch, and Ladies", "type": "short", "year": 2013, "rating": "NR", "runtime": 11, "relevance": "Middle colonies", "links": {"youtube": "https://www.youtube.com/watch?v=jnx-L1EqMys"}, "ageAppropriate": true, "notes": "Covers Dutch NY and Pennsylvania"},
+            {"title": "The Iroquois Confederacy and American Democracy", "type": "short", "year": 2020, "rating": "NR", "runtime": 8, "relevance": "Native influence on Constitution", "links": {"youtube": "https://www.youtube.com/watch?v=BNjcvERVguc"}, "ageAppropriate": true, "notes": "Important NY history"}
+          ]
+        },
+        {
+          "id": "revolution-constitution-shorts",
+          "name": "Revolution & Constitution Quick Clips",
+          "description": "Short videos about American Revolution and founding documents",
+          "order": 3,
+          "subtopics": ["Revolution", "Constitution", "Bill of Rights"],
+          "media": [
+            {"title": "Crash Course US History: Taxes & Smuggling", "type": "short", "year": 2013, "rating": "NR", "runtime": 14, "relevance": "Revolutionary causes", "links": {"youtube": "https://www.youtube.com/watch?v=X-zHagVGedE"}, "ageAppropriate": true, "notes": "Taxation without representation"},
+            {"title": "Crash Course US History: The Constitution", "type": "short", "year": 2013, "rating": "NR", "runtime": 14, "relevance": "Constitutional Convention", "links": {"youtube": "https://www.youtube.com/watch?v=bO7FQsCcbD8"}, "ageAppropriate": true, "notes": "How Constitution was created"},
+            {"title": "Crash Course US History: The Bill of Rights", "type": "short", "year": 2013, "rating": "NR", "runtime": 12, "relevance": "First 10 amendments", "links": {"youtube": "https://www.youtube.com/watch?v=Zbl4ESQgLQA"}, "ageAppropriate": true, "notes": "Rights and freedoms"},
+            {"title": "Hip Hughes: The 3/5 Compromise", "type": "short", "year": 2015, "rating": "NR", "runtime": 8, "relevance": "Constitutional compromise on slavery", "links": {"youtube": "https://www.youtube.com/watch?v=QfVdxWv2A-0"}, "ageAppropriate": true, "notes": "Difficult but important topic"},
+            {"title": "TED-Ed: What Is the Electoral College?", "type": "short", "year": 2012, "rating": "NR", "runtime": 5, "relevance": "Electoral system explained", "links": {"youtube": "https://www.youtube.com/watch?v=W9H3gvnN468"}, "ageAppropriate": true, "notes": "Presidential election process"}
+          ]
+        },
+        {
+          "id": "civil-war-shorts",
+          "name": "Civil War Era Quick Clips",
+          "description": "Short videos about slavery, abolition, and Civil War",
+          "order": 4,
+          "subtopics": ["Slavery", "Abolitionism", "Civil War", "Reconstruction"],
+          "media": [
+            {"title": "Crash Course US History: Slavery", "type": "short", "year": 2013, "rating": "NR", "runtime": 14, "relevance": "Institution of slavery", "links": {"youtube": "https://www.youtube.com/watch?v=Ajn9g5Gsv98"}, "ageAppropriate": true, "notes": "Comprehensive slavery overview"},
+            {"title": "Crash Course US History: The Civil War Part 1", "type": "short", "year": 2013, "rating": "NR", "runtime": 12, "relevance": "War causes and early battles", "links": {"youtube": "https://www.youtube.com/watch?v=rY9zHNOjGrs"}, "ageAppropriate": true, "notes": "Causes through 1862"},
+            {"title": "Crash Course US History: The Civil War Part 2", "type": "short", "year": 2013, "rating": "NR", "runtime": 11, "relevance": "War conclusion and legacy", "links": {"youtube": "https://www.youtube.com/watch?v=roNmeOOJCDY"}, "ageAppropriate": true, "notes": "1863 through war's end"},
+            {"title": "Crash Course US History: Reconstruction", "type": "short", "year": 2013, "rating": "NR", "runtime": 12, "relevance": "Post-war Reconstruction", "links": {"youtube": "https://www.youtube.com/watch?v=nowsS7pMApI"}, "ageAppropriate": true, "notes": "Reconstruction era and failures"},
+            {"title": "Extra History: The Haitian Revolution", "type": "short", "year": 2018, "rating": "NR", "runtime": 45, "relevance": "First successful slave revolution (4 parts)", "links": {"youtube": "https://www.youtube.com/watch?v=5A_o-nU5s4I&list=PLhyKYa0YJ_5BuNVhOt8Ls82Cr20yo6Y_p"}, "ageAppropriate": true, "notes": "Extra Credits series; very engaging"}
+          ]
+        },
+        {
+          "id": "industrial-progressive-shorts",
+          "name": "Industrial & Progressive Era Quick Clips",
+          "description": "Short videos about industrialization, immigration, and reform",
+          "order": 5,
+          "subtopics": ["Industrialization", "Immigration", "Labor", "Progressive Era"],
+          "media": [
+            {"title": "Crash Course US History: Industrial Economy", "type": "short", "year": 2013, "rating": "NR", "runtime": 13, "relevance": "Gilded Age industrialization", "links": {"youtube": "https://www.youtube.com/watch?v=r6tRp-zRUJs"}, "ageAppropriate": true, "notes": "Big business and tycoons"},
+            {"title": "Crash Course US History: Westward Expansion", "type": "short", "year": 2013, "rating": "NR", "runtime": 13, "relevance": "Western settlement", "links": {"youtube": "https://www.youtube.com/watch?v=Q16OZkgSXfM"}, "ageAppropriate": true, "notes": "Manifest Destiny and impact"},
+            {"title": "Crash Course US History: Immigration", "type": "short", "year": 2013, "rating": "NR", "runtime": 12, "relevance": "Ellis Island era immigration", "links": {"youtube": "https://www.youtube.com/watch?v=Dc0-z15fMss"}, "ageAppropriate": true, "notes": "Great wave of immigration"},
+            {"title": "Simple History: Triangle Shirtwaist Factory Fire", "type": "short", "year": 2019, "rating": "NR", "runtime": 6, "relevance": "NYC labor history", "links": {"youtube": "https://www.youtube.com/watch?v=WKCktFn6JKw"}, "ageAppropriate": true, "notes": "Important NY labor event"},
+            {"title": "Crash Course US History: Progressive Era", "type": "short", "year": 2013, "rating": "NR", "runtime": 14, "relevance": "Reform movements", "links": {"youtube": "https://www.youtube.com/watch?v=i0Q4zPR4G7M"}, "ageAppropriate": true, "notes": "Muckrakers and reforms"},
+            {"title": "The Erie Canal Song - History", "type": "short", "year": 2015, "rating": "NR", "runtime": 4, "relevance": "Erie Canal significance for NY", "links": {"youtube": "https://www.youtube.com/watch?v=HKzRbqMCAHA"}, "ageAppropriate": true, "notes": "NY State history essential"}
+          ]
+        },
+        {
+          "id": "harlem-renaissance-shorts",
+          "name": "Harlem Renaissance Quick Clips",
+          "description": "Short videos about African American culture in 1920s NYC",
+          "order": 6,
+          "subtopics": ["Jazz", "Literature", "Art", "Culture"],
+          "media": [
+            {"title": "Crash Course US History: The Roaring 20s", "type": "short", "year": 2013, "rating": "NR", "runtime": 13, "relevance": "1920s culture including Harlem", "links": {"youtube": "https://www.youtube.com/watch?v=VfOR1XCMf7A"}, "ageAppropriate": true, "notes": "Includes Harlem Renaissance context"},
+            {"title": "The Harlem Renaissance Explained", "type": "short", "year": 2020, "rating": "NR", "runtime": 10, "relevance": "Harlem Renaissance overview", "links": {"youtube": "https://www.youtube.com/watch?v=w3UQNPWfpjM"}, "ageAppropriate": true, "notes": "NYC cultural movement"},
+            {"title": "TED-Ed: Langston Hughes and the Harlem Renaissance", "type": "short", "year": 2019, "rating": "NR", "runtime": 5, "relevance": "Hughes and poetry movement", "links": {"youtube": "https://www.youtube.com/watch?v=gxMXy6hJMq4"}, "ageAppropriate": true, "notes": "Key Harlem figure"},
+            {"title": "Duke Ellington and the Cotton Club", "type": "short", "year": 2018, "rating": "NR", "runtime": 8, "relevance": "Jazz history in Harlem", "links": {"youtube": "https://www.youtube.com/watch?v=t5Z9s3bJBhU"}, "ageAppropriate": true, "notes": "NYC jazz history"}
+          ]
+        }
+      ]
+    }
+  ]
+}

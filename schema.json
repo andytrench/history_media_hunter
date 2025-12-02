@@ -1,0 +1,129 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Curriculum Media Schema",
+  "description": "Schema for organizing educational multimedia by grade and topic",
+  "type": "object",
+  "properties": {
+    "grade": {
+      "type": "integer",
+      "description": "Grade level (5, 7, 9, 10, 11)"
+    },
+    "lastUpdated": {
+      "type": "string",
+      "format": "date"
+    },
+    "categories": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Unique identifier for category"
+          },
+          "name": {
+            "type": "string"
+          },
+          "order": {
+            "type": "integer",
+            "description": "Display order within grade"
+          },
+          "topics": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "order": {
+                  "type": "integer"
+                },
+                "subtopics": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "media": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/definitions/mediaItem"
+                  }
+                }
+              },
+              "required": ["id", "name", "description"]
+            }
+          }
+        },
+        "required": ["id", "name", "topics"]
+      }
+    }
+  },
+  "definitions": {
+    "mediaItem": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Reference to media/titles.json entry"
+        },
+        "title": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string",
+          "enum": ["movie", "documentary", "series", "short", "educational"]
+        },
+        "year": {
+          "type": "integer"
+        },
+        "rating": {
+          "type": "string",
+          "enum": ["G", "PG", "PG-13", "TV-Y", "TV-Y7", "TV-G", "TV-PG", "TV-14", "NR"]
+        },
+        "runtime": {
+          "type": "integer",
+          "description": "Runtime in minutes"
+        },
+        "relevance": {
+          "type": "string",
+          "description": "How this media connects to the topic"
+        },
+        "links": {
+          "type": "object",
+          "properties": {
+            "imdb": { "type": "string" },
+            "youtube": { "type": "string" },
+            "streaming": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "service": { "type": "string" },
+                  "url": { "type": "string" }
+                }
+              }
+            }
+          }
+        },
+        "ageAppropriate": {
+          "type": "boolean",
+          "description": "Verified appropriate for grade level"
+        },
+        "notes": {
+          "type": "string",
+          "description": "Teacher notes or content warnings"
+        }
+      },
+      "required": ["title", "type"]
+    }
+  }
+}
+

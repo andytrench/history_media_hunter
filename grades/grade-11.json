@@ -1,0 +1,409 @@
+{
+  "grade": 11,
+  "lastUpdated": "2025-12-02",
+  "curriculumStandard": "New York State K-12 Social Studies Framework - Grade 11: United States History and Government",
+  "curriculumFocus": "Comprehensive US History from colonial era to present, with emphasis on government, civil rights, and contemporary issues",
+  "categories": [
+    {
+      "id": "colonial-foundations",
+      "name": "Colonial Foundations",
+      "order": 1,
+      "topics": [
+        {
+          "id": "colonial-america",
+          "name": "Colonial America",
+          "description": "Establishment of 13 colonies, colonial life, and diverse cultural foundations",
+          "order": 1,
+          "subtopics": ["Jamestown", "Plymouth", "Colonial society", "Colonial economies"],
+          "media": [
+            {"title": "The New World", "type": "movie", "year": 2005, "rating": "PG-13", "runtime": 135, "relevance": "Terrence Malick film about Jamestown and Pocahontas", "links": {"imdb": "https://www.imdb.com/title/tt0402399/", "justwatch": "https://www.justwatch.com/us/movie/the-new-world"}, "ageAppropriate": true, "notes": "Beautiful cinematography; more historically accurate than Disney version"},
+            {"title": "Squanto: A Warrior's Tale", "type": "movie", "year": 1994, "rating": "PG", "runtime": 102, "relevance": "Disney film about Squanto helping Plymouth colonists", "links": {"imdb": "https://www.imdb.com/title/tt0111271/", "streaming": [{"service": "Disney+", "url": ""}]}, "ageAppropriate": true, "notes": "Shows Thanksgiving origins and Native American perspective"},
+            {"title": "Desperate Crossing: The Untold Story of the Mayflower", "type": "documentary", "year": 2006, "rating": "NR", "runtime": 120, "relevance": "History Channel documentary on Pilgrims' journey", "links": {"imdb": "https://www.imdb.com/title/tt0865560/"}, "ageAppropriate": true, "notes": "Detailed coverage of Mayflower voyage and Plymouth settlement"},
+            {"title": "Colonial House", "type": "documentary", "year": 2004, "rating": "NR", "runtime": 480, "relevance": "PBS series where modern families live as 1628 colonists", "links": {"imdb": "https://www.imdb.com/title/tt0386702/", "streaming": [{"service": "PBS", "url": ""}]}, "ageAppropriate": true, "notes": "Excellent for understanding daily colonial life"},
+            {"title": "Saints & Strangers", "type": "series", "year": 2015, "rating": "TV-14", "runtime": 169, "relevance": "National Geographic miniseries on Plymouth Colony founding", "links": {"imdb": "https://www.imdb.com/title/tt4541026/"}, "ageAppropriate": true, "notes": "Dramatized but historically informed; shows Pilgrim-Native relations"}
+          ]
+        },
+        {
+          "id": "colonial-society-economy",
+          "name": "Colonial Society and Economy",
+          "description": "Development of colonial economies, slavery, and social structures",
+          "order": 2,
+          "subtopics": ["Plantation economy", "Triangular trade", "Indentured servitude", "Colonial class structure"],
+          "media": [
+            {"title": "Africans in America", "type": "documentary", "year": 1998, "rating": "NR", "runtime": 360, "relevance": "PBS documentary on slavery from colonial era through Civil War", "links": {"imdb": "https://www.imdb.com/title/tt0274858/", "streaming": [{"service": "PBS", "url": ""}]}, "ageAppropriate": true, "notes": "HIGHLY RECOMMENDED - comprehensive look at slavery's origins in America"},
+            {"title": "Roots", "type": "series", "year": 2016, "rating": "TV-14", "runtime": 540, "relevance": "Remake following Kunta Kinte from Africa through slavery", "links": {"imdb": "https://www.imdb.com/title/tt3315386/"}, "ageAppropriate": true, "notes": "Shows Middle Passage and colonial slavery; intense but educational"},
+            {"title": "Amistad", "type": "movie", "year": 1997, "rating": "R", "runtime": 155, "relevance": "Spielberg film about 1839 slave ship rebellion", "links": {"imdb": "https://www.imdb.com/title/tt0118607/"}, "ageAppropriate": false, "notes": "R-rated; powerful but intense; select scenes for mature students"},
+            {"title": "The Witch", "type": "movie", "year": 2015, "rating": "R", "runtime": 92, "relevance": "Horror film depicting Puritan colonial life and beliefs", "links": {"imdb": "https://www.imdb.com/title/tt4263482/"}, "ageAppropriate": false, "notes": "R-rated; NOT for classroom; teacher reference on Puritan worldview"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "revolutionary-era",
+      "name": "Revolutionary Era",
+      "order": 2,
+      "topics": [
+        {
+          "id": "road-to-revolution",
+          "name": "Road to Revolution",
+          "description": "Causes of the American Revolution including taxation without representation and colonial protests",
+          "order": 1,
+          "subtopics": ["Stamp Act", "Boston Tea Party", "Sons of Liberty", "Intolerable Acts"],
+          "media": [
+            {"title": "Johnny Tremain", "type": "movie", "year": 1957, "rating": "NR", "runtime": 80, "relevance": "Disney classic about young patriot in Boston", "links": {"imdb": "https://www.imdb.com/title/tt0050561/", "streaming": [{"service": "Disney+", "url": ""}]}, "ageAppropriate": true, "notes": "Shows Sons of Liberty, Boston Tea Party from youth perspective"},
+            {"title": "Liberty's Kids", "type": "series", "year": 2002, "rating": "TV-Y7", "runtime": 30, "relevance": "Animated series covering entire Revolution", "links": {"imdb": "https://www.imdb.com/title/tt0310874/", "youtube": "https://www.youtube.com/playlist?list=PLHPGDDYvMPxEXwfFLR8u2Hd1ZJpnhwnAh"}, "ageAppropriate": true, "notes": "40 episodes; specific episodes cover Stamp Act, Boston Massacre, Tea Party"},
+            {"title": "America: The Story of Us - Rebels", "type": "documentary", "year": 2010, "rating": "TV-PG", "runtime": 44, "relevance": "History Channel episode on Revolutionary causes", "links": {"imdb": "https://www.imdb.com/title/tt1644785/"}, "ageAppropriate": true, "notes": "Modern production with reenactments"},
+            {"title": "Sons of Liberty", "type": "series", "year": 2015, "rating": "TV-14", "runtime": 270, "relevance": "History Channel miniseries on Samuel Adams and revolutionary leaders", "links": {"imdb": "https://www.imdb.com/title/tt3510726/"}, "ageAppropriate": true, "notes": "Dramatized; covers key events leading to Revolution"}
+          ]
+        },
+        {
+          "id": "american-revolution-11",
+          "name": "American Revolution",
+          "description": "Revolutionary War, major battles, and the fight for independence",
+          "order": 2,
+          "subtopics": ["Lexington and Concord", "Valley Forge", "Saratoga", "Yorktown", "Foreign aid"],
+          "media": [
+            {"title": "Hamilton", "type": "movie", "year": 2020, "rating": "PG-13", "runtime": 160, "relevance": "Lin-Manuel Miranda musical covering Hamilton and Revolution", "links": {"imdb": "https://www.imdb.com/title/tt8503618/", "streaming": [{"service": "Disney+", "url": "https://www.disneyplus.com/movies/hamilton/3uPmBHWlO6HJ"}]}, "ageAppropriate": true, "notes": "HIGHLY RECOMMENDED - engaging musical; some language"},
+            {"title": "The Patriot", "type": "movie", "year": 2000, "rating": "R", "runtime": 165, "relevance": "Mel Gibson in Revolutionary War South Carolina", "links": {"imdb": "https://www.imdb.com/title/tt0187393/"}, "ageAppropriate": false, "notes": "R-rated for war violence; spectacular battle scenes; select clips"},
+            {"title": "The Crossing", "type": "movie", "year": 2000, "rating": "NR", "runtime": 89, "relevance": "A&E film on Washington crossing the Delaware", "links": {"imdb": "https://www.imdb.com/title/tt0210438/"}, "ageAppropriate": true, "notes": "Jeff Daniels as Washington; shows Trenton turning point"},
+            {"title": "John Adams", "type": "series", "year": 2008, "rating": "TV-14", "runtime": 501, "relevance": "HBO miniseries covering Adams through Revolution and early Republic", "links": {"imdb": "https://www.imdb.com/title/tt0472027/"}, "ageAppropriate": true, "notes": "Paul Giamatti; Emmy winner; comprehensive founding era coverage"},
+            {"title": "1776", "type": "movie", "year": 1972, "rating": "G", "runtime": 141, "relevance": "Musical about Continental Congress and Declaration", "links": {"imdb": "https://www.imdb.com/title/tt0068156/"}, "ageAppropriate": true, "notes": "G-rated musical; makes Declaration debates engaging"},
+            {"title": "The Revolution", "type": "documentary", "year": 2006, "rating": "NR", "runtime": 780, "relevance": "History Channel 13-part documentary on American Revolution", "links": {"imdb": "https://www.imdb.com/title/tt0824251/"}, "ageAppropriate": true, "notes": "Comprehensive coverage; select relevant episodes"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "founding-documents",
+      "name": "Founding Documents",
+      "order": 3,
+      "topics": [
+        {
+          "id": "declaration-independence",
+          "name": "Declaration of Independence",
+          "description": "Writing and significance of the Declaration of Independence",
+          "order": 1,
+          "subtopics": ["Thomas Jefferson", "Natural rights", "July 4, 1776", "Enlightenment influence"],
+          "media": [
+            {"title": "1776", "type": "movie", "year": 1972, "rating": "G", "runtime": 141, "relevance": "Musical depicting the debates over Declaration", "links": {"imdb": "https://www.imdb.com/title/tt0068156/"}, "ageAppropriate": true, "notes": "Shows the compromises and debates in Congress"},
+            {"title": "National Treasure", "type": "movie", "year": 2004, "rating": "PG", "runtime": 131, "relevance": "Adventure featuring the Declaration of Independence", "links": {"imdb": "https://www.imdb.com/title/tt0368891/", "streaming": [{"service": "Disney+", "url": ""}]}, "ageAppropriate": true, "notes": "Fictional treasure hunt but promotes interest in founding documents"},
+            {"title": "The Declaration of Independence", "type": "documentary", "year": 2002, "rating": "NR", "runtime": 60, "relevance": "History Channel documentary on the document's creation", "links": {}, "ageAppropriate": true, "notes": "Direct focus on the Declaration's writing and significance"}
+          ]
+        },
+        {
+          "id": "constitution-bill-rights",
+          "name": "Constitution and Bill of Rights",
+          "description": "Constitutional Convention, creation of the Constitution, and Bill of Rights",
+          "order": 2,
+          "subtopics": ["Constitutional Convention", "Federalist Papers", "Ratification debates", "Bill of Rights"],
+          "media": [
+            {"title": "A More Perfect Union: America Becomes a Nation", "type": "movie", "year": 1989, "rating": "NR", "runtime": 97, "relevance": "Dramatization of Constitutional Convention", "links": {"imdb": "https://www.imdb.com/title/tt0097927/"}, "ageAppropriate": true, "notes": "Made for educational use; shows convention debates in detail"},
+            {"title": "Schoolhouse Rock: The Preamble", "type": "short", "year": 1975, "rating": "TV-Y", "runtime": 3, "relevance": "Classic song teaching Constitution preamble", "links": {"youtube": "https://www.youtube.com/watch?v=0hEYvdMoF2g", "streaming": [{"service": "Disney+", "url": ""}]}, "ageAppropriate": true, "notes": "Memorable way to memorize the preamble"},
+            {"title": "Schoolhouse Rock: I'm Just a Bill", "type": "short", "year": 1975, "rating": "TV-Y", "runtime": 3, "relevance": "Explains how legislation becomes law", "links": {"youtube": "https://www.youtube.com/watch?v=OgVKvqTItto"}, "ageAppropriate": true, "notes": "Essential civics education"},
+            {"title": "John Adams - Episode 3: Don't Tread on Me", "type": "series", "year": 2008, "rating": "TV-14", "runtime": 60, "relevance": "HBO episode covering Constitutional period", "links": {"imdb": "https://www.imdb.com/title/tt0472027/"}, "ageAppropriate": true, "notes": "Shows debates over Constitution and government structure"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "early-republic",
+      "name": "Early Republic",
+      "order": 4,
+      "topics": [
+        {
+          "id": "federalist-era",
+          "name": "Federalist Era",
+          "description": "Washington's presidency, Hamilton's financial plan, and early party politics",
+          "order": 1,
+          "subtopics": ["Washington's presidency", "Hamilton's plan", "Party formation", "Alien and Sedition Acts"],
+          "media": [
+            {"title": "Hamilton", "type": "movie", "year": 2020, "rating": "PG-13", "runtime": 160, "relevance": "Musical covering Hamilton's financial plan and party conflicts", "links": {"imdb": "https://www.imdb.com/title/tt8503618/", "streaming": [{"service": "Disney+", "url": ""}]}, "ageAppropriate": true, "notes": "Act 2 covers Federalist era; Cabinet battles are highlights"},
+            {"title": "Washington", "type": "documentary", "year": 2020, "rating": "NR", "runtime": 360, "relevance": "History Channel 3-part documentary on George Washington", "links": {"imdb": "https://www.imdb.com/title/tt11732550/"}, "ageAppropriate": true, "notes": "Covers presidency and early republic"},
+            {"title": "The Duel", "type": "documentary", "year": 2014, "rating": "NR", "runtime": 60, "relevance": "PBS American Experience on Hamilton-Burr duel", "links": {"streaming": [{"service": "PBS", "url": ""}]}, "ageAppropriate": true, "notes": "Shows political conflicts of early republic"}
+          ]
+        },
+        {
+          "id": "jefferson-expansion",
+          "name": "Jefferson and Expansion",
+          "description": "Louisiana Purchase, Lewis and Clark Expedition, and westward growth",
+          "order": 2,
+          "subtopics": ["Louisiana Purchase", "Lewis and Clark", "Western exploration", "Jefferson's vision"],
+          "media": [
+            {"title": "Lewis & Clark: Great Journey West", "type": "documentary", "year": 2002, "rating": "NR", "runtime": 40, "relevance": "IMAX documentary following expedition route", "links": {"imdb": "https://www.imdb.com/title/tt0321480/"}, "ageAppropriate": true, "notes": "Stunning visuals; excellent for teaching expedition"},
+            {"title": "Lewis & Clark: The Journey of the Corps of Discovery", "type": "documentary", "year": 1997, "rating": "NR", "runtime": 240, "relevance": "Ken Burns documentary on the expedition", "links": {"imdb": "https://www.imdb.com/title/tt0119527/", "streaming": [{"service": "PBS", "url": ""}]}, "ageAppropriate": true, "notes": "4-hour comprehensive documentary"},
+            {"title": "Jefferson in Paris", "type": "movie", "year": 1995, "rating": "PG-13", "runtime": 139, "relevance": "Nick Nolte as Jefferson in France", "links": {"imdb": "https://www.imdb.com/title/tt0113463/"}, "ageAppropriate": true, "notes": "Shows Jefferson's time in France; complex portrayal"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "war-diplomacy",
+      "name": "War and Diplomacy",
+      "order": 5,
+      "topics": [
+        {
+          "id": "war-1812",
+          "name": "War of 1812",
+          "description": "Causes, course, and consequences of the War of 1812",
+          "order": 1,
+          "subtopics": ["Impressment", "Star-Spangled Banner", "National identity", "Battle of New Orleans"],
+          "media": [
+            {"title": "The War of 1812", "type": "documentary", "year": 2011, "rating": "NR", "runtime": 240, "relevance": "PBS documentary on the War of 1812", "links": {"imdb": "https://www.imdb.com/title/tt2076255/", "streaming": [{"service": "PBS", "url": ""}]}, "ageAppropriate": true, "notes": "Comprehensive 4-hour documentary"},
+            {"title": "First Invasion: The War of 1812", "type": "documentary", "year": 2004, "rating": "NR", "runtime": 90, "relevance": "History Channel documentary on the war", "links": {}, "ageAppropriate": true, "notes": "Covers major battles and campaigns"},
+            {"title": "The Buccaneer", "type": "movie", "year": 1958, "rating": "NR", "runtime": 119, "relevance": "Yul Brynner as pirate Jean Lafitte at Battle of New Orleans", "links": {"imdb": "https://www.imdb.com/title/tt0051436/"}, "ageAppropriate": true, "notes": "Classic Hollywood; shows Battle of New Orleans"},
+            {"title": "Master and Commander: The Far Side of the World", "type": "movie", "year": 2003, "rating": "PG-13", "runtime": 138, "relevance": "Naval warfare during Napoleonic era", "links": {"imdb": "https://www.imdb.com/title/tt0311113/"}, "ageAppropriate": true, "notes": "Not directly about 1812 but excellent for naval warfare context"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "westward-expansion-11",
+      "name": "Westward Expansion",
+      "order": 6,
+      "topics": [
+        {
+          "id": "manifest-destiny",
+          "name": "Manifest Destiny",
+          "description": "Westward expansion, territorial acquisitions, and the ideology of Manifest Destiny",
+          "order": 1,
+          "subtopics": ["Pioneer life", "Oregon Trail", "California Gold Rush", "Ideology of expansion"],
+          "media": [
+            {"title": "How the West Was Won", "type": "movie", "year": 1962, "rating": "G", "runtime": 162, "relevance": "Epic covering 50 years of westward expansion", "links": {"imdb": "https://www.imdb.com/title/tt0056085/"}, "ageAppropriate": true, "notes": "Classic Cinerama epic; shows multiple aspects of expansion"},
+            {"title": "The West", "type": "documentary", "year": 1996, "rating": "NR", "runtime": 750, "relevance": "Ken Burns 8-part documentary on the American West", "links": {"imdb": "https://www.imdb.com/title/tt0115402/", "streaming": [{"service": "PBS", "url": ""}]}, "ageAppropriate": true, "notes": "Comprehensive; covers pioneers, Native Americans, Gold Rush"},
+            {"title": "Far and Away", "type": "movie", "year": 1992, "rating": "PG-13", "runtime": 140, "relevance": "Tom Cruise in Oklahoma Land Rush story", "links": {"imdb": "https://www.imdb.com/title/tt0104231/"}, "ageAppropriate": true, "notes": "Shows immigration and land rush; spectacular cinematography"},
+            {"title": "Wagon Train", "type": "series", "year": 1957, "rating": "TV-G", "runtime": 60, "relevance": "Classic TV series following wagon train west", "links": {"imdb": "https://www.imdb.com/title/tt0050082/"}, "ageAppropriate": true, "notes": "Classic TV; shows pioneer challenges"}
+          ]
+        },
+        {
+          "id": "trail-of-tears",
+          "name": "Trail of Tears",
+          "description": "Indian Removal Act and forced relocation of Native American tribes",
+          "order": 2,
+          "subtopics": ["Indian Removal Act", "Cherokee Nation", "Jackson's policies", "Five Civilized Tribes"],
+          "media": [
+            {"title": "We Shall Remain: Trail of Tears", "type": "documentary", "year": 2009, "rating": "NR", "runtime": 90, "relevance": "PBS documentary episode on Cherokee removal", "links": {"imdb": "https://www.imdb.com/title/tt1379185/", "streaming": [{"service": "PBS", "url": ""}]}, "ageAppropriate": true, "notes": "HIGHLY RECOMMENDED - Native American perspective"},
+            {"title": "Trail of Tears: A Native American Documentary Collection", "type": "documentary", "year": 2010, "rating": "NR", "runtime": 90, "relevance": "Documentary on forced relocation", "links": {}, "ageAppropriate": true, "notes": "Primary sources and survivor accounts"},
+            {"title": "The Trail of Tears: Cherokee Legacy", "type": "documentary", "year": 2006, "rating": "NR", "runtime": 115, "relevance": "Documentary with Wes Studi narrating Cherokee removal", "links": {}, "ageAppropriate": true, "notes": "Comprehensive Cherokee perspective"},
+            {"title": "Into the West", "type": "series", "year": 2005, "rating": "TV-14", "runtime": 552, "relevance": "Spielberg miniseries covering westward expansion including Native removal", "links": {"imdb": "https://www.imdb.com/title/tt0409572/"}, "ageAppropriate": true, "notes": "6-part series; shows both settler and Native perspectives"}
+          ]
+        },
+        {
+          "id": "mexican-american-war",
+          "name": "Mexican-American War",
+          "description": "War with Mexico, territorial gains, and debates over expansion",
+          "order": 3,
+          "subtopics": ["Texas annexation", "Treaty of Guadalupe Hidalgo", "California Gold Rush", "Territorial expansion"],
+          "media": [
+            {"title": "The Alamo", "type": "movie", "year": 2004, "rating": "PG-13", "runtime": 137, "relevance": "Battle of the Alamo during Texas Revolution", "links": {"imdb": "https://www.imdb.com/title/tt0318974/"}, "ageAppropriate": true, "notes": "More historically accurate than 1960 version; shows Texas independence"},
+            {"title": "Davy Crockett: King of the Wild Frontier", "type": "movie", "year": 1955, "rating": "NR", "runtime": 93, "relevance": "Disney classic including Alamo scenes", "links": {"imdb": "https://www.imdb.com/title/tt0047969/", "streaming": [{"service": "Disney+", "url": ""}]}, "ageAppropriate": true, "notes": "Classic Disney; romanticized but engaging"},
+            {"title": "One Man's Hero", "type": "movie", "year": 1999, "rating": "R", "runtime": 121, "relevance": "Irish soldiers who switched sides to Mexico", "links": {"imdb": "https://www.imdb.com/title/tt0120785/"}, "ageAppropriate": false, "notes": "R-rated; shows Mexican perspective; St. Patrick's Battalion"},
+            {"title": "The U.S.-Mexican War", "type": "documentary", "year": 1998, "rating": "NR", "runtime": 240, "relevance": "PBS documentary on the Mexican-American War", "links": {"streaming": [{"service": "PBS", "url": ""}]}, "ageAppropriate": true, "notes": "4-hour comprehensive documentary; both perspectives"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sectional-tensions",
+      "name": "Sectional Tensions",
+      "order": 7,
+      "topics": [
+        {
+          "id": "north-vs-south",
+          "name": "North vs South",
+          "description": "Growing differences between industrial North and agricultural slave-holding South",
+          "order": 1,
+          "subtopics": ["Economic differences", "Slavery debates", "States' rights", "Compromise of 1850"],
+          "media": [
+            {"title": "The Civil War (Ken Burns) - Episode 1: The Cause", "type": "documentary", "year": 1990, "rating": "NR", "runtime": 97, "relevance": "First episode covers sectional tensions leading to war", "links": {"imdb": "https://www.imdb.com/title/tt0098769/", "streaming": [{"service": "PBS", "url": ""}]}, "ageAppropriate": true, "notes": "ESSENTIAL viewing for understanding Civil War causes"},
+            {"title": "America: The Story of Us - Division", "type": "documentary", "year": 2010, "rating": "TV-PG", "runtime": 44, "relevance": "History Channel episode on sectional crisis", "links": {"imdb": "https://www.imdb.com/title/tt1644785/"}, "ageAppropriate": true, "notes": "Modern production; covers growing divisions"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "slavery-abolition",
+      "name": "Slavery and Abolition",
+      "order": 8,
+      "topics": [
+        {
+          "id": "slavery-system",
+          "name": "Slavery System",
+          "description": "Institution of slavery, slave life, and resistance",
+          "order": 1,
+          "subtopics": ["Plantation life", "Slave codes", "Slave resistance", "Underground Railroad"],
+          "media": [
+            {"title": "12 Years a Slave", "type": "movie", "year": 2013, "rating": "R", "runtime": 134, "relevance": "True story of Solomon Northup, free Black man kidnapped into slavery", "links": {"imdb": "https://www.imdb.com/title/tt2024544/"}, "ageAppropriate": false, "notes": "R-rated; Academy Award winner; extremely powerful but intense"},
+            {"title": "Harriet", "type": "movie", "year": 2019, "rating": "PG-13", "runtime": 125, "relevance": "Biographical film about Harriet Tubman", "links": {"imdb": "https://www.imdb.com/title/tt4648786/"}, "ageAppropriate": true, "notes": "PG-13; excellent for teaching Underground Railroad"},
+            {"title": "Underground", "type": "series", "year": 2016, "rating": "TV-MA", "runtime": 60, "relevance": "WGN series about Underground Railroad", "links": {"imdb": "https://www.imdb.com/title/tt4834942/"}, "ageAppropriate": false, "notes": "TV-MA; NOT for classroom; intense but historically informed"}
+          ]
+        },
+        {
+          "id": "abolitionist-movement",
+          "name": "Abolitionist Movement",
+          "description": "Anti-slavery movement and key abolitionists",
+          "order": 2,
+          "subtopics": ["Frederick Douglass", "William Lloyd Garrison", "Harriet Beecher Stowe", "John Brown"],
+          "media": [
+            {"title": "Frederick Douglass: In Five Speeches", "type": "documentary", "year": 2022, "rating": "NR", "runtime": 90, "relevance": "HBO documentary featuring Douglass's speeches performed by actors", "links": {"imdb": "https://www.imdb.com/title/tt18251060/"}, "ageAppropriate": true, "notes": "Powerful way to hear Douglass's actual words"},
+            {"title": "The Good Lord Bird", "type": "series", "year": 2020, "rating": "TV-MA", "runtime": 60, "relevance": "Showtime series about John Brown's raid", "links": {"imdb": "https://www.imdb.com/title/tt3673480/"}, "ageAppropriate": false, "notes": "TV-MA; NOT for classroom; Ethan Hawke as John Brown"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pre-civil-war",
+      "name": "Pre-Civil War",
+      "order": 9,
+      "topics": [
+        {
+          "id": "kansas-nebraska",
+          "name": "Kansas-Nebraska and Bleeding Kansas",
+          "description": "Kansas-Nebraska Act and violent conflict over slavery in territories",
+          "order": 1,
+          "subtopics": ["Popular sovereignty", "Bleeding Kansas", "Dred Scott decision", "Lincoln-Douglas debates"],
+          "media": [
+            {"title": "Lincoln", "type": "movie", "year": 2012, "rating": "PG-13", "runtime": 150, "relevance": "Spielberg film includes Lincoln-era political debates", "links": {"imdb": "https://www.imdb.com/title/tt0443272/"}, "ageAppropriate": true, "notes": "Daniel Day-Lewis; focuses on 13th Amendment but shows political era"},
+            {"title": "The Civil War (Ken Burns) - Episode 1", "type": "documentary", "year": 1990, "rating": "NR", "runtime": 97, "relevance": "Covers Bleeding Kansas and pre-war tensions", "links": {"imdb": "https://www.imdb.com/title/tt0098769/", "streaming": [{"service": "PBS", "url": ""}]}, "ageAppropriate": true, "notes": "Essential for understanding lead-up to war"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "civil-war-era",
+      "name": "Civil War Era",
+      "order": 10,
+      "topics": [
+        {
+          "id": "civil-war",
+          "name": "The Civil War",
+          "description": "Major battles, military leaders, and course of the Civil War",
+          "order": 1,
+          "subtopics": ["Fort Sumter", "Major battles", "Gettysburg", "Military leaders", "Total war"],
+          "media": [
+            {"title": "The Civil War", "type": "documentary", "year": 1990, "rating": "NR", "runtime": 690, "relevance": "Ken Burns definitive 9-part documentary", "links": {"imdb": "https://www.imdb.com/title/tt0098769/", "streaming": [{"service": "PBS", "url": ""}]}, "ageAppropriate": true, "notes": "ESSENTIAL - select episodes for specific topics"},
+            {"title": "Gettysburg", "type": "movie", "year": 1993, "rating": "PG", "runtime": 271, "relevance": "Epic depiction of Battle of Gettysburg", "links": {"imdb": "https://www.imdb.com/title/tt0107007/"}, "ageAppropriate": true, "notes": "Very long but excellent for Gettysburg; show in segments"},
+            {"title": "Glory", "type": "movie", "year": 1989, "rating": "R", "runtime": 122, "relevance": "54th Massachusetts - first Black regiment", "links": {"imdb": "https://www.imdb.com/title/tt0097441/"}, "ageAppropriate": false, "notes": "R-rated; but important story of Black soldiers"},
+            {"title": "Gods and Generals", "type": "movie", "year": 2003, "rating": "PG-13", "runtime": 219, "relevance": "Prequel to Gettysburg; covers early war", "links": {"imdb": "https://www.imdb.com/title/tt0279111/"}, "ageAppropriate": true, "notes": "Confederate perspective; balance with Union stories"},
+            {"title": "Cold Mountain", "type": "movie", "year": 2003, "rating": "R", "runtime": 154, "relevance": "Civil War from Confederate deserter's perspective", "links": {"imdb": "https://www.imdb.com/title/tt0159365/"}, "ageAppropriate": false, "notes": "R-rated; shows war weariness in South"}
+          ]
+        },
+        {
+          "id": "emancipation",
+          "name": "Emancipation and War's End",
+          "description": "Emancipation Proclamation, end of war, and Lincoln's assassination",
+          "order": 2,
+          "subtopics": ["Emancipation Proclamation", "African American soldiers", "Lee's surrender", "Lincoln's assassination"],
+          "media": [
+            {"title": "Lincoln", "type": "movie", "year": 2012, "rating": "PG-13", "runtime": 150, "relevance": "Spielberg film on Lincoln passing 13th Amendment", "links": {"imdb": "https://www.imdb.com/title/tt0443272/"}, "ageAppropriate": true, "notes": "HIGHLY RECOMMENDED - Daniel Day-Lewis Oscar winner"},
+            {"title": "Free State of Jones", "type": "movie", "year": 2016, "rating": "R", "runtime": 139, "relevance": "Mississippi County that seceded from Confederacy", "links": {"imdb": "https://www.imdb.com/title/tt1124037/"}, "ageAppropriate": false, "notes": "R-rated; shows Southern dissent from Confederacy"},
+            {"title": "Killing Lincoln", "type": "movie", "year": 2013, "rating": "NR", "runtime": 92, "relevance": "National Geographic film on Lincoln assassination", "links": {"imdb": "https://www.imdb.com/title/tt2293990/"}, "ageAppropriate": true, "notes": "Based on Bill O'Reilly book; covers assassination"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quick-clips",
+      "name": "Quick Clips & Educational Shorts",
+      "order": 99,
+      "description": "Short-form educational content from YouTube, TED-Ed, Crash Course - perfect for US History & Government",
+      "topics": [
+        {
+          "id": "colonial-revolution-shorts",
+          "name": "Colonial & Revolutionary Era Quick Clips",
+          "description": "Short videos on colonial America and the American Revolution",
+          "order": 1,
+          "subtopics": ["Colonial Life", "Causes of Revolution", "Revolutionary War", "Founding Fathers"],
+          "media": [
+            {"title": "Crash Course US History: Colonization", "type": "short", "year": 2013, "rating": "NR", "runtime": 12, "relevance": "Early colonial America", "links": {"youtube": "https://www.youtube.com/watch?v=6E9WU9TGrec"}, "ageAppropriate": true, "notes": "Jamestown, Plymouth"},
+            {"title": "Crash Course US History: Colonial America", "type": "short", "year": 2013, "rating": "NR", "runtime": 12, "relevance": "Colonial society", "links": {"youtube": "https://www.youtube.com/watch?v=o69TvQqyGdg"}, "ageAppropriate": true, "notes": "Life in 13 colonies"},
+            {"title": "Crash Course US History: Taxes & Smuggling", "type": "short", "year": 2013, "rating": "NR", "runtime": 14, "relevance": "Road to Revolution", "links": {"youtube": "https://www.youtube.com/watch?v=X-zHagVGedE"}, "ageAppropriate": true, "notes": "Taxation without representation"},
+            {"title": "Oversimplified: American Revolution (Part 1)", "type": "short", "year": 2019, "rating": "NR", "runtime": 16, "relevance": "Animated Revolution", "links": {"youtube": "https://www.youtube.com/watch?v=gzALIXcY4pg"}, "ageAppropriate": true, "notes": "HIGHLY RECOMMENDED"},
+            {"title": "Oversimplified: American Revolution (Part 2)", "type": "short", "year": 2019, "rating": "NR", "runtime": 18, "relevance": "War and victory", "links": {"youtube": "https://www.youtube.com/watch?v=rtYC2jx1LM0"}, "ageAppropriate": true, "notes": "War through Treaty of Paris"},
+            {"title": "Schoolhouse Rock: The Shot Heard Round the World", "type": "short", "year": 1975, "rating": "TV-Y", "runtime": 3, "relevance": "Lexington and Concord", "links": {"youtube": "https://www.youtube.com/watch?v=Y6ikO6LMxF4"}, "ageAppropriate": true, "notes": "Classic animated song"},
+            {"title": "Hip Hughes: Boston Tea Party", "type": "short", "year": 2015, "rating": "NR", "runtime": 10, "relevance": "Tea Party context", "links": {"youtube": "https://www.youtube.com/watch?v=pT2eGJ7F2_I"}, "ageAppropriate": true, "notes": "Detailed explanation"}
+          ]
+        },
+        {
+          "id": "constitution-shorts",
+          "name": "Constitution & Government Quick Clips",
+          "description": "Short videos on Constitution, Bill of Rights, and US Government",
+          "order": 2,
+          "subtopics": ["Constitutional Convention", "Federalism", "Bill of Rights", "Branches of Government"],
+          "media": [
+            {"title": "Crash Course US History: The Constitution", "type": "short", "year": 2013, "rating": "NR", "runtime": 14, "relevance": "Constitutional Convention", "links": {"youtube": "https://www.youtube.com/watch?v=bO7FQsCcbD8"}, "ageAppropriate": true, "notes": "How Constitution was made"},
+            {"title": "Crash Course Government: Federalism", "type": "short", "year": 2015, "rating": "NR", "runtime": 9, "relevance": "Federal system explained", "links": {"youtube": "https://www.youtube.com/watch?v=J0gosGXSgsI"}, "ageAppropriate": true, "notes": "State vs federal powers"},
+            {"title": "Crash Course Government: Separation of Powers", "type": "short", "year": 2015, "rating": "NR", "runtime": 8, "relevance": "Three branches", "links": {"youtube": "https://www.youtube.com/watch?v=kCCmuftyj8A"}, "ageAppropriate": true, "notes": "Checks and balances"},
+            {"title": "Schoolhouse Rock: I'm Just a Bill", "type": "short", "year": 1975, "rating": "TV-Y", "runtime": 3, "relevance": "How a bill becomes law", "links": {"youtube": "https://www.youtube.com/watch?v=OgVKvqTItto"}, "ageAppropriate": true, "notes": "ESSENTIAL classic"},
+            {"title": "Schoolhouse Rock: The Preamble", "type": "short", "year": 1975, "rating": "TV-Y", "runtime": 3, "relevance": "Constitution preamble", "links": {"youtube": "https://www.youtube.com/watch?v=0hEYvdMoF2g"}, "ageAppropriate": true, "notes": "Memorize the preamble"},
+            {"title": "Crash Course Government: The Bill of Rights", "type": "short", "year": 2015, "rating": "NR", "runtime": 9, "relevance": "First 10 amendments", "links": {"youtube": "https://www.youtube.com/watch?v=yYEfLm5dLMg"}, "ageAppropriate": true, "notes": "Rights and freedoms"},
+            {"title": "TED-Ed: How is Power Divided in the US Government?", "type": "short", "year": 2015, "rating": "NR", "runtime": 4, "relevance": "Federalism explained", "links": {"youtube": "https://www.youtube.com/watch?v=F7ZLADRnL2o"}, "ageAppropriate": true, "notes": "Animated explanation"},
+            {"title": "Mr. Beat: All 27 Amendments Explained", "type": "short", "year": 2020, "rating": "NR", "runtime": 25, "relevance": "Every amendment", "links": {"youtube": "https://www.youtube.com/watch?v=jxN3WpCKXKE"}, "ageAppropriate": true, "notes": "Comprehensive overview"}
+          ]
+        },
+        {
+          "id": "early-republic-shorts",
+          "name": "Early Republic Quick Clips",
+          "description": "Short videos on early US history through Jacksonian era",
+          "order": 3,
+          "subtopics": ["Washington", "Jefferson", "War of 1812", "Jacksonian Democracy"],
+          "media": [
+            {"title": "Crash Course US History: George Washington", "type": "short", "year": 2013, "rating": "NR", "runtime": 13, "relevance": "First president", "links": {"youtube": "https://www.youtube.com/watch?v=drZCEVKjjHc"}, "ageAppropriate": true, "notes": "Precedents and leadership"},
+            {"title": "Crash Course US History: Thomas Jefferson", "type": "short", "year": 2013, "rating": "NR", "runtime": 14, "relevance": "Jefferson presidency", "links": {"youtube": "https://www.youtube.com/watch?v=bkAU89cX0JE"}, "ageAppropriate": true, "notes": "Louisiana Purchase"},
+            {"title": "Oversimplified: War of 1812", "type": "short", "year": 2019, "rating": "NR", "runtime": 14, "relevance": "Second war with Britain", "links": {"youtube": "https://www.youtube.com/watch?v=rY4hVFM5dQk"}, "ageAppropriate": true, "notes": "Often overlooked war"},
+            {"title": "Crash Course US History: Age of Jackson", "type": "short", "year": 2013, "rating": "NR", "runtime": 15, "relevance": "Jacksonian democracy", "links": {"youtube": "https://www.youtube.com/watch?v=beN4qE-e5O8"}, "ageAppropriate": true, "notes": "Indian Removal, populism"},
+            {"title": "Simple History: The Trail of Tears", "type": "short", "year": 2018, "rating": "NR", "runtime": 5, "relevance": "Cherokee removal", "links": {"youtube": "https://www.youtube.com/watch?v=LfBPpJqV9Fw"}, "ageAppropriate": true, "notes": "Indian Removal Act consequences"}
+          ]
+        },
+        {
+          "id": "slavery-civil-war-shorts",
+          "name": "Slavery & Civil War Quick Clips",
+          "description": "Short videos on slavery, abolitionism, and Civil War",
+          "order": 4,
+          "subtopics": ["Slavery", "Abolition", "Civil War Causes", "Civil War", "Reconstruction"],
+          "media": [
+            {"title": "Crash Course US History: Slavery", "type": "short", "year": 2013, "rating": "NR", "runtime": 14, "relevance": "Institution of slavery", "links": {"youtube": "https://www.youtube.com/watch?v=Ajn9g5Gsv98"}, "ageAppropriate": true, "notes": "ESSENTIAL - comprehensive"},
+            {"title": "Crash Course US History: The Underground Railroad", "type": "short", "year": 2013, "rating": "NR", "runtime": 11, "relevance": "Escape network", "links": {"youtube": "https://www.youtube.com/watch?v=tGLf0fJ3bIk"}, "ageAppropriate": true, "notes": "Harriet Tubman and freedom seekers"},
+            {"title": "Crash Course US History: The Civil War Part 1", "type": "short", "year": 2013, "rating": "NR", "runtime": 12, "relevance": "War begins", "links": {"youtube": "https://www.youtube.com/watch?v=rY9zHNOjGrs"}, "ageAppropriate": true, "notes": "Causes through 1862"},
+            {"title": "Crash Course US History: The Civil War Part 2", "type": "short", "year": 2013, "rating": "NR", "runtime": 11, "relevance": "War ends", "links": {"youtube": "https://www.youtube.com/watch?v=roNmeOOJCDY"}, "ageAppropriate": true, "notes": "1863 to Appomattox"},
+            {"title": "Oversimplified: Civil War (Part 1)", "type": "short", "year": 2019, "rating": "NR", "runtime": 15, "relevance": "Animated Civil War", "links": {"youtube": "https://www.youtube.com/watch?v=tsxmyL7TUJg"}, "ageAppropriate": true, "notes": "HIGHLY RECOMMENDED"},
+            {"title": "Oversimplified: Civil War (Part 2)", "type": "short", "year": 2019, "rating": "NR", "runtime": 18, "relevance": "Civil War conclusion", "links": {"youtube": "https://www.youtube.com/watch?v=sV6uuMAnJUE"}, "ageAppropriate": true, "notes": "Through Reconstruction"},
+            {"title": "Crash Course US History: Reconstruction", "type": "short", "year": 2013, "rating": "NR", "runtime": 12, "relevance": "Post-war era", "links": {"youtube": "https://www.youtube.com/watch?v=nowsS7pMApI"}, "ageAppropriate": true, "notes": "Successes and failures"},
+            {"title": "TED-Ed: The Atlantic Slave Trade", "type": "short", "year": 2014, "rating": "NR", "runtime": 6, "relevance": "Slave trade context", "links": {"youtube": "https://www.youtube.com/watch?v=3NXC4Q_4JVg"}, "ageAppropriate": true, "notes": "Historical context"}
+          ]
+        },
+        {
+          "id": "gilded-progressive-shorts",
+          "name": "Gilded Age & Progressive Era Quick Clips",
+          "description": "Short videos on industrialization, immigration, and reform",
+          "order": 5,
+          "subtopics": ["Industrialization", "Immigration", "Labor", "Progressive Reform"],
+          "media": [
+            {"title": "Crash Course US History: Industrial Economy", "type": "short", "year": 2013, "rating": "NR", "runtime": 13, "relevance": "Big business", "links": {"youtube": "https://www.youtube.com/watch?v=r6tRp-zRUJs"}, "ageAppropriate": true, "notes": "Rockefeller, Carnegie"},
+            {"title": "Crash Course US History: Westward Expansion", "type": "short", "year": 2013, "rating": "NR", "runtime": 13, "relevance": "Moving West", "links": {"youtube": "https://www.youtube.com/watch?v=Q16OZkgSXfM"}, "ageAppropriate": true, "notes": "Manifest Destiny"},
+            {"title": "Crash Course US History: Immigration", "type": "short", "year": 2013, "rating": "NR", "runtime": 12, "relevance": "Ellis Island era", "links": {"youtube": "https://www.youtube.com/watch?v=Dc0-z15fMss"}, "ageAppropriate": true, "notes": "Great wave immigration"},
+            {"title": "Simple History: Triangle Shirtwaist Fire", "type": "short", "year": 2019, "rating": "NR", "runtime": 6, "relevance": "Labor tragedy", "links": {"youtube": "https://www.youtube.com/watch?v=WKCktFn6JKw"}, "ageAppropriate": true, "notes": "Labor reform catalyst"},
+            {"title": "Crash Course US History: Progressive Era", "type": "short", "year": 2013, "rating": "NR", "runtime": 14, "relevance": "Reform movements", "links": {"youtube": "https://www.youtube.com/watch?v=i0Q4zPR4G7M"}, "ageAppropriate": true, "notes": "TR, muckrakers, reforms"},
+            {"title": "Crash Course US History: Women's Suffrage", "type": "short", "year": 2013, "rating": "NR", "runtime": 12, "relevance": "19th Amendment", "links": {"youtube": "https://www.youtube.com/watch?v=HGEMscZE5dY"}, "ageAppropriate": true, "notes": "Fight for voting rights"}
+          ]
+        },
+        {
+          "id": "modern-america-shorts",
+          "name": "20th Century America Quick Clips",
+          "description": "Short videos on WWI through Cold War",
+          "order": 6,
+          "subtopics": ["WWI", "Roaring 20s", "Great Depression", "WWII", "Cold War", "Civil Rights"],
+          "media": [
+            {"title": "Crash Course US History: WWI", "type": "short", "year": 2013, "rating": "NR", "runtime": 13, "relevance": "America enters WWI", "links": {"youtube": "https://www.youtube.com/watch?v=Mr97-MuVV0E"}, "ageAppropriate": true, "notes": "Neutrality to war"},
+            {"title": "Crash Course US History: The Roaring 20s", "type": "short", "year": 2013, "rating": "NR", "runtime": 13, "relevance": "1920s culture", "links": {"youtube": "https://www.youtube.com/watch?v=VfOR1XCMf7A"}, "ageAppropriate": true, "notes": "Jazz, Harlem, Prohibition"},
+            {"title": "Crash Course US History: The Great Depression", "type": "short", "year": 2013, "rating": "NR", "runtime": 14, "relevance": "Economic collapse", "links": {"youtube": "https://www.youtube.com/watch?v=GCQfMWAikyU"}, "ageAppropriate": true, "notes": "Crash and hardship"},
+            {"title": "Crash Course US History: The New Deal", "type": "short", "year": 2013, "rating": "NR", "runtime": 14, "relevance": "FDR's programs", "links": {"youtube": "https://www.youtube.com/watch?v=6bMq9Ek6jnA"}, "ageAppropriate": true, "notes": "Government response"},
+            {"title": "Crash Course US History: WWII", "type": "short", "year": 2013, "rating": "NR", "runtime": 14, "relevance": "American WWII experience", "links": {"youtube": "https://www.youtube.com/watch?v=_XPZQ0LAlR4"}, "ageAppropriate": true, "notes": "Pearl Harbor to V-J Day"},
+            {"title": "Crash Course US History: The Cold War", "type": "short", "year": 2013, "rating": "NR", "runtime": 14, "relevance": "Cold War America", "links": {"youtube": "https://www.youtube.com/watch?v=9C72ISMF_D0"}, "ageAppropriate": true, "notes": "Domestic Cold War impact"},
+            {"title": "Crash Course US History: Civil Rights", "type": "short", "year": 2013, "rating": "NR", "runtime": 15, "relevance": "Civil Rights Movement", "links": {"youtube": "https://www.youtube.com/watch?v=S64zRnnn4Po"}, "ageAppropriate": true, "notes": "MLK, marches, legislation"},
+            {"title": "TED-Ed: The Montgomery Bus Boycott", "type": "short", "year": 2019, "rating": "NR", "runtime": 5, "relevance": "Rosa Parks and boycott", "links": {"youtube": "https://www.youtube.com/watch?v=o_G4JYwkrXs"}, "ageAppropriate": true, "notes": "Civil Rights key moment"}
+          ]
+        }
+      ]
+    }
+  ]
+}

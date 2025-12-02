@@ -1,0 +1,223 @@
+{
+  "lastUpdated": "2025-12-02",
+  "titles": [
+    {
+      "id": "night-at-museum",
+      "title": "Night at the Museum",
+      "type": "movie",
+      "year": 2006,
+      "rating": "PG",
+      "runtime": 108,
+      "genres": ["comedy", "fantasy", "family"],
+      "director": "Shawn Levy",
+      "links": {
+        "imdb": "https://www.imdb.com/title/tt0477347/",
+        "streaming": ["Disney+"]
+      },
+      "topics": ["ancient-civilizations", "museums", "history-general"]
+    },
+    {
+      "id": "libertys-kids",
+      "title": "Liberty's Kids",
+      "type": "series",
+      "year": 2002,
+      "rating": "TV-Y7",
+      "runtime": 30,
+      "genres": ["animation", "educational", "history"],
+      "links": {
+        "imdb": "https://www.imdb.com/title/tt0310874/",
+        "youtube": "https://www.youtube.com/playlist?list=PLHPGDDYvMPxEXwfFLR8u2Hd1ZJpnhwnAh"
+      },
+      "topics": ["american-revolution", "founding-fathers", "colonial-america"]
+    },
+    {
+      "id": "hamilton",
+      "title": "Hamilton",
+      "type": "movie",
+      "year": 2020,
+      "rating": "PG-13",
+      "runtime": 160,
+      "genres": ["musical", "biography", "drama"],
+      "director": "Thomas Kail",
+      "links": {
+        "imdb": "https://www.imdb.com/title/tt8503618/",
+        "streaming": ["Disney+"]
+      },
+      "topics": ["american-revolution", "founding-fathers", "alexander-hamilton"]
+    },
+    {
+      "id": "selma",
+      "title": "Selma",
+      "type": "movie",
+      "year": 2014,
+      "rating": "PG-13",
+      "runtime": 128,
+      "genres": ["biography", "drama", "history"],
+      "director": "Ava DuVernay",
+      "links": {
+        "imdb": "https://www.imdb.com/title/tt1020072/"
+      },
+      "topics": ["civil-rights", "mlk", "voting-rights"]
+    },
+    {
+      "id": "hidden-figures",
+      "title": "Hidden Figures",
+      "type": "movie",
+      "year": 2016,
+      "rating": "PG",
+      "runtime": 127,
+      "genres": ["biography", "drama", "history"],
+      "director": "Theodore Melfi",
+      "links": {
+        "imdb": "https://www.imdb.com/title/tt4846340/"
+      },
+      "topics": ["civil-rights", "space-race", "women-in-history", "stem"]
+    },
+    {
+      "id": "lincoln",
+      "title": "Lincoln",
+      "type": "movie",
+      "year": 2012,
+      "rating": "PG-13",
+      "runtime": 150,
+      "genres": ["biography", "drama", "history"],
+      "director": "Steven Spielberg",
+      "links": {
+        "imdb": "https://www.imdb.com/title/tt0443272/"
+      },
+      "topics": ["civil-war", "abraham-lincoln", "13th-amendment", "reconstruction"]
+    },
+    {
+      "id": "harriet",
+      "title": "Harriet",
+      "type": "movie",
+      "year": 2019,
+      "rating": "PG-13",
+      "runtime": 125,
+      "genres": ["biography", "drama", "history"],
+      "director": "Kasi Lemmons",
+      "links": {
+        "imdb": "https://www.imdb.com/title/tt4648786/"
+      },
+      "topics": ["underground-railroad", "harriet-tubman", "slavery", "abolitionism"]
+    },
+    {
+      "id": "ken-burns-civil-war",
+      "title": "The Civil War",
+      "type": "documentary",
+      "year": 1990,
+      "rating": "NR",
+      "runtime": 690,
+      "genres": ["documentary", "history", "war"],
+      "director": "Ken Burns",
+      "links": {
+        "imdb": "https://www.imdb.com/title/tt0098769/",
+        "streaming": ["PBS"]
+      },
+      "topics": ["civil-war", "reconstruction", "slavery", "abraham-lincoln"]
+    },
+    {
+      "id": "gandhi",
+      "title": "Gandhi",
+      "type": "movie",
+      "year": 1982,
+      "rating": "PG",
+      "runtime": 191,
+      "genres": ["biography", "drama", "history"],
+      "director": "Richard Attenborough",
+      "links": {
+        "imdb": "https://www.imdb.com/title/tt0083987/"
+      },
+      "topics": ["indian-independence", "nonviolent-resistance", "british-raj", "decolonization"]
+    },
+    {
+      "id": "boy-striped-pajamas",
+      "title": "The Boy in the Striped Pajamas",
+      "type": "movie",
+      "year": 2008,
+      "rating": "PG-13",
+      "runtime": 94,
+      "genres": ["drama", "history", "war"],
+      "director": "Mark Herman",
+      "links": {
+        "imdb": "https://www.imdb.com/title/tt0914798/"
+      },
+      "topics": ["holocaust", "world-war-2", "nazi-germany"]
+    },
+    {
+      "id": "newsies",
+      "title": "Newsies",
+      "type": "movie",
+      "year": 1992,
+      "rating": "PG",
+      "runtime": 121,
+      "genres": ["musical", "drama", "family"],
+      "director": "Kenny Ortega",
+      "links": {
+        "imdb": "https://www.imdb.com/title/tt0104990/",
+        "streaming": ["Disney+"]
+      },
+      "topics": ["labor-movement", "gilded-age", "child-labor", "strikes"]
+    },
+    {
+      "id": "great-gatsby-2013",
+      "title": "The Great Gatsby",
+      "type": "movie",
+      "year": 2013,
+      "rating": "PG-13",
+      "runtime": 143,
+      "genres": ["drama", "romance"],
+      "director": "Baz Luhrmann",
+      "links": {
+        "imdb": "https://www.imdb.com/title/tt1343092/"
+      },
+      "topics": ["roaring-twenties", "jazz-age", "wealth-inequality"]
+    },
+    {
+      "id": "grapes-of-wrath",
+      "title": "The Grapes of Wrath",
+      "type": "movie",
+      "year": 1940,
+      "rating": "NR",
+      "runtime": 129,
+      "genres": ["drama", "history"],
+      "director": "John Ford",
+      "links": {
+        "imdb": "https://www.imdb.com/title/tt0032551/"
+      },
+      "topics": ["great-depression", "dust-bowl", "migration", "poverty"]
+    },
+    {
+      "id": "forrest-gump",
+      "title": "Forrest Gump",
+      "type": "movie",
+      "year": 1994,
+      "rating": "PG-13",
+      "runtime": 142,
+      "genres": ["drama", "romance"],
+      "director": "Robert Zemeckis",
+      "links": {
+        "imdb": "https://www.imdb.com/title/tt0109830/"
+      },
+      "topics": ["vietnam-war", "civil-rights", "1960s", "1970s", "watergate"]
+    },
+    {
+      "id": "social-dilemma",
+      "title": "The Social Dilemma",
+      "type": "documentary",
+      "year": 2020,
+      "rating": "PG-13",
+      "runtime": 94,
+      "genres": ["documentary", "drama"],
+      "director": "Jeff Orlowski",
+      "links": {
+        "imdb": "https://www.imdb.com/title/tt11464826/",
+        "streaming": ["Netflix"]
+      },
+      "topics": ["technology", "social-media", "digital-age", "modern-issues"]
+    }
+  ],
+  "_mediaTypes": ["movie", "documentary", "series", "short", "educational"],
+  "_ratings": ["G", "PG", "PG-13", "R", "TV-Y", "TV-Y7", "TV-G", "TV-PG", "TV-14", "TV-MA", "NR"]
+}
+
