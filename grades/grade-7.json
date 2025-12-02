@@ -30,7 +30,8 @@
               "runtime": 372,
               "relevance": "Kevin Costner narrated 8-part documentary covering Native American history; Episode 1 covers Northeast woodland peoples",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0111825/"
+                "imdb": "https://www.imdb.com/title/tt0111825/",
+                "justwatch": "https://www.justwatch.com/us/search?q=500%20Nations%201995"
               },
               "ageAppropriate": true,
               "notes": "Show relevant episodes on Iroquois and Northeast peoples; comprehensive and respectful",
@@ -64,7 +65,8 @@
               "runtime": 133,
               "relevance": "HBO film depicting Native American history from their perspective",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0821638/"
+                "imdb": "https://www.imdb.com/title/tt0821638/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Bury%20My%20Heart%20at%20Wounded%20Knee%202007"
               },
               "ageAppropriate": false,
               "notes": "TV-14; may be appropriate for mature 7th graders; discusses difficult history",
@@ -77,7 +79,9 @@
               "rating": "NR",
               "runtime": 23,
               "relevance": "Schlessinger Media educational video on Iroquois Confederacy",
-              "links": {},
+              "links": {
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Iroquois%202009"
+              },
               "ageAppropriate": true,
               "notes": "Designed for classroom use; covers government structure and daily life",
               "contentType": "educational"
@@ -89,7 +93,9 @@
               "rating": "NR",
               "runtime": 60,
               "relevance": "Documentary about Mohawk culture and the Sky Woman creation story",
-              "links": {},
+              "links": {
+                "justwatch": "https://www.justwatch.com/us/search?q=Kahentiiosta%3A%20Sky%20Woman%202020"
+              },
               "ageAppropriate": true,
               "notes": "Authentic representation of Haudenosaunee culture",
               "contentType": "educational"
@@ -163,7 +169,8 @@
               "runtime": 112,
               "relevance": "Set during French and Indian War in colonial New York",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0104691/"
+                "imdb": "https://www.imdb.com/title/tt0104691/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Last%20of%20the%20Mohicans%201992"
               },
               "ageAppropriate": false,
               "notes": "R-rated for violence; teacher reference; select scenes may work; set in NY wilderness",
@@ -177,7 +184,8 @@
               "runtime": 167,
               "relevance": "Depicts 1860s New York City - NOT for classroom but useful teacher reference",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0217505/"
+                "imdb": "https://www.imdb.com/title/tt0217505/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Gangs%20of%20New%20York%202002"
               },
               "ageAppropriate": false,
               "notes": "R-rated; NOT appropriate for classroom; shows NYC immigrant history",
@@ -233,7 +241,8 @@
               "runtime": 58,
               "relevance": "David Macaulay animated documentary showing castle construction and medieval life",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0109393/"
+                "imdb": "https://www.imdb.com/title/tt0109393/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Castle%201983"
               },
               "ageAppropriate": true,
               "notes": "HIGHLY RECOMMENDED - excellent educational animation; based on the book",
@@ -247,7 +256,8 @@
               "runtime": 60,
               "relevance": "David Macaulay animated documentary on medieval cathedral construction",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0285683/"
+                "imdb": "https://www.imdb.com/title/tt0285683/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Cathedral%201985"
               },
               "ageAppropriate": true,
               "notes": "Companion to Castle; shows medieval church and architecture",
@@ -261,7 +271,8 @@
               "runtime": 132,
               "relevance": "Depicts medieval tournaments, social hierarchy, and knight culture",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0183790/"
+                "imdb": "https://www.imdb.com/title/tt0183790/",
+                "justwatch": "https://www.justwatch.com/us/search?q=A%20Knight's%20Tale%202001"
               },
               "ageAppropriate": true,
               "notes": "PG-13 but mostly clean; anachronistic music but shows medieval society well",
@@ -275,7 +286,8 @@
               "runtime": 140,
               "relevance": "Depicts medieval England, Magna Carta origins, and feudal conflicts",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0955308/"
+                "imdb": "https://www.imdb.com/title/tt0955308/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Robin%20Hood%20(2010)%202010"
               },
               "ageAppropriate": false,
               "notes": "PG-13 for battle scenes; select clips on Magna Carta may be useful",
@@ -289,7 +301,8 @@
               "runtime": 131,
               "relevance": "Set in medieval monastery; shows medieval church and scholarship",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0091605/"
+                "imdb": "https://www.imdb.com/title/tt0091605/",
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Name%20of%20the%20Rose%201986"
               },
               "ageAppropriate": false,
               "notes": "R-rated; teacher reference only; excellent depiction of monastic life",
@@ -303,7 +316,8 @@
               "runtime": 28,
               "relevance": "British educational comedy series covering medieval history with humor",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt1434549/"
+                "imdb": "https://www.imdb.com/title/tt1434549/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Horrible%20Histories%3A%20Measly%20Middle%20Ages%202009"
               },
               "ageAppropriate": true,
               "notes": "HIGHLY RECOMMENDED - engaging and humorous; perfect for middle school",
@@ -317,7 +331,8 @@
               "runtime": 240,
               "relevance": "BBC documentary series examining life of various medieval people",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0411006/"
+                "imdb": "https://www.imdb.com/title/tt0411006/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Terry%20Jones'%20Medieval%20Lives%202004"
               },
               "ageAppropriate": true,
               "notes": "8 episodes covering peasant, monk, knight, etc.; hosted by Monty Python member",
@@ -330,7 +345,9 @@
               "rating": "NR",
               "runtime": 720,
               "relevance": "Great Courses documentary on the Black Death and its effects",
-              "links": {},
+              "links": {
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Black%20Death%3A%20The%20World's%20Most%20Devastating%20Plague%202016"
+              },
               "ageAppropriate": true,
               "notes": "Academic but accessible; covers pandemic's impact on medieval society",
               "contentType": "educational"
@@ -343,7 +360,8 @@
               "runtime": 12,
               "relevance": "Medieval Europe overview",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=QV7CanyzhZg"
+                "youtube": "https://www.youtube.com/watch?v=QV7CanyzhZg",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20World%20History%3A%20The%20Dark%20Ages%202012"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] John Green; engaging and educational",
@@ -357,7 +375,8 @@
               "runtime": 5,
               "relevance": "Medieval daily life",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=p1BSSCxjhv8"
+                "youtube": "https://www.youtube.com/watch?v=p1BSSCxjhv8",
+                "justwatch": "https://www.justwatch.com/us/search?q=TED-Ed%3A%20A%20Day%20in%20the%20Life%20of%20a%20Medieval%20Lord%202019"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Animated medieval life",
@@ -371,7 +390,8 @@
               "runtime": 5,
               "relevance": "Plague and its impact",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=rZy6XilXDZQ"
+                "youtube": "https://www.youtube.com/watch?v=rZy6XilXDZQ",
+                "justwatch": "https://www.justwatch.com/us/search?q=TED-Ed%3A%20The%20Black%20Death%202015"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Historical context of pandemic",
@@ -385,7 +405,8 @@
               "runtime": 11,
               "relevance": "Renaissance overview",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=Vufba_ZDwbQ"
+                "youtube": "https://www.youtube.com/watch?v=Vufba_ZDwbQ",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20World%20History%3A%20The%20Renaissance%202012"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Art, science, and humanism",
@@ -399,7 +420,8 @@
               "runtime": 16,
               "relevance": "English Reformation context",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=Yk1-nLPp5RE"
+                "youtube": "https://www.youtube.com/watch?v=Yk1-nLPp5RE",
+                "justwatch": "https://www.justwatch.com/us/search?q=Oversimplified%3A%20Henry%20VIII%202019"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Reformation and Tudor England",
@@ -413,7 +435,8 @@
               "runtime": 5,
               "relevance": "Renaissance polymath",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=v0mX9QISNqk"
+                "youtube": "https://www.youtube.com/watch?v=v0mX9QISNqk",
+                "justwatch": "https://www.justwatch.com/us/search?q=TED-Ed%3A%20Leonardo%20da%20Vinci's%20Genius%202017"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Da Vinci's inventions and art",
@@ -427,7 +450,8 @@
               "runtime": 6,
               "relevance": "Knights and chivalry",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=aoNfVlHqxYM"
+                "youtube": "https://www.youtube.com/watch?v=aoNfVlHqxYM",
+                "justwatch": "https://www.justwatch.com/us/search?q=Simple%20History%3A%20Life%20of%20a%20Medieval%20Knight%202018"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Animated medieval life",
@@ -456,7 +480,8 @@
               "runtime": 121,
               "relevance": "Set during Renaissance France; features Leonardo da Vinci as a character",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0120631/"
+                "imdb": "https://www.imdb.com/title/tt0120631/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Ever%20After%3A%20A%20Cinderella%20Story%201998"
               },
               "ageAppropriate": true,
               "notes": "PG-13 but appropriate; excellent Renaissance costumes and setting",
@@ -469,7 +494,9 @@
               "rating": "NR",
               "runtime": 90,
               "relevance": "Documentary exploring da Vinci's life, art, and inventions",
-              "links": {},
+              "links": {
+                "justwatch": "https://www.justwatch.com/us/search?q=Leonardo%20da%20Vinci%3A%20The%20Genius%202017"
+              },
               "ageAppropriate": true,
               "notes": "Great introduction to Renaissance polymath",
               "contentType": "educational"
@@ -482,7 +509,8 @@
               "runtime": 138,
               "relevance": "Classic film about Michelangelo painting the Sistine Chapel",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0058886/"
+                "imdb": "https://www.imdb.com/title/tt0058886/",
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Agony%20and%20the%20Ecstasy%201965"
               },
               "ageAppropriate": true,
               "notes": "Charlton Heston as Michelangelo; shows Renaissance art and patronage",
@@ -496,7 +524,8 @@
               "runtime": 60,
               "relevance": "TV series about the powerful Medici family in Renaissance Florence",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt5057130/"
+                "imdb": "https://www.imdb.com/title/tt5057130/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Medici%3A%20Masters%20of%20Florence%202016"
               },
               "ageAppropriate": false,
               "notes": "TV-MA; NOT for classroom; excellent teacher reference on Renaissance Florence",
@@ -509,7 +538,9 @@
               "rating": "NR",
               "runtime": 50,
               "relevance": "Educational documentary covering Renaissance art, science, and culture",
-              "links": {},
+              "links": {
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Story%20of%20the%20Renaissance%202009"
+              },
               "ageAppropriate": true,
               "notes": "Designed for educational use",
               "contentType": "educational"
@@ -522,7 +553,8 @@
               "runtime": 145,
               "relevance": "Biographical film about Galileo and conflict with the Church",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0073034/"
+                "imdb": "https://www.imdb.com/title/tt0073034/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Galileo%201975"
               },
               "ageAppropriate": true,
               "notes": "Depicts scientific revolution and church-science conflicts",
@@ -536,7 +568,8 @@
               "runtime": 13,
               "relevance": "1920s culture including Harlem",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=VfOR1XCMf7A"
+                "youtube": "https://www.youtube.com/watch?v=VfOR1XCMf7A",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20US%20History%3A%20The%20Roaring%2020s%202013"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Includes Harlem Renaissance context",
@@ -550,7 +583,8 @@
               "runtime": 10,
               "relevance": "Harlem Renaissance overview",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=w3UQNPWfpjM"
+                "youtube": "https://www.youtube.com/watch?v=w3UQNPWfpjM",
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Harlem%20Renaissance%20Explained%202020"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] NYC cultural movement",
@@ -564,7 +598,8 @@
               "runtime": 5,
               "relevance": "Hughes and poetry movement",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=gxMXy6hJMq4"
+                "youtube": "https://www.youtube.com/watch?v=gxMXy6hJMq4",
+                "justwatch": "https://www.justwatch.com/us/search?q=TED-Ed%3A%20Langston%20Hughes%20and%20the%20Harlem%20Renaissance%202019"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Key Harlem figure",
@@ -578,7 +613,8 @@
               "runtime": 8,
               "relevance": "Jazz history in Harlem",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=t5Z9s3bJBhU"
+                "youtube": "https://www.youtube.com/watch?v=t5Z9s3bJBhU",
+                "justwatch": "https://www.justwatch.com/us/search?q=Duke%20Ellington%20and%20the%20Cotton%20Club%202018"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] NYC jazz history",
@@ -607,7 +643,8 @@
               "runtime": 123,
               "relevance": "Biographical film about Martin Luther and the Protestant Reformation",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0309820/"
+                "imdb": "https://www.imdb.com/title/tt0309820/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Luther%202003"
               },
               "ageAppropriate": true,
               "notes": "PG-13; may be appropriate for mature 7th graders; comprehensive look at Luther",
@@ -621,7 +658,8 @@
               "runtime": 77,
               "relevance": "Documentary narrated by Hugh Bonneville on Luther and the Reformation",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt7014528/"
+                "imdb": "https://www.imdb.com/title/tt7014528/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Martin%20Luther%3A%20The%20Idea%20that%20Changed%20the%20World%202017"
               },
               "ageAppropriate": true,
               "notes": "Made for 500th anniversary of Reformation; accessible and educational",
@@ -635,7 +673,8 @@
               "runtime": 120,
               "relevance": "Academy Award winner about Thomas More and Henry VIII's break with Rome",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0060665/"
+                "imdb": "https://www.imdb.com/title/tt0060665/",
+                "justwatch": "https://www.justwatch.com/us/search?q=A%20Man%20for%20All%20Seasons%201966"
               },
               "ageAppropriate": true,
               "notes": "G-rated; excellent for discussing English Reformation and conscience",
@@ -649,7 +688,8 @@
               "runtime": 124,
               "relevance": "Depicts Elizabeth I and Protestant England",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0127536/"
+                "imdb": "https://www.imdb.com/title/tt0127536/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Elizabeth%201998"
               },
               "ageAppropriate": false,
               "notes": "R-rated; NOT for classroom; teacher reference on English Reformation",
@@ -703,7 +743,8 @@
               "runtime": 44,
               "relevance": "History Channel documentary on Aztec engineering and Tenochtitlan",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0884140/"
+                "imdb": "https://www.imdb.com/title/tt0959050/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Engineering%20an%20Empire%3A%20The%20Aztecs%202006"
               },
               "ageAppropriate": true,
               "notes": "Focus on engineering achievements; Peter Weller narrates",
@@ -717,7 +758,8 @@
               "runtime": 89,
               "relevance": "Animated adventure featuring Mesoamerican-inspired civilization",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0138749/"
+                "imdb": "https://www.imdb.com/title/tt0138749/",
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Road%20to%20El%20Dorado%202000"
               },
               "ageAppropriate": true,
               "notes": "Fictional but excellent visual introduction to Mesoamerican aesthetics",
@@ -730,7 +772,9 @@
               "rating": "NR",
               "runtime": 50,
               "relevance": "Documentary covering Cortés and the fall of Tenochtitlan",
-              "links": {},
+              "links": {
+                "justwatch": "https://www.justwatch.com/us/search?q=Conquest%20of%20the%20Aztec%20Empire%202015"
+              },
               "ageAppropriate": true,
               "notes": "Covers both Aztec civilization and Spanish conquest",
               "contentType": "educational"
@@ -777,7 +821,8 @@
               "runtime": 44,
               "relevance": "History Channel documentary on Incan engineering achievements",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt1210897/"
+                "imdb": "https://www.imdb.com/title/tt1210897/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Engineering%20an%20Empire%3A%20The%20Inca%202007"
               },
               "ageAppropriate": true,
               "notes": "Covers Machu Picchu, road system, and architectural achievements",
@@ -790,7 +835,9 @@
               "rating": "NR",
               "runtime": 60,
               "relevance": "National Geographic documentary exploring Machu Picchu",
-              "links": {},
+              "links": {
+                "justwatch": "https://www.justwatch.com/us/search?q=Machu%20Picchu%3A%20Secrets%20of%20the%20Incan%20Empire%202009"
+              },
               "ageAppropriate": true,
               "notes": "Beautiful visuals of the famous citadel",
               "contentType": "educational"
@@ -826,7 +873,8 @@
               "relevance": "Final episodes cover Constitutional Convention and ratification",
               "links": {
                 "imdb": "https://www.imdb.com/title/tt0310874/",
-                "youtube": "https://www.youtube.com/playlist?list=PLHPGDDYvMPxEXwfFLR8u2Hd1ZJpnhwnAh"
+                "youtube": "https://www.youtube.com/playlist?list=PLHPGDDYvMPxEXwfFLR8u2Hd1ZJpnhwnAh",
+                "justwatch": "https://www.justwatch.com/us/search?q=Liberty's%20Kids%3A%20The%20Complete%20Series%202002"
               },
               "ageAppropriate": true,
               "notes": "Animated series perfect for this age; episodes 38-40 cover Constitution",
@@ -840,7 +888,8 @@
               "runtime": 97,
               "relevance": "Dramatization of the Constitutional Convention of 1787",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0097927/"
+                "imdb": "https://www.imdb.com/title/tt0097927/",
+                "justwatch": "https://www.justwatch.com/us/search?q=A%20More%20Perfect%20Union%3A%20America%20Becomes%20a%20Nation%201989"
               },
               "ageAppropriate": true,
               "notes": "Made specifically for educational use; shows convention debates",
@@ -854,7 +903,8 @@
               "runtime": 3,
               "relevance": "Classic animated song teaching the Constitution's preamble",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=0hEYvdMoF2g"
+                "youtube": "https://www.youtube.com/watch?v=0hEYvdMoF2g",
+                "justwatch": "https://www.justwatch.com/us/search?q=Schoolhouse%20Rock%3A%20The%20Preamble%201975"
               },
               "ageAppropriate": true,
               "notes": "Students can memorize preamble through the catchy song",
@@ -867,7 +917,9 @@
               "rating": "NR",
               "runtime": 60,
               "relevance": "Documentary on Hamilton, Madison, and Jay's writings",
-              "links": {},
+              "links": {
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Federalist%20Papers%3A%20A%20Documentary%202019"
+              },
               "ageAppropriate": true,
               "notes": "More advanced; good for enrichment",
               "contentType": "educational"
@@ -901,7 +953,9 @@
               "rating": "NR",
               "runtime": 60,
               "relevance": "History Channel documentary on the Erie Canal construction and impact",
-              "links": {},
+              "links": {
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Erie%20Canal%202000"
+              },
               "ageAppropriate": true,
               "notes": "Comprehensive coverage of canal history",
               "contentType": "educational"
@@ -914,7 +968,8 @@
               "runtime": 44,
               "relevance": "Includes segment on Erie Canal and its role in westward expansion",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt1644785/"
+                "imdb": "https://www.imdb.com/title/tt1644785/",
+                "justwatch": "https://www.justwatch.com/us/search?q=America%3A%20The%20Story%20of%20Us%20-%20Episode%203%3A%20Westward%202010"
               },
               "ageAppropriate": true,
               "notes": "Modern production with reenactments",
@@ -927,7 +982,9 @@
               "rating": "NR",
               "runtime": 30,
               "relevance": "Educational video specifically about the canal for students",
-              "links": {},
+              "links": {
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Erie%20Canal%3A%20A%20Journey%20Through%20History%202015"
+              },
               "ageAppropriate": true,
               "notes": "Made for classroom use",
               "contentType": "educational"
@@ -940,7 +997,8 @@
               "runtime": 15,
               "relevance": "NYC from Dutch to modern",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=uQ6G9BzPh4o"
+                "youtube": "https://www.youtube.com/watch?v=uQ6G9BzPh4o",
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20History%20of%20New%20York%20City%202020"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] NYC history overview",
@@ -954,7 +1012,8 @@
               "runtime": 5,
               "relevance": "Dutch to English transition",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=D_q1ek0JXks"
+                "youtube": "https://www.youtube.com/watch?v=D_q1ek0JXks",
+                "justwatch": "https://www.justwatch.com/us/search?q=How%20Did%20New%20York%20Get%20Its%20Name%3F%202019"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] New Amsterdam to New York",
@@ -968,7 +1027,8 @@
               "runtime": 13,
               "relevance": "Early contact period",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=TTYOQ05oDOI"
+                "youtube": "https://www.youtube.com/watch?v=TTYOQ05oDOI",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20US%20History%3A%20The%20Natives%20and%20the%20English%202013"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] First contact and early colonization",
@@ -982,7 +1042,8 @@
               "runtime": 11,
               "relevance": "Middle colonies",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=jnx-L1EqMys"
+                "youtube": "https://www.youtube.com/watch?v=jnx-L1EqMys",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20US%20History%3A%20The%20Quakers%2C%20Dutch%2C%20and%20Ladies%202013"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Covers Dutch NY and Pennsylvania",
@@ -996,7 +1057,8 @@
               "runtime": 8,
               "relevance": "Native influence on Constitution",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=BNjcvERVguc"
+                "youtube": "https://www.youtube.com/watch?v=BNjcvERVguc",
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Iroquois%20Confederacy%20and%20American%20Democracy%202020"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Important NY history",
@@ -1052,7 +1114,8 @@
               "runtime": 137,
               "relevance": "Modern retelling of the Battle of the Alamo",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0318974/"
+                "imdb": "https://www.imdb.com/title/tt0318974/",
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Alamo%20(2004)%202004"
               },
               "ageAppropriate": false,
               "notes": "PG-13 for battle violence; more historically accurate; select scenes may work",
@@ -1085,7 +1148,9 @@
               "rating": "NR",
               "runtime": 50,
               "relevance": "Documentary on pioneer migration to Oregon",
-              "links": {},
+              "links": {
+                "justwatch": "https://www.justwatch.com/us/search?q=Oregon%20Trail%3A%20The%20Road%20to%20Western%20Expansion%202012"
+              },
               "ageAppropriate": true,
               "notes": "Covers challenges and experiences of pioneers",
               "contentType": "educational"
@@ -1140,7 +1205,8 @@
               "runtime": 123,
               "relevance": "HBO film about the suffrage movement (later period)",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0338139/"
+                "imdb": "https://www.imdb.com/title/tt0338139/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Iron%20Jawed%20Angels%202004"
               },
               "ageAppropriate": true,
               "notes": "Covers later suffrage movement; powerful depiction of struggle for vote",
@@ -1173,7 +1239,8 @@
               "runtime": 106,
               "relevance": "British suffrage movement; useful comparison",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt3077214/"
+                "imdb": "https://www.imdb.com/title/tt3077214/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Suffragette%202015"
               },
               "ageAppropriate": true,
               "notes": "PG-13; set in Britain but shows suffrage struggle",
@@ -1229,7 +1296,8 @@
               "runtime": 130,
               "relevance": "Dickens adaptation showing poverty and child labor in industrial England",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0380599/"
+                "imdb": "https://www.imdb.com/title/tt0380599/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Oliver%20Twist%20(2005)%202005"
               },
               "ageAppropriate": true,
               "notes": "Set in England but excellent for understanding industrial era conditions",
@@ -1243,7 +1311,8 @@
               "runtime": 360,
               "relevance": "History Channel series on Vanderbilt, Rockefeller, Carnegie, Morgan",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt2167393/"
+                "imdb": "https://www.imdb.com/title/tt2167393/",
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Men%20Who%20Built%20America%202012"
               },
               "ageAppropriate": true,
               "notes": "8-part series; covers industrialists who shaped America; some based in NY",
@@ -1257,7 +1326,8 @@
               "runtime": 77,
               "relevance": "Animated film about immigrant mouse family in 1885 New York City",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0090633/"
+                "imdb": "https://www.imdb.com/title/tt0090633/",
+                "justwatch": "https://www.justwatch.com/us/search?q=An%20American%20Tail%201986"
               },
               "ageAppropriate": true,
               "notes": "Covers immigration to NYC during industrial era; accessible introduction",
@@ -1271,7 +1341,8 @@
               "runtime": 14,
               "relevance": "Revolutionary causes",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=X-zHagVGedE"
+                "youtube": "https://www.youtube.com/watch?v=X-zHagVGedE",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20US%20History%3A%20Taxes%20%26%20Smuggling%202013"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Taxation without representation",
@@ -1285,7 +1356,8 @@
               "runtime": 14,
               "relevance": "Constitutional Convention",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=bO7FQsCcbD8"
+                "youtube": "https://www.youtube.com/watch?v=bO7FQsCcbD8",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20US%20History%3A%20The%20Constitution%202013"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] How Constitution was created",
@@ -1299,7 +1371,8 @@
               "runtime": 12,
               "relevance": "First 10 amendments",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=Zbl4ESQgLQA"
+                "youtube": "https://www.youtube.com/watch?v=Zbl4ESQgLQA",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20US%20History%3A%20The%20Bill%20of%20Rights%202013"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Rights and freedoms",
@@ -1313,7 +1386,8 @@
               "runtime": 8,
               "relevance": "Constitutional compromise on slavery",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=QfVdxWv2A-0"
+                "youtube": "https://www.youtube.com/watch?v=QfVdxWv2A-0",
+                "justwatch": "https://www.justwatch.com/us/search?q=Hip%20Hughes%3A%20The%203%2F5%20Compromise%202015"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Difficult but important topic",
@@ -1327,7 +1401,8 @@
               "runtime": 5,
               "relevance": "Electoral system explained",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=W9H3gvnN468"
+                "youtube": "https://www.youtube.com/watch?v=W9H3gvnN468",
+                "justwatch": "https://www.justwatch.com/us/search?q=TED-Ed%3A%20What%20Is%20the%20Electoral%20College%3F%202012"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Presidential election process",
@@ -1341,7 +1416,8 @@
               "runtime": 13,
               "relevance": "Gilded Age industrialization",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=r6tRp-zRUJs"
+                "youtube": "https://www.youtube.com/watch?v=r6tRp-zRUJs",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20US%20History%3A%20Industrial%20Economy%202013"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Big business and tycoons",
@@ -1355,7 +1431,8 @@
               "runtime": 13,
               "relevance": "Western settlement",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=Q16OZkgSXfM"
+                "youtube": "https://www.youtube.com/watch?v=Q16OZkgSXfM",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20US%20History%3A%20Westward%20Expansion%202013"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Manifest Destiny and impact",
@@ -1369,7 +1446,8 @@
               "runtime": 12,
               "relevance": "Ellis Island era immigration",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=Dc0-z15fMss"
+                "youtube": "https://www.youtube.com/watch?v=Dc0-z15fMss",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20US%20History%3A%20Immigration%202013"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Great wave of immigration",
@@ -1383,7 +1461,8 @@
               "runtime": 6,
               "relevance": "NYC labor history",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=WKCktFn6JKw"
+                "youtube": "https://www.youtube.com/watch?v=WKCktFn6JKw",
+                "justwatch": "https://www.justwatch.com/us/search?q=Simple%20History%3A%20Triangle%20Shirtwaist%20Factory%20Fire%202019"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Important NY labor event",
@@ -1397,7 +1476,8 @@
               "runtime": 14,
               "relevance": "Reform movements",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=i0Q4zPR4G7M"
+                "youtube": "https://www.youtube.com/watch?v=i0Q4zPR4G7M",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20US%20History%3A%20Progressive%20Era%202013"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Muckrakers and reforms",
@@ -1411,7 +1491,8 @@
               "runtime": 4,
               "relevance": "Erie Canal significance for NY",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=HKzRbqMCAHA"
+                "youtube": "https://www.youtube.com/watch?v=HKzRbqMCAHA",
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Erie%20Canal%20Song%20-%20History%202015"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] NY State history essential",
@@ -1446,7 +1527,8 @@
               "runtime": 125,
               "relevance": "Biographical film about Harriet Tubman and the Underground Railroad",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt4648786/"
+                "imdb": "https://www.imdb.com/title/tt4648786/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Harriet%202019"
               },
               "ageAppropriate": true,
               "notes": "PG-13 but appropriate; excellent modern telling of Tubman's story",
@@ -1460,7 +1542,8 @@
               "runtime": 122,
               "relevance": "54th Massachusetts Infantry - first Black regiment in Civil War",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0097441/"
+                "imdb": "https://www.imdb.com/title/tt0097441/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Glory%201989"
               },
               "ageAppropriate": false,
               "notes": "R-rated for war violence; teacher reference; excellent for Black soldiers' story",
@@ -1474,7 +1557,8 @@
               "runtime": 150,
               "relevance": "Spielberg film about Lincoln and the 13th Amendment",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0443272/"
+                "imdb": "https://www.imdb.com/title/tt0443272/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Lincoln%202012"
               },
               "ageAppropriate": true,
               "notes": "PG-13; excellent for mature 7th graders; shows political process",
@@ -1508,7 +1592,8 @@
               "runtime": 14,
               "relevance": "Institution of slavery",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=Ajn9g5Gsv98"
+                "youtube": "https://www.youtube.com/watch?v=Ajn9g5Gsv98",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20US%20History%3A%20Slavery%202013"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Comprehensive slavery overview",
@@ -1522,7 +1607,8 @@
               "runtime": 12,
               "relevance": "War causes and early battles",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=rY9zHNOjGrs"
+                "youtube": "https://www.youtube.com/watch?v=rY9zHNOjGrs",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20US%20History%3A%20The%20Civil%20War%20Part%201%202013"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Causes through 1862",
@@ -1536,7 +1622,8 @@
               "runtime": 11,
               "relevance": "War conclusion and legacy",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=roNmeOOJCDY"
+                "youtube": "https://www.youtube.com/watch?v=roNmeOOJCDY",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20US%20History%3A%20The%20Civil%20War%20Part%202%202013"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] 1863 through war's end",
@@ -1550,7 +1637,8 @@
               "runtime": 12,
               "relevance": "Post-war Reconstruction",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=nowsS7pMApI"
+                "youtube": "https://www.youtube.com/watch?v=nowsS7pMApI",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20US%20History%3A%20Reconstruction%202013"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Reconstruction era and failures",
@@ -1564,7 +1652,8 @@
               "runtime": 45,
               "relevance": "First successful slave revolution (4 parts)",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=5A_o-nU5s4I&list=PLhyKYa0YJ_5BuNVhOt8Ls82Cr20yo6Y_p"
+                "youtube": "https://www.youtube.com/watch?v=5A_o-nU5s4I&list=PLhyKYa0YJ_5BuNVhOt8Ls82Cr20yo6Y_p",
+                "justwatch": "https://www.justwatch.com/us/search?q=Extra%20History%3A%20The%20Haitian%20Revolution%202018"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Extra Credits series; very engaging",
@@ -1620,7 +1709,8 @@
               "runtime": 195,
               "relevance": "Historically important but deeply racist film - for analyzing propaganda",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0004972/"
+                "imdb": "https://www.imdb.com/title/tt0004972/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Birth%20of%20a%20Nation%20(1915)%20-%20Clips%20for%20Analysis%201915"
               },
               "ageAppropriate": false,
               "notes": "DO NOT SHOW - only mention for understanding how history was distorted",
@@ -1676,7 +1766,8 @@
               "runtime": 126,
               "relevance": "1930s Black college debate team; shows era's intellectual achievements",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0427309/"
+                "imdb": "https://www.imdb.com/title/tt0427309/",
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Great%20Debaters%202007"
               },
               "ageAppropriate": true,
               "notes": "PG-13; inspiring film about Black education and achievement in Jim Crow era",
@@ -1709,7 +1800,9 @@
               "rating": "NR",
               "runtime": 60,
               "relevance": "Documentary focused on visual arts of Harlem Renaissance",
-              "links": {},
+              "links": {
+                "justwatch": "https://www.justwatch.com/us/search?q=Harlem%20Renaissance%3A%20American%20Art%20from%20the%201920s%20and%201930s%202018"
+              },
               "ageAppropriate": true,
               "notes": "Covers artists like Aaron Douglas and Jacob Lawrence",
               "contentType": "educational"
@@ -1722,7 +1815,8 @@
               "runtime": 88,
               "relevance": "Documentary on Duke Ellington's life and music",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0140826/"
+                "imdb": "https://www.imdb.com/title/tt0140826/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Duke%20Ellington%3A%20Reminiscing%20in%20Tempo%201991"
               },
               "ageAppropriate": true,
               "notes": "Covers Ellington's career in Harlem's Cotton Club",
@@ -1777,7 +1871,9 @@
               "rating": "NR",
               "runtime": 60,
               "relevance": "Upton Sinclair's muckraking novel about meatpacking industry",
-              "links": {},
+              "links": {
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Jungle%20(audiobook%20selections)%201906"
+              },
               "ageAppropriate": true,
               "notes": "Read selected passages; too graphic to read in full but important",
               "contentType": "educational"
@@ -1810,7 +1906,8 @@
               "runtime": 60,
               "relevance": "HBO drama set in 1880s New York high society",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt4834544/"
+                "imdb": "https://www.imdb.com/title/tt4834544/",
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Gilded%20Age%202022"
               },
               "ageAppropriate": false,
               "notes": "TV-14; NOT for full classroom use; shows era's NYC society",
@@ -1845,7 +1942,8 @@
               "runtime": 180,
               "relevance": "TV miniseries about Theodore Roosevelt and the Spanish-American War",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0120042/"
+                "imdb": "https://www.imdb.com/title/tt0120042/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Rough%20Riders%201997"
               },
               "ageAppropriate": true,
               "notes": "Tom Berenger as Roosevelt; covers formation of Rough Riders and Cuba campaign",

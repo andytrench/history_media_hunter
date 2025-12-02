@@ -64,7 +64,8 @@
               "runtime": 120,
               "relevance": "History Channel documentary on Pilgrims' journey",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0865560/"
+                "imdb": "https://www.imdb.com/title/tt0865560/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Desperate%20Crossing%3A%20The%20Untold%20Story%20of%20the%20Mayflower%202006"
               },
               "ageAppropriate": true,
               "notes": "Detailed coverage of Mayflower voyage and Plymouth settlement",
@@ -98,7 +99,8 @@
               "runtime": 169,
               "relevance": "National Geographic miniseries on Plymouth Colony founding",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt4541026/"
+                "imdb": "https://www.imdb.com/title/tt4541026/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Saints%20%26%20Strangers%202015"
               },
               "ageAppropriate": true,
               "notes": "Dramatized but historically informed; shows Pilgrim-Native relations",
@@ -112,7 +114,8 @@
               "runtime": 12,
               "relevance": "Early colonial America",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=6E9WU9TGrec"
+                "youtube": "https://www.youtube.com/watch?v=6E9WU9TGrec",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20US%20History%3A%20Colonization%202013"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Jamestown, Plymouth",
@@ -126,7 +129,8 @@
               "runtime": 12,
               "relevance": "Colonial society",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=o69TvQqyGdg"
+                "youtube": "https://www.youtube.com/watch?v=o69TvQqyGdg",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20US%20History%3A%20Colonial%20America%202013"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Life in 13 colonies",
@@ -140,7 +144,8 @@
               "runtime": 14,
               "relevance": "Road to Revolution",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=X-zHagVGedE"
+                "youtube": "https://www.youtube.com/watch?v=X-zHagVGedE",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20US%20History%3A%20Taxes%20%26%20Smuggling%202013"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Taxation without representation",
@@ -154,7 +159,8 @@
               "runtime": 16,
               "relevance": "Animated Revolution",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=gzALIXcY4pg"
+                "youtube": "https://www.youtube.com/watch?v=gzALIXcY4pg",
+                "justwatch": "https://www.justwatch.com/us/search?q=Oversimplified%3A%20American%20Revolution%20(Part%201)%202019"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] HIGHLY RECOMMENDED",
@@ -168,7 +174,8 @@
               "runtime": 18,
               "relevance": "War and victory",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=rtYC2jx1LM0"
+                "youtube": "https://www.youtube.com/watch?v=rtYC2jx1LM0",
+                "justwatch": "https://www.justwatch.com/us/search?q=Oversimplified%3A%20American%20Revolution%20(Part%202)%202019"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] War through Treaty of Paris",
@@ -182,7 +189,8 @@
               "runtime": 3,
               "relevance": "Lexington and Concord",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=Y6ikO6LMxF4"
+                "youtube": "https://www.youtube.com/watch?v=Y6ikO6LMxF4",
+                "justwatch": "https://www.justwatch.com/us/search?q=Schoolhouse%20Rock%3A%20The%20Shot%20Heard%20Round%20the%20World%201975"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Classic animated song",
@@ -196,7 +204,8 @@
               "runtime": 10,
               "relevance": "Tea Party context",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=pT2eGJ7F2_I"
+                "youtube": "https://www.youtube.com/watch?v=pT2eGJ7F2_I",
+                "justwatch": "https://www.justwatch.com/us/search?q=Hip%20Hughes%3A%20Boston%20Tea%20Party%202015"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Detailed explanation",
@@ -210,7 +219,8 @@
               "runtime": 14,
               "relevance": "Constitutional Convention",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=bO7FQsCcbD8"
+                "youtube": "https://www.youtube.com/watch?v=bO7FQsCcbD8",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20US%20History%3A%20The%20Constitution%202013"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] How Constitution was made",
@@ -224,7 +234,8 @@
               "runtime": 9,
               "relevance": "Federal system explained",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=J0gosGXSgsI"
+                "youtube": "https://www.youtube.com/watch?v=J0gosGXSgsI",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20Government%3A%20Federalism%202015"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] State vs federal powers",
@@ -238,7 +249,8 @@
               "runtime": 8,
               "relevance": "Three branches",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=kCCmuftyj8A"
+                "youtube": "https://www.youtube.com/watch?v=kCCmuftyj8A",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20Government%3A%20Separation%20of%20Powers%202015"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Checks and balances",
@@ -252,7 +264,8 @@
               "runtime": 3,
               "relevance": "How a bill becomes law",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=OgVKvqTItto"
+                "youtube": "https://www.youtube.com/watch?v=OgVKvqTItto",
+                "justwatch": "https://www.justwatch.com/us/search?q=Schoolhouse%20Rock%3A%20I'm%20Just%20a%20Bill%201975"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] ESSENTIAL classic",
@@ -266,7 +279,8 @@
               "runtime": 3,
               "relevance": "Constitution preamble",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=0hEYvdMoF2g"
+                "youtube": "https://www.youtube.com/watch?v=0hEYvdMoF2g",
+                "justwatch": "https://www.justwatch.com/us/search?q=Schoolhouse%20Rock%3A%20The%20Preamble%201975"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Memorize the preamble",
@@ -280,7 +294,8 @@
               "runtime": 9,
               "relevance": "First 10 amendments",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=yYEfLm5dLMg"
+                "youtube": "https://www.youtube.com/watch?v=yYEfLm5dLMg",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20Government%3A%20The%20Bill%20of%20Rights%202015"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Rights and freedoms",
@@ -294,7 +309,8 @@
               "runtime": 4,
               "relevance": "Federalism explained",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=F7ZLADRnL2o"
+                "youtube": "https://www.youtube.com/watch?v=F7ZLADRnL2o",
+                "justwatch": "https://www.justwatch.com/us/search?q=TED-Ed%3A%20How%20is%20Power%20Divided%20in%20the%20US%20Government%3F%202015"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Animated explanation",
@@ -308,7 +324,8 @@
               "runtime": 25,
               "relevance": "Every amendment",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=jxN3WpCKXKE"
+                "youtube": "https://www.youtube.com/watch?v=jxN3WpCKXKE",
+                "justwatch": "https://www.justwatch.com/us/search?q=Mr.%20Beat%3A%20All%2027%20Amendments%20Explained%202020"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Comprehensive overview",
@@ -322,7 +339,8 @@
               "runtime": 13,
               "relevance": "America enters WWI",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=Mr97-MuVV0E"
+                "youtube": "https://www.youtube.com/watch?v=Mr97-MuVV0E",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20US%20History%3A%20WWI%202013"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Neutrality to war",
@@ -336,7 +354,8 @@
               "runtime": 13,
               "relevance": "1920s culture",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=VfOR1XCMf7A"
+                "youtube": "https://www.youtube.com/watch?v=VfOR1XCMf7A",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20US%20History%3A%20The%20Roaring%2020s%202013"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Jazz, Harlem, Prohibition",
@@ -350,7 +369,8 @@
               "runtime": 14,
               "relevance": "Economic collapse",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=GCQfMWAikyU"
+                "youtube": "https://www.youtube.com/watch?v=GCQfMWAikyU",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20US%20History%3A%20The%20Great%20Depression%202013"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Crash and hardship",
@@ -364,7 +384,8 @@
               "runtime": 14,
               "relevance": "FDR's programs",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=6bMq9Ek6jnA"
+                "youtube": "https://www.youtube.com/watch?v=6bMq9Ek6jnA",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20US%20History%3A%20The%20New%20Deal%202013"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Government response",
@@ -378,7 +399,8 @@
               "runtime": 14,
               "relevance": "American WWII experience",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=_XPZQ0LAlR4"
+                "youtube": "https://www.youtube.com/watch?v=_XPZQ0LAlR4",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20US%20History%3A%20WWII%202013"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Pearl Harbor to V-J Day",
@@ -392,7 +414,8 @@
               "runtime": 14,
               "relevance": "Cold War America",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=9C72ISMF_D0"
+                "youtube": "https://www.youtube.com/watch?v=9C72ISMF_D0",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20US%20History%3A%20The%20Cold%20War%202013"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Domestic Cold War impact",
@@ -406,7 +429,8 @@
               "runtime": 15,
               "relevance": "Civil Rights Movement",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=S64zRnnn4Po"
+                "youtube": "https://www.youtube.com/watch?v=S64zRnnn4Po",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20US%20History%3A%20Civil%20Rights%202013"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] MLK, marches, legislation",
@@ -420,7 +444,8 @@
               "runtime": 5,
               "relevance": "Rosa Parks and boycott",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=o_G4JYwkrXs"
+                "youtube": "https://www.youtube.com/watch?v=o_G4JYwkrXs",
+                "justwatch": "https://www.justwatch.com/us/search?q=TED-Ed%3A%20The%20Montgomery%20Bus%20Boycott%202019"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Civil Rights key moment",
@@ -468,7 +493,8 @@
               "runtime": 540,
               "relevance": "Remake following Kunta Kinte from Africa through slavery",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt3315386/"
+                "imdb": "https://www.imdb.com/title/tt3315386/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Roots%202016"
               },
               "ageAppropriate": true,
               "notes": "Shows Middle Passage and colonial slavery; intense but educational",
@@ -482,7 +508,8 @@
               "runtime": 155,
               "relevance": "Spielberg film about 1839 slave ship rebellion",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0118607/"
+                "imdb": "https://www.imdb.com/title/tt0118607/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Amistad%201997"
               },
               "ageAppropriate": false,
               "notes": "R-rated; powerful but intense; select scenes for mature students",
@@ -496,7 +523,8 @@
               "runtime": 92,
               "relevance": "Horror film depicting Puritan colonial life and beliefs",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt4263482/"
+                "imdb": "https://www.imdb.com/title/tt4263482/",
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Witch%202015"
               },
               "ageAppropriate": false,
               "notes": "R-rated; NOT for classroom; teacher reference on Puritan worldview",
@@ -552,7 +580,8 @@
               "relevance": "Animated series covering entire Revolution",
               "links": {
                 "imdb": "https://www.imdb.com/title/tt0310874/",
-                "youtube": "https://www.youtube.com/playlist?list=PLHPGDDYvMPxEXwfFLR8u2Hd1ZJpnhwnAh"
+                "youtube": "https://www.youtube.com/playlist?list=PLHPGDDYvMPxEXwfFLR8u2Hd1ZJpnhwnAh",
+                "justwatch": "https://www.justwatch.com/us/search?q=Liberty's%20Kids%202002"
               },
               "ageAppropriate": true,
               "notes": "40 episodes; specific episodes cover Stamp Act, Boston Massacre, Tea Party",
@@ -566,7 +595,8 @@
               "runtime": 44,
               "relevance": "History Channel episode on Revolutionary causes",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt1644785/"
+                "imdb": "https://www.imdb.com/title/tt1644785/",
+                "justwatch": "https://www.justwatch.com/us/search?q=America%3A%20The%20Story%20of%20Us%20-%20Rebels%202010"
               },
               "ageAppropriate": true,
               "notes": "Modern production with reenactments",
@@ -580,7 +610,8 @@
               "runtime": 270,
               "relevance": "History Channel miniseries on Samuel Adams and revolutionary leaders",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt3510726/"
+                "imdb": "https://www.imdb.com/title/tt3510726/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Sons%20of%20Liberty%202015"
               },
               "ageAppropriate": true,
               "notes": "Dramatized; covers key events leading to Revolution",
@@ -594,7 +625,8 @@
               "runtime": 13,
               "relevance": "Big business",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=r6tRp-zRUJs"
+                "youtube": "https://www.youtube.com/watch?v=r6tRp-zRUJs",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20US%20History%3A%20Industrial%20Economy%202013"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Rockefeller, Carnegie",
@@ -608,7 +640,8 @@
               "runtime": 13,
               "relevance": "Moving West",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=Q16OZkgSXfM"
+                "youtube": "https://www.youtube.com/watch?v=Q16OZkgSXfM",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20US%20History%3A%20Westward%20Expansion%202013"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Manifest Destiny",
@@ -622,7 +655,8 @@
               "runtime": 12,
               "relevance": "Ellis Island era",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=Dc0-z15fMss"
+                "youtube": "https://www.youtube.com/watch?v=Dc0-z15fMss",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20US%20History%3A%20Immigration%202013"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Great wave immigration",
@@ -636,7 +670,8 @@
               "runtime": 6,
               "relevance": "Labor tragedy",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=WKCktFn6JKw"
+                "youtube": "https://www.youtube.com/watch?v=WKCktFn6JKw",
+                "justwatch": "https://www.justwatch.com/us/search?q=Simple%20History%3A%20Triangle%20Shirtwaist%20Fire%202019"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Labor reform catalyst",
@@ -650,7 +685,8 @@
               "runtime": 14,
               "relevance": "Reform movements",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=i0Q4zPR4G7M"
+                "youtube": "https://www.youtube.com/watch?v=i0Q4zPR4G7M",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20US%20History%3A%20Progressive%20Era%202013"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] TR, muckrakers, reforms",
@@ -664,7 +700,8 @@
               "runtime": 12,
               "relevance": "19th Amendment",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=HGEMscZE5dY"
+                "youtube": "https://www.youtube.com/watch?v=HGEMscZE5dY",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20US%20History%3A%20Women's%20Suffrage%202013"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Fight for voting rights",
@@ -713,7 +750,8 @@
               "runtime": 165,
               "relevance": "Mel Gibson in Revolutionary War South Carolina",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0187393/"
+                "imdb": "https://www.imdb.com/title/tt0187393/",
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Patriot%202000"
               },
               "ageAppropriate": false,
               "notes": "R-rated for war violence; spectacular battle scenes; select clips",
@@ -727,7 +765,8 @@
               "runtime": 89,
               "relevance": "A&E film on Washington crossing the Delaware",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0210438/"
+                "imdb": "https://www.imdb.com/title/tt0210438/",
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Crossing%202000"
               },
               "ageAppropriate": true,
               "notes": "Jeff Daniels as Washington; shows Trenton turning point",
@@ -741,7 +780,8 @@
               "runtime": 501,
               "relevance": "HBO miniseries covering Adams through Revolution and early Republic",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0472027/"
+                "imdb": "https://www.imdb.com/title/tt0472027/",
+                "justwatch": "https://www.justwatch.com/us/search?q=John%20Adams%202008"
               },
               "ageAppropriate": true,
               "notes": "Paul Giamatti; Emmy winner; comprehensive founding era coverage",
@@ -755,7 +795,8 @@
               "runtime": 141,
               "relevance": "Musical about Continental Congress and Declaration",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0068156/"
+                "imdb": "https://www.imdb.com/title/tt0068156/",
+                "justwatch": "https://www.justwatch.com/us/search?q=1776%201972"
               },
               "ageAppropriate": true,
               "notes": "G-rated musical; makes Declaration debates engaging",
@@ -769,7 +810,8 @@
               "runtime": 780,
               "relevance": "History Channel 13-part documentary on American Revolution",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0824251/"
+                "imdb": "https://www.imdb.com/title/tt0824251/",
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Revolution%202006"
               },
               "ageAppropriate": true,
               "notes": "Comprehensive coverage; select relevant episodes",
@@ -804,7 +846,8 @@
               "runtime": 141,
               "relevance": "Musical depicting the debates over Declaration",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0068156/"
+                "imdb": "https://www.imdb.com/title/tt0068156/",
+                "justwatch": "https://www.justwatch.com/us/search?q=1776%201972"
               },
               "ageAppropriate": true,
               "notes": "Shows the compromises and debates in Congress",
@@ -837,7 +880,9 @@
               "rating": "NR",
               "runtime": 60,
               "relevance": "History Channel documentary on the document's creation",
-              "links": {},
+              "links": {
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Declaration%20of%20Independence%202002"
+              },
               "ageAppropriate": true,
               "notes": "Direct focus on the Declaration's writing and significance",
               "contentType": "educational"
@@ -864,7 +909,8 @@
               "runtime": 97,
               "relevance": "Dramatization of Constitutional Convention",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0097927/"
+                "imdb": "https://www.imdb.com/title/tt0097927/",
+                "justwatch": "https://www.justwatch.com/us/search?q=A%20More%20Perfect%20Union%3A%20America%20Becomes%20a%20Nation%201989"
               },
               "ageAppropriate": true,
               "notes": "Made for educational use; shows convention debates in detail",
@@ -898,7 +944,8 @@
               "runtime": 3,
               "relevance": "Explains how legislation becomes law",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=OgVKvqTItto"
+                "youtube": "https://www.youtube.com/watch?v=OgVKvqTItto",
+                "justwatch": "https://www.justwatch.com/us/search?q=Schoolhouse%20Rock%3A%20I'm%20Just%20a%20Bill%201975"
               },
               "ageAppropriate": true,
               "notes": "Essential civics education",
@@ -912,7 +959,8 @@
               "runtime": 60,
               "relevance": "HBO episode covering Constitutional period",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0472027/"
+                "imdb": "https://www.imdb.com/title/tt0472027/",
+                "justwatch": "https://www.justwatch.com/us/search?q=John%20Adams%20-%20Episode%203%3A%20Don't%20Tread%20on%20Me%202008"
               },
               "ageAppropriate": true,
               "notes": "Shows debates over Constitution and government structure",
@@ -967,7 +1015,8 @@
               "runtime": 360,
               "relevance": "History Channel 3-part documentary on George Washington",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt11732550/"
+                "imdb": "https://www.imdb.com/title/tt11732550/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Washington%202020"
               },
               "ageAppropriate": true,
               "notes": "Covers presidency and early republic",
@@ -1000,7 +1049,8 @@
               "runtime": 13,
               "relevance": "First president",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=drZCEVKjjHc"
+                "youtube": "https://www.youtube.com/watch?v=drZCEVKjjHc",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20US%20History%3A%20George%20Washington%202013"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Precedents and leadership",
@@ -1014,7 +1064,8 @@
               "runtime": 14,
               "relevance": "Jefferson presidency",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=bkAU89cX0JE"
+                "youtube": "https://www.youtube.com/watch?v=bkAU89cX0JE",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20US%20History%3A%20Thomas%20Jefferson%202013"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Louisiana Purchase",
@@ -1028,7 +1079,8 @@
               "runtime": 14,
               "relevance": "Second war with Britain",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=rY4hVFM5dQk"
+                "youtube": "https://www.youtube.com/watch?v=rY4hVFM5dQk",
+                "justwatch": "https://www.justwatch.com/us/search?q=Oversimplified%3A%20War%20of%201812%202019"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Often overlooked war",
@@ -1042,7 +1094,8 @@
               "runtime": 15,
               "relevance": "Jacksonian democracy",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=beN4qE-e5O8"
+                "youtube": "https://www.youtube.com/watch?v=beN4qE-e5O8",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20US%20History%3A%20Age%20of%20Jackson%202013"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Indian Removal, populism",
@@ -1056,7 +1109,8 @@
               "runtime": 5,
               "relevance": "Cherokee removal",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=LfBPpJqV9Fw"
+                "youtube": "https://www.youtube.com/watch?v=LfBPpJqV9Fw",
+                "justwatch": "https://www.justwatch.com/us/search?q=Simple%20History%3A%20The%20Trail%20of%20Tears%202018"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Indian Removal Act consequences",
@@ -1084,7 +1138,8 @@
               "runtime": 40,
               "relevance": "IMAX documentary following expedition route",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0321480/"
+                "imdb": "https://www.imdb.com/title/tt0321480/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Lewis%20%26%20Clark%3A%20Great%20Journey%20West%202002"
               },
               "ageAppropriate": true,
               "notes": "Stunning visuals; excellent for teaching expedition",
@@ -1118,7 +1173,8 @@
               "runtime": 139,
               "relevance": "Nick Nolte as Jefferson in France",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0113463/"
+                "imdb": "https://www.imdb.com/title/tt0113463/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Jefferson%20in%20Paris%201995"
               },
               "ageAppropriate": true,
               "notes": "Shows Jefferson's time in France; complex portrayal",
@@ -1172,7 +1228,9 @@
               "rating": "NR",
               "runtime": 90,
               "relevance": "History Channel documentary on the war",
-              "links": {},
+              "links": {
+                "justwatch": "https://www.justwatch.com/us/search?q=First%20Invasion%3A%20The%20War%20of%201812%202004"
+              },
               "ageAppropriate": true,
               "notes": "Covers major battles and campaigns",
               "contentType": "educational"
@@ -1185,7 +1243,8 @@
               "runtime": 119,
               "relevance": "Yul Brynner as pirate Jean Lafitte at Battle of New Orleans",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0051436/"
+                "imdb": "https://www.imdb.com/title/tt0051436/",
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Buccaneer%201958"
               },
               "ageAppropriate": true,
               "notes": "Classic Hollywood; shows Battle of New Orleans",
@@ -1199,7 +1258,8 @@
               "runtime": 138,
               "relevance": "Naval warfare during Napoleonic era",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0311113/"
+                "imdb": "https://www.imdb.com/title/tt0311113/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Master%20and%20Commander%3A%20The%20Far%20Side%20of%20the%20World%202003"
               },
               "ageAppropriate": true,
               "notes": "Not directly about 1812 but excellent for naval warfare context",
@@ -1213,7 +1273,8 @@
               "runtime": 14,
               "relevance": "Institution of slavery",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=Ajn9g5Gsv98"
+                "youtube": "https://www.youtube.com/watch?v=Ajn9g5Gsv98",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20US%20History%3A%20Slavery%202013"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] ESSENTIAL - comprehensive",
@@ -1227,7 +1288,8 @@
               "runtime": 11,
               "relevance": "Escape network",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=tGLf0fJ3bIk"
+                "youtube": "https://www.youtube.com/watch?v=tGLf0fJ3bIk",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20US%20History%3A%20The%20Underground%20Railroad%202013"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Harriet Tubman and freedom seekers",
@@ -1241,7 +1303,8 @@
               "runtime": 12,
               "relevance": "War begins",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=rY9zHNOjGrs"
+                "youtube": "https://www.youtube.com/watch?v=rY9zHNOjGrs",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20US%20History%3A%20The%20Civil%20War%20Part%201%202013"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Causes through 1862",
@@ -1255,7 +1318,8 @@
               "runtime": 11,
               "relevance": "War ends",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=roNmeOOJCDY"
+                "youtube": "https://www.youtube.com/watch?v=roNmeOOJCDY",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20US%20History%3A%20The%20Civil%20War%20Part%202%202013"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] 1863 to Appomattox",
@@ -1269,7 +1333,8 @@
               "runtime": 15,
               "relevance": "Animated Civil War",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=tsxmyL7TUJg"
+                "youtube": "https://www.youtube.com/watch?v=tsxmyL7TUJg",
+                "justwatch": "https://www.justwatch.com/us/search?q=Oversimplified%3A%20Civil%20War%20(Part%201)%202019"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] HIGHLY RECOMMENDED",
@@ -1283,7 +1348,8 @@
               "runtime": 18,
               "relevance": "Civil War conclusion",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=sV6uuMAnJUE"
+                "youtube": "https://www.youtube.com/watch?v=sV6uuMAnJUE",
+                "justwatch": "https://www.justwatch.com/us/search?q=Oversimplified%3A%20Civil%20War%20(Part%202)%202019"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Through Reconstruction",
@@ -1297,7 +1363,8 @@
               "runtime": 12,
               "relevance": "Post-war era",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=nowsS7pMApI"
+                "youtube": "https://www.youtube.com/watch?v=nowsS7pMApI",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20US%20History%3A%20Reconstruction%202013"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Successes and failures",
@@ -1311,7 +1378,8 @@
               "runtime": 6,
               "relevance": "Slave trade context",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=3NXC4Q_4JVg"
+                "youtube": "https://www.youtube.com/watch?v=3NXC4Q_4JVg",
+                "justwatch": "https://www.justwatch.com/us/search?q=TED-Ed%3A%20The%20Atlantic%20Slave%20Trade%202014"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Historical context",
@@ -1346,7 +1414,8 @@
               "runtime": 162,
               "relevance": "Epic covering 50 years of westward expansion",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0056085/"
+                "imdb": "https://www.imdb.com/title/tt0056085/",
+                "justwatch": "https://www.justwatch.com/us/search?q=How%20the%20West%20Was%20Won%201962"
               },
               "ageAppropriate": true,
               "notes": "Classic Cinerama epic; shows multiple aspects of expansion",
@@ -1380,7 +1449,8 @@
               "runtime": 140,
               "relevance": "Tom Cruise in Oklahoma Land Rush story",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0104231/"
+                "imdb": "https://www.imdb.com/title/tt0104231/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Far%20and%20Away%201992"
               },
               "ageAppropriate": true,
               "notes": "Shows immigration and land rush; spectacular cinematography",
@@ -1394,7 +1464,8 @@
               "runtime": 60,
               "relevance": "Classic TV series following wagon train west",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0050082/"
+                "imdb": "https://www.imdb.com/title/tt0050082/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Wagon%20Train%201957"
               },
               "ageAppropriate": true,
               "notes": "Classic TV; shows pioneer challenges",
@@ -1441,7 +1512,9 @@
               "rating": "NR",
               "runtime": 90,
               "relevance": "Documentary on forced relocation",
-              "links": {},
+              "links": {
+                "justwatch": "https://www.justwatch.com/us/search?q=Trail%20of%20Tears%3A%20A%20Native%20American%20Documentary%20Collection%202010"
+              },
               "ageAppropriate": true,
               "notes": "Primary sources and survivor accounts",
               "contentType": "educational"
@@ -1453,7 +1526,9 @@
               "rating": "NR",
               "runtime": 115,
               "relevance": "Documentary with Wes Studi narrating Cherokee removal",
-              "links": {},
+              "links": {
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Trail%20of%20Tears%3A%20Cherokee%20Legacy%202006"
+              },
               "ageAppropriate": true,
               "notes": "Comprehensive Cherokee perspective",
               "contentType": "entertainment"
@@ -1466,7 +1541,8 @@
               "runtime": 552,
               "relevance": "Spielberg miniseries covering westward expansion including Native removal",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0409572/"
+                "imdb": "https://www.imdb.com/title/tt0409572/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Into%20the%20West%202005"
               },
               "ageAppropriate": true,
               "notes": "6-part series; shows both settler and Native perspectives",
@@ -1494,7 +1570,8 @@
               "runtime": 137,
               "relevance": "Battle of the Alamo during Texas Revolution",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0318974/"
+                "imdb": "https://www.imdb.com/title/tt0318974/",
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Alamo%202004"
               },
               "ageAppropriate": true,
               "notes": "More historically accurate than 1960 version; shows Texas independence",
@@ -1528,7 +1605,8 @@
               "runtime": 121,
               "relevance": "Irish soldiers who switched sides to Mexico",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0120785/"
+                "imdb": "https://www.imdb.com/title/tt0120785/",
+                "justwatch": "https://www.justwatch.com/us/search?q=One%20Man's%20Hero%201999"
               },
               "ageAppropriate": false,
               "notes": "R-rated; shows Mexican perspective; St. Patrick's Battalion",
@@ -1602,7 +1680,8 @@
               "runtime": 44,
               "relevance": "History Channel episode on sectional crisis",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt1644785/"
+                "imdb": "https://www.imdb.com/title/tt1644785/",
+                "justwatch": "https://www.justwatch.com/us/search?q=America%3A%20The%20Story%20of%20Us%20-%20Division%202010"
               },
               "ageAppropriate": true,
               "notes": "Modern production; covers growing divisions",
@@ -1637,7 +1716,8 @@
               "runtime": 134,
               "relevance": "True story of Solomon Northup, free Black man kidnapped into slavery",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt2024544/"
+                "imdb": "https://www.imdb.com/title/tt2024544/",
+                "justwatch": "https://www.justwatch.com/us/search?q=12%20Years%20a%20Slave%202013"
               },
               "ageAppropriate": false,
               "notes": "R-rated; Academy Award winner; extremely powerful but intense",
@@ -1651,7 +1731,8 @@
               "runtime": 125,
               "relevance": "Biographical film about Harriet Tubman",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt4648786/"
+                "imdb": "https://www.imdb.com/title/tt4648786/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Harriet%202019"
               },
               "ageAppropriate": true,
               "notes": "PG-13; excellent for teaching Underground Railroad",
@@ -1665,7 +1746,8 @@
               "runtime": 60,
               "relevance": "WGN series about Underground Railroad",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt4834942/"
+                "imdb": "https://www.imdb.com/title/tt4834942/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Underground%202016"
               },
               "ageAppropriate": false,
               "notes": "TV-MA; NOT for classroom; intense but historically informed",
@@ -1693,7 +1775,8 @@
               "runtime": 90,
               "relevance": "HBO documentary featuring Douglass's speeches performed by actors",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt18251060/"
+                "imdb": "https://www.imdb.com/title/tt18251060/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Frederick%20Douglass%3A%20In%20Five%20Speeches%202022"
               },
               "ageAppropriate": true,
               "notes": "Powerful way to hear Douglass's actual words",
@@ -1707,7 +1790,8 @@
               "runtime": 60,
               "relevance": "Showtime series about John Brown's raid",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt3673480/"
+                "imdb": "https://www.imdb.com/title/tt3673480/",
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Good%20Lord%20Bird%202020"
               },
               "ageAppropriate": false,
               "notes": "TV-MA; NOT for classroom; Ethan Hawke as John Brown",
@@ -1742,7 +1826,8 @@
               "runtime": 150,
               "relevance": "Spielberg film includes Lincoln-era political debates",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0443272/"
+                "imdb": "https://www.imdb.com/title/tt0443272/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Lincoln%202012"
               },
               "ageAppropriate": true,
               "notes": "Daniel Day-Lewis; focuses on 13th Amendment but shows political era",
@@ -1818,7 +1903,8 @@
               "runtime": 271,
               "relevance": "Epic depiction of Battle of Gettysburg",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0107007/"
+                "imdb": "https://www.imdb.com/title/tt0107007/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Gettysburg%201993"
               },
               "ageAppropriate": true,
               "notes": "Very long but excellent for Gettysburg; show in segments",
@@ -1832,7 +1918,8 @@
               "runtime": 122,
               "relevance": "54th Massachusetts - first Black regiment",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0097441/"
+                "imdb": "https://www.imdb.com/title/tt0097441/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Glory%201989"
               },
               "ageAppropriate": false,
               "notes": "R-rated; but important story of Black soldiers",
@@ -1846,7 +1933,8 @@
               "runtime": 219,
               "relevance": "Prequel to Gettysburg; covers early war",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0279111/"
+                "imdb": "https://www.imdb.com/title/tt0279111/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Gods%20and%20Generals%202003"
               },
               "ageAppropriate": true,
               "notes": "Confederate perspective; balance with Union stories",
@@ -1860,7 +1948,8 @@
               "runtime": 154,
               "relevance": "Civil War from Confederate deserter's perspective",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0159365/"
+                "imdb": "https://www.imdb.com/title/tt0159365/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Cold%20Mountain%202003"
               },
               "ageAppropriate": false,
               "notes": "R-rated; shows war weariness in South",
@@ -1888,7 +1977,8 @@
               "runtime": 150,
               "relevance": "Spielberg film on Lincoln passing 13th Amendment",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0443272/"
+                "imdb": "https://www.imdb.com/title/tt0443272/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Lincoln%202012"
               },
               "ageAppropriate": true,
               "notes": "HIGHLY RECOMMENDED - Daniel Day-Lewis Oscar winner",
@@ -1902,7 +1992,8 @@
               "runtime": 139,
               "relevance": "Mississippi County that seceded from Confederacy",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt1124037/"
+                "imdb": "https://www.imdb.com/title/tt1124037/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Free%20State%20of%20Jones%202016"
               },
               "ageAppropriate": false,
               "notes": "R-rated; shows Southern dissent from Confederacy",
@@ -1916,7 +2007,8 @@
               "runtime": 92,
               "relevance": "National Geographic film on Lincoln assassination",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt2293990/"
+                "imdb": "https://www.imdb.com/title/tt2293990/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Killing%20Lincoln%202013"
               },
               "ageAppropriate": true,
               "notes": "Based on Bill O'Reilly book; covers assassination",

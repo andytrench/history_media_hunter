@@ -29,7 +29,8 @@
               "runtime": 132,
               "relevance": "Set during Louis XIV's reign; shows Versailles court",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0120744/"
+                "imdb": "https://www.imdb.com/title/tt0120744/",
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Man%20in%20the%20Iron%20Mask%201998"
               },
               "ageAppropriate": true,
               "notes": "Leonardo DiCaprio; good depiction of French court life",
@@ -43,7 +44,8 @@
               "runtime": 123,
               "relevance": "Sofia Coppola film on French queen; shows absolute monarchy excess",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0422720/"
+                "imdb": "https://www.imdb.com/title/tt0422720/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Marie%20Antoinette%202006"
               },
               "ageAppropriate": true,
               "notes": "PG-13; beautiful Versailles visuals; leads into French Revolution",
@@ -57,7 +59,8 @@
               "runtime": 52,
               "relevance": "BBC drama about Louis XIV building Versailles",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt3830558/"
+                "imdb": "https://www.imdb.com/title/tt3830558/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Versailles%20(TV%20Series)%202015"
               },
               "ageAppropriate": false,
               "notes": "TV-MA; NOT for classroom; teacher reference on absolute monarchy",
@@ -71,7 +74,8 @@
               "runtime": 371,
               "relevance": "NBC miniseries on Peter the Great's reign",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0090483/"
+                "imdb": "https://www.imdb.com/title/tt0090483/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Peter%20the%20Great%20(1986)%201986"
               },
               "ageAppropriate": true,
               "notes": "Maximilian Schell; comprehensive look at Russian absolutism",
@@ -106,7 +110,9 @@
               "rating": "NR",
               "runtime": 60,
               "relevance": "Documentary covering Enlightenment philosophers and ideas",
-              "links": {},
+              "links": {
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Enlightenment%202018"
+              },
               "ageAppropriate": true,
               "notes": "Covers major thinkers and their influence",
               "contentType": "educational"
@@ -119,7 +125,8 @@
               "runtime": 119,
               "relevance": "Shows aristocratic French society before Revolution",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0094947/"
+                "imdb": "https://www.imdb.com/title/tt0094947/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Dangerous%20Liaisons%201988"
               },
               "ageAppropriate": false,
               "notes": "R-rated; NOT for classroom; depicts pre-revolutionary French elite",
@@ -153,7 +160,8 @@
               "runtime": 12,
               "relevance": "Enlightenment philosophy",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=5eLSX3QG3QY"
+                "youtube": "https://www.youtube.com/watch?v=5eLSX3QG3QY",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20World%20History%3A%20The%20Enlightenment%202012"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Locke, Voltaire, Rousseau",
@@ -167,7 +175,8 @@
               "runtime": 5,
               "relevance": "French Revolution causes",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=lTTvKwCylFY"
+                "youtube": "https://www.youtube.com/watch?v=lTTvKwCylFY",
+                "justwatch": "https://www.justwatch.com/us/search?q=TED-Ed%3A%20What%20Caused%20the%20French%20Revolution%3F%202015"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Quick overview",
@@ -181,7 +190,8 @@
               "runtime": 12,
               "relevance": "French Revolution overview",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=lTTvKwCylFY"
+                "youtube": "https://www.youtube.com/watch?v=lTTvKwCylFY",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20World%20History%3A%20The%20French%20Revolution%202012"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] 1789 to Thermidor",
@@ -195,7 +205,8 @@
               "runtime": 18,
               "relevance": "Animated French Revolution",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=8qRZcXIODNU"
+                "youtube": "https://www.youtube.com/watch?v=8qRZcXIODNU",
+                "justwatch": "https://www.justwatch.com/us/search?q=Oversimplified%3A%20The%20French%20Revolution%20(Part%201)%202019"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] HIGHLY RECOMMENDED - engaging",
@@ -209,7 +220,8 @@
               "runtime": 20,
               "relevance": "Terror through Napoleon",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=EQmjXM4VK2U"
+                "youtube": "https://www.youtube.com/watch?v=EQmjXM4VK2U",
+                "justwatch": "https://www.justwatch.com/us/search?q=Oversimplified%3A%20The%20French%20Revolution%20(Part%202)%202019"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Continues through Directory",
@@ -223,7 +235,8 @@
               "runtime": 11,
               "relevance": "Industrialization overview",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=zhL5DCizj5c"
+                "youtube": "https://www.youtube.com/watch?v=zhL5DCizj5c",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20World%20History%3A%20The%20Industrial%20Revolution%202012"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Factory system, urbanization",
@@ -237,7 +250,8 @@
               "runtime": 20,
               "relevance": "Industrial Revolution deep dive",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=GYln_S21Gts"
+                "youtube": "https://www.youtube.com/watch?v=GYln_S21Gts",
+                "justwatch": "https://www.justwatch.com/us/search?q=TED-Ed%3A%20The%20Industrial%20Revolution%20(4-Part%20Series)%202019"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Comprehensive series",
@@ -251,7 +265,8 @@
               "runtime": 14,
               "relevance": "Independence movements",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=ZBw35Ze3bg8"
+                "youtube": "https://www.youtube.com/watch?v=ZBw35Ze3bg8",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20World%20History%3A%20Latin%20American%20Revolutions%202012"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Bolivar, Haiti, Mexico",
@@ -306,7 +321,8 @@
               "runtime": 501,
               "relevance": "HBO miniseries on John Adams and founding era",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0472027/"
+                "imdb": "https://www.imdb.com/title/tt0472027/",
+                "justwatch": "https://www.justwatch.com/us/search?q=John%20Adams%202008"
               },
               "ageAppropriate": true,
               "notes": "Paul Giamatti; excellent for understanding founding era",
@@ -320,7 +336,8 @@
               "runtime": 141,
               "relevance": "Musical depicting Continental Congress and Declaration",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0068156/"
+                "imdb": "https://www.imdb.com/title/tt0068156/",
+                "justwatch": "https://www.justwatch.com/us/search?q=1776%201972"
               },
               "ageAppropriate": true,
               "notes": "G-rated; engaging way to learn about Declaration debates",
@@ -349,7 +366,8 @@
               "runtime": 158,
               "relevance": "Musical set in post-revolutionary France and 1832 uprising",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt1707386/"
+                "imdb": "https://www.imdb.com/title/tt1707386/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Les%20Mis%C3%A9rables%202012"
               },
               "ageAppropriate": true,
               "notes": "Actually depicts later period but captures revolutionary spirit; Hugh Jackman",
@@ -363,7 +381,8 @@
               "runtime": 121,
               "relevance": "Dickens adaptation set during French Revolution",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0027067/"
+                "imdb": "https://www.imdb.com/title/tt0027067/",
+                "justwatch": "https://www.justwatch.com/us/search?q=A%20Tale%20of%20Two%20Cities%201935"
               },
               "ageAppropriate": true,
               "notes": "Classic adaptation; shows Terror period",
@@ -377,7 +396,8 @@
               "runtime": 200,
               "relevance": "History Channel comprehensive documentary",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0484852/"
+                "imdb": "https://www.imdb.com/title/tt0484852/",
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20French%20Revolution%202005"
               },
               "ageAppropriate": true,
               "notes": "Can be shown in segments; detailed coverage",
@@ -391,7 +411,8 @@
               "runtime": 158,
               "relevance": "Ridley Scott epic on Napoleon's rise and fall",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt13287846/"
+                "imdb": "https://www.imdb.com/title/tt13287846/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Napoleon%20(2023)%202023"
               },
               "ageAppropriate": false,
               "notes": "R-rated; spectacular visuals; teacher reference for Napoleon era",
@@ -439,7 +460,8 @@
               "runtime": 119,
               "relevance": "Venezuelan film about Simón Bolívar",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt2265792/"
+                "imdb": "https://www.imdb.com/title/tt2265792/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Libertador%202013"
               },
               "ageAppropriate": false,
               "notes": "R-rated; Spanish language; select scenes may work",
@@ -453,7 +475,8 @@
               "runtime": 105,
               "relevance": "Mexican film about conquest from indigenous perspective",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0174793/"
+                "imdb": "https://www.imdb.com/title/tt0174793/",
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Other%20Conquest%201998"
               },
               "ageAppropriate": false,
               "notes": "R-rated; NOT for classroom; Spanish language",
@@ -509,7 +532,8 @@
               "runtime": 130,
               "relevance": "Dickens adaptation showing industrial England poverty",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0380599/"
+                "imdb": "https://www.imdb.com/title/tt0380599/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Oliver%20Twist%202005"
               },
               "ageAppropriate": true,
               "notes": "Roman Polanski version; shows workhouses and poverty",
@@ -523,7 +547,8 @@
               "runtime": 235,
               "relevance": "BBC adaptation of Gaskell novel set in industrial England",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0417349/"
+                "imdb": "https://www.imdb.com/title/tt0417349/",
+                "justwatch": "https://www.justwatch.com/us/search?q=North%20and%20South%202004"
               },
               "ageAppropriate": true,
               "notes": "4-part series; shows factories, labor conditions, class tensions",
@@ -536,7 +561,9 @@
               "rating": "NR",
               "runtime": 300,
               "relevance": "BBC documentary recreating Victorian slum conditions",
-              "links": {},
+              "links": {
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Victorian%20Slum%202016"
+              },
               "ageAppropriate": true,
               "notes": "5-part series; shows real conditions of industrial era poor",
               "contentType": "educational"
@@ -549,7 +576,8 @@
               "runtime": 360,
               "relevance": "History Channel series on industrial tycoons",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt2167393/"
+                "imdb": "https://www.imdb.com/title/tt2167393/",
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Men%20Who%20Built%20America%202012"
               },
               "ageAppropriate": true,
               "notes": "8 parts; covers Carnegie, Rockefeller, Morgan, Ford",
@@ -604,7 +632,8 @@
               "runtime": 105,
               "relevance": "Depicts Queen Victoria's early reign during imperial expansion",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0962736/"
+                "imdb": "https://www.imdb.com/title/tt0962736/",
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Young%20Victoria%202009"
               },
               "ageAppropriate": true,
               "notes": "PG; Emily Blunt; shows Victorian era Britain",
@@ -618,7 +647,8 @@
               "runtime": 111,
               "relevance": "Victoria's friendship with Indian servant; shows British imperialism",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt5816682/"
+                "imdb": "https://www.imdb.com/title/tt5816682/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Victoria%20%26%20Abdul%202017"
               },
               "ageAppropriate": true,
               "notes": "Judi Dench; shows late Victorian Britain-India relations",
@@ -654,7 +684,8 @@
               "runtime": 121,
               "relevance": "Rwandan genocide showing colonial legacy",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0395169/"
+                "imdb": "https://www.imdb.com/title/tt0395169/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Hotel%20Rwanda%202004"
               },
               "ageAppropriate": true,
               "notes": "PG-13; powerful but intense; shows colonialism's lasting effects",
@@ -668,7 +699,8 @@
               "runtime": 161,
               "relevance": "Colonial Kenya through European settler's eyes",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0089755/"
+                "imdb": "https://www.imdb.com/title/tt0089755/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Out%20of%20Africa%201985"
               },
               "ageAppropriate": true,
               "notes": "PG; Meryl Streep; shows colonial Africa",
@@ -682,7 +714,8 @@
               "runtime": 102,
               "relevance": "Documentary on Belgian Congo atrocities",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0910965/"
+                "imdb": "https://www.imdb.com/title/tt0910965/",
+                "justwatch": "https://www.justwatch.com/us/search?q=King%20Leopold's%20Ghost%202006"
               },
               "ageAppropriate": true,
               "notes": "Disturbing content but important; covers Congo exploitation",
@@ -716,7 +749,8 @@
               "runtime": 14,
               "relevance": "European imperialism overview",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=alJaltUmrGo"
+                "youtube": "https://www.youtube.com/watch?v=alJaltUmrGo",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20World%20History%3A%20Imperialism%202012"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Scramble for Africa, Asia",
@@ -730,7 +764,8 @@
               "runtime": 6,
               "relevance": "Partition of Africa",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=4GXNsM1KHng"
+                "youtube": "https://www.youtube.com/watch?v=4GXNsM1KHng",
+                "justwatch": "https://www.justwatch.com/us/search?q=TED-Ed%3A%20The%20Scramble%20for%20Africa%202020"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Berlin Conference context",
@@ -744,7 +779,8 @@
               "runtime": 12,
               "relevance": "British imperialism in China",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=fA-_2b6kFXg"
+                "youtube": "https://www.youtube.com/watch?v=fA-_2b6kFXg",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20World%20History%3A%20Opium%20Wars%202012"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] China and European powers",
@@ -758,7 +794,8 @@
               "runtime": 4,
               "relevance": "British India explanation",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=3mZWjW3c-Z8"
+                "youtube": "https://www.youtube.com/watch?v=3mZWjW3c-Z8",
+                "justwatch": "https://www.justwatch.com/us/search?q=History%20Matters%3A%20Why%20Did%20Britain%20Colonize%20India%3F%202019"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Quick explanation",
@@ -772,7 +809,8 @@
               "runtime": 45,
               "relevance": "African colonization (4 parts)",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=Sj8XnPSnt4k&list=PLhyKYa0YJ_5CAYJyW4Xb8YzKyhP1ht2cX"
+                "youtube": "https://www.youtube.com/watch?v=Sj8XnPSnt4k&list=PLhyKYa0YJ_5CAYJyW4Xb8YzKyhP1ht2cX",
+                "justwatch": "https://www.justwatch.com/us/search?q=Extra%20History%3A%20The%20Scramble%20for%20Africa%202018"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Animated detailed history",
@@ -786,7 +824,8 @@
               "runtime": 12,
               "relevance": "Japan modernization",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=Mh5LY4Mz15o"
+                "youtube": "https://www.youtube.com/watch?v=Mh5LY4Mz15o",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20World%20History%3A%20Samurai%2C%20Daimyo%2C%20Matthew%20Perry%2C%20and%20Gunboat%20Diplomacy%202012"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Meiji Restoration context",
@@ -822,7 +861,8 @@
               "runtime": 191,
               "relevance": "Epic biography of Gandhi and Indian independence movement",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0083987/"
+                "imdb": "https://www.imdb.com/title/tt0083987/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Gandhi%201982"
               },
               "ageAppropriate": true,
               "notes": "HIGHLY RECOMMENDED - Academy Award winner; Ben Kingsley",
@@ -836,7 +876,8 @@
               "runtime": 164,
               "relevance": "David Lean film set in British India",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0087892/"
+                "imdb": "https://www.imdb.com/title/tt0087892/",
+                "justwatch": "https://www.justwatch.com/us/search?q=A%20Passage%20to%20India%201984"
               },
               "ageAppropriate": true,
               "notes": "Shows British-Indian relations and colonialism",
@@ -850,7 +891,8 @@
               "runtime": 163,
               "relevance": "Academy Award winner about China's last emperor",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0093389/"
+                "imdb": "https://www.imdb.com/title/tt0093389/",
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Last%20Emperor%201987"
               },
               "ageAppropriate": true,
               "notes": "Beautiful; covers end of Chinese empire through WWII",
@@ -864,7 +906,8 @@
               "runtime": 154,
               "relevance": "Classic depicting Boxer Rebellion siege",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0056800/"
+                "imdb": "https://www.imdb.com/title/tt0056800/",
+                "justwatch": "https://www.justwatch.com/us/search?q=55%20Days%20at%20Peking%201963"
               },
               "ageAppropriate": true,
               "notes": "Charlton Heston; shows Western imperialism in China",
@@ -878,7 +921,8 @@
               "runtime": 153,
               "relevance": "Chinese film on First Opium War",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0119847/"
+                "imdb": "https://www.imdb.com/title/tt0119847/",
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Opium%20War%201997"
               },
               "ageAppropriate": true,
               "notes": "Chinese perspective on British imperialism",
@@ -914,7 +958,8 @@
               "runtime": 146,
               "relevance": "Spielberg WWI film following a horse through the war",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt1568911/"
+                "imdb": "https://www.imdb.com/title/tt1568911/",
+                "justwatch": "https://www.justwatch.com/us/search?q=War%20Horse%202011"
               },
               "ageAppropriate": true,
               "notes": "PG-13; emotional but appropriate; shows WWI from unique perspective",
@@ -928,7 +973,8 @@
               "runtime": 119,
               "relevance": "Single-shot style WWI trench warfare film",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt8579674/"
+                "imdb": "https://www.imdb.com/title/tt8579674/",
+                "justwatch": "https://www.justwatch.com/us/search?q=1917%202019"
               },
               "ageAppropriate": false,
               "notes": "R-rated; NOT for classroom; stunning visuals for teacher reference",
@@ -942,7 +988,8 @@
               "runtime": 99,
               "relevance": "Peter Jackson restored and colorized WWI footage",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt7905466/"
+                "imdb": "https://www.imdb.com/title/tt7905466/",
+                "justwatch": "https://www.justwatch.com/us/search?q=They%20Shall%20Not%20Grow%20Old%202018"
               },
               "ageAppropriate": false,
               "notes": "R-rated; powerful restored footage; select scenes may work",
@@ -955,7 +1002,9 @@
               "rating": "NR",
               "runtime": 1560,
               "relevance": "BBC 26-part documentary on WWI",
-              "links": {},
+              "links": {
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Great%20War%201964"
+              },
               "ageAppropriate": true,
               "notes": "Classic documentary; comprehensive; select relevant episodes",
               "contentType": "educational"
@@ -968,7 +1017,8 @@
               "runtime": 88,
               "relevance": "Kubrick anti-war film set in WWI French army",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0050825/"
+                "imdb": "https://www.imdb.com/title/tt0050825/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Paths%20of%20Glory%201957"
               },
               "ageAppropriate": true,
               "notes": "Kirk Douglas; shows futility of war; anti-war message",
@@ -1002,7 +1052,8 @@
               "runtime": 134,
               "relevance": "Classic about WWI hero Alvin York",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0034167/"
+                "imdb": "https://www.imdb.com/title/tt0034167/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Sergeant%20York%201941"
               },
               "ageAppropriate": true,
               "notes": "Gary Cooper; shows American experience in WWI",
@@ -1016,7 +1067,8 @@
               "runtime": 11,
               "relevance": "WWI causes and start",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=_XPZQ0LAlR4"
+                "youtube": "https://www.youtube.com/watch?v=_XPZQ0LAlR4",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20World%20History%3A%20Archdukes%2C%20Cynicism%2C%20and%20WWI%202012"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Assassination to war",
@@ -1030,7 +1082,8 @@
               "runtime": 12,
               "relevance": "Animated WWI history",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=dHSQAEam2yc"
+                "youtube": "https://www.youtube.com/watch?v=dHSQAEam2yc",
+                "justwatch": "https://www.justwatch.com/us/search?q=Oversimplified%3A%20WWI%20(Part%201)%202017"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] HIGHLY RECOMMENDED",
@@ -1044,7 +1097,8 @@
               "runtime": 15,
               "relevance": "WWI continuation",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=Mun1dKkc_As"
+                "youtube": "https://www.youtube.com/watch?v=Mun1dKkc_As",
+                "justwatch": "https://www.justwatch.com/us/search?q=Oversimplified%3A%20WWI%20(Part%202)%202017"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] War through Treaty of Versailles",
@@ -1058,7 +1112,8 @@
               "runtime": 5,
               "relevance": "Peace treaty analysis",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=mPEGRwVMOV8"
+                "youtube": "https://www.youtube.com/watch?v=mPEGRwVMOV8",
+                "justwatch": "https://www.justwatch.com/us/search?q=TED-Ed%3A%20The%20Treaty%20of%20Versailles%202016"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Seeds of WWII",
@@ -1072,7 +1127,8 @@
               "runtime": 30,
               "relevance": "Comprehensive WWI overview",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=KBp1MkcaToU"
+                "youtube": "https://www.youtube.com/watch?v=KBp1MkcaToU",
+                "justwatch": "https://www.justwatch.com/us/search?q=Epic%20History%20TV%3A%20WWI%20Documentary%202018"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Detailed animated maps",
@@ -1086,7 +1142,8 @@
               "runtime": 6,
               "relevance": "Trench warfare",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=9CI8p1M0x7g"
+                "youtube": "https://www.youtube.com/watch?v=9CI8p1M0x7g",
+                "justwatch": "https://www.justwatch.com/us/search?q=Simple%20History%3A%20Life%20in%20the%20Trenches%202016"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Soldier experience",
@@ -1100,7 +1157,8 @@
               "runtime": 15,
               "relevance": "WWII begins",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=_uk_6vfqwTA"
+                "youtube": "https://www.youtube.com/watch?v=_uk_6vfqwTA",
+                "justwatch": "https://www.justwatch.com/us/search?q=Oversimplified%3A%20WWII%20(Part%201)%202019"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] HIGHLY RECOMMENDED",
@@ -1114,7 +1172,8 @@
               "runtime": 17,
               "relevance": "WWII conclusion",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=fo2Rb9h788s"
+                "youtube": "https://www.youtube.com/watch?v=fo2Rb9h788s",
+                "justwatch": "https://www.justwatch.com/us/search?q=Oversimplified%3A%20WWII%20(Part%202)%202019"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] D-Day to atomic bomb",
@@ -1128,7 +1187,8 @@
               "runtime": 13,
               "relevance": "WWII overview",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=Q78COTwT7nE"
+                "youtube": "https://www.youtube.com/watch?v=Q78COTwT7nE",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20World%20History%3A%20WWII%202012"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Complete war overview",
@@ -1142,7 +1202,8 @@
               "runtime": 6,
               "relevance": "Holocaust context",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=B6N6iNzN2fs"
+                "youtube": "https://www.youtube.com/watch?v=B6N6iNzN2fs",
+                "justwatch": "https://www.justwatch.com/us/search?q=TED-Ed%3A%20The%20Holocaust%20and%20Ordinary%20Germans%202019"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] How it happened",
@@ -1156,7 +1217,8 @@
               "runtime": 45,
               "relevance": "Normandy invasion (4 parts)",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=QYS0i8CZ8yw&list=PLhyKYa0YJ_5AiJmDG6v_lITyLLnkKrvNL"
+                "youtube": "https://www.youtube.com/watch?v=QYS0i8CZ8yw&list=PLhyKYa0YJ_5AiJmDG6v_lITyLLnkKrvNL",
+                "justwatch": "https://www.justwatch.com/us/search?q=Extra%20History%3A%20D-Day%202019"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Detailed D-Day history",
@@ -1170,7 +1232,8 @@
               "runtime": 6,
               "relevance": "Attack on Pearl Harbor",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=rVZfqfXSbWo"
+                "youtube": "https://www.youtube.com/watch?v=rVZfqfXSbWo",
+                "justwatch": "https://www.justwatch.com/us/search?q=Simple%20History%3A%20Pearl%20Harbor%202017"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] US enters war",
@@ -1184,7 +1247,8 @@
               "runtime": 14,
               "relevance": "Cold War overview",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=y9HjvHZfCUI"
+                "youtube": "https://www.youtube.com/watch?v=y9HjvHZfCUI",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20World%20History%3A%20The%20Cold%20War%202012"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] US-Soviet rivalry",
@@ -1198,7 +1262,8 @@
               "runtime": 17,
               "relevance": "Animated Cold War",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=I79TpDe3t2g"
+                "youtube": "https://www.youtube.com/watch?v=I79TpDe3t2g",
+                "justwatch": "https://www.justwatch.com/us/search?q=Oversimplified%3A%20Cold%20War%20(Part%201)%202020"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Origins through crises",
@@ -1212,7 +1277,8 @@
               "runtime": 20,
               "relevance": "Cold War continuation",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=OIYy32RuHao"
+                "youtube": "https://www.youtube.com/watch?v=OIYy32RuHao",
+                "justwatch": "https://www.justwatch.com/us/search?q=Oversimplified%3A%20Cold%20War%20(Part%202)%202020"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Vietnam through fall of USSR",
@@ -1226,7 +1292,8 @@
               "runtime": 5,
               "relevance": "Nuclear standoff",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=bwWW3sbk4EU"
+                "youtube": "https://www.youtube.com/watch?v=bwWW3sbk4EU",
+                "justwatch": "https://www.justwatch.com/us/search?q=TED-Ed%3A%20The%20Cuban%20Missile%20Crisis%202016"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] 13 days that changed world",
@@ -1240,7 +1307,8 @@
               "runtime": 12,
               "relevance": "End of colonial empires",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=OMtl-Rf52to"
+                "youtube": "https://www.youtube.com/watch?v=OMtl-Rf52to",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20World%20History%3A%20Decolonization%202012"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Africa, Asia independence",
@@ -1254,7 +1322,8 @@
               "runtime": 5,
               "relevance": "Cold War ends",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=6D6YnU6Yzlg"
+                "youtube": "https://www.youtube.com/watch?v=6D6YnU6Yzlg",
+                "justwatch": "https://www.justwatch.com/us/search?q=Simple%20History%3A%20Fall%20of%20the%20Berlin%20Wall%202019"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] 1989 and aftermath",
@@ -1268,7 +1337,8 @@
               "runtime": 14,
               "relevance": "Modern globalization",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=s_iwrt7D5OA"
+                "youtube": "https://www.youtube.com/watch?v=s_iwrt7D5OA",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20World%20History%3A%20Globalization%20I%202012"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Trade, culture, technology",
@@ -1282,7 +1352,8 @@
               "runtime": 6,
               "relevance": "Post-9/11 world",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=h0FNlPb3GbU"
+                "youtube": "https://www.youtube.com/watch?v=h0FNlPb3GbU",
+                "justwatch": "https://www.justwatch.com/us/search?q=TED-Ed%3A%209%2F11%20and%20the%20War%20on%20Terror%202021"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Modern terrorism context",
@@ -1296,7 +1367,8 @@
               "runtime": 12,
               "relevance": "Climate science",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=wbR-5mHI6bo"
+                "youtube": "https://www.youtube.com/watch?v=wbR-5mHI6bo",
+                "justwatch": "https://www.justwatch.com/us/search?q=Kurzgesagt%3A%20Climate%20Change%20Overview%202022"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Animated climate science",
@@ -1310,7 +1382,8 @@
               "runtime": 12,
               "relevance": "Historical thinking",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=MSYw502dJNY"
+                "youtube": "https://www.youtube.com/watch?v=MSYw502dJNY",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20World%20History%3A%20How%20and%20Why%20We%20Read%202012"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Historical methods",
@@ -1366,7 +1439,8 @@
               "runtime": 197,
               "relevance": "Epic spanning Russian Revolution and Civil War",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0059113/"
+                "imdb": "https://www.imdb.com/title/tt0059113/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Doctor%20Zhivago%201965"
               },
               "ageAppropriate": true,
               "notes": "David Lean epic; Omar Sharif; shows revolutionary era",
@@ -1380,7 +1454,8 @@
               "runtime": 195,
               "relevance": "Warren Beatty film about John Reed witnessing Russian Revolution",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0082979/"
+                "imdb": "https://www.imdb.com/title/tt0082979/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Reds%201981"
               },
               "ageAppropriate": true,
               "notes": "PG; American journalist's perspective on revolution",
@@ -1393,7 +1468,9 @@
               "rating": "NR",
               "runtime": 90,
               "relevance": "Documentary on the 1917 revolution",
-              "links": {},
+              "links": {
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Russian%20Revolution%202017"
+              },
               "ageAppropriate": true,
               "notes": "Made for 100th anniversary; comprehensive coverage",
               "contentType": "educational"
@@ -1406,7 +1483,8 @@
               "runtime": 13,
               "relevance": "1917 Revolution",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=kllhI1DEt4w"
+                "youtube": "https://www.youtube.com/watch?v=kllhI1DEt4w",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20World%20History%3A%20The%20Russian%20Revolution%202012"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Lenin, Bolsheviks",
@@ -1420,7 +1498,8 @@
               "runtime": 16,
               "relevance": "Animated Revolution",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=1H5f3YLhBWY"
+                "youtube": "https://www.youtube.com/watch?v=1H5f3YLhBWY",
+                "justwatch": "https://www.justwatch.com/us/search?q=Oversimplified%3A%20The%20Russian%20Revolution%202017"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Engaging overview",
@@ -1434,7 +1513,8 @@
               "runtime": 11,
               "relevance": "Rise of Fascism",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=1lW7dAf5WMo"
+                "youtube": "https://www.youtube.com/watch?v=1lW7dAf5WMo",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20World%20History%3A%20Fascism%20and%20Mussolini%202012"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Italy, fascist ideology",
@@ -1448,7 +1528,8 @@
               "runtime": 14,
               "relevance": "Hitler's rise",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=ATlila3e9dM"
+                "youtube": "https://www.youtube.com/watch?v=ATlila3e9dM",
+                "justwatch": "https://www.justwatch.com/us/search?q=Oversimplified%3A%20Hitler%20(Part%201)%202018"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Rise of Nazi party",
@@ -1462,7 +1543,8 @@
               "runtime": 18,
               "relevance": "Nazi consolidation",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=FuLN_V2fZ6k"
+                "youtube": "https://www.youtube.com/watch?v=FuLN_V2fZ6k",
+                "justwatch": "https://www.justwatch.com/us/search?q=Oversimplified%3A%20Hitler%20(Part%202)%202018"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Road to WWII",
@@ -1476,7 +1558,8 @@
               "runtime": 14,
               "relevance": "Economic crisis",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=GCQfMWAikyU"
+                "youtube": "https://www.youtube.com/watch?v=GCQfMWAikyU",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20World%20History%3A%20The%20Great%20Depression%202012"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Global economic collapse",
@@ -1505,7 +1588,8 @@
               "runtime": 125,
               "relevance": "Charlie Chaplin satire of Hitler and fascism",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0032553/"
+                "imdb": "https://www.imdb.com/title/tt0032553/",
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Great%20Dictator%201940"
               },
               "ageAppropriate": true,
               "notes": "G-rated; Chaplin's famous anti-fascist speech",
@@ -1519,7 +1603,8 @@
               "runtime": 114,
               "relevance": "Nazi propaganda film - for analyzing propaganda techniques",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0025913/"
+                "imdb": "https://www.imdb.com/title/tt0025913/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Triumph%20of%20the%20Will%201935"
               },
               "ageAppropriate": false,
               "notes": "PROPAGANDA - show clips ONLY for analysis; discuss manipulation",
@@ -1533,7 +1618,8 @@
               "runtime": 180,
               "relevance": "CBS miniseries on Hitler's rise to power",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0322788/"
+                "imdb": "https://www.imdb.com/title/tt0322788/",
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Rise%20of%20Evil%202003"
               },
               "ageAppropriate": true,
               "notes": "Robert Carlyle; shows how Hitler came to power",
@@ -1547,7 +1633,8 @@
               "runtime": 1560,
               "relevance": "Classic documentary series; episodes on rise of fascism",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0071075/"
+                "imdb": "https://www.imdb.com/title/tt0071075/",
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20World%20at%20War%201973"
               },
               "ageAppropriate": true,
               "notes": "Laurence Olivier narrates; select relevant episodes",
@@ -1583,7 +1670,8 @@
               "runtime": 106,
               "relevance": "Christopher Nolan film on Dunkirk evacuation",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt5013056/"
+                "imdb": "https://www.imdb.com/title/tt5013056/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Dunkirk%202017"
               },
               "ageAppropriate": true,
               "notes": "PG-13; intense but minimal graphic violence; shows British resilience",
@@ -1597,7 +1685,8 @@
               "runtime": 169,
               "relevance": "Spielberg D-Day epic",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0120815/"
+                "imdb": "https://www.imdb.com/title/tt0120815/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Saving%20Private%20Ryan%201998"
               },
               "ageAppropriate": false,
               "notes": "R-rated; NOT for classroom; D-Day landing sequence for reference",
@@ -1611,7 +1700,8 @@
               "runtime": 178,
               "relevance": "Classic D-Day film from multiple perspectives",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0056197/"
+                "imdb": "https://www.imdb.com/title/tt0056197/",
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Longest%20Day%201962"
               },
               "ageAppropriate": true,
               "notes": "G-rated; all-star cast; comprehensive D-Day coverage",
@@ -1625,7 +1715,8 @@
               "runtime": 144,
               "relevance": "Pearl Harbor attack from both Japanese and American perspectives",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0066473/"
+                "imdb": "https://www.imdb.com/title/tt0066473/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Tora!%20Tora!%20Tora!%201970"
               },
               "ageAppropriate": true,
               "notes": "G-rated; shows both sides of Pearl Harbor",
@@ -1639,7 +1730,8 @@
               "runtime": 138,
               "relevance": "Battle of Midway - turning point in Pacific",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt6924650/"
+                "imdb": "https://www.imdb.com/title/tt6924650/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Midway%202019"
               },
               "ageAppropriate": true,
               "notes": "PG-13; modern effects; shows Pacific Theater",
@@ -1653,7 +1745,8 @@
               "runtime": 1560,
               "relevance": "Definitive WWII documentary series",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0071075/"
+                "imdb": "https://www.imdb.com/title/tt0071075/",
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20World%20at%20War%201973"
               },
               "ageAppropriate": true,
               "notes": "26 episodes; Laurence Olivier narrates; comprehensive",
@@ -1667,7 +1760,8 @@
               "runtime": 600,
               "relevance": "History Channel series with restored color footage",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt1508238/"
+                "imdb": "https://www.imdb.com/title/tt1508238/",
+                "justwatch": "https://www.justwatch.com/us/search?q=WWII%20in%20HD%202009"
               },
               "ageAppropriate": true,
               "notes": "10 parts; color footage makes war more real",
@@ -1697,7 +1791,8 @@
               "runtime": 94,
               "relevance": "Holocaust from child's perspective",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0914798/"
+                "imdb": "https://www.imdb.com/title/tt0914798/",
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Boy%20in%20the%20Striped%20Pajamas%202008"
               },
               "ageAppropriate": true,
               "notes": "PG-13; age-appropriate introduction; emotionally powerful",
@@ -1711,7 +1806,8 @@
               "runtime": 180,
               "relevance": "Classic adaptation of Anne Frank's diary",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0052738/"
+                "imdb": "https://www.imdb.com/title/tt0052738/",
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Diary%20of%20Anne%20Frank%201959"
               },
               "ageAppropriate": true,
               "notes": "Academy Award winner; excellent for this topic",
@@ -1725,7 +1821,8 @@
               "runtime": 195,
               "relevance": "Spielberg's definitive Holocaust film",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0108052/"
+                "imdb": "https://www.imdb.com/title/tt0108052/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Schindler's%20List%201993"
               },
               "ageAppropriate": false,
               "notes": "R-rated; may be shown with parental permission; essential film",
@@ -1739,7 +1836,8 @@
               "runtime": 116,
               "relevance": "Italian film about father protecting son in concentration camp",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0118799/"
+                "imdb": "https://www.imdb.com/title/tt0118799/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Life%20is%20Beautiful%201997"
               },
               "ageAppropriate": true,
               "notes": "PG-13; Roberto Benigni; Italian language; touching approach",
@@ -1753,7 +1851,8 @@
               "runtime": 150,
               "relevance": "True story of Jewish pianist surviving Warsaw Ghetto",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0253474/"
+                "imdb": "https://www.imdb.com/title/tt0253474/",
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Pianist%202002"
               },
               "ageAppropriate": false,
               "notes": "R-rated; Polanski; select scenes appropriate",
@@ -1767,7 +1866,8 @@
               "runtime": 566,
               "relevance": "Landmark Holocaust documentary with survivor testimonies",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0090015/"
+                "imdb": "https://www.imdb.com/title/tt0090015/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Shoah%201985"
               },
               "ageAppropriate": true,
               "notes": "9+ hours; extremely comprehensive; select segments",
@@ -1781,7 +1881,8 @@
               "runtime": 32,
               "relevance": "Short documentary showing concentration camp footage",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0048434/"
+                "imdb": "https://www.imdb.com/title/tt0048434/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Night%20and%20Fog%201956"
               },
               "ageAppropriate": false,
               "notes": "Disturbing imagery; teacher discretion required",
@@ -1819,7 +1920,8 @@
               "runtime": 116,
               "relevance": "Pentagon Papers and Vietnam War secrets",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt6294822/"
+                "imdb": "https://www.imdb.com/title/tt6294822/",
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Post%202017"
               },
               "ageAppropriate": true,
               "notes": "Spielberg; Meryl Streep, Tom Hanks; journalism during Vietnam",
@@ -1833,7 +1935,8 @@
               "runtime": 145,
               "relevance": "Cuban Missile Crisis from Kennedy administration perspective",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0146309/"
+                "imdb": "https://www.imdb.com/title/tt0146309/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Thirteen%20Days%202000"
               },
               "ageAppropriate": true,
               "notes": "Kevin Costner; tense dramatization of nuclear crisis",
@@ -1847,7 +1950,8 @@
               "runtime": 112,
               "relevance": "Le Carré adaptation showing Cold War espionage",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0059749/"
+                "imdb": "https://www.imdb.com/title/tt0059749/",
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Spy%20Who%20Came%20in%20from%20the%20Cold%201965"
               },
               "ageAppropriate": true,
               "notes": "Richard Burton; shows bleak reality of Cold War",
@@ -1861,7 +1965,8 @@
               "runtime": 95,
               "relevance": "Kubrick satire on nuclear war and Cold War paranoia",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0057012/"
+                "imdb": "https://www.imdb.com/title/tt0057012/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Dr.%20Strangelove%201964"
               },
               "ageAppropriate": true,
               "notes": "PG; dark comedy about MAD doctrine",
@@ -1875,7 +1980,8 @@
               "runtime": 142,
               "relevance": "Spielberg film on U-2 spy plane incident and prisoner exchange",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt3682448/"
+                "imdb": "https://www.imdb.com/title/tt3682448/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Bridge%20of%20Spies%202015"
               },
               "ageAppropriate": true,
               "notes": "Tom Hanks; shows Cold War espionage and diplomacy",
@@ -1889,7 +1995,8 @@
               "runtime": 1200,
               "relevance": "CNN 24-episode documentary on the Cold War",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0170896/"
+                "imdb": "https://www.imdb.com/title/tt0170896/",
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Cold%20War%201998"
               },
               "ageAppropriate": true,
               "notes": "Comprehensive; Kenneth Branagh narrates",
@@ -1924,7 +2031,8 @@
               "runtime": 191,
               "relevance": "Gandhi and Indian independence",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0083987/"
+                "imdb": "https://www.imdb.com/title/tt0083987/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Gandhi%201982"
               },
               "ageAppropriate": true,
               "notes": "PG; essential for decolonization unit",
@@ -1938,7 +2046,8 @@
               "runtime": 157,
               "relevance": "Steve Biko and South African apartheid resistance",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0092804/"
+                "imdb": "https://www.imdb.com/title/tt0092804/",
+                "justwatch": "https://www.justwatch.com/us/search?q=A%20Cry%20Freedom%201987"
               },
               "ageAppropriate": true,
               "notes": "Denzel Washington as Biko; shows apartheid",
@@ -1952,7 +2061,8 @@
               "runtime": 141,
               "relevance": "Biography of Nelson Mandela",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt2304771/"
+                "imdb": "https://www.imdb.com/title/tt2304771/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Mandela%3A%20Long%20Walk%20to%20Freedom%202013"
               },
               "ageAppropriate": true,
               "notes": "Idris Elba; covers apartheid struggle",
@@ -1966,7 +2076,8 @@
               "runtime": 121,
               "relevance": "Algerian war of independence from France",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0058946/"
+                "imdb": "https://www.imdb.com/title/tt0058946/",
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Battle%20of%20Algiers%201966"
               },
               "ageAppropriate": true,
               "notes": "Italian neorealism; influential film on decolonization",
@@ -1980,7 +2091,8 @@
               "runtime": 106,
               "relevance": "Partition of India in 1947",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt4977530/"
+                "imdb": "https://www.imdb.com/title/tt4977530/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Viceroy's%20House%202017"
               },
               "ageAppropriate": true,
               "notes": "Shows traumatic partition of India and Pakistan",
@@ -2015,7 +2127,9 @@
               "rating": "NR",
               "runtime": 90,
               "relevance": "Documentary on 1989 events and end of Cold War",
-              "links": {},
+              "links": {
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Fall%20of%20the%20Berlin%20Wall%202019"
+              },
               "ageAppropriate": true,
               "notes": "30th anniversary documentary; covers collapse of communism",
               "contentType": "educational"
@@ -2028,7 +2142,8 @@
               "runtime": 157,
               "relevance": "Hunt for Osama bin Laden",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt1790885/"
+                "imdb": "https://www.imdb.com/title/tt1790885/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Zero%20Dark%20Thirty%202012"
               },
               "ageAppropriate": false,
               "notes": "R-rated; NOT for classroom; teacher reference on War on Terror",
@@ -2042,7 +2157,8 @@
               "runtime": 102,
               "relevance": "US support for Afghan mujahideen - origins of later conflicts",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0472062/"
+                "imdb": "https://www.imdb.com/title/tt0472062/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Charlie%20Wilson's%20War%202007"
               },
               "ageAppropriate": false,
               "notes": "R-rated; Tom Hanks; shows Cold War Afghanistan connection",
@@ -2078,7 +2194,8 @@
               "runtime": 128,
               "relevance": "MLK and Selma voting rights marches",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt1020072/"
+                "imdb": "https://www.imdb.com/title/tt1020072/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Selma%202014"
               },
               "ageAppropriate": true,
               "notes": "Powerful depiction of civil rights struggle",
@@ -2092,7 +2209,8 @@
               "runtime": 134,
               "relevance": "Solomon Northup's slavery memoir",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt2024544/"
+                "imdb": "https://www.imdb.com/title/tt2024544/",
+                "justwatch": "https://www.justwatch.com/us/search?q=12%20Years%20a%20Slave%202013"
               },
               "ageAppropriate": false,
               "notes": "R-rated; powerful; may be shown with parental permission",
@@ -2106,7 +2224,8 @@
               "runtime": 106,
               "relevance": "British women's suffrage movement",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt3077214/"
+                "imdb": "https://www.imdb.com/title/tt3077214/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Suffragette%202015"
               },
               "ageAppropriate": true,
               "notes": "Carey Mulligan; shows suffragette struggle",
@@ -2120,7 +2239,8 @@
               "runtime": 128,
               "relevance": "Harvey Milk and LGBTQ rights",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt1013753/"
+                "imdb": "https://www.imdb.com/title/tt1013753/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Milk%202008"
               },
               "ageAppropriate": false,
               "notes": "R-rated; Sean Penn; covers LGBTQ rights history",
@@ -2156,7 +2276,8 @@
               "runtime": 130,
               "relevance": "2008 financial crisis explained",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt1596363/"
+                "imdb": "https://www.imdb.com/title/tt1596363/",
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Big%20Short%202015"
               },
               "ageAppropriate": false,
               "notes": "R-rated; excellent for understanding financial systems",
@@ -2170,7 +2291,8 @@
               "runtime": 109,
               "relevance": "Documentary on 2008 financial crisis",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt1645089/"
+                "imdb": "https://www.imdb.com/title/tt1645089/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Inside%20Job%202010"
               },
               "ageAppropriate": true,
               "notes": "Academy Award winner; explains global economics",
@@ -2184,7 +2306,8 @@
               "runtime": 85,
               "relevance": "Robert Reich documentary on economic inequality",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt2215151/"
+                "imdb": "https://www.imdb.com/title/tt2215151/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Inequality%20for%20All%202013"
               },
               "ageAppropriate": true,
               "notes": "PG; accessible explanation of economic inequality",
@@ -2240,7 +2363,8 @@
               "runtime": 100,
               "relevance": "Al Gore documentary on climate change",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0497116/"
+                "imdb": "https://www.imdb.com/title/tt0497116/",
+                "justwatch": "https://www.justwatch.com/us/search?q=An%20Inconvenient%20Truth%202006"
               },
               "ageAppropriate": true,
               "notes": "PG; foundational climate change documentary",
@@ -2254,7 +2378,8 @@
               "runtime": 122,
               "relevance": "Biography of Apple founder",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt2080374/"
+                "imdb": "https://www.imdb.com/title/tt2080374/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Steve%20Jobs%202015"
               },
               "ageAppropriate": false,
               "notes": "R-rated; Michael Fassbender; shows tech revolution",
@@ -2268,7 +2393,8 @@
               "runtime": 114,
               "relevance": "Alan Turing and origins of computing",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt2084970/"
+                "imdb": "https://www.imdb.com/title/tt2084970/",
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Imitation%20Game%202014"
               },
               "ageAppropriate": true,
               "notes": "Benedict Cumberbatch; shows origins of computer age",

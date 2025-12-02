@@ -7,7 +7,10 @@
     "start": "node server.js",
     "dev": "node server.js",
     "seed": "node database/seed.js",
-    "seed-users": "node database/seed-users.js"
+    "seed-users": "node database/seed-users.js",
+    "validate-urls": "node scripts/validate-urls.js",
+    "fix-urls": "node scripts/fix-broken-urls.js",
+    "classify": "node scripts/classify-content.js"
   },
   "keywords": [
     "education",

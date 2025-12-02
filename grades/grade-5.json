@@ -33,16 +33,7 @@
                 "imdb": "https://www.imdb.com/title/tt0138749/",
                 "youtube": "https://www.youtube.com/results?search_query=road+to+el+dorado+full+movie",
                 "justwatch": "https://www.justwatch.com/us/movie/the-road-to-el-dorado",
-                "streaming": [
-                  {
-                    "service": "Netflix",
-                    "url": "https://www.netflix.com/title/60000432"
-                  },
-                  {
-                    "service": "Amazon",
-                    "url": "https://www.amazon.com/gp/video/detail/B001EBV0JK"
-                  }
-                ]
+                "streaming": []
               },
               "ageAppropriate": true,
               "notes": "Fictional but excellent visual introduction to Mesoamerican aesthetics and architecture",
@@ -79,12 +70,7 @@
                 "imdb": "https://www.imdb.com/title/tt0120917/",
                 "youtube": "https://www.youtube.com/results?search_query=emperor%27s+new+groove+trailer",
                 "justwatch": "https://www.justwatch.com/us/movie/the-emperors-new-groove",
-                "streaming": [
-                  {
-                    "service": "Disney+",
-                    "url": "https://www.disneyplus.com/movies/the-emperors-new-groove/3qZBVdraVfIw"
-                  }
-                ]
+                "streaming": []
               },
               "ageAppropriate": true,
               "notes": "Lighthearted but shows Incan-style palaces, llamas, and Andean landscapes",
@@ -139,7 +125,8 @@
               "relevance": "National Geographic documentary exploring Maya civilization archaeology",
               "links": {
                 "imdb": "https://www.imdb.com/title/tt0304336/",
-                "streaming": []
+                "streaming": [],
+                "justwatch": "https://www.justwatch.com/us/search?q=Lost%20Kingdoms%20of%20the%20Maya%201993"
               },
               "ageAppropriate": true,
               "notes": "Educational documentary suitable for classroom; shows actual archaeological sites",
@@ -153,8 +140,9 @@
               "runtime": 44,
               "relevance": "History Channel documentary on Aztec engineering and Tenochtitlan",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0884140/",
-                "streaming": []
+                "imdb": "https://www.imdb.com/title/tt0959050/",
+                "streaming": [],
+                "justwatch": "https://www.justwatch.com/us/search?q=Engineering%20an%20Empire%3A%20The%20Aztecs%202006"
               },
               "ageAppropriate": true,
               "notes": "Focus on engineering achievements; may need to show in segments",
@@ -168,7 +156,8 @@
               "runtime": 23,
               "relevance": "Schlessinger Media educational video on Maya civilization",
               "links": {
-                "streaming": []
+                "streaming": [],
+                "justwatch": "https://www.justwatch.com/us/search?q=Ancient%20Civilizations%3A%20Maya%202010"
               },
               "ageAppropriate": true,
               "notes": "Specifically designed for classroom use; grade-appropriate",
@@ -182,7 +171,8 @@
               "runtime": 50,
               "relevance": "Explores the Incan citadel and engineering achievements",
               "links": {
-                "streaming": []
+                "streaming": [],
+                "justwatch": "https://www.justwatch.com/us/search?q=Mysteries%20of%20the%20Ancient%20World%3A%20Machu%20Picchu%202007"
               },
               "ageAppropriate": true,
               "notes": "Beautiful visuals of Machu Picchu; discusses Incan achievements",
@@ -196,7 +186,8 @@
               "runtime": 11,
               "relevance": "Quick overview of Maya civilization",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=Q6LOrQ3BtQo"
+                "youtube": "https://www.youtube.com/watch?v=Q6LOrQ3BtQo",
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Maya%20Civilization%20Explained%20in%2011%20Minutes%202020"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Captivating History channel; good introduction",
@@ -210,7 +201,8 @@
               "runtime": 10,
               "relevance": "Overview of Aztec civilization",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=Pj7m7MJRXxo"
+                "youtube": "https://www.youtube.com/watch?v=Pj7m7MJRXxo",
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Aztec%20Empire%20Explained%20in%2010%20Minutes%202020"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Quick comprehensive overview",
@@ -224,7 +216,8 @@
               "runtime": 14,
               "relevance": "Overview of Incan civilization",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=J1F95JT3K-c"
+                "youtube": "https://www.youtube.com/watch?v=J1F95JT3K-c",
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Inca%20Empire%20Explained%20in%2014%20Minutes%202019"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Covers Machu Picchu, roads, and society",
@@ -238,7 +231,8 @@
               "runtime": 5,
               "relevance": "Animated TED-Ed lesson on Inca Empire",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=XjNsL4RRMMA"
+                "youtube": "https://www.youtube.com/watch?v=XjNsL4RRMMA",
+                "justwatch": "https://www.justwatch.com/us/search?q=TED-Ed%3A%20The%20Rise%20and%20Fall%20of%20the%20Inca%20Empire%202018"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] HIGHLY RECOMMENDED - beautiful animation",
@@ -252,7 +246,8 @@
               "runtime": 5,
               "relevance": "Animated TED-Ed lesson on Aztec Empire",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=7paVqUfFbk8"
+                "youtube": "https://www.youtube.com/watch?v=7paVqUfFbk8",
+                "justwatch": "https://www.justwatch.com/us/search?q=TED-Ed%3A%20The%20Rise%20and%20Fall%20of%20the%20Aztec%20Empire%202019"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Excellent 5-minute overview",
@@ -266,7 +261,8 @@
               "runtime": 5,
               "relevance": "Maya mythology and astronomy",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=3V1_kYK3g4Y"
+                "youtube": "https://www.youtube.com/watch?v=3V1_kYK3g4Y",
+                "justwatch": "https://www.justwatch.com/us/search?q=TED-Ed%3A%20The%20Maya%20Myth%20of%20the%20Morning%20Star%202017"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Shows Maya astronomical knowledge",
@@ -280,7 +276,8 @@
               "runtime": 5,
               "relevance": "BrainPOP intro to Maya",
               "links": {
-                "youtube": "https://www.brainpop.com/socialstudies/worldhistory/maya/"
+                "youtube": "https://www.brainpop.com/socialstudies/worldhistory/maya/",
+                "justwatch": "https://www.justwatch.com/us/search?q=BrainPOP%3A%20Maya%20Civilization%202015"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Requires BrainPOP subscription",
@@ -294,7 +291,8 @@
               "runtime": 8,
               "relevance": "Overview of Native American cultural regions",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=E8tHcmZ8M_8"
+                "youtube": "https://www.youtube.com/watch?v=E8tHcmZ8M_8",
+                "justwatch": "https://www.justwatch.com/us/search?q=Native%20American%20Regions%20Overview%202020"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Good for geographic understanding",
@@ -308,7 +306,8 @@
               "runtime": 10,
               "relevance": "History of the Haudenosaunee",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=gfqxWCVdPPw"
+                "youtube": "https://www.youtube.com/watch?v=gfqxWCVdPPw",
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Iroquois%20Confederacy%20Explained%202021"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Democracy origins in Native America",
@@ -322,7 +321,8 @@
               "runtime": 3,
               "relevance": "Animated song about colonial rebellion",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=oex3dwFnhck"
+                "youtube": "https://www.youtube.com/watch?v=oex3dwFnhck",
+                "justwatch": "https://www.justwatch.com/us/search?q=Schoolhouse%20Rock%3A%20No%20More%20Kings%201975"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Classic Schoolhouse Rock",
@@ -336,7 +336,8 @@
               "runtime": 3,
               "relevance": "Start of the Revolution song",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=Y6ikO6LMxF4"
+                "youtube": "https://www.youtube.com/watch?v=Y6ikO6LMxF4",
+                "justwatch": "https://www.justwatch.com/us/search?q=Schoolhouse%20Rock%3A%20The%20Shot%20Heard%20Round%20the%20World%201975"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Memorable song about Lexington & Concord",
@@ -350,7 +351,8 @@
               "runtime": 3,
               "relevance": "Declaration of Independence song",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=SBNVaKLxokU"
+                "youtube": "https://www.youtube.com/watch?v=SBNVaKLxokU",
+                "justwatch": "https://www.justwatch.com/us/search?q=Schoolhouse%20Rock%3A%20Fireworks%201975"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Explains Declaration writing",
@@ -364,7 +366,8 @@
               "runtime": 16,
               "relevance": "Animated humorous overview of Revolution",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=gzALIXcY4pg"
+                "youtube": "https://www.youtube.com/watch?v=gzALIXcY4pg",
+                "justwatch": "https://www.justwatch.com/us/search?q=Oversimplified%3A%20The%20American%20Revolution%20(Part%201)%202019"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] HIGHLY RECOMMENDED - engaging animation",
@@ -378,7 +381,8 @@
               "runtime": 18,
               "relevance": "Continuation covering war and victory",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=rtYC2jx1LM0"
+                "youtube": "https://www.youtube.com/watch?v=rtYC2jx1LM0",
+                "justwatch": "https://www.justwatch.com/us/search?q=Oversimplified%3A%20The%20American%20Revolution%20(Part%202)%202019"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Covers war through Treaty of Paris",
@@ -392,7 +396,8 @@
               "runtime": 4,
               "relevance": "Lesser-known facts about Declaration",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=yb7MI8NHmSs"
+                "youtube": "https://www.youtube.com/watch?v=yb7MI8NHmSs",
+                "justwatch": "https://www.justwatch.com/us/search?q=TED-Ed%3A%20What%20You%20Might%20Not%20Know%20About%20the%20Declaration%20of%20Independence%202014"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Interesting historical details",
@@ -406,7 +411,8 @@
               "runtime": 3,
               "relevance": "Constitution preamble set to music",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=0hEYvdMoF2g"
+                "youtube": "https://www.youtube.com/watch?v=0hEYvdMoF2g",
+                "justwatch": "https://www.justwatch.com/us/search?q=Schoolhouse%20Rock%3A%20The%20Preamble%201975"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] ESSENTIAL - helps memorize preamble",
@@ -420,7 +426,8 @@
               "runtime": 3,
               "relevance": "How a bill becomes law",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=OgVKvqTItto"
+                "youtube": "https://www.youtube.com/watch?v=OgVKvqTItto",
+                "justwatch": "https://www.justwatch.com/us/search?q=Schoolhouse%20Rock%3A%20I'm%20Just%20a%20Bill%201975"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] ESSENTIAL - classic civics education",
@@ -434,7 +441,8 @@
               "runtime": 3,
               "relevance": "Three branches of government",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=tEPd98CbbMk"
+                "youtube": "https://www.youtube.com/watch?v=tEPd98CbbMk",
+                "justwatch": "https://www.justwatch.com/us/search?q=Schoolhouse%20Rock%3A%20Three%20Ring%20Government%201979"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Circus metaphor for branches",
@@ -448,7 +456,8 @@
               "runtime": 3,
               "relevance": "Westward expansion song",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=8sIoq9mpbUs"
+                "youtube": "https://www.youtube.com/watch?v=8sIoq9mpbUs",
+                "justwatch": "https://www.justwatch.com/us/search?q=Schoolhouse%20Rock%3A%20Elbow%20Room%201976"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Manifest Destiny concept",
@@ -462,7 +471,8 @@
               "runtime": 5,
               "relevance": "Amendment process explained",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=FwREAW4SlVY"
+                "youtube": "https://www.youtube.com/watch?v=FwREAW4SlVY",
+                "justwatch": "https://www.justwatch.com/us/search?q=TED-Ed%3A%20Why%20is%20the%20US%20Constitution%20So%20Hard%20to%20Amend%3F%202016"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Good for civics understanding",
@@ -476,7 +486,8 @@
               "runtime": 5,
               "relevance": "Quick overview of first 10 amendments",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=yYEfLm5dLMg"
+                "youtube": "https://www.youtube.com/watch?v=yYEfLm5dLMg",
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Bill%20of%20Rights%20in%205%20Minutes%202020"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Concise Bill of Rights summary",
@@ -490,7 +501,8 @@
               "runtime": 20,
               "relevance": "Comprehensive look at Canada",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=3DsIB9G6lHI"
+                "youtube": "https://www.youtube.com/watch?v=3DsIB9G6lHI",
+                "justwatch": "https://www.justwatch.com/us/search?q=Geography%20Now%3A%20Canada%202020"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Geography Now channel; thorough",
@@ -504,7 +516,8 @@
               "runtime": 18,
               "relevance": "Comprehensive look at Mexico",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=PhNuO48ut30"
+                "youtube": "https://www.youtube.com/watch?v=PhNuO48ut30",
+                "justwatch": "https://www.justwatch.com/us/search?q=Geography%20Now%3A%20Mexico%202018"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Covers geography, culture, history",
@@ -518,7 +531,8 @@
               "runtime": 17,
               "relevance": "Comprehensive look at Brazil",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=HpCw0dlsWn4"
+                "youtube": "https://www.youtube.com/watch?v=HpCw0dlsWn4",
+                "justwatch": "https://www.justwatch.com/us/search?q=Geography%20Now%3A%20Brazil%202017"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Largest South American country",
@@ -532,7 +546,8 @@
               "runtime": 10,
               "relevance": "All North American countries",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=cxyzT1EeB3Y"
+                "youtube": "https://www.youtube.com/watch?v=cxyzT1EeB3Y",
+                "justwatch": "https://www.justwatch.com/us/search?q=Countries%20of%20North%20America%20Geography%202020"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Quick continental overview",
@@ -546,7 +561,8 @@
               "runtime": 12,
               "relevance": "All South American countries",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=5jvDh8X8K-8"
+                "youtube": "https://www.youtube.com/watch?v=5jvDh8X8K-8",
+                "justwatch": "https://www.justwatch.com/us/search?q=Countries%20of%20South%20America%20Geography%202020"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Quick continental overview",
@@ -579,12 +595,7 @@
                 "imdb": "https://www.imdb.com/title/tt0114148/",
                 "youtube": "https://www.youtube.com/results?search_query=pocahontas+disney+trailer",
                 "justwatch": "https://www.justwatch.com/us/movie/pocahontas",
-                "streaming": [
-                  {
-                    "service": "Disney+",
-                    "url": "https://www.disneyplus.com/movies/pocahontas/1CPmvJoKl0es"
-                  }
-                ]
+                "streaming": []
               },
               "ageAppropriate": true,
               "notes": "Historically romanticized - excellent discussion starter about real history vs Hollywood; depicts Eastern Woodlands culture",
@@ -639,7 +650,8 @@
               "relevance": "Depicts Plains Indian culture and their relationship with horses",
               "links": {
                 "imdb": "https://www.imdb.com/title/tt0166813/",
-                "streaming": []
+                "streaming": [],
+                "justwatch": "https://www.justwatch.com/us/search?q=Spirit%3A%20Stallion%20of%20the%20Cimarron%202002"
               },
               "ageAppropriate": true,
               "notes": "Shows Lakota culture; discusses westward expansion's impact on Native peoples",
@@ -654,7 +666,8 @@
               "relevance": "American Girl film set in 1764 featuring a Nez Perce girl in the Pacific Northwest",
               "links": {
                 "imdb": "https://www.imdb.com/title/tt0793434/",
-                "streaming": []
+                "streaming": [],
+                "justwatch": "https://www.justwatch.com/us/search?q=Kaya%3A%20An%20American%20Girl%202005"
               },
               "ageAppropriate": true,
               "notes": "Historically researched; shows pre-contact Native American life; perfect for this age group",
@@ -689,7 +702,8 @@
               "relevance": "Kevin Costner narrates comprehensive documentary on Native American history",
               "links": {
                 "imdb": "https://www.imdb.com/title/tt0111825/",
-                "streaming": []
+                "streaming": [],
+                "justwatch": "https://www.justwatch.com/us/search?q=500%20Nations%201995"
               },
               "ageAppropriate": true,
               "notes": "8-part series; show relevant episodes; excellent primary source material",
@@ -704,7 +718,8 @@
               "relevance": "Classic film about the legendary Iroquois leader who helped form the Iroquois Confederacy",
               "links": {
                 "imdb": "https://www.imdb.com/title/tt0044703/",
-                "streaming": []
+                "streaming": [],
+                "justwatch": "https://www.justwatch.com/us/search?q=Hiawatha%201952"
               },
               "ageAppropriate": true,
               "notes": "Older film; good introduction to Iroquois Confederacy concept",
@@ -741,7 +756,8 @@
               "relevance": "Depicts Columbus's voyages and early encounters with indigenous peoples",
               "links": {
                 "imdb": "https://www.imdb.com/title/tt0103594/",
-                "streaming": []
+                "streaming": [],
+                "justwatch": "https://www.justwatch.com/us/search?q=1492%3A%20Conquest%20of%20Paradise%201992"
               },
               "ageAppropriate": false,
               "notes": "PG-13 - preview before showing; some violent scenes; teacher may select clips",
@@ -776,7 +792,8 @@
               "relevance": "Terrence Malick's artistic depiction of Jamestown founding and Pocahontas story",
               "links": {
                 "imdb": "https://www.imdb.com/title/tt0402399/",
-                "streaming": []
+                "streaming": [],
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20New%20World%202005"
               },
               "ageAppropriate": false,
               "notes": "PG-13 - more historically accurate than Disney; select scenes for classroom",
@@ -810,7 +827,8 @@
               "runtime": 60,
               "relevance": "History Channel documentary examining Columbus's fourth voyage",
               "links": {
-                "streaming": []
+                "streaming": [],
+                "justwatch": "https://www.justwatch.com/us/search?q=Columbus%3A%20The%20Lost%20Voyage%202007"
               },
               "ageAppropriate": true,
               "notes": "Focuses on exploration challenges and navigation",
@@ -824,7 +842,8 @@
               "runtime": 5,
               "relevance": "Explains exchange of plants, animals, diseases",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=HQPA5oNpfM4"
+                "youtube": "https://www.youtube.com/watch?v=HQPA5oNpfM4",
+                "justwatch": "https://www.justwatch.com/us/search?q=TED-Ed%3A%20The%20Columbian%20Exchange%202019"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] HIGHLY RECOMMENDED - essential topic explained well",
@@ -838,7 +857,8 @@
               "runtime": 12,
               "relevance": "More accurate history of Columbus",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=3hDrM76GWak"
+                "youtube": "https://www.youtube.com/watch?v=3hDrM76GWak",
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20True%20Story%20of%20Christopher%20Columbus%202020"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Balanced view of Columbus",
@@ -852,7 +872,8 @@
               "runtime": 7,
               "relevance": "Overview of Spanish conquest",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=xUzDC7HO-vE"
+                "youtube": "https://www.youtube.com/watch?v=xUzDC7HO-vE",
+                "justwatch": "https://www.justwatch.com/us/search?q=Simple%20History%3A%20Spanish%20Conquistadors%202019"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Simple History channel; animated",
@@ -866,7 +887,8 @@
               "runtime": 6,
               "relevance": "Colonial America witch trials",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=NVd8kuufBhM"
+                "youtube": "https://www.youtube.com/watch?v=NVd8kuufBhM",
+                "justwatch": "https://www.justwatch.com/us/search?q=TED-Ed%3A%20What%20Really%20Happened%20During%20the%20Salem%20Witch%20Trials%202020"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Colonial era context",
@@ -880,7 +902,8 @@
               "runtime": 15,
               "relevance": "Overview of colonial life",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=o69TvQqyGdg"
+                "youtube": "https://www.youtube.com/watch?v=o69TvQqyGdg",
+                "justwatch": "https://www.justwatch.com/us/search?q=Life%20in%20the%2013%20Colonies%202020"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Mr. Beat channel; comprehensive",
@@ -911,7 +934,8 @@
               "relevance": "Set in colonial Williamsburg, Virginia in 1775; shows colonial life and revolutionary tensions",
               "links": {
                 "imdb": "https://www.imdb.com/title/tt0424322/",
-                "streaming": []
+                "streaming": [],
+                "justwatch": "https://www.justwatch.com/us/search?q=Felicity%3A%20An%20American%20Girl%20Adventure%202005"
               },
               "ageAppropriate": true,
               "notes": "American Girl movie - excellent historical accuracy; perfect for this age group",
@@ -986,7 +1010,8 @@
               "relevance": "History Channel documentary on Pilgrims' journey and first year",
               "links": {
                 "imdb": "https://www.imdb.com/title/tt0865560/",
-                "streaming": []
+                "streaming": [],
+                "justwatch": "https://www.justwatch.com/us/search?q=Desperate%20Crossing%3A%20The%20Untold%20Story%20of%20the%20Mayflower%202006"
               },
               "ageAppropriate": true,
               "notes": "Detailed look at Mayflower voyage and Plymouth settlement",
@@ -1001,7 +1026,8 @@
               "relevance": "Depicts Puritan New England society and values",
               "links": {
                 "imdb": "https://www.imdb.com/title/tt0114345/",
-                "streaming": []
+                "streaming": [],
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Scarlet%20Letter%201995"
               },
               "ageAppropriate": false,
               "notes": "R-rated - NOT for classroom; teacher reference for understanding Puritan society",
@@ -1040,7 +1066,8 @@
               "links": {
                 "imdb": "https://www.imdb.com/title/tt0310874/",
                 "youtube": "https://www.youtube.com/playlist?list=PLHPGDDYvMPxEXwfFLR8u2Hd1ZJpnhwnAh",
-                "streaming": []
+                "streaming": [],
+                "justwatch": "https://www.justwatch.com/us/search?q=Liberty's%20Kids%202002"
               },
               "ageAppropriate": true,
               "notes": "HIGHLY RECOMMENDED - specifically designed for this age group; covers Boston Tea Party through Constitution",
@@ -1096,7 +1123,8 @@
               "relevance": "Shows colonial Williamsburg on the eve of Revolution; addresses loyalty conflicts",
               "links": {
                 "imdb": "https://www.imdb.com/title/tt0424322/",
-                "streaming": []
+                "streaming": [],
+                "justwatch": "https://www.justwatch.com/us/search?q=Felicity%3A%20An%20American%20Girl%20Adventure%202005"
               },
               "ageAppropriate": true,
               "notes": "American Girl movie; historically accurate; shows divided loyalties in colonies",
@@ -1111,7 +1139,8 @@
               "relevance": "Musical depicting the Continental Congress debates leading to Declaration of Independence",
               "links": {
                 "imdb": "https://www.imdb.com/title/tt0068156/",
-                "streaming": []
+                "streaming": [],
+                "justwatch": "https://www.justwatch.com/us/search?q=1776%201972"
               },
               "ageAppropriate": true,
               "notes": "G-rated musical; engaging way to learn about Declaration debates",
@@ -1126,7 +1155,8 @@
               "relevance": "A&E film depicting Washington's crossing of the Delaware River",
               "links": {
                 "imdb": "https://www.imdb.com/title/tt0210438/",
-                "streaming": []
+                "streaming": [],
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Crossing%202000"
               },
               "ageAppropriate": true,
               "notes": "Jeff Daniels as Washington; good for teaching about turning points",
@@ -1141,7 +1171,8 @@
               "relevance": "History Channel documentary covering the American Revolution",
               "links": {
                 "imdb": "https://www.imdb.com/title/tt1644785/",
-                "streaming": []
+                "streaming": [],
+                "justwatch": "https://www.justwatch.com/us/search?q=America%3A%20The%20Story%20of%20Us%20-%20Episode%201%3A%20Rebels%202010"
               },
               "ageAppropriate": true,
               "notes": "Modern production with reenactments; engaging visuals",
@@ -1156,7 +1187,8 @@
               "relevance": "A&E documentary series narrated by Charles Kuralt",
               "links": {
                 "imdb": "https://www.imdb.com/title/tt0296839/",
-                "streaming": []
+                "streaming": [],
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20American%20Revolution%201994"
               },
               "ageAppropriate": true,
               "notes": "Comprehensive documentary; show in segments",
@@ -1308,7 +1340,8 @@
               "relevance": "Animated tale of westward migration through immigrant mouse family",
               "links": {
                 "imdb": "https://www.imdb.com/title/tt0101329/",
-                "streaming": []
+                "streaming": [],
+                "justwatch": "https://www.justwatch.com/us/search?q=An%20American%20Tail%3A%20Fievel%20Goes%20West%201991"
               },
               "ageAppropriate": true,
               "notes": "Combines immigration and westward expansion themes",
@@ -1323,7 +1356,8 @@
               "relevance": "Shows westward expansion's impact through a wild horse's perspective",
               "links": {
                 "imdb": "https://www.imdb.com/title/tt0166813/",
-                "streaming": []
+                "streaming": [],
+                "justwatch": "https://www.justwatch.com/us/search?q=Spirit%3A%20Stallion%20of%20the%20Cimarron%202002"
               },
               "ageAppropriate": true,
               "notes": "Depicts railroad construction, cavalry, and Plains Indian culture",
@@ -1338,7 +1372,8 @@
               "relevance": "Swedish immigrant girl's journey to Minnesota frontier in 1854",
               "links": {
                 "imdb": "https://www.imdb.com/title/tt0460701/",
-                "streaming": []
+                "streaming": [],
+                "justwatch": "https://www.justwatch.com/us/search?q=Kirsten%3A%20An%20American%20Girl%202005"
               },
               "ageAppropriate": true,
               "notes": "American Girl movie; shows pioneer life, immigration, frontier challenges",
@@ -1353,7 +1388,8 @@
               "relevance": "IMAX documentary following the expedition route",
               "links": {
                 "imdb": "https://www.imdb.com/title/tt0321480/",
-                "streaming": []
+                "streaming": [],
+                "justwatch": "https://www.justwatch.com/us/search?q=Lewis%20%26%20Clark%3A%20Great%20Journey%20West%202002"
               },
               "ageAppropriate": true,
               "notes": "Stunning visuals; excellent for teaching the expedition",
@@ -1368,7 +1404,8 @@
               "relevance": "Irish immigrants seeking land in Oklahoma Land Rush",
               "links": {
                 "imdb": "https://www.imdb.com/title/tt0104231/",
-                "streaming": []
+                "streaming": [],
+                "justwatch": "https://www.justwatch.com/us/search?q=Far%20and%20Away%201992"
               },
               "ageAppropriate": false,
               "notes": "PG-13; select scenes about land rush may be appropriate",
@@ -1383,7 +1420,8 @@
               "relevance": "History Channel episode on westward expansion",
               "links": {
                 "imdb": "https://www.imdb.com/title/tt1644785/",
-                "streaming": []
+                "streaming": [],
+                "justwatch": "https://www.justwatch.com/us/search?q=America%3A%20The%20Story%20of%20Us%20-%20Episode%202%3A%20Westward%202010"
               },
               "ageAppropriate": true,
               "notes": "Modern production; covers Oregon Trail, Gold Rush",
@@ -1398,7 +1436,8 @@
               "relevance": "Epic depicting 50 years of westward expansion through one family",
               "links": {
                 "imdb": "https://www.imdb.com/title/tt0056085/",
-                "streaming": []
+                "streaming": [],
+                "justwatch": "https://www.justwatch.com/us/search?q=How%20the%20West%20Was%20Won%201962"
               },
               "ageAppropriate": true,
               "notes": "Classic epic; long but covers major westward expansion themes",
@@ -1412,7 +1451,8 @@
               "runtime": 15,
               "relevance": "Animated overview of Civil War causes and early war",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=tsxmyL7TUJg"
+                "youtube": "https://www.youtube.com/watch?v=tsxmyL7TUJg",
+                "justwatch": "https://www.justwatch.com/us/search?q=Oversimplified%3A%20The%20Civil%20War%20(Part%201)%202019"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Engaging animated history",
@@ -1426,7 +1466,8 @@
               "runtime": 18,
               "relevance": "Later Civil War and aftermath",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=sV6uuMAnJUE"
+                "youtube": "https://www.youtube.com/watch?v=sV6uuMAnJUE",
+                "justwatch": "https://www.justwatch.com/us/search?q=Oversimplified%3A%20The%20Civil%20War%20(Part%202)%202019"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Covers war end through Reconstruction",
@@ -1440,7 +1481,8 @@
               "runtime": 6,
               "relevance": "Important context on Atlantic slave trade",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=3NXC4Q_4JVg"
+                "youtube": "https://www.youtube.com/watch?v=3NXC4Q_4JVg",
+                "justwatch": "https://www.justwatch.com/us/search?q=TED-Ed%3A%20The%20Atlantic%20Slave%20Trade%3A%20What%20Too%20Few%20Textbooks%20Told%20You%202014"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Important historical context",
@@ -1454,7 +1496,8 @@
               "runtime": 8,
               "relevance": "How the Underground Railroad worked",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=Kn6GcEYQzPg"
+                "youtube": "https://www.youtube.com/watch?v=Kn6GcEYQzPg",
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Underground%20Railroad%20Explained%202020"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Explains network and key figures",
@@ -1468,7 +1511,8 @@
               "runtime": 5,
               "relevance": "Harriet Tubman biography",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=u8iYG9_QPHA"
+                "youtube": "https://www.youtube.com/watch?v=u8iYG9_QPHA",
+                "justwatch": "https://www.justwatch.com/us/search?q=TED-Ed%3A%20Harriet%20Tubman%3A%20The%20Life%20and%20Times%20of%20a%20Conductor%202019"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Excellent Tubman overview",
@@ -1482,7 +1526,8 @@
               "runtime": 5,
               "relevance": "Cherokee removal explained",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=LfBPpJqV9Fw"
+                "youtube": "https://www.youtube.com/watch?v=LfBPpJqV9Fw",
+                "justwatch": "https://www.justwatch.com/us/search?q=Simple%20History%3A%20The%20Trail%20of%20Tears%202018"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Animated explanation of forced removal",
@@ -1496,7 +1541,8 @@
               "runtime": 5,
               "relevance": "Civil War overview for students",
               "links": {
-                "youtube": "https://www.brainpop.com/socialstudies/ushistory/civilwar/"
+                "youtube": "https://www.brainpop.com/socialstudies/ushistory/civilwar/",
+                "justwatch": "https://www.justwatch.com/us/search?q=BrainPOP%3A%20Civil%20War%202015"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Requires BrainPOP subscription",
@@ -1527,12 +1573,8 @@
               "runtime": 45,
               "relevance": "PBS documentary about Harriet Tubman and the Underground Railroad",
               "links": {
-                "streaming": [
-                  {
-                    "service": "PBS",
-                    "url": "https://www.pbs.org/video/harriet-tubman-they-called-her-moses-qipbxn/"
-                  }
-                ]
+                "streaming": [],
+                "justwatch": "https://www.justwatch.com/us/search?q=Harriet%20Tubman%3A%20They%20Called%20Her%20Moses%202018"
               },
               "ageAppropriate": true,
               "notes": "Age-appropriate documentary designed for educational use",
@@ -1547,7 +1589,8 @@
               "relevance": "American Girl movie about an enslaved girl escaping to freedom during Civil War",
               "links": {
                 "imdb": "https://www.imdb.com/title/tt0301661/",
-                "streaming": []
+                "streaming": [],
+                "justwatch": "https://www.justwatch.com/us/search?q=Addy%3A%20An%20American%20Girl%20Story%202001"
               },
               "ageAppropriate": true,
               "notes": "HIGHLY RECOMMENDED for this age; historically researched; appropriate treatment of slavery",
@@ -1561,7 +1604,8 @@
               "runtime": 30,
               "relevance": "Reading Rainbow special about the Underground Railroad and the song",
               "links": {
-                "streaming": []
+                "streaming": [],
+                "justwatch": "https://www.justwatch.com/us/search?q=Follow%20the%20Drinking%20Gourd%201992"
               },
               "ageAppropriate": true,
               "notes": "LeVar Burton narrates; accessible introduction to Underground Railroad",
@@ -1576,7 +1620,8 @@
               "relevance": "TNT film about a young freedom rider in the 1960s (connects to Civil Rights)",
               "links": {
                 "imdb": "https://www.imdb.com/title/tt0175916/",
-                "streaming": []
+                "streaming": [],
+                "justwatch": "https://www.justwatch.com/us/search?q=Freedom%20Song%202000"
               },
               "ageAppropriate": true,
               "notes": "While set in 1960s, connects slavery's legacy to Civil Rights movement",
@@ -1591,7 +1636,8 @@
               "relevance": "NOT RECOMMENDED - fictional; included as example of what to avoid",
               "links": {
                 "imdb": "https://www.imdb.com/title/tt1611224/",
-                "streaming": []
+                "streaming": [],
+                "justwatch": "https://www.justwatch.com/us/search?q=Abraham%20Lincoln%3A%20Vampire%20Hunter%202012"
               },
               "ageAppropriate": false,
               "notes": "DO NOT USE - R-rated fiction that misrepresents history",
@@ -1606,7 +1652,8 @@
               "relevance": "Classic biographical drama about Lincoln's early life and rise to presidency",
               "links": {
                 "imdb": "https://www.imdb.com/title/tt0032181/",
-                "streaming": []
+                "streaming": [],
+                "justwatch": "https://www.justwatch.com/us/search?q=Abe%20Lincoln%20in%20Illinois%201940"
               },
               "ageAppropriate": true,
               "notes": "Black and white classic; shows Lincoln's journey to presidency",
@@ -1641,7 +1688,8 @@
               "relevance": "Several episodes address slavery and the founders' compromises",
               "links": {
                 "imdb": "https://www.imdb.com/title/tt0310874/",
-                "streaming": []
+                "streaming": [],
+                "justwatch": "https://www.justwatch.com/us/search?q=Liberty's%20Kids%3A%20Episodes%20on%20Slavery%202002"
               },
               "ageAppropriate": true,
               "notes": "Age-appropriate treatment of slavery in colonial/revolutionary context",
@@ -1718,7 +1766,8 @@
               "relevance": "Animated film set in Rio de Janeiro, Brazil showcasing Brazilian culture",
               "links": {
                 "imdb": "https://www.imdb.com/title/tt1436562/",
-                "streaming": []
+                "streaming": [],
+                "justwatch": "https://www.justwatch.com/us/search?q=Rio%202011"
               },
               "ageAppropriate": true,
               "notes": "Shows Brazilian geography, Carnival, and environmental issues",

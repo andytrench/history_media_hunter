@@ -50,7 +50,8 @@
               "runtime": 99,
               "relevance": "Animated epic depicting ancient Egypt and the Exodus story",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0120794/"
+                "imdb": "https://www.imdb.com/title/tt0120794/",
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Prince%20of%20Egypt%201998"
               },
               "ageAppropriate": true,
               "notes": "Beautiful animation; shows Egyptian architecture, society, and religious themes",
@@ -64,7 +65,8 @@
               "runtime": 90,
               "relevance": "History Channel documentary on ancient Egyptian engineering",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0884131/"
+                "imdb": "https://www.imdb.com/title/tt0884131/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Egypt%3A%20Engineering%20an%20Empire%202006"
               },
               "ageAppropriate": true,
               "notes": "Covers pyramids, temples, and Egyptian achievements",
@@ -97,7 +99,8 @@
               "runtime": 124,
               "relevance": "Adventure film set in ancient Egypt",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0120616/"
+                "imdb": "https://www.imdb.com/title/tt0120616/",
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Mummy%20(1999)%201999"
               },
               "ageAppropriate": true,
               "notes": "Fiction but sparks interest in Egyptian history and archaeology",
@@ -110,7 +113,9 @@
               "rating": "NR",
               "runtime": 60,
               "relevance": "Oriental Institute documentary on Mesopotamian civilizations",
-              "links": {},
+              "links": {
+                "justwatch": "https://www.justwatch.com/us/search?q=Ancient%20Mesopotamia%3A%20This%20History%2C%20Our%20History%202016"
+              },
               "ageAppropriate": true,
               "notes": "Academic but accessible; covers Sumer, Babylon, Assyria",
               "contentType": "educational"
@@ -143,7 +148,8 @@
               "runtime": 12,
               "relevance": "Cradle of civilization overview",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=sohXPx_XZ6Y"
+                "youtube": "https://www.youtube.com/watch?v=sohXPx_XZ6Y",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20World%20History%3A%20Mesopotamia%202012"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] John Green; engaging overview",
@@ -157,7 +163,8 @@
               "runtime": 11,
               "relevance": "Ancient Egypt civilization",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=Z3Wvw6BivVI"
+                "youtube": "https://www.youtube.com/watch?v=Z3Wvw6BivVI",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20World%20History%3A%20Ancient%20Egypt%202012"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Pharaohs, pyramids, Nile",
@@ -171,7 +178,8 @@
               "runtime": 5,
               "relevance": "Hieroglyphics explained",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=yeQcmxM2W5M"
+                "youtube": "https://www.youtube.com/watch?v=yeQcmxM2W5M",
+                "justwatch": "https://www.justwatch.com/us/search?q=TED-Ed%3A%20How%20to%20Speak%20Egyptian%202016"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Fun language lesson",
@@ -185,7 +193,8 @@
               "runtime": 12,
               "relevance": "Alexander's conquests",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=0LsrkWDCvxg"
+                "youtube": "https://www.youtube.com/watch?v=0LsrkWDCvxg",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20World%20History%3A%20Alexander%20the%20Great%202012"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Hellenistic spread",
@@ -199,7 +208,8 @@
               "runtime": 12,
               "relevance": "Rise of Rome",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=oPf27gAup9U"
+                "youtube": "https://www.youtube.com/watch?v=oPf27gAup9U",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20World%20History%3A%20The%20Roman%20Empire%202012"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Republic to Empire",
@@ -213,7 +223,8 @@
               "runtime": 5,
               "relevance": "Roman daily life",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=3z7aPpFqXOU"
+                "youtube": "https://www.youtube.com/watch?v=3z7aPpFqXOU",
+                "justwatch": "https://www.justwatch.com/us/search?q=TED-Ed%3A%20What%20Romans%20Actually%20Ate%20for%20Dinner%202019"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Engaging daily life topic",
@@ -227,7 +238,8 @@
               "runtime": 17,
               "relevance": "Rome vs Carthage",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=EbBHk_zLTmY"
+                "youtube": "https://www.youtube.com/watch?v=EbBHk_zLTmY",
+                "justwatch": "https://www.justwatch.com/us/search?q=Oversimplified%3A%20The%20Punic%20Wars%202018"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Hannibal and Roman expansion",
@@ -241,7 +253,8 @@
               "runtime": 12,
               "relevance": "Buddhism and Indian empires",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=8Nn5uqE3C9w"
+                "youtube": "https://www.youtube.com/watch?v=8Nn5uqE3C9w",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20World%20History%3A%20Buddha%20and%20Ashoka%202012"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Indian history and religion",
@@ -255,7 +268,8 @@
               "runtime": 12,
               "relevance": "Chinese dynastic history",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=ylWORyToTo4"
+                "youtube": "https://www.youtube.com/watch?v=ylWORyToTo4",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20World%20History%3A%202000%20Years%20of%20Chinese%20History%202012"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Mandates and dynasties",
@@ -269,7 +283,8 @@
               "runtime": 5,
               "relevance": "Persian Empire overview",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=PJqJtw7cq3A"
+                "youtube": "https://www.youtube.com/watch?v=PJqJtw7cq3A",
+                "justwatch": "https://www.justwatch.com/us/search?q=TED-Ed%3A%20The%20Rise%20and%20Fall%20of%20the%20Persian%20Empire%202019"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Cyrus to Alexander",
@@ -307,7 +322,8 @@
               "runtime": 28,
               "relevance": "British educational comedy covering Greek history with humor",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt1434549/"
+                "imdb": "https://www.imdb.com/title/tt1434549/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Horrible%20Histories%3A%20Groovy%20Greeks%202009"
               },
               "ageAppropriate": true,
               "notes": "HIGHLY RECOMMENDED - engaging and funny while historically accurate",
@@ -321,7 +337,8 @@
               "runtime": 28,
               "relevance": "British educational comedy covering Roman history",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt1434549/"
+                "imdb": "https://www.imdb.com/title/tt1434549/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Horrible%20Histories%3A%20Rotten%20Romans%202009"
               },
               "ageAppropriate": true,
               "notes": "Makes Roman history accessible and memorable",
@@ -335,7 +352,8 @@
               "runtime": 163,
               "relevance": "Epic depicting the Trojan War based on Homer's Iliad",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0332452/"
+                "imdb": "https://www.imdb.com/title/tt0332452/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Troy%20(2004)%202004"
               },
               "ageAppropriate": false,
               "notes": "R-rated for war violence; teacher reference; spectacular visuals of ancient world",
@@ -349,7 +367,8 @@
               "runtime": 175,
               "relevance": "Epic about Alexander the Great's conquests",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0346491/"
+                "imdb": "https://www.imdb.com/title/tt0346491/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Alexander%20(2004)%202004"
               },
               "ageAppropriate": false,
               "notes": "R-rated; NOT for classroom; teacher reference on Alexander's empire",
@@ -363,7 +382,8 @@
               "runtime": 212,
               "relevance": "Epic set in Roman-occupied Judea; shows Roman society and chariot racing",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0052618/"
+                "imdb": "https://www.imdb.com/title/tt0052618/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Ben-Hur%20(1959)%201959"
               },
               "ageAppropriate": true,
               "notes": "G-rated classic; long but excellent for showing Roman era; Academy Award winner",
@@ -377,7 +397,8 @@
               "runtime": 197,
               "relevance": "Classic epic about Roman slave revolt",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0054331/"
+                "imdb": "https://www.imdb.com/title/tt0054331/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Spartacus%20(1960)%201960"
               },
               "ageAppropriate": true,
               "notes": "Kirk Douglas classic; shows slavery in Roman Empire",
@@ -391,7 +412,8 @@
               "runtime": 600,
               "relevance": "History Channel 13-episode series on Roman history",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0877013/"
+                "imdb": "https://www.imdb.com/title/tt0877013/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Rome%3A%20Rise%20and%20Fall%20of%20an%20Empire%202006"
               },
               "ageAppropriate": true,
               "notes": "Comprehensive coverage; select episodes for specific topics",
@@ -405,7 +427,8 @@
               "runtime": 90,
               "relevance": "History Channel documentary on Roman engineering",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0756082/"
+                "imdb": "https://www.imdb.com/title/tt0756082/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Engineering%20an%20Empire%3A%20Rome%202005"
               },
               "ageAppropriate": true,
               "notes": "Covers aqueducts, roads, Colosseum",
@@ -439,7 +462,8 @@
               "runtime": 248,
               "relevance": "Epic depicting Cleopatra, Caesar, and Mark Antony",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0056937/"
+                "imdb": "https://www.imdb.com/title/tt0056937/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Cleopatra%20(1963)%201963"
               },
               "ageAppropriate": true,
               "notes": "G-rated; very long; Elizabeth Taylor; shows end of Roman Republic",
@@ -453,7 +477,8 @@
               "runtime": 120,
               "relevance": "Shakespeare adaptation with Marlon Brando as Mark Antony",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0045943/"
+                "imdb": "https://www.imdb.com/title/tt0045943/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Julius%20Caesar%20(1953)%201953"
               },
               "ageAppropriate": true,
               "notes": "Classic adaptation; good for cross-curricular with English",
@@ -489,7 +514,8 @@
               "runtime": 117,
               "relevance": "Stylized depiction of Battle of Thermopylae",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0416449/"
+                "imdb": "https://www.imdb.com/title/tt0416449/",
+                "justwatch": "https://www.justwatch.com/us/search?q=300%20(2006)%202006"
               },
               "ageAppropriate": false,
               "notes": "R-rated; NOT for classroom; visually striking but historically problematic",
@@ -503,7 +529,8 @@
               "runtime": 44,
               "relevance": "History Channel documentary on Persian engineering achievements",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0884139/"
+                "imdb": "https://www.imdb.com/title/tt0884139/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Engineering%20an%20Empire%3A%20The%20Persians%202006"
               },
               "ageAppropriate": true,
               "notes": "Covers Persepolis, Royal Road, and Persian innovations",
@@ -516,7 +543,9 @@
               "rating": "NR",
               "runtime": 180,
               "relevance": "Documentary series on Persian/Iranian history",
-              "links": {},
+              "links": {
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Persians%3A%20A%20History%20of%20Iran%202012"
+              },
               "ageAppropriate": true,
               "notes": "Comprehensive coverage of Persian civilization",
               "contentType": "educational"
@@ -529,7 +558,8 @@
               "runtime": 12,
               "relevance": "Mughal India",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=9-M5I9i_qdU"
+                "youtube": "https://www.youtube.com/watch?v=9-M5I9i_qdU",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20World%20History%3A%20The%20Mughal%20Empire%202012"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Akbar, Taj Mahal",
@@ -543,7 +573,8 @@
               "runtime": 5,
               "relevance": "Taj Mahal history",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=MbcM6lFwTRQ"
+                "youtube": "https://www.youtube.com/watch?v=MbcM6lFwTRQ",
+                "justwatch": "https://www.justwatch.com/us/search?q=TED-Ed%3A%20The%20Taj%20Mahal%3A%20A%20Monument%20to%20Eternal%20Love%202017"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Mughal architecture",
@@ -557,7 +588,8 @@
               "runtime": 11,
               "relevance": "Ottoman overview",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=lTTvKwCylFY"
+                "youtube": "https://www.youtube.com/watch?v=lTTvKwCylFY",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20World%20History%3A%20The%20Ottoman%20Empire%202014"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Suleiman the Magnificent",
@@ -571,7 +603,8 @@
               "runtime": 45,
               "relevance": "Ottoman golden age (4 parts)",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=d_w7GEQz1AE&list=PLhyKYa0YJ_5CL-krstYn532QY1Ayo27s1"
+                "youtube": "https://www.youtube.com/watch?v=d_w7GEQz1AE&list=PLhyKYa0YJ_5CL-krstYn532QY1Ayo27s1",
+                "justwatch": "https://www.justwatch.com/us/search?q=Extra%20History%3A%20Suleiman%20the%20Magnificent%202016"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Animated Ottoman history",
@@ -585,7 +618,8 @@
               "runtime": 13,
               "relevance": "Ming Dynasty",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=J4r6OXF2ZH4"
+                "youtube": "https://www.youtube.com/watch?v=J4r6OXF2ZH4",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20World%20History%3A%20Ming%20China%202012"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Forbidden City, exploration",
@@ -599,7 +633,8 @@
               "runtime": 4,
               "relevance": "Ming isolation",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=h0OUHihqEcE"
+                "youtube": "https://www.youtube.com/watch?v=h0OUHihqEcE",
+                "justwatch": "https://www.justwatch.com/us/search?q=History%20Matters%3A%20Why%20Did%20China%20Stop%20Exploring%3F%202020"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Quick explanation",
@@ -613,7 +648,8 @@
               "runtime": 18,
               "relevance": "Japan's isolation and opening",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=Mh5LY4Mz15o"
+                "youtube": "https://www.youtube.com/watch?v=Mh5LY4Mz15o",
+                "justwatch": "https://www.justwatch.com/us/search?q=Kings%20and%20Generals%3A%20Samurai%2C%20Daimyo%2C%20Matthew%20Perry%2C%20and%20Gunboat%20Diplomacy%202019"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Japanese history",
@@ -671,7 +707,8 @@
               "runtime": 92,
               "relevance": "Animated film showcasing Chinese culture, martial arts, and philosophy",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0441773/"
+                "imdb": "https://www.imdb.com/title/tt0441773/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Kung%20Fu%20Panda%202008"
               },
               "ageAppropriate": true,
               "notes": "Not historical but excellent for Chinese cultural elements",
@@ -783,7 +820,8 @@
               "runtime": 123,
               "relevance": "Bernardo Bertolucci film depicting Buddha's life story",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0107426/"
+                "imdb": "https://www.imdb.com/title/tt0107426/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Little%20Buddha%201993"
               },
               "ageAppropriate": true,
               "notes": "PG; Keanu Reeves as Siddhartha; beautiful visuals of Buddhist teachings",
@@ -797,7 +835,8 @@
               "runtime": 99,
               "relevance": "Visually stunning martial arts film set during Qin unification",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0299977/"
+                "imdb": "https://www.imdb.com/title/tt0299977/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Hero%20(2002)%202002"
               },
               "ageAppropriate": true,
               "notes": "PG-13; shows Qin Dynasty; beautiful cinematography of ancient China",
@@ -833,7 +872,8 @@
               "runtime": 200,
               "relevance": "John Romer documentary series on Byzantine history",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0364531/"
+                "imdb": "https://www.imdb.com/title/tt0364531/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Byzantium%3A%20The%20Lost%20Empire%201997"
               },
               "ageAppropriate": true,
               "notes": "4-part series covering Byzantine civilization comprehensively",
@@ -847,7 +887,8 @@
               "runtime": 44,
               "relevance": "History Channel documentary on Byzantine engineering",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0884121/"
+                "imdb": "https://www.imdb.com/title/tt0884121/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Engineering%20an%20Empire%3A%20Byzantines%202006"
               },
               "ageAppropriate": true,
               "notes": "Covers Hagia Sophia, walls of Constantinople",
@@ -860,7 +901,9 @@
               "rating": "NR",
               "runtime": 60,
               "relevance": "Documentary on the 1453 Ottoman conquest",
-              "links": {},
+              "links": {
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Fall%20of%20Constantinople%202014"
+              },
               "ageAppropriate": true,
               "notes": "Covers the end of Byzantine Empire",
               "contentType": "educational"
@@ -873,7 +916,8 @@
               "runtime": 13,
               "relevance": "Origins and spread of Islam",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=TpcbfxtdoI8"
+                "youtube": "https://www.youtube.com/watch?v=TpcbfxtdoI8",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20World%20History%3A%20Islam%202012"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Respectful overview",
@@ -887,7 +931,8 @@
               "runtime": 5,
               "relevance": "Islamic Golden Age contributions",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=WMOqKPT8pss"
+                "youtube": "https://www.youtube.com/watch?v=WMOqKPT8pss",
+                "justwatch": "https://www.justwatch.com/us/search?q=TED-Ed%3A%20The%20Golden%20Age%20of%20Islam%202015"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Science, math, medicine",
@@ -901,7 +946,8 @@
               "runtime": 11,
               "relevance": "Mali Empire and African trade",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=jvnU0v6hcUo"
+                "youtube": "https://www.youtube.com/watch?v=jvnU0v6hcUo",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20World%20History%3A%20Mansa%20Musa%20and%20Mali%202012"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] ESSENTIAL - West African history",
@@ -915,7 +961,8 @@
               "runtime": 4,
               "relevance": "Mansa Musa's wealth",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=O3YJMaL55TM"
+                "youtube": "https://www.youtube.com/watch?v=O3YJMaL55TM",
+                "justwatch": "https://www.justwatch.com/us/search?q=TED-Ed%3A%20Mansa%20Musa%2C%20One%20of%20the%20Wealthiest%20People%20Who%20Ever%20Lived%202015"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Mali's legendary ruler",
@@ -929,7 +976,8 @@
               "runtime": 13,
               "relevance": "Why Rome fell",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=3PszVWZNWVA"
+                "youtube": "https://www.youtube.com/watch?v=3PszVWZNWVA",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20World%20History%3A%20Fall%20of%20the%20Roman%20Empire%202012"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Transition to medieval",
@@ -943,7 +991,8 @@
               "runtime": 50,
               "relevance": "5-part series on Byzantium",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=Okph9wt8I0A&list=PLhyKYa0YJ_5BNTUc1fwlXFuodoGo_u6TH"
+                "youtube": "https://www.youtube.com/watch?v=Okph9wt8I0A&list=PLhyKYa0YJ_5BNTUc1fwlXFuodoGo_u6TH",
+                "justwatch": "https://www.justwatch.com/us/search?q=Extra%20History%3A%20Byzantine%20Empire%202016"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Animated history; engaging",
@@ -957,7 +1006,8 @@
               "runtime": 5,
               "relevance": "Silk Road trade overview",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=vn3e37VWc0k"
+                "youtube": "https://www.youtube.com/watch?v=vn3e37VWc0k",
+                "justwatch": "https://www.justwatch.com/us/search?q=TED-Ed%3A%20The%20Silk%20Road%3A%20History's%20First%20World%20Wide%20Web%202018"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Trade and cultural exchange",
@@ -971,7 +1021,8 @@
               "runtime": 10,
               "relevance": "Trade and empires",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=UN-II_jBzzo"
+                "youtube": "https://www.youtube.com/watch?v=UN-II_jBzzo",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20World%20History%3A%20Venice%20and%20the%20Ottoman%20Empire%202012"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Mediterranean trade",
@@ -985,7 +1036,8 @@
               "runtime": 20,
               "relevance": "1453 Ottoman conquest",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=p8CMYD_4qZQ"
+                "youtube": "https://www.youtube.com/watch?v=p8CMYD_4qZQ",
+                "justwatch": "https://www.justwatch.com/us/search?q=Kings%20and%20Generals%3A%20Fall%20of%20Constantinople%202019"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Detailed military history",
@@ -1014,7 +1066,8 @@
               "runtime": 177,
               "relevance": "Epic film about the origins of Islam; made with Muslim scholars' input",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0074896/"
+                "imdb": "https://www.imdb.com/title/tt0074896/",
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Message%20(1976)%201976"
               },
               "ageAppropriate": true,
               "notes": "PG; respectful portrayal; Muhammad not depicted (per Islamic tradition)",
@@ -1048,7 +1101,8 @@
               "runtime": 180,
               "relevance": "BBC documentary on Islamic contributions to science",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt1359600/"
+                "imdb": "https://www.imdb.com/title/tt1359600/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Science%20and%20Islam%202009"
               },
               "ageAppropriate": true,
               "notes": "3-part series on algebra, astronomy, medicine in Islamic Golden Age",
@@ -1061,7 +1115,9 @@
               "rating": "NR",
               "runtime": 60,
               "relevance": "Documentary exploring early Islamic history",
-              "links": {},
+              "links": {
+                "justwatch": "https://www.justwatch.com/us/search?q=Lost%20Secrets%20of%20the%20Quran%202015"
+              },
               "ageAppropriate": true,
               "notes": "Academic approach to early Islamic texts",
               "contentType": "educational"
@@ -1116,7 +1172,8 @@
               "runtime": 240,
               "relevance": "BBC documentary series on pre-colonial African kingdoms",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt1672766/"
+                "imdb": "https://www.imdb.com/title/tt1672766/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Lost%20Kingdoms%20of%20Africa%202010"
               },
               "ageAppropriate": true,
               "notes": "4-part series covering Ethiopia, Asante, Zimbabwe, Benin",
@@ -1129,7 +1186,9 @@
               "rating": "NR",
               "runtime": 45,
               "relevance": "Documentary on Mali Empire's legendary ruler",
-              "links": {},
+              "links": {
+                "justwatch": "https://www.justwatch.com/us/search?q=Mansa%20Musa%3A%20The%20Richest%20Man%20Who%20Ever%20Lived%202020"
+              },
               "ageAppropriate": true,
               "notes": "Covers Musa's famous pilgrimage and Mali's wealth",
               "contentType": "educational"
@@ -1183,7 +1242,9 @@
               "rating": "NR",
               "runtime": 720,
               "relevance": "Classic NHK/CCTV documentary series retracing the Silk Road",
-              "links": {},
+              "links": {
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Silk%20Road%201980"
+              },
               "ageAppropriate": true,
               "notes": "12-part series; comprehensive coverage of the ancient route",
               "contentType": "educational"
@@ -1196,7 +1257,8 @@
               "runtime": 60,
               "relevance": "Netflix drama about Marco Polo at Kublai Khan's court",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt2189461/"
+                "imdb": "https://www.imdb.com/title/tt2189461/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Marco%20Polo%20(Netflix)%202014"
               },
               "ageAppropriate": false,
               "notes": "TV-MA; NOT for classroom; shows Silk Road era",
@@ -1210,7 +1272,8 @@
               "runtime": 104,
               "relevance": "Classic Hollywood film about Marco Polo's journey",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0029824/"
+                "imdb": "https://www.imdb.com/title/tt0029824/",
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Adventures%20of%20Marco%20Polo%201938"
               },
               "ageAppropriate": true,
               "notes": "Old but accessible introduction to Polo's travels",
@@ -1223,7 +1286,9 @@
               "rating": "NR",
               "runtime": 60,
               "relevance": "Documentary on ancient Indian Ocean trade routes",
-              "links": {},
+              "links": {
+                "justwatch": "https://www.justwatch.com/us/search?q=Caravans%3A%20Indian%20Tales%202015"
+              },
               "ageAppropriate": true,
               "notes": "Covers maritime trade connections",
               "contentType": "educational"
@@ -1259,7 +1324,8 @@
               "runtime": 58,
               "relevance": "Animated documentary on medieval castle construction",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0109393/"
+                "imdb": "https://www.imdb.com/title/tt0109393/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Castle%20(David%20Macaulay)%201983"
               },
               "ageAppropriate": true,
               "notes": "HIGHLY RECOMMENDED - educational and engaging",
@@ -1273,7 +1339,8 @@
               "runtime": 180,
               "relevance": "History Channel documentary on the Crusades",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0460831/"
+                "imdb": "https://www.imdb.com/title/tt0460831/",
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Crusades%3A%20Crescent%20%26%20the%20Cross%202005"
               },
               "ageAppropriate": true,
               "notes": "Presents both Christian and Muslim perspectives",
@@ -1287,7 +1354,8 @@
               "runtime": 91,
               "relevance": "Comedy satirizing medieval life and Arthurian legend",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0071853/"
+                "imdb": "https://www.imdb.com/title/tt0071853/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Monty%20Python%20and%20the%20Holy%20Grail%201975"
               },
               "ageAppropriate": true,
               "notes": "PG; humorous but actually teaches about medieval society; some crude humor",
@@ -1301,7 +1369,8 @@
               "runtime": 132,
               "relevance": "Depicts medieval tournaments and social hierarchy",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0183790/"
+                "imdb": "https://www.imdb.com/title/tt0183790/",
+                "justwatch": "https://www.justwatch.com/us/search?q=A%20Knight's%20Tale%202001"
               },
               "ageAppropriate": true,
               "notes": "PG-13; anachronistic music but shows medieval social structure well",
@@ -1314,7 +1383,9 @@
               "rating": "NR",
               "runtime": 720,
               "relevance": "Great Courses documentary on the Black Death",
-              "links": {},
+              "links": {
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Black%20Death%3A%20The%20World's%20Most%20Devastating%20Plague%202016"
+              },
               "ageAppropriate": true,
               "notes": "Comprehensive; covers pandemic's social and economic effects",
               "contentType": "educational"
@@ -1327,7 +1398,8 @@
               "runtime": 240,
               "relevance": "BBC documentary examining medieval social roles",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0411006/"
+                "imdb": "https://www.imdb.com/title/tt0411006/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Terry%20Jones'%20Medieval%20Lives%202004"
               },
               "ageAppropriate": true,
               "notes": "8 episodes on peasant, monk, knight, damsel, etc.",
@@ -1363,7 +1435,8 @@
               "runtime": 138,
               "relevance": "Classic film about Michelangelo painting the Sistine Chapel",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0058886/"
+                "imdb": "https://www.imdb.com/title/tt0058886/",
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Agony%20and%20the%20Ecstasy%201965"
               },
               "ageAppropriate": true,
               "notes": "Charlton Heston as Michelangelo; shows Renaissance art and patronage",
@@ -1396,7 +1469,8 @@
               "runtime": 121,
               "relevance": "Set during Renaissance France; Leonardo da Vinci appears as character",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0120631/"
+                "imdb": "https://www.imdb.com/title/tt0120631/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Ever%20After%3A%20A%20Cinderella%20Story%201998"
               },
               "ageAppropriate": true,
               "notes": "Shows Renaissance fashion, society; Drew Barrymore stars",
@@ -1449,7 +1523,8 @@
               "runtime": 11,
               "relevance": "Renaissance overview",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=Vufba_ZDwbQ"
+                "youtube": "https://www.youtube.com/watch?v=Vufba_ZDwbQ",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20World%20History%3A%20The%20Renaissance%202012"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Art, humanism, science",
@@ -1463,7 +1538,8 @@
               "runtime": 5,
               "relevance": "Renaissance color chemistry",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=8a7MJEF0OMY"
+                "youtube": "https://www.youtube.com/watch?v=8a7MJEF0OMY",
+                "justwatch": "https://www.justwatch.com/us/search?q=TED-Ed%3A%20The%20Chemistry%20of%20Cold%20War%20Colors%202017"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Renaissance art techniques",
@@ -1477,7 +1553,8 @@
               "runtime": 12,
               "relevance": "Reformation overview",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=1o8oIELbNxE"
+                "youtube": "https://www.youtube.com/watch?v=1o8oIELbNxE",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20World%20History%3A%20Luther%20and%20the%20Protestant%20Reformation%202012"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Martin Luther and 95 Theses",
@@ -1491,7 +1568,8 @@
               "runtime": 12,
               "relevance": "European exploration era",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=wOclF9eP5uM"
+                "youtube": "https://www.youtube.com/watch?v=wOclF9eP5uM",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20World%20History%3A%20The%20Age%20of%20Exploration%202012"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Columbus, Vasco da Gama",
@@ -1505,7 +1583,8 @@
               "runtime": 5,
               "relevance": "Navigation technology",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=I3V2Np9kB8U"
+                "youtube": "https://www.youtube.com/watch?v=I3V2Np9kB8U",
+                "justwatch": "https://www.justwatch.com/us/search?q=TED-Ed%3A%20How%20the%20Compass%20Unlocked%20the%20World%202020"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Exploration technology",
@@ -1519,7 +1598,8 @@
               "runtime": 12,
               "relevance": "Global exchange after 1492",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=HQPA5oNpfM4"
+                "youtube": "https://www.youtube.com/watch?v=HQPA5oNpfM4",
+                "justwatch": "https://www.justwatch.com/us/search?q=Crash%20Course%20World%20History%3A%20The%20Columbian%20Exchange%202012"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] ESSENTIAL - plants, animals, disease",
@@ -1533,7 +1613,8 @@
               "runtime": 40,
               "relevance": "Chinese exploration (4 parts)",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=NI9mLCPi6g8&list=PLhyKYa0YJ_5Aq7g4bil7bnGi0A8gTsawu"
+                "youtube": "https://www.youtube.com/watch?v=NI9mLCPi6g8&list=PLhyKYa0YJ_5Aq7g4bil7bnGi0A8gTsawu",
+                "justwatch": "https://www.justwatch.com/us/search?q=Extra%20History%3A%20Admiral%20Zheng%20He%202015"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Chinese exploration before Europeans",
@@ -1547,7 +1628,8 @@
               "runtime": 6,
               "relevance": "Slave trade context",
               "links": {
-                "youtube": "https://www.youtube.com/watch?v=3NXC4Q_4JVg"
+                "youtube": "https://www.youtube.com/watch?v=3NXC4Q_4JVg",
+                "justwatch": "https://www.justwatch.com/us/search?q=TED-Ed%3A%20The%20Atlantic%20Slave%20Trade%202014"
               },
               "ageAppropriate": true,
               "notes": "[Quick Clip] Important but sensitive topic",
@@ -1576,7 +1658,8 @@
               "runtime": 123,
               "relevance": "Biographical film on Martin Luther",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0309820/"
+                "imdb": "https://www.imdb.com/title/tt0309820/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Luther%202003"
               },
               "ageAppropriate": true,
               "notes": "Joseph Fiennes as Luther; comprehensive look at Reformation",
@@ -1590,7 +1673,8 @@
               "runtime": 77,
               "relevance": "Documentary for 500th anniversary of Reformation",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt7014528/"
+                "imdb": "https://www.imdb.com/title/tt7014528/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Martin%20Luther%3A%20The%20Idea%20that%20Changed%20the%20World%202017"
               },
               "ageAppropriate": true,
               "notes": "Hugh Bonneville narrates; accessible introduction",
@@ -1604,7 +1688,8 @@
               "runtime": 120,
               "relevance": "Academy Award winner about Thomas More during English Reformation",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0060665/"
+                "imdb": "https://www.imdb.com/title/tt0060665/",
+                "justwatch": "https://www.justwatch.com/us/search?q=A%20Man%20for%20All%20Seasons%201966"
               },
               "ageAppropriate": true,
               "notes": "G-rated; excellent for discussing conscience and religious conflict",
@@ -1640,7 +1725,8 @@
               "runtime": 154,
               "relevance": "Epic depicting Columbus's voyages",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0103594/"
+                "imdb": "https://www.imdb.com/title/tt0103594/",
+                "justwatch": "https://www.justwatch.com/us/search?q=1492%3A%20Conquest%20of%20Paradise%201992"
               },
               "ageAppropriate": false,
               "notes": "PG-13; Ridley Scott film; select scenes for classroom",
@@ -1673,7 +1759,9 @@
               "rating": "NR",
               "runtime": 90,
               "relevance": "Documentary covering European exploration era",
-              "links": {},
+              "links": {
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Age%20of%20Exploration%202015"
+              },
               "ageAppropriate": true,
               "notes": "Covers motivations and consequences of exploration",
               "contentType": "educational"
@@ -1727,7 +1815,9 @@
               "rating": "NR",
               "runtime": 60,
               "relevance": "Documentary on Americas before European contact",
-              "links": {},
+              "links": {
+                "justwatch": "https://www.justwatch.com/us/search?q=1491%3A%20Before%20Columbus%202017"
+              },
               "ageAppropriate": true,
               "notes": "Shows pre-contact civilizations and exchange aftermath",
               "contentType": "educational"
@@ -1801,7 +1891,8 @@
               "runtime": 44,
               "relevance": "History Channel documentary on Ottoman engineering",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0884138/"
+                "imdb": "https://www.imdb.com/title/tt0884138/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Engineering%20an%20Empire%3A%20The%20Ottomans%202006"
               },
               "ageAppropriate": true,
               "notes": "Covers Istanbul's architecture and engineering achievements",
@@ -1837,7 +1928,8 @@
               "runtime": 214,
               "relevance": "Bollywood epic about Akbar and his Hindu wife",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0449994/"
+                "imdb": "https://www.imdb.com/title/tt0449994/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Jodhaa%20Akbar%202008"
               },
               "ageAppropriate": true,
               "notes": "Very long; beautiful visuals; shows religious tolerance under Akbar",
@@ -1869,7 +1961,9 @@
               "rating": "NR",
               "runtime": 60,
               "relevance": "Documentary on the construction of the Taj Mahal",
-              "links": {},
+              "links": {
+                "justwatch": "https://www.justwatch.com/us/search?q=Secrets%20of%20the%20Taj%20Mahal%202017"
+              },
               "ageAppropriate": true,
               "notes": "Explores architecture and love story behind the monument",
               "contentType": "educational"
@@ -1924,7 +2018,8 @@
               "runtime": 163,
               "relevance": "Academy Award winner about China's last emperor Puyi",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0093389/"
+                "imdb": "https://www.imdb.com/title/tt0093389/",
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Last%20Emperor%201987"
               },
               "ageAppropriate": true,
               "notes": "PG-13; later period but shows Forbidden City beautifully",
@@ -1937,7 +2032,9 @@
               "rating": "NR",
               "runtime": 60,
               "relevance": "Documentary exploring the Forbidden City",
-              "links": {},
+              "links": {
+                "justwatch": "https://www.justwatch.com/us/search?q=China%3A%20Forbidden%20City%202017"
+              },
               "ageAppropriate": true,
               "notes": "Explores architecture and imperial Chinese life",
               "contentType": "educational"
@@ -1949,7 +2046,9 @@
               "rating": "NR",
               "runtime": 120,
               "relevance": "Documentary on Zheng He's voyages (controversial thesis)",
-              "links": {},
+              "links": {
+                "justwatch": "https://www.justwatch.com/us/search?q=1421%3A%20The%20Year%20China%20Discovered%20the%20World%202004"
+              },
               "ageAppropriate": true,
               "notes": "Claims disputed but good for discussing Chinese exploration",
               "contentType": "educational"
@@ -1983,7 +2082,9 @@
               "rating": "NR",
               "runtime": 60,
               "relevance": "Documentary covering Persian architectural heritage",
-              "links": {},
+              "links": {
+                "justwatch": "https://www.justwatch.com/us/search?q=Iran%3A%20A%20History%20of%20Its%20Architecture%202015"
+              },
               "ageAppropriate": true,
               "notes": "Covers Safavid Isfahan and Persian artistic achievements",
               "contentType": "educational"
@@ -1996,7 +2097,8 @@
               "runtime": 44,
               "relevance": "Includes section on Safavid Persia",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0884139/"
+                "imdb": "https://www.imdb.com/title/tt0884139/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Engineering%20an%20Empire%3A%20The%20Persians%202006"
               },
               "ageAppropriate": true,
               "notes": "Covers Persian engineering from ancient to Safavid era",
@@ -2032,7 +2134,8 @@
               "runtime": 44,
               "relevance": "History Channel documentary on Aztec engineering",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0884140/"
+                "imdb": "https://www.imdb.com/title/tt0959050/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Engineering%20an%20Empire%3A%20The%20Aztecs%202006"
               },
               "ageAppropriate": true,
               "notes": "Covers Tenochtitlan and Aztec achievements",
@@ -2046,7 +2149,8 @@
               "runtime": 44,
               "relevance": "History Channel documentary on Incan engineering",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt1210897/"
+                "imdb": "https://www.imdb.com/title/tt1210897/",
+                "justwatch": "https://www.justwatch.com/us/search?q=Engineering%20an%20Empire%3A%20The%20Inca%202007"
               },
               "ageAppropriate": true,
               "notes": "Covers Machu Picchu and Incan roads",
@@ -2060,7 +2164,8 @@
               "runtime": 89,
               "relevance": "Animated adventure in Mesoamerican-inspired setting",
               "links": {
-                "imdb": "https://www.imdb.com/title/tt0138749/"
+                "imdb": "https://www.imdb.com/title/tt0138749/",
+                "justwatch": "https://www.justwatch.com/us/search?q=The%20Road%20to%20El%20Dorado%202000"
               },
               "ageAppropriate": true,
               "notes": "Fictional but excellent visual introduction",

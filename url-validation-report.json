@@ -1,0 +1,91 @@
+{
+  "generated": "2025-12-02T03:55:59.082Z",
+  "summary": {
+    "total": 603,
+    "valid": 595,
+    "invalid": 8,
+    "skipped": 0
+  },
+  "brokenLinks": [
+    {
+      "type": "Netflix",
+      "url": "https://www.netflix.com/title/60000432",
+      "grade": "grade-5.json",
+      "category": "Western Hemisphere Civilizations",
+      "topic": "Mesoamerica (Maya, Aztec, and Inca)",
+      "title": "The Road to El Dorado",
+      "error": "HTTP 405",
+      "status": 405
+    },
+    {
+      "type": "Amazon",
+      "url": "https://www.amazon.com/gp/video/detail/B001EBV0JK",
+      "grade": "grade-5.json",
+      "category": "Western Hemisphere Civilizations",
+      "topic": "Mesoamerica (Maya, Aztec, and Inca)",
+      "title": "The Road to El Dorado",
+      "error": "HTTP 405",
+      "status": 405
+    },
+    {
+      "type": "Disney+",
+      "url": "https://www.disneyplus.com/movies/the-emperors-new-groove/3qZBVdraVfIw",
+      "grade": "grade-5.json",
+      "category": "Western Hemisphere Civilizations",
+      "topic": "Mesoamerica (Maya, Aztec, and Inca)",
+      "title": "The Emperor's New Groove",
+      "error": "Not Found (404)",
+      "status": 404
+    },
+    {
+      "type": "imdb",
+      "url": "https://www.imdb.com/title/tt0884140/",
+      "grade": "grade-5.json",
+      "category": "Western Hemisphere Civilizations",
+      "topic": "Mesoamerica (Maya, Aztec, and Inca)",
+      "title": "Engineering an Empire: The Aztecs",
+      "error": "Not Found (404)",
+      "status": 404
+    },
+    {
+      "type": "Disney+",
+      "url": "https://www.disneyplus.com/movies/pocahontas/1CPmvJoKl0es",
+      "grade": "grade-5.json",
+      "category": "Western Hemisphere Civilizations",
+      "topic": "Native American Cultural Regions",
+      "title": "Pocahontas",
+      "error": "Not Found (404)",
+      "status": 404
+    },
+    {
+      "type": "PBS",
+      "url": "https://www.pbs.org/video/harriet-tubman-they-called-her-moses-qipbxn/",
+      "grade": "grade-5.json",
+      "category": "Expansion and Conflict",
+      "topic": "Civil War and Reconstruction",
+      "title": "Harriet Tubman: They Called Her Moses",
+      "error": "Not Found (404)",
+      "status": 404
+    },
+    {
+      "type": "imdb",
+      "url": "https://www.imdb.com/title/tt0884140/",
+      "grade": "grade-7.json",
+      "category": "Mesoamerican Civilizations",
+      "topic": "The Aztecs",
+      "title": "Engineering an Empire: The Aztecs",
+      "error": "Not Found (404)",
+      "status": 404
+    },
+    {
+      "type": "imdb",
+      "url": "https://www.imdb.com/title/tt0884140/",
+      "grade": "grade-9.json",
+      "category": "Pre-Columbian Americas",
+      "topic": "Aztec and Inca Empires",
+      "title": "Engineering an Empire: The Aztecs",
+      "error": "Not Found (404)",
+      "status": 404
+    }
+  ]
+}
