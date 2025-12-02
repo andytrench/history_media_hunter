@@ -20,7 +20,7 @@ A beautiful, searchable database of movies, documentaries, and educational conte
 
 ## 🚀 Quick Start
 
-### Local Development
+### Local Development (without database)
 
 ```bash
 # Clone the repo
@@ -30,8 +30,24 @@ cd history_media_hunter
 # Install dependencies
 npm install
 
-# Start the server
+# Start the server (uses JSON files as fallback)
 npm start
+
+# Open http://localhost:8080
+```
+
+### Local Development (with PostgreSQL)
+
+```bash
+# Set up database connection
+export DATABASE_URL="postgresql://user:password@localhost:5432/curriculum"
+
+# Install and start
+npm install
+npm start
+
+# Seed the database with curriculum data
+npm run seed
 
 # Open http://localhost:8080
 ```
@@ -55,17 +71,19 @@ npm start
 ```
 ├── index.html          # Main app UI
 ├── styles.css          # Chalkboard theme styles
-├── app.js              # Frontend JavaScript
-├── server.js           # Express server (Railway)
-├── grades/             # Curriculum data by grade
+├── app.js              # Frontend JavaScript (fetches from API)
+├── server.js           # Express server with API routes
+├── database/
+│   ├── schema.sql      # PostgreSQL table definitions
+│   └── seed.js         # Import JSON data to database
+├── grades/             # Source curriculum data (JSON)
 │   ├── grade-5.json
 │   ├── grade-7.json
 │   ├── grade-9.json
 │   ├── grade-10.json
 │   ├── grade-11.json
 │   └── grade-11-part2.json
-├── media/              # Media title index
-└── schema.json         # Data structure schema
+└── railway.json        # Railway deployment config
 ```
 
 ## 🎓 Curriculum Coverage

@@ -1,12 +1,13 @@
 /**
  * Curriculum Media Hunter - Server
- * Express server for Railway deployment with PostgreSQL support
+ * Express server with PostgreSQL for all curriculum data
  */
 
 require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const path = require('path');
+const fs = require('fs');
 const { Pool } = require('pg');
 
 const app = express();
@@ -16,43 +17,242 @@ const PORT = process.env.PORT || 8080;
 app.use(cors());
 app.use(express.json());
 
-// PostgreSQL connection (optional - only if DATABASE_URL is set)
+// PostgreSQL connection
 let pool = null;
+let dbReady = false;
+
 if (process.env.DATABASE_URL) {
     pool = new Pool({
         connectionString: process.env.DATABASE_URL,
         ssl: process.env.NODE_ENV === 'production' ? { rejectUnauthorized: false } : false
     });
-    console.log('PostgreSQL connection configured');
+    console.log('PostgreSQL configured');
 }
 
-// Serve static files
-app.use(express.static(path.join(__dirname)));
+// Serve static files (CSS, JS, images)
+app.use(express.static(path.join(__dirname), {
+    index: false // Don't auto-serve index.html, we'll handle it
+}));
 
-// API Routes for student progress tracking
-// =========================================
+// ===========================================
+// API ROUTES - Curriculum Data
+// ===========================================
 
-// Health check endpoint
-app.get('/api/health', (req, res) => {
+// Health check
+app.get('/api/health', async (req, res) => {
+    let dbStatus = 'not configured';
+    if (pool) {
+        try {
+            await pool.query('SELECT 1');
+            dbStatus = 'connected';
+        } catch (e) {
+            dbStatus = 'error: ' + e.message;
+        }
+    }
     res.json({ 
         status: 'healthy', 
         timestamp: new Date().toISOString(),
-        database: pool ? 'connected' : 'not configured'
+        database: dbStatus
     });
 });
 
+// Get all grades
+app.get('/api/grades', async (req, res) => {
+    if (!pool) return res.status(503).json({ error: 'Database not configured' });
+    
+    try {
+        const result = await pool.query(`
+            SELECT g.*, 
+                   COUNT(DISTINCT c.id) as category_count,
+                   COUNT(DISTINCT m.id) as media_count
+            FROM grades g
+            LEFT JOIN categories c ON c.grade_id = g.id
+            LEFT JOIN topics t ON t.category_id = c.id
+            LEFT JOIN media m ON m.topic_id = t.id
+            GROUP BY g.id
+            ORDER BY g.grade_number::int
+        `);
+        res.json(result.rows);
+    } catch (error) {
+        console.error('Error fetching grades:', error);
+        res.status(500).json({ error: 'Failed to fetch grades' });
+    }
+});
+
+// Get single grade with all data
+app.get('/api/grades/:gradeNum', async (req, res) => {
+    if (!pool) return res.status(503).json({ error: 'Database not configured' });
+    
+    try {
+        const { gradeNum } = req.params;
+        
+        // Get grade info
+        const gradeResult = await pool.query(
+            'SELECT * FROM grades WHERE grade_number = $1',
+            [gradeNum]
+        );
+        
+        if (gradeResult.rows.length === 0) {
+            return res.status(404).json({ error: 'Grade not found' });
+        }
+        
+        const grade = gradeResult.rows[0];
+        
+        // Get categories with topics and media
+        const categoriesResult = await pool.query(`
+            SELECT c.id, c.slug, c.name, c.description, c.sort_order,
+                   json_agg(
+                       json_build_object(
+                           'id', t.slug,
+                           'name', t.name,
+                           'description', t.description,
+                           'order', t.sort_order,
+                           'subtopics', (
+                               SELECT array_agg(s.name ORDER BY s.sort_order)
+                               FROM subtopics s WHERE s.topic_id = t.id
+                           ),
+                           'media', (
+                               SELECT json_agg(
+                                   json_build_object(
+                                       'id', m.id,
+                                       'title', m.title,
+                                       'type', m.type,
+                                       'year', m.year,
+                                       'rating', m.rating,
+                                       'runtime', m.runtime,
+                                       'relevance', m.relevance,
+                                       'notes', m.notes,
+                                       'ageAppropriate', m.age_appropriate,
+                                       'links', m.links,
+                                       'lessonPlan', m.lesson_plan
+                                   ) ORDER BY m.title
+                               )
+                               FROM media m WHERE m.topic_id = t.id
+                           )
+                       ) ORDER BY t.sort_order
+                   ) FILTER (WHERE t.id IS NOT NULL) as topics
+            FROM categories c
+            LEFT JOIN topics t ON t.category_id = c.id
+            WHERE c.grade_id = $1
+            GROUP BY c.id
+            ORDER BY c.sort_order
+        `, [grade.id]);
+        
+        res.json({
+            grade: gradeNum,
+            name: grade.name,
+            curriculumFocus: grade.curriculum_focus,
+            lastUpdated: grade.last_updated,
+            categories: categoriesResult.rows.map(cat => ({
+                id: cat.slug,
+                name: cat.name,
+                description: cat.description,
+                order: cat.sort_order,
+                topics: cat.topics || []
+            }))
+        });
+    } catch (error) {
+        console.error('Error fetching grade:', error);
+        res.status(500).json({ error: 'Failed to fetch grade data' });
+    }
+});
+
+// Search media
+app.get('/api/search', async (req, res) => {
+    if (!pool) return res.status(503).json({ error: 'Database not configured' });
+    
+    try {
+        const { q, grade, type, ageAppropriate } = req.query;
+        
+        let query = `
+            SELECT m.*, t.name as topic_name, t.slug as topic_slug,
+                   c.name as category_name, c.slug as category_slug,
+                   g.grade_number
+            FROM media m
+            JOIN topics t ON t.id = m.topic_id
+            JOIN categories c ON c.id = t.category_id
+            JOIN grades g ON g.id = c.grade_id
+            WHERE 1=1
+        `;
+        const params = [];
+        
+        if (q) {
+            params.push(`%${q}%`);
+            query += ` AND (m.title ILIKE $${params.length} OR m.relevance ILIKE $${params.length} OR m.notes ILIKE $${params.length})`;
+        }
+        
+        if (grade) {
+            params.push(grade);
+            query += ` AND g.grade_number = $${params.length}`;
+        }
+        
+        if (type && type !== 'all') {
+            params.push(type);
+            query += ` AND m.type = $${params.length}`;
+        }
+        
+        if (ageAppropriate !== undefined && ageAppropriate !== 'all') {
+            params.push(ageAppropriate === 'true');
+            query += ` AND m.age_appropriate = $${params.length}`;
+        }
+        
+        query += ' ORDER BY m.title LIMIT 100';
+        
+        const result = await pool.query(query, params);
+        res.json(result.rows);
+    } catch (error) {
+        console.error('Error searching:', error);
+        res.status(500).json({ error: 'Search failed' });
+    }
+});
+
+// Get single media item
+app.get('/api/media/:id', async (req, res) => {
+    if (!pool) return res.status(503).json({ error: 'Database not configured' });
+    
+    try {
+        const result = await pool.query(`
+            SELECT m.*, t.name as topic_name, t.description as topic_description,
+                   c.name as category_name, g.grade_number, g.name as grade_name,
+                   (SELECT array_agg(s.name ORDER BY s.sort_order) FROM subtopics s WHERE s.topic_id = t.id) as subtopics
+            FROM media m
+            JOIN topics t ON t.id = m.topic_id
+            JOIN categories c ON c.id = t.category_id
+            JOIN grades g ON g.id = c.grade_id
+            WHERE m.id = $1
+        `, [req.params.id]);
+        
+        if (result.rows.length === 0) {
+            return res.status(404).json({ error: 'Media not found' });
+        }
+        
+        res.json(result.rows[0]);
+    } catch (error) {
+        console.error('Error fetching media:', error);
+        res.status(500).json({ error: 'Failed to fetch media' });
+    }
+});
+
+// ===========================================
+// API ROUTES - Student Progress
+// ===========================================
+
 // Get student progress
 app.get('/api/progress/:studentId', async (req, res) => {
-    if (!pool) {
-        return res.status(503).json({ error: 'Database not configured' });
-    }
+    if (!pool) return res.status(503).json({ error: 'Database not configured' });
     
     try {
         const { studentId } = req.params;
-        const result = await pool.query(
-            'SELECT * FROM student_progress WHERE student_id = $1',
-            [studentId]
-        );
+        const result = await pool.query(`
+            SELECT sp.*, m.title, m.type, g.grade_number
+            FROM student_progress sp
+            JOIN media m ON m.id = sp.media_id
+            JOIN topics t ON t.id = m.topic_id
+            JOIN categories c ON c.id = t.category_id
+            JOIN grades g ON g.id = c.grade_id
+            WHERE sp.student_id = $1
+            ORDER BY sp.updated_at DESC
+        `, [studentId]);
         res.json(result.rows);
     } catch (error) {
         console.error('Error fetching progress:', error);
@@ -62,20 +262,23 @@ app.get('/api/progress/:studentId', async (req, res) => {
 
 // Save watched status
 app.post('/api/progress', async (req, res) => {
-    if (!pool) {
-        return res.status(503).json({ error: 'Database not configured' });
-    }
+    if (!pool) return res.status(503).json({ error: 'Database not configured' });
     
     try {
-        const { studentId, mediaKey, watched, grade } = req.body;
+        const { studentId, mediaId, watched, notes, rating } = req.body;
         
         const result = await pool.query(`
-            INSERT INTO student_progress (student_id, media_key, watched, grade, updated_at)
-            VALUES ($1, $2, $3, $4, NOW())
-            ON CONFLICT (student_id, media_key) 
-            DO UPDATE SET watched = $3, updated_at = NOW()
+            INSERT INTO student_progress (student_id, media_id, watched, notes, rating, watch_date, updated_at)
+            VALUES ($1, $2, $3, $4, $5, $6, NOW())
+            ON CONFLICT (student_id, media_id) 
+            DO UPDATE SET 
+                watched = $3, 
+                notes = COALESCE($4, student_progress.notes),
+                rating = COALESCE($5, student_progress.rating),
+                watch_date = CASE WHEN $3 = true THEN NOW() ELSE student_progress.watch_date END,
+                updated_at = NOW()
             RETURNING *
-        `, [studentId, mediaKey, watched, grade]);
+        `, [studentId, mediaId, watched, notes || null, rating || null, watched ? new Date() : null]);
         
         res.json(result.rows[0]);
     } catch (error) {
@@ -84,19 +287,25 @@ app.post('/api/progress', async (req, res) => {
     }
 });
 
-// Get all students (for parent/teacher dashboard)
+// Get all students with stats
 app.get('/api/students', async (req, res) => {
-    if (!pool) {
-        return res.status(503).json({ error: 'Database not configured' });
-    }
+    if (!pool) return res.status(503).json({ error: 'Database not configured' });
     
     try {
         const result = await pool.query(`
-            SELECT DISTINCT student_id, 
-                   COUNT(*) FILTER (WHERE watched = true) as watched_count,
-                   MAX(updated_at) as last_activity
-            FROM student_progress 
-            GROUP BY student_id
+            SELECT 
+                sp.student_id,
+                COALESCE(s.name, sp.student_id) as name,
+                COUNT(*) FILTER (WHERE sp.watched = true) as watched_count,
+                COUNT(DISTINCT g.id) as grades_touched,
+                MAX(sp.updated_at) as last_activity
+            FROM student_progress sp
+            LEFT JOIN students s ON s.student_id = sp.student_id
+            JOIN media m ON m.id = sp.media_id
+            JOIN topics t ON t.id = m.topic_id
+            JOIN categories c ON c.id = t.category_id
+            JOIN grades g ON g.id = c.grade_id
+            GROUP BY sp.student_id, s.name
             ORDER BY last_activity DESC
         `);
         res.json(result.rows);
@@ -106,22 +315,54 @@ app.get('/api/students', async (req, res) => {
     }
 });
 
+// Register/update student
+app.post('/api/students', async (req, res) => {
+    if (!pool) return res.status(503).json({ error: 'Database not configured' });
+    
+    try {
+        const { studentId, name, email, gradeLevel, parentEmail } = req.body;
+        
+        const result = await pool.query(`
+            INSERT INTO students (student_id, name, email, grade_level, parent_email)
+            VALUES ($1, $2, $3, $4, $5)
+            ON CONFLICT (student_id) 
+            DO UPDATE SET 
+                name = COALESCE($2, students.name),
+                email = COALESCE($3, students.email),
+                grade_level = COALESCE($4, students.grade_level),
+                parent_email = COALESCE($5, students.parent_email)
+            RETURNING *
+        `, [studentId, name, email || null, gradeLevel || null, parentEmail || null]);
+        
+        res.json(result.rows[0]);
+    } catch (error) {
+        console.error('Error saving student:', error);
+        res.status(500).json({ error: 'Failed to save student' });
+    }
+});
+
 // Get student stats by grade
 app.get('/api/stats/:studentId', async (req, res) => {
-    if (!pool) {
-        return res.status(503).json({ error: 'Database not configured' });
-    }
+    if (!pool) return res.status(503).json({ error: 'Database not configured' });
     
     try {
         const { studentId } = req.params;
         const result = await pool.query(`
-            SELECT grade, 
-                   COUNT(*) FILTER (WHERE watched = true) as watched_count,
-                   COUNT(*) as total_interactions
-            FROM student_progress 
-            WHERE student_id = $1
-            GROUP BY grade
-            ORDER BY grade
+            SELECT 
+                g.grade_number,
+                g.name as grade_name,
+                COUNT(*) FILTER (WHERE sp.watched = true) as watched_count,
+                (SELECT COUNT(*) FROM media m2 
+                 JOIN topics t2 ON t2.id = m2.topic_id 
+                 JOIN categories c2 ON c2.id = t2.category_id 
+                 WHERE c2.grade_id = g.id) as total_media
+            FROM grades g
+            LEFT JOIN categories c ON c.grade_id = g.id
+            LEFT JOIN topics t ON t.category_id = c.id
+            LEFT JOIN media m ON m.topic_id = t.id
+            LEFT JOIN student_progress sp ON sp.media_id = m.id AND sp.student_id = $1
+            GROUP BY g.id, g.grade_number, g.name
+            ORDER BY g.grade_number::int
         `, [studentId]);
         res.json(result.rows);
     } catch (error) {
@@ -130,47 +371,63 @@ app.get('/api/stats/:studentId', async (req, res) => {
     }
 });
 
-// Catch-all route - serve index.html for SPA
-app.get('*', (req, res) => {
+// ===========================================
+// Serve Frontend
+// ===========================================
+
+app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'index.html'));
 });
 
-// Initialize database tables if connected
+app.get('*', (req, res) => {
+    // If it's an API route that doesn't exist
+    if (req.path.startsWith('/api/')) {
+        return res.status(404).json({ error: 'API endpoint not found' });
+    }
+    // Otherwise serve the frontend
+    res.sendFile(path.join(__dirname, 'index.html'));
+});
+
+// ===========================================
+// Database Initialization
+// ===========================================
+
 async function initDatabase() {
     if (!pool) {
-        console.log('No database configured - running in static mode');
+        console.log('⚠️  No database configured - running without persistence');
+        console.log('   Set DATABASE_URL to enable database features');
         return;
     }
     
     try {
-        await pool.query(`
-            CREATE TABLE IF NOT EXISTS student_progress (
-                id SERIAL PRIMARY KEY,
-                student_id VARCHAR(100) NOT NULL,
-                media_key VARCHAR(255) NOT NULL,
-                watched BOOLEAN DEFAULT false,
-                grade VARCHAR(10),
-                created_at TIMESTAMP DEFAULT NOW(),
-                updated_at TIMESTAMP DEFAULT NOW(),
-                UNIQUE(student_id, media_key)
-            );
-            
-            CREATE INDEX IF NOT EXISTS idx_student_progress_student 
-            ON student_progress(student_id);
-            
-            CREATE INDEX IF NOT EXISTS idx_student_progress_media 
-            ON student_progress(media_key);
-        `);
-        console.log('Database tables initialized');
+        // Create tables if they don't exist
+        const schemaPath = path.join(__dirname, 'database', 'schema.sql');
+        if (fs.existsSync(schemaPath)) {
+            const schema = fs.readFileSync(schemaPath, 'utf8');
+            await pool.query(schema);
+            console.log('✅ Database schema ready');
+        }
+        
+        // Check if we have data
+        const mediaCount = await pool.query('SELECT COUNT(*) FROM media');
+        if (parseInt(mediaCount.rows[0].count) === 0) {
+            console.log('⚠️  Database is empty. Run: node database/seed.js');
+        } else {
+            console.log(`✅ Database has ${mediaCount.rows[0].count} media items`);
+        }
+        
+        dbReady = true;
     } catch (error) {
-        console.error('Error initializing database:', error);
+        console.error('❌ Database init error:', error.message);
     }
 }
 
 // Start server
 app.listen(PORT, async () => {
-    console.log(`🎬 Curriculum Media Hunter running on port ${PORT}`);
+    console.log(`\n🎬 Curriculum Media Hunter`);
+    console.log(`   Port: ${PORT}`);
     console.log(`   Environment: ${process.env.NODE_ENV || 'development'}`);
+    console.log('');
     await initDatabase();
+    console.log(`\n🌐 Ready at http://localhost:${PORT}\n`);
 });
-

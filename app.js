@@ -1,6 +1,6 @@
 /**
  * Curriculum Media Hunter
- * Educational media browser for NY State Social Studies
+ * Educational media browser - fetches all data from API
  */
 
 // State Management
@@ -13,68 +13,27 @@ const state = {
         type: 'all',
         ageAppropriate: 'all'
     },
-    data: {},
-    allMedia: [],
-    watched: {} // Track watched titles
+    data: {},         // Grade data from API
+    studentId: null,  // Current student ID
+    watched: {}       // Watched status from DB or localStorage fallback
 };
 
-// Load watched state from localStorage
-function loadWatchedState() {
-    try {
-        const saved = localStorage.getItem('curriculum-watched');
-        if (saved) {
-            state.watched = JSON.parse(saved);
-        }
-    } catch (e) {
-        console.error('Error loading watched state:', e);
-    }
-}
-
-// Save watched state to localStorage
-function saveWatchedState() {
-    try {
-        localStorage.setItem('curriculum-watched', JSON.stringify(state.watched));
-    } catch (e) {
-        console.error('Error saving watched state:', e);
-    }
-}
-
-// Generate unique key for media item
-function getMediaKey(media) {
-    return `${media.title}-${media.year || 'unknown'}`.toLowerCase().replace(/[^a-z0-9]/g, '-');
-}
-
-// Check if media is watched
-function isWatched(media) {
-    const key = getMediaKey(media);
-    return state.watched[key] === true;
-}
-
-// Toggle watched state
-function toggleWatched(media, event) {
-    if (event) {
-        event.stopPropagation();
-    }
-    const key = getMediaKey(media);
-    state.watched[key] = !state.watched[key];
-    saveWatchedState();
-    renderMedia();
-    updateWatchedStats();
-}
+// API Base URL (empty for same origin)
+const API_BASE = '';
 
 // Streaming service configurations
 const streamingServices = {
-    'Disney+': { icon: 'D+', color: '#113ccf', baseUrl: 'https://www.disneyplus.com/search/' },
-    'Netflix': { icon: 'N', color: '#e50914', baseUrl: 'https://www.netflix.com/search?q=' },
-    'PBS': { icon: 'PBS', color: '#2638c4', baseUrl: 'https://www.pbs.org/search/?q=' },
-    'YouTube': { icon: '▶', color: '#ff0000', baseUrl: '' },
-    'Amazon': { icon: 'A', color: '#ff9900', baseUrl: 'https://www.amazon.com/s?k=' },
-    'Hulu': { icon: 'h', color: '#1ce783', baseUrl: 'https://www.hulu.com/search?q=' },
-    'HBO Max': { icon: 'HBO', color: '#5822b4', baseUrl: 'https://play.hbomax.com/search/' },
-    'BrainPOP': { icon: 'BP', color: '#ff6b35', baseUrl: 'https://www.brainpop.com/search/?keyword=' },
-    'JustWatch': { icon: 'JW', color: '#ffce00', baseUrl: 'https://www.justwatch.com/us/search?q=' },
-    'Amazon Prime Video': { icon: 'P', color: '#00A8E1', baseUrl: 'https://www.amazon.com/gp/video/search/' },
-    'YouTube (Trailer)': { icon: '▶', color: '#ff0000', baseUrl: '' }
+    'Disney+': { icon: 'D+', color: '#113ccf' },
+    'Netflix': { icon: 'N', color: '#e50914' },
+    'PBS': { icon: 'PBS', color: '#2638c4' },
+    'YouTube': { icon: '▶', color: '#ff0000' },
+    'Amazon': { icon: 'A', color: '#ff9900' },
+    'Amazon Prime Video': { icon: 'P', color: '#00A8E1' },
+    'Hulu': { icon: 'h', color: '#1ce783' },
+    'HBO Max': { icon: 'HBO', color: '#5822b4' },
+    'BrainPOP': { icon: 'BP', color: '#ff6b35' },
+    'JustWatch': { icon: 'JW', color: '#ffce00' },
+    'YouTube (Trailer)': { icon: '▶', color: '#ff0000' }
 };
 
 // DOM Elements
@@ -96,15 +55,158 @@ const elements = {
     lessonBody: document.getElementById('lessonBody')
 };
 
-// Initialize Application
+// ===========================================
+// Initialization
+// ===========================================
+
 async function init() {
-    loadWatchedState();
+    // Check for student ID in URL or localStorage
+    const urlParams = new URLSearchParams(window.location.search);
+    state.studentId = urlParams.get('student') || localStorage.getItem('studentId') || generateStudentId();
+    localStorage.setItem('studentId', state.studentId);
+    
+    // Load watched state
+    await loadWatchedState();
+    
     setupEventListeners();
     await loadGradeData(state.currentGrade);
     renderUI();
 }
 
+function generateStudentId() {
+    return 'student_' + Math.random().toString(36).substr(2, 9);
+}
+
+// ===========================================
+// Data Loading from API
+// ===========================================
+
+async function loadGradeData(grade) {
+    if (state.data[grade]) return state.data[grade];
+
+    try {
+        const response = await fetch(`${API_BASE}/api/grades/${grade}`);
+        if (!response.ok) throw new Error('Failed to fetch grade data');
+        
+        const data = await response.json();
+        state.data[grade] = data;
+        return data;
+    } catch (error) {
+        console.error(`Error loading grade ${grade}:`, error);
+        // Fallback: try loading from JSON files (for local dev without DB)
+        return await loadGradeFromJSON(grade);
+    }
+}
+
+// Fallback for local development without database
+async function loadGradeFromJSON(grade) {
+    try {
+        const response = await fetch(`grades/grade-${grade}.json`);
+        const data = await response.json();
+        
+        // For grade 11, also load part 2
+        if (grade === '11') {
+            try {
+                const response2 = await fetch('grades/grade-11-part2.json');
+                const data2 = await response2.json();
+                data.categories = [...data.categories, ...data2.categories];
+            } catch (e) {
+                console.log('Grade 11 part 2 not found');
+            }
+        }
+        
+        state.data[grade] = data;
+        return data;
+    } catch (error) {
+        console.error('Fallback JSON load failed:', error);
+        state.data[grade] = { categories: [] };
+        return state.data[grade];
+    }
+}
+
+// ===========================================
+// Progress/Watched State
+// ===========================================
+
+async function loadWatchedState() {
+    try {
+        const response = await fetch(`${API_BASE}/api/progress/${state.studentId}`);
+        if (response.ok) {
+            const progress = await response.json();
+            // Convert array to object keyed by media_id
+            state.watched = {};
+            progress.forEach(p => {
+                if (p.watched) {
+                    state.watched[p.media_id] = true;
+                }
+            });
+            return;
+        }
+    } catch (error) {
+        console.log('API not available, using localStorage');
+    }
+    
+    // Fallback to localStorage
+    try {
+        const saved = localStorage.getItem('curriculum-watched');
+        if (saved) {
+            state.watched = JSON.parse(saved);
+        }
+    } catch (e) {
+        console.error('Error loading watched state:', e);
+    }
+}
+
+async function saveWatchedState(mediaId, watched) {
+    // Try to save to API
+    try {
+        const response = await fetch(`${API_BASE}/api/progress`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                studentId: state.studentId,
+                mediaId: mediaId,
+                watched: watched
+            })
+        });
+        if (response.ok) {
+            return;
+        }
+    } catch (error) {
+        console.log('API save failed, using localStorage');
+    }
+    
+    // Fallback to localStorage
+    localStorage.setItem('curriculum-watched', JSON.stringify(state.watched));
+}
+
+function isWatched(media) {
+    // Check by database ID first, then by generated key
+    if (media.id && state.watched[media.id]) return true;
+    const key = getMediaKey(media);
+    return state.watched[key] === true;
+}
+
+function getMediaKey(media) {
+    return `${media.title}-${media.year || 'unknown'}`.toLowerCase().replace(/[^a-z0-9]/g, '-');
+}
+
+async function toggleWatched(media, event) {
+    if (event) event.stopPropagation();
+    
+    const key = media.id || getMediaKey(media);
+    const newState = !state.watched[key];
+    state.watched[key] = newState;
+    
+    await saveWatchedState(media.id || key, newState);
+    renderMedia();
+    updateWatchedStats();
+}
+
+// ===========================================
 // Event Listeners
+// ===========================================
+
 function setupEventListeners() {
     // Grade tabs
     document.querySelectorAll('.grade-tab').forEach(tab => {
@@ -114,7 +216,7 @@ function setupEventListeners() {
     // Search
     elements.search.addEventListener('input', debounce(handleSearch, 300));
     
-    // Keyboard shortcut for search
+    // Keyboard shortcuts
     document.addEventListener('keydown', (e) => {
         if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
             e.preventDefault();
@@ -141,60 +243,10 @@ function setupEventListeners() {
     });
 }
 
-// Data Loading
-async function loadGradeData(grade) {
-    if (state.data[grade]) return;
-
-    try {
-        const response = await fetch(`grades/grade-${grade}.json`);
-        const data = await response.json();
-        state.data[grade] = data;
-
-        // For grade 11, also load part 2
-        if (grade === '11') {
-            try {
-                const response2 = await fetch('grades/grade-11-part2.json');
-                const data2 = await response2.json();
-                // Merge categories
-                state.data[grade].categories = [
-                    ...state.data[grade].categories,
-                    ...data2.categories
-                ];
-            } catch (e) {
-                console.log('Grade 11 part 2 not found or error loading');
-            }
-        }
-
-        // Index all media for search
-        indexMedia(grade);
-    } catch (error) {
-        console.error(`Error loading grade ${grade}:`, error);
-        state.data[grade] = { categories: [] };
-    }
-}
-
-function indexMedia(grade) {
-    const data = state.data[grade];
-    if (!data || !data.categories) return;
-
-    data.categories.forEach(category => {
-        category.topics?.forEach(topic => {
-            topic.media?.forEach(media => {
-                state.allMedia.push({
-                    ...media,
-                    grade,
-                    categoryId: category.id,
-                    categoryName: category.name,
-                    topicId: topic.id,
-                    topicName: topic.name,
-                    topicDescription: topic.description
-                });
-            });
-        });
-    });
-}
-
+// ===========================================
 // Grade Selection
+// ===========================================
+
 async function selectGrade(grade) {
     state.currentGrade = grade;
     state.currentCategory = null;
@@ -209,7 +261,10 @@ async function selectGrade(grade) {
     renderUI();
 }
 
+// ===========================================
 // Render Functions
+// ===========================================
+
 function renderUI() {
     renderCategories();
     renderTopics();
@@ -221,7 +276,7 @@ function renderUI() {
 function renderCategories() {
     const data = state.data[state.currentGrade];
     if (!data || !data.categories) {
-        elements.categoryList.innerHTML = '<div class="empty-state">No categories found</div>';
+        elements.categoryList.innerHTML = '<div class="empty-state">Loading...</div>';
         return;
     }
 
@@ -239,7 +294,6 @@ function renderCategories() {
         `;
     }).join('');
 
-    // Add click handlers
     elements.categoryList.querySelectorAll('.category-item').forEach(item => {
         item.addEventListener('click', () => selectCategory(item.dataset.category));
     });
@@ -265,7 +319,6 @@ function renderTopics() {
             topics = category.topics || [];
         }
     } else {
-        // Show all topics from all categories
         data.categories.forEach(cat => {
             cat.topics?.forEach(topic => {
                 topics.push({ ...topic, categoryName: cat.name });
@@ -309,7 +362,6 @@ function renderTopics() {
         </div>
     `).join('');
 
-    // Add click handlers
     elements.topicGrid.querySelectorAll('.topic-card').forEach(card => {
         card.addEventListener('click', () => selectTopic(card.dataset.topic));
     });
@@ -330,7 +382,6 @@ function selectTopic(topicId) {
     renderMedia();
     updateBreadcrumb();
     
-    // Scroll to media section
     elements.mediaSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
@@ -350,13 +401,10 @@ function renderMedia() {
 
     // Find the topic
     let topic = null;
-    let categoryName = '';
-    
     for (const category of data.categories) {
         const found = category.topics?.find(t => t.id === state.currentTopic);
         if (found) {
             topic = found;
-            categoryName = category.name;
             break;
         }
     }
@@ -389,7 +437,6 @@ function renderMedia() {
         );
     }
 
-    // Count watched
     const watchedCount = media.filter(m => isWatched(m)).length;
     elements.mediaCount.textContent = `${media.length} titles${watchedCount > 0 ? ` (${watchedCount} watched)` : ''}`;
 
@@ -398,7 +445,6 @@ function renderMedia() {
             <div class="empty-state">
                 <div class="empty-state-icon">🔍</div>
                 <h3>No media matches your filters</h3>
-                <p>Try changing your filter settings</p>
             </div>
         `;
         return;
@@ -406,16 +452,14 @@ function renderMedia() {
 
     elements.mediaGrid.innerHTML = media.map((m, index) => renderMediaCard(m, topic, index)).join('');
 
-    // Add click handlers for cards (excluding checkbox)
+    // Add click handlers
     elements.mediaGrid.querySelectorAll('.media-card').forEach((card, index) => {
         card.addEventListener('click', (e) => {
-            // Don't trigger if clicking on checkbox or link
             if (e.target.closest('.watched-checkbox') || e.target.closest('a')) return;
             showMovieDetail(media[index], topic);
         });
     });
 
-    // Add click handlers for checkboxes
     elements.mediaGrid.querySelectorAll('.watched-checkbox input').forEach((checkbox, index) => {
         checkbox.addEventListener('change', (e) => {
             toggleWatched(media[index], e);
@@ -427,10 +471,9 @@ function renderMediaCard(media, topic, index) {
     const ratingClass = getRatingClass(media.rating);
     const streamingLinks = getStreamingLinks(media);
     const watched = isWatched(media);
-    const mediaKey = getMediaKey(media);
     
     return `
-        <div class="media-card ${watched ? 'watched' : ''}" data-key="${mediaKey}">
+        <div class="media-card ${watched ? 'watched' : ''}" data-id="${media.id || index}">
             <div class="media-card-header">
                 <div class="media-header-row">
                     <span class="media-type-badge ${media.type}">${getTypeIcon(media.type)} ${media.type}</span>
@@ -451,9 +494,7 @@ function renderMediaCard(media, topic, index) {
                 <p class="media-relevance">${media.relevance || ''}</p>
             </div>
             <div class="media-card-footer">
-                <div class="streaming-links">
-                    ${streamingLinks}
-                </div>
+                <div class="streaming-links">${streamingLinks}</div>
                 <span class="age-badge ${media.ageAppropriate ? 'safe' : 'caution'}">
                     ${media.ageAppropriate ? '✓ Classroom' : '⚠ Review'}
                 </span>
@@ -463,13 +504,7 @@ function renderMediaCard(media, topic, index) {
 }
 
 function getTypeIcon(type) {
-    const icons = {
-        movie: '🎬',
-        documentary: '📹',
-        series: '📺',
-        short: '⏱',
-        educational: '🎓'
-    };
+    const icons = { movie: '🎬', documentary: '📹', series: '📺', short: '⏱', educational: '🎓' };
     return icons[type] || '🎬';
 }
 
@@ -484,23 +519,19 @@ function getRatingClass(rating) {
 function getStreamingLinks(media) {
     const links = [];
     
-    // IMDB link
     if (media.links?.imdb) {
         links.push(`<a href="${media.links.imdb}" target="_blank" class="streaming-link imdb" title="IMDb" onclick="event.stopPropagation()">IMDb</a>`);
     }
     
-    // YouTube link
     if (media.links?.youtube) {
         links.push(`<a href="${media.links.youtube}" target="_blank" class="streaming-link youtube" title="YouTube" onclick="event.stopPropagation()">▶</a>`);
     }
     
-    // Streaming services array
     if (media.links?.streaming && Array.isArray(media.links.streaming)) {
         media.links.streaming.forEach(s => {
             const service = streamingServices[s.service];
-            if (service) {
-                const url = s.url || service.baseUrl + encodeURIComponent(media.title);
-                links.push(`<a href="${url}" target="_blank" class="streaming-link" style="color: ${service.color}" title="${s.service}" onclick="event.stopPropagation()">${service.icon}</a>`);
+            if (service && s.url) {
+                links.push(`<a href="${s.url}" target="_blank" class="streaming-link" style="color: ${service.color}" title="${s.service}" onclick="event.stopPropagation()">${service.icon}</a>`);
             }
         });
     }
@@ -508,16 +539,10 @@ function getStreamingLinks(media) {
     return links.join('');
 }
 
-// Update watched stats display
-function updateWatchedStats() {
-    const watchedCount = Object.values(state.watched).filter(v => v).length;
-    const statsEl = document.getElementById('watchedStats');
-    if (statsEl) {
-        statsEl.innerHTML = `<span class="count">${watchedCount}</span> watched`;
-    }
-}
-
+// ===========================================
 // Movie Detail Modal
+// ===========================================
+
 function showMovieDetail(media, topic) {
     const streamingButtons = getStreamingButtons(media);
     const watched = isWatched(media);
@@ -537,7 +562,7 @@ function showMovieDetail(media, topic) {
                     </span>
                 </div>
                 <label class="watched-checkbox" style="margin-top: 12px; font-size: 0.9rem;">
-                    <input type="checkbox" ${watched ? 'checked' : ''} onchange="toggleWatchedFromModal('${getMediaKey(media).replace(/'/g, "\\'")}', this.checked)" />
+                    <input type="checkbox" ${watched ? 'checked' : ''} onchange="toggleWatchedFromModal(${media.id || 0}, '${getMediaKey(media)}', this.checked)" />
                     Mark as Watched
                 </label>
             </div>
@@ -557,9 +582,7 @@ function showMovieDetail(media, topic) {
         
         <div class="movie-detail-section">
             <h3>🔗 Watch / Stream</h3>
-            <div class="streaming-buttons">
-                ${streamingButtons}
-            </div>
+            <div class="streaming-buttons">${streamingButtons}</div>
         </div>
         
         <div class="movie-detail-section">
@@ -572,10 +595,10 @@ function showMovieDetail(media, topic) {
     elements.movieModal.classList.add('active');
 }
 
-// Toggle watched from modal
-function toggleWatchedFromModal(key, checked) {
-    state.watched[key] = checked;
-    saveWatchedState();
+async function toggleWatchedFromModal(mediaId, key, checked) {
+    const id = mediaId || key;
+    state.watched[id] = checked;
+    await saveWatchedState(mediaId || key, checked);
     renderMedia();
     updateWatchedStats();
 }
@@ -584,109 +607,68 @@ function getStreamingButtons(media) {
     const buttons = [];
     
     if (media.links?.imdb) {
-        buttons.push(`<a href="${media.links.imdb}" target="_blank" class="streaming-btn">🎬 IMDb Page</a>`);
+        buttons.push(`<a href="${media.links.imdb}" target="_blank" class="streaming-btn">🎬 IMDb</a>`);
     }
-    
     if (media.links?.youtube) {
         buttons.push(`<a href="${media.links.youtube}" target="_blank" class="streaming-btn">▶️ YouTube</a>`);
     }
-    
-    if (media.links?.justwatch) {
-        buttons.push(`<a href="${media.links.justwatch}" target="_blank" class="streaming-btn">📺 JustWatch</a>`);
-    }
-    
     if (media.links?.streaming && Array.isArray(media.links.streaming)) {
         media.links.streaming.forEach(s => {
-            const service = streamingServices[s.service];
-            if (service) {
-                const url = s.url || service.baseUrl + encodeURIComponent(media.title);
-                buttons.push(`<a href="${url}" target="_blank" class="streaming-btn">${service.icon} ${s.service}</a>`);
+            if (s.url) {
+                const service = streamingServices[s.service];
+                buttons.push(`<a href="${s.url}" target="_blank" class="streaming-btn">${service?.icon || '📺'} ${s.service}</a>`);
             }
         });
     }
     
-    // Fallback search links
     if (buttons.length <= 1) {
         const searchQuery = encodeURIComponent(media.title + ' ' + (media.year || ''));
-        if (!media.links?.justwatch) {
-            buttons.push(`<a href="https://www.justwatch.com/us/search?q=${searchQuery}" target="_blank" class="streaming-btn">📺 Find Streaming</a>`);
-        }
-        buttons.push(`<a href="https://www.google.com/search?q=${searchQuery}+watch+online" target="_blank" class="streaming-btn">🔍 Search Online</a>`);
+        buttons.push(`<a href="https://www.justwatch.com/us/search?q=${searchQuery}" target="_blank" class="streaming-btn">📺 Find Streaming</a>`);
     }
     
     return buttons.join('');
 }
 
-// Lesson Plan Generator
+// ===========================================
+// Lesson Plan
+// ===========================================
+
 function showLessonPlan(media, topic) {
-    const lessonPlan = generateLessonPlan(media, topic);
+    const plan = generateLessonPlan(media, topic);
     
     elements.lessonBody.innerHTML = `
         <div class="lesson-plan">
             <h2>📋 Lesson Plan</h2>
-            <p class="subtitle">${media.title} (${media.year})</p>
+            <p class="subtitle">${media.title} (${media.year || 'N/A'})</p>
             
             <div class="lesson-section">
                 <h3>🎯 Learning Objectives</h3>
-                <ul>
-                    ${lessonPlan.objectives.map(obj => `<li>${obj}</li>`).join('')}
-                </ul>
+                <ul>${plan.objectives.map(o => `<li>${o}</li>`).join('')}</ul>
             </div>
             
             <div class="lesson-section">
                 <h3>📚 Curriculum Connection</h3>
-                <p style="color: var(--text-secondary);">${lessonPlan.connection}</p>
+                <p style="color: var(--text-secondary);">${plan.connection}</p>
             </div>
             
             <div class="lesson-section">
-                <h3>⏱ Before Viewing (10-15 min)</h3>
-                <ul>
-                    ${lessonPlan.beforeViewing.map(item => `<li>${item}</li>`).join('')}
-                </ul>
-            </div>
-            
-            <div class="lesson-section">
-                <h3>👀 During Viewing</h3>
-                <ul>
-                    ${lessonPlan.duringViewing.map(item => `<li>${item}</li>`).join('')}
-                </ul>
-            </div>
-            
-            <div class="lesson-section">
-                <h3>💭 After Viewing (15-20 min)</h3>
-                <ul>
-                    ${lessonPlan.afterViewing.map(item => `<li>${item}</li>`).join('')}
-                </ul>
+                <h3>⏱ Before Viewing</h3>
+                <ul>${plan.beforeViewing.map(i => `<li>${i}</li>`).join('')}</ul>
             </div>
             
             <div class="lesson-section">
                 <h3>❓ Discussion Questions</h3>
                 <div class="discussion-questions">
-                    <ol>
-                        ${lessonPlan.discussionQuestions.map(q => `<li>${q}</li>`).join('')}
-                    </ol>
+                    <ol>${plan.discussionQuestions.map(q => `<li>${q}</li>`).join('')}</ol>
                 </div>
             </div>
             
             <div class="lesson-section">
                 <h3>📝 Extension Activities</h3>
-                <ul>
-                    ${lessonPlan.extensions.map(ext => `<li>${ext}</li>`).join('')}
-                </ul>
+                <ul>${plan.extensions.map(e => `<li>${e}</li>`).join('')}</ul>
             </div>
             
-            ${!media.ageAppropriate ? `
-            <div class="lesson-section">
-                <h3>⚠️ Content Advisory</h3>
-                <div class="teacher-notes">
-                    ${lessonPlan.contentAdvisory}
-                </div>
-            </div>
-            ` : ''}
-            
-            <button class="print-btn" onclick="window.print()">
-                🖨 Print Lesson Plan
-            </button>
+            <button class="print-btn" onclick="window.print()">🖨 Print Lesson Plan</button>
         </div>
     `;
     
@@ -694,119 +676,82 @@ function showLessonPlan(media, topic) {
 }
 
 function generateLessonPlan(media, topic) {
+    const embedded = media.lessonPlan || {};
     const topicName = topic.name || 'this topic';
     const subtopics = topic.subtopics || [];
     
-    // Use embedded lesson plan if available
-    const embedded = media.lessonPlan || {};
-    
     return {
         objectives: embedded.objectives || [
-            `Students will understand key aspects of ${topicName} as portrayed in "${media.title}"`,
-            `Students will analyze primary and secondary source perspectives on historical events`,
-            `Students will evaluate the accuracy and perspective of historical media`,
-            `Students will connect historical content to broader themes in the curriculum`
+            `Understand key aspects of ${topicName} as portrayed in "${media.title}"`,
+            `Analyze perspectives on historical events`,
+            `Evaluate accuracy of historical media`,
+            `Connect content to broader curriculum themes`
         ],
-        connection: `This film supports the study of ${topicName}. ${media.relevance || ''} Key subtopics covered include: ${subtopics.slice(0, 3).join(', ')}.`,
+        connection: `Supports study of ${topicName}. ${media.relevance || ''} Subtopics: ${subtopics.slice(0, 3).join(', ')}.`,
         beforeViewing: embedded.preActivities || [
-            `Review background information on ${topicName}`,
-            `Introduce key vocabulary and historical figures that will appear`,
-            `Discuss the difference between historical fact and dramatic interpretation`,
-            `Provide students with a viewing guide with questions to consider`,
-            `Set purpose: "As you watch, think about..."`,
+            `Review background on ${topicName}`,
+            `Introduce key vocabulary`,
+            `Discuss fact vs. dramatization`,
             media.notes ? `Note: ${media.notes}` : ''
         ].filter(Boolean),
-        duringViewing: [
-            `Pause at key moments for brief clarification if needed`,
-            `Have students take notes on their viewing guide`,
-            `Consider showing in segments across multiple class periods`,
-            `Monitor for student engagement and comprehension`,
-            `Note scenes that may need additional context or discussion`
-        ],
-        afterViewing: [
-            `Lead whole-class discussion using prepared questions`,
-            `Have students share observations from their viewing guides`,
-            `Compare film depiction to textbook/primary source accounts`,
-            `Identify what was historically accurate vs. dramatized`,
-            `Connect themes to current events or other curriculum topics`
-        ],
         discussionQuestions: embedded.discussionQuestions || [
-            `What did you learn about ${topicName} from this film?`,
-            `How do you think the filmmakers wanted you to feel about the events/people shown?`,
-            `What might be different between this film's portrayal and actual historical events?`,
-            `How does this connect to what we've learned in class about this period?`,
-            `If you could ask one of the historical figures in this film a question, what would it be?`,
-            `What perspectives or voices might be missing from this film's narrative?`
+            `What did you learn about ${topicName}?`,
+            `How did filmmakers want you to feel?`,
+            `What might differ from actual history?`,
+            `How does this connect to class content?`
         ],
         extensions: embedded.extensions || [
-            `Research project: Compare film to primary sources from the period`,
-            `Creative writing: Write a diary entry from a character's perspective`,
-            `Debate: Evaluate different historical interpretations of events`,
-            `Art project: Create a visual timeline of events depicted`,
-            `Presentation: Research a related topic not covered in the film`
-        ],
-        contentAdvisory: media.ageAppropriate ? '' : 
-            `This film is rated ${media.rating} and may contain content that requires teacher preview. ${media.notes || ''} Consider: viewing with parental permission, showing selected clips only, or using as teacher background reference.`
+            `Compare film to primary sources`,
+            `Write from a character's perspective`,
+            `Create visual timeline of events`,
+            `Research related topic`
+        ]
     };
 }
 
-// Search Handler
+// ===========================================
+// Utility Functions
+// ===========================================
+
 function handleSearch(e) {
     state.searchQuery = e.target.value;
     renderTopics();
-    if (state.currentTopic) {
-        renderMedia();
-    }
+    if (state.currentTopic) renderMedia();
 }
 
-// Filter Handlers
 function handleFilterClick(chip) {
     const filterType = chip.closest('.filter-chips').id;
     const value = chip.dataset.type || chip.dataset.age;
     
-    // Update UI
-    chip.closest('.filter-chips').querySelectorAll('.filter-chip').forEach(c => {
-        c.classList.remove('active');
-    });
+    chip.closest('.filter-chips').querySelectorAll('.filter-chip').forEach(c => c.classList.remove('active'));
     chip.classList.add('active');
     
-    // Update state
-    if (filterType === 'typeFilters') {
-        state.filters.type = value;
-    } else if (filterType === 'ageFilters') {
-        state.filters.ageAppropriate = value;
-    }
+    if (filterType === 'typeFilters') state.filters.type = value;
+    else if (filterType === 'ageFilters') state.filters.ageAppropriate = value;
     
     renderMedia();
 }
 
-// View Toggle
 function toggleView(view) {
     document.querySelectorAll('.view-btn').forEach(btn => {
         btn.classList.toggle('active', btn.dataset.view === view);
     });
     
     const isGrid = view === 'grid';
-    elements.topicGrid.style.gridTemplateColumns = isGrid ? 
-        'repeat(auto-fill, minmax(300px, 1fr))' : '1fr';
-    elements.mediaGrid.style.gridTemplateColumns = isGrid ? 
-        'repeat(auto-fill, minmax(320px, 1fr))' : '1fr';
+    elements.topicGrid.style.gridTemplateColumns = isGrid ? 'repeat(auto-fill, minmax(300px, 1fr))' : '1fr';
+    elements.mediaGrid.style.gridTemplateColumns = isGrid ? 'repeat(auto-fill, minmax(320px, 1fr))' : '1fr';
 }
 
-// Modal Management
 function closeModals() {
     elements.movieModal.classList.remove('active');
     elements.lessonModal.classList.remove('active');
 }
 
-// Update Stats
 function updateStats() {
     const data = state.data[state.currentGrade];
     if (!data) return;
     
-    let totalMedia = 0;
-    let totalTopics = 0;
-    
+    let totalMedia = 0, totalTopics = 0;
     data.categories?.forEach(cat => {
         cat.topics?.forEach(topic => {
             totalTopics++;
@@ -818,60 +763,50 @@ function updateStats() {
     elements.totalTopics.textContent = totalTopics;
 }
 
-// Update Breadcrumb
 function updateBreadcrumb() {
     const data = state.data[state.currentGrade];
-    const gradeLabel = document.querySelector(`.grade-tab[data-grade="${state.currentGrade}"] .grade-label`)?.textContent || `Grade ${state.currentGrade}`;
-    
     let crumbs = [`Grade ${state.currentGrade}`];
     
     if (state.currentCategory && data) {
-        const category = data.categories?.find(c => c.id === state.currentCategory);
-        if (category) {
-            crumbs.push(category.name);
-        }
+        const cat = data.categories?.find(c => c.id === state.currentCategory);
+        if (cat) crumbs.push(cat.name);
     }
     
     if (state.currentTopic && data) {
         for (const cat of data.categories || []) {
             const topic = cat.topics?.find(t => t.id === state.currentTopic);
-            if (topic) {
-                crumbs.push(topic.name);
-                break;
-            }
+            if (topic) { crumbs.push(topic.name); break; }
         }
     }
     
-    if (crumbs.length === 1) {
-        crumbs.push('All Topics');
-    }
+    if (crumbs.length === 1) crumbs.push('All Topics');
     
-    elements.breadcrumb.innerHTML = crumbs.map((crumb, i) => {
+    elements.breadcrumb.innerHTML = crumbs.map((c, i) => {
         const isLast = i === crumbs.length - 1;
-        return `
-            <span class="crumb ${isLast ? 'active' : ''}">${crumb}</span>
-            ${!isLast ? '<span class="crumb-separator">›</span>' : ''}
-        `;
+        return `<span class="crumb ${isLast ? 'active' : ''}">${c}</span>${!isLast ? '<span class="crumb-separator">›</span>' : ''}`;
     }).join('');
 }
 
-// Utility Functions
+function updateWatchedStats() {
+    const watchedCount = Object.values(state.watched).filter(v => v).length;
+    const statsEl = document.getElementById('watchedStats');
+    if (statsEl) {
+        statsEl.innerHTML = `<span class="count">${watchedCount}</span> watched`;
+    }
+}
+
 function debounce(func, wait) {
     let timeout;
-    return function executedFunction(...args) {
-        const later = () => {
-            clearTimeout(timeout);
-            func(...args);
-        };
+    return function(...args) {
         clearTimeout(timeout);
-        timeout = setTimeout(later, wait);
+        timeout = setTimeout(() => func(...args), wait);
     };
 }
 
-// Make functions available globally for onclick
+// Global exports
 window.showLessonPlan = showLessonPlan;
 window.toggleWatched = toggleWatched;
 window.toggleWatchedFromModal = toggleWatchedFromModal;
 
-// Initialize when DOM is ready
+// Initialize
 document.addEventListener('DOMContentLoaded', init);
