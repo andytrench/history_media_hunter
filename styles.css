@@ -914,6 +914,19 @@ body {
     border-color: var(--success);
 }
 
+/* Admin/Teacher bulk checkbox - marks for ALL students */
+.watched-checkbox.admin-checkbox {
+    background: rgba(88, 166, 255, 0.15);
+    border: 1px solid var(--accent-blue);
+    padding: 4px 10px;
+    border-radius: 6px;
+}
+
+.watched-checkbox.admin-checkbox input:checked {
+    background: var(--accent-blue);
+    border-color: var(--accent-blue);
+}
+
 .media-card h4 {
     font-family: var(--font-display);
     font-size: 1.15rem;

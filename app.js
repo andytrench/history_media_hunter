@@ -285,9 +285,40 @@ async function toggleWatched(media, event) {
     const newState = !state.watched[key];
     state.watched[key] = newState;
     
-    await saveWatchedState(media.id || key, newState);
+    // Check if user is admin/teacher - if so, mark for ALL students
+    const currentUser = (state.users || []).find(u => u.user_id === state.studentId);
+    const isAdmin = currentUser && (currentUser.role === 'admin' || currentUser.role === 'teacher');
+    
+    if (isAdmin && media.id) {
+        await saveBulkWatchedState(media.id, newState, currentUser.name);
+    } else {
+        await saveWatchedState(media.id || key, newState);
+    }
+    
     renderMedia();
     updateWatchedStats();
+}
+
+async function saveBulkWatchedState(mediaId, watched, markedBy) {
+    try {
+        const response = await fetch(`${API_BASE}/api/progress/bulk`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                mediaId: mediaId,
+                watched: watched,
+                markedBy: markedBy || 'Admin'
+            })
+        });
+        
+        if (response.ok) {
+            const result = await response.json();
+            console.log(`Marked for ${result.studentsUpdated} students`);
+        }
+    } catch (error) {
+        console.log('Bulk save failed, falling back to individual');
+        await saveWatchedState(mediaId, watched);
+    }
 }
 
 // ===========================================
@@ -597,9 +628,9 @@ function renderMediaCard(media, topic, index) {
                         <button class="report-btn" onclick="openReportModal(${media.id}, '${media.title.replace(/'/g, "\\'")}', event)" title="Report issue">
                             🚩
                         </button>
-                        <label class="watched-checkbox" onclick="event.stopPropagation()">
+                        <label class="watched-checkbox ${isAdmin ? 'admin-checkbox' : ''}" onclick="event.stopPropagation()" title="${isAdmin ? 'Checking this marks for ALL students' : ''}">
                             <input type="checkbox" ${watched ? 'checked' : ''} />
-                            Watched
+                            ${isAdmin ? '✓ All' : 'Watched'}
                         </label>
                     </div>
                 </div>

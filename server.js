@@ -289,6 +289,54 @@ app.post('/api/progress', async (req, res) => {
     }
 });
 
+// Bulk mark watched for all students (admin/teacher only)
+app.post('/api/progress/bulk', async (req, res) => {
+    if (!pool) return res.status(503).json({ error: 'Database not configured' });
+    
+    try {
+        const { mediaId, watched, markedBy } = req.body;
+        
+        // Get all students
+        const studentsResult = await pool.query(
+            "SELECT user_id FROM users WHERE role = 'student'"
+        );
+        
+        const students = studentsResult.rows;
+        let updated = 0;
+        
+        // Mark for each student
+        for (const student of students) {
+            await pool.query(`
+                INSERT INTO student_progress (student_id, media_id, watched, watch_date, updated_at, notes)
+                VALUES ($1, $2, $3, $4, NOW(), $5)
+                ON CONFLICT (student_id, media_id) 
+                DO UPDATE SET 
+                    watched = $3, 
+                    watch_date = CASE WHEN $3 = true THEN NOW() ELSE student_progress.watch_date END,
+                    updated_at = NOW(),
+                    notes = CASE WHEN $3 = true THEN COALESCE(student_progress.notes || ' ', '') || $5 ELSE student_progress.notes END
+            `, [
+                student.user_id, 
+                mediaId, 
+                watched, 
+                watched ? new Date() : null,
+                watched ? `[Credit given by ${markedBy}]` : null
+            ]);
+            updated++;
+        }
+        
+        res.json({ 
+            success: true, 
+            studentsUpdated: updated,
+            mediaId: mediaId,
+            watched: watched 
+        });
+    } catch (error) {
+        console.error('Error bulk saving progress:', error);
+        res.status(500).json({ error: 'Failed to bulk save progress' });
+    }
+});
+
 // Get all registered users
 app.get('/api/users', async (req, res) => {
     if (!pool) return res.status(503).json({ error: 'Database not configured' });
