@@ -711,6 +711,168 @@ body {
     border-left: 3px solid var(--accent-purple);
 }
 
+/* Report Button */
+.card-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.report-btn {
+    background: transparent;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    padding: 4px 8px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: var(--transition-fast);
+}
+
+.report-btn:hover {
+    opacity: 1;
+    background: rgba(248, 81, 73, 0.1);
+    border-color: var(--danger);
+}
+
+/* Reported/Disabled Media Card */
+.media-card.reported {
+    border-left-color: var(--warning) !important;
+}
+
+.reported-badge {
+    background: rgba(210, 153, 34, 0.2);
+    color: var(--warning);
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-size: 0.65rem;
+    font-weight: 600;
+}
+
+.media-card.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+    filter: grayscale(0.8);
+}
+
+.media-card.disabled .media-card-header {
+    position: relative;
+}
+
+.disabled-overlay {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    background: var(--bg-tertiary);
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.disabled-icon {
+    font-size: 1.2rem;
+}
+
+.disabled-text {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    font-weight: 500;
+}
+
+/* Report Modal Styles */
+#reportModal .modal-content {
+    max-width: 450px;
+}
+
+#reportModal h2 {
+    margin-bottom: 8px;
+    color: var(--text-primary);
+}
+
+.report-media-title {
+    color: var(--accent-blue);
+    font-weight: 500;
+    margin-bottom: var(--space-lg);
+}
+
+.form-group {
+    margin-bottom: var(--space-lg);
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    color: var(--text-primary);
+    font-family: var(--font-body);
+    font-size: 0.95rem;
+    transition: var(--transition-fast);
+}
+
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: var(--accent-blue);
+    box-shadow: 0 0 0 3px rgba(88, 166, 255, 0.2);
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+.form-actions {
+    display: flex;
+    gap: 12px;
+    justify-content: flex-end;
+    margin-top: var(--space-xl);
+}
+
+.btn-cancel {
+    padding: 10px 20px;
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    color: var(--text-secondary);
+    font-weight: 500;
+    cursor: pointer;
+    transition: var(--transition-fast);
+}
+
+.btn-cancel:hover {
+    background: var(--bg-hover);
+}
+
+.btn-submit {
+    padding: 10px 20px;
+    background: var(--danger);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition-fast);
+}
+
+.btn-submit:hover {
+    background: #da3633;
+}
+
+.modal-small {
+    max-width: 450px;
+}
+
 /* Watched Checkbox */
 .watched-checkbox {
     display: flex;

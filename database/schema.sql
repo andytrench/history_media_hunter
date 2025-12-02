@@ -94,6 +94,33 @@ CREATE TABLE IF NOT EXISTS users (
     last_active TIMESTAMP DEFAULT NOW()
 );
 
+-- Media reports/tickets table
+CREATE TABLE IF NOT EXISTS media_reports (
+    id SERIAL PRIMARY KEY,
+    media_id INTEGER REFERENCES media(id) ON DELETE CASCADE,
+    reporter_id VARCHAR(100) NOT NULL,
+    reporter_name VARCHAR(200),
+    report_type VARCHAR(50) NOT NULL, -- wrong_category, bad_content, inappropriate, other
+    notes TEXT,
+    status VARCHAR(20) DEFAULT 'pending', -- pending, resolved, dismissed
+    resolved_by VARCHAR(100),
+    resolved_at TIMESTAMP,
+    created_at TIMESTAMP DEFAULT NOW()
+);
+
+-- Add disabled flag to media table if not exists
+DO $$ 
+BEGIN
+    IF NOT EXISTS (SELECT 1 FROM information_schema.columns 
+                   WHERE table_name = 'media' AND column_name = 'disabled') THEN
+        ALTER TABLE media ADD COLUMN disabled BOOLEAN DEFAULT false;
+    END IF;
+END $$;
+
+-- Index for reports
+CREATE INDEX IF NOT EXISTS idx_reports_media ON media_reports(media_id);
+CREATE INDEX IF NOT EXISTS idx_reports_status ON media_reports(status);
+
 -- Indexes for performance
 CREATE INDEX IF NOT EXISTS idx_categories_grade ON categories(grade_id);
 CREATE INDEX IF NOT EXISTS idx_topics_category ON topics(category_id);

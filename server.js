@@ -124,6 +124,7 @@ app.get('/api/grades/:gradeNum', async (req, res) => {
                                        'notes', m.notes,
                                        'ageAppropriate', m.age_appropriate,
                                        'contentType', m.content_type,
+                                       'disabled', COALESCE(m.disabled, false),
                                        'links', m.links,
                                        'lessonPlan', m.lesson_plan
                                    ) ORDER BY m.title
@@ -512,6 +513,166 @@ app.get('/api/stats/:studentId', async (req, res) => {
     } catch (error) {
         console.error('Error fetching stats:', error);
         res.status(500).json({ error: 'Failed to fetch stats' });
+    }
+});
+
+// ===========================================
+// API ROUTES - Media Reports
+// ===========================================
+
+// Submit a report
+app.post('/api/reports', async (req, res) => {
+    if (!pool) return res.status(503).json({ error: 'Database not configured' });
+    
+    try {
+        const { mediaId, reporterId, reporterName, reportType, notes } = req.body;
+        
+        // Create the report
+        const result = await pool.query(`
+            INSERT INTO media_reports (media_id, reporter_id, reporter_name, report_type, notes)
+            VALUES ($1, $2, $3, $4, $5)
+            RETURNING *
+        `, [mediaId, reporterId, reporterName || null, reportType, notes || null]);
+        
+        // Disable the media for students
+        await pool.query('UPDATE media SET disabled = true WHERE id = $1', [mediaId]);
+        
+        res.json(result.rows[0]);
+    } catch (error) {
+        console.error('Error creating report:', error);
+        res.status(500).json({ error: 'Failed to create report' });
+    }
+});
+
+// Get all reports (for admin/teacher)
+app.get('/api/reports', async (req, res) => {
+    if (!pool) return res.status(503).json({ error: 'Database not configured' });
+    
+    try {
+        const { status } = req.query;
+        let query = `
+            SELECT r.*, m.title as media_title, m.type as media_type,
+                   t.name as topic_name, c.name as category_name, g.grade_number
+            FROM media_reports r
+            JOIN media m ON m.id = r.media_id
+            JOIN topics t ON t.id = m.topic_id
+            JOIN categories c ON c.id = t.category_id
+            JOIN grades g ON g.id = c.grade_id
+        `;
+        
+        if (status) {
+            query += ` WHERE r.status = $1`;
+            query += ` ORDER BY r.created_at DESC`;
+            const result = await pool.query(query, [status]);
+            res.json(result.rows);
+        } else {
+            query += ` ORDER BY r.created_at DESC`;
+            const result = await pool.query(query);
+            res.json(result.rows);
+        }
+    } catch (error) {
+        console.error('Error fetching reports:', error);
+        res.status(500).json({ error: 'Failed to fetch reports' });
+    }
+});
+
+// Resolve a report
+app.patch('/api/reports/:id', async (req, res) => {
+    if (!pool) return res.status(503).json({ error: 'Database not configured' });
+    
+    try {
+        const { id } = req.params;
+        const { status, resolvedBy, reenableMedia } = req.body;
+        
+        const result = await pool.query(`
+            UPDATE media_reports 
+            SET status = $1, resolved_by = $2, resolved_at = NOW()
+            WHERE id = $3
+            RETURNING *
+        `, [status, resolvedBy, id]);
+        
+        // Optionally re-enable the media
+        if (reenableMedia && result.rows[0]) {
+            await pool.query('UPDATE media SET disabled = false WHERE id = $1', [result.rows[0].media_id]);
+        }
+        
+        res.json(result.rows[0]);
+    } catch (error) {
+        console.error('Error updating report:', error);
+        res.status(500).json({ error: 'Failed to update report' });
+    }
+});
+
+// Get disabled media list
+app.get('/api/media/disabled', async (req, res) => {
+    if (!pool) return res.status(503).json({ error: 'Database not configured' });
+    
+    try {
+        const result = await pool.query(`
+            SELECT m.id, m.title, m.type, m.disabled,
+                   t.name as topic_name, c.name as category_name, g.grade_number,
+                   (SELECT COUNT(*) FROM media_reports r WHERE r.media_id = m.id) as report_count
+            FROM media m
+            JOIN topics t ON t.id = m.topic_id
+            JOIN categories c ON c.id = t.category_id
+            JOIN grades g ON g.id = c.grade_id
+            WHERE m.disabled = true
+            ORDER BY m.title
+        `);
+        res.json(result.rows);
+    } catch (error) {
+        console.error('Error fetching disabled media:', error);
+        res.status(500).json({ error: 'Failed to fetch disabled media' });
+    }
+});
+
+// Export reports as text (for AI processing)
+app.get('/api/reports/export', async (req, res) => {
+    if (!pool) return res.status(503).json({ error: 'Database not configured' });
+    
+    try {
+        const result = await pool.query(`
+            SELECT r.*, m.title as media_title, m.type as media_type, m.year,
+                   m.relevance, m.notes as media_notes,
+                   t.name as topic_name, c.name as category_name, g.grade_number
+            FROM media_reports r
+            JOIN media m ON m.id = r.media_id
+            JOIN topics t ON t.id = m.topic_id
+            JOIN categories c ON c.id = t.category_id
+            JOIN grades g ON g.id = c.grade_id
+            WHERE r.status = 'pending'
+            ORDER BY g.grade_number, c.name, r.created_at
+        `);
+        
+        // Format as text for AI processing
+        let text = "=== MEDIA REPORTS FOR REVIEW ===\n";
+        text += `Generated: ${new Date().toISOString()}\n`;
+        text += `Total Pending Reports: ${result.rows.length}\n\n`;
+        
+        result.rows.forEach((r, i) => {
+            text += `--- REPORT ${i + 1} ---\n`;
+            text += `Media ID: ${r.media_id}\n`;
+            text += `Title: ${r.media_title} (${r.year || 'N/A'})\n`;
+            text += `Type: ${r.media_type}\n`;
+            text += `Grade: ${r.grade_number}\n`;
+            text += `Category: ${r.category_name}\n`;
+            text += `Topic: ${r.topic_name}\n`;
+            text += `Current Relevance: ${r.relevance || 'N/A'}\n`;
+            text += `Current Notes: ${r.media_notes || 'N/A'}\n`;
+            text += `\n`;
+            text += `Report Type: ${r.report_type}\n`;
+            text += `Reporter: ${r.reporter_name || r.reporter_id}\n`;
+            text += `Reporter Notes: ${r.notes || 'No notes provided'}\n`;
+            text += `Reported At: ${r.created_at}\n`;
+            text += `\n\n`;
+        });
+        
+        res.setHeader('Content-Type', 'text/plain');
+        res.setHeader('Content-Disposition', 'attachment; filename=media-reports.txt');
+        res.send(text);
+    } catch (error) {
+        console.error('Error exporting reports:', error);
+        res.status(500).json({ error: 'Failed to export reports' });
     }
 });
 

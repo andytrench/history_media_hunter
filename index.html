@@ -171,6 +171,43 @@
                 </div>
             </div>
         </div>
+
+        <!-- Report Modal -->
+        <div class="modal" id="reportModal">
+            <div class="modal-backdrop"></div>
+            <div class="modal-content modal-small">
+                <button class="modal-close">&times;</button>
+                <div class="modal-body">
+                    <h2>🚩 Report Content</h2>
+                    <p class="report-media-title" id="reportMediaTitle"></p>
+                    
+                    <form id="reportForm">
+                        <input type="hidden" id="reportMediaId" />
+                        
+                        <div class="form-group">
+                            <label for="reportType">What's the issue?</label>
+                            <select id="reportType" required>
+                                <option value="">Select an issue...</option>
+                                <option value="wrong_category">Wrong category</option>
+                                <option value="bad_content">Just plain bad content</option>
+                                <option value="inappropriate">Not appropriate for kids</option>
+                                <option value="other">None of the above</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="reportNotes">Additional notes (optional)</label>
+                            <textarea id="reportNotes" rows="3" placeholder="Tell us more about the issue..."></textarea>
+                        </div>
+                        
+                        <div class="form-actions">
+                            <button type="button" class="btn-cancel" onclick="closeReportModal()">Cancel</button>
+                            <button type="submit" class="btn-submit">Submit Report</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
 
     <script src="app.js"></script>

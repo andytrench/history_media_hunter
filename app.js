@@ -183,22 +183,7 @@ function generateStudentId() {
 // Data Loading from API
 // ===========================================
 
-async function loadGradeData(grade) {
-    if (state.data[grade]) return state.data[grade];
-
-    try {
-        const response = await fetch(`${API_BASE}/api/grades/${grade}`);
-        if (!response.ok) throw new Error('Failed to fetch grade data');
-        
-        const data = await response.json();
-        state.data[grade] = data;
-        return data;
-    } catch (error) {
-        console.error(`Error loading grade ${grade}:`, error);
-        // Fallback: try loading from JSON files (for local dev without DB)
-        return await loadGradeFromJSON(grade);
-    }
-}
+// loadGradeData defined at bottom of file with forceReload option
 
 // Fallback for local development without database
 async function loadGradeFromJSON(grade) {
@@ -578,9 +563,27 @@ function renderMediaCard(media, topic, index) {
     const watched = isWatched(media);
     const contentType = media.contentType || 'entertainment';
     const isEducational = contentType === 'educational';
+    const isDisabled = media.disabled === true;
+    const currentUser = (state.users || []).find(u => u.user_id === state.studentId);
+    const isAdmin = currentUser && (currentUser.role === 'admin' || currentUser.role === 'teacher');
+    
+    // If disabled and not admin, show disabled card
+    if (isDisabled && !isAdmin) {
+        return `
+            <div class="media-card disabled" data-id="${media.id || index}">
+                <div class="media-card-header">
+                    <div class="disabled-overlay">
+                        <span class="disabled-icon">🚫</span>
+                        <span class="disabled-text">Under Review</span>
+                    </div>
+                    <h4>${media.title}</h4>
+                </div>
+            </div>
+        `;
+    }
     
     return `
-        <div class="media-card ${watched ? 'watched' : ''} ${contentType}" data-id="${media.id || index}">
+        <div class="media-card ${watched ? 'watched' : ''} ${contentType} ${isDisabled ? 'reported' : ''}" data-id="${media.id || index}">
             <div class="media-card-header">
                 <div class="media-header-row">
                     <div class="media-badges">
@@ -588,11 +591,17 @@ function renderMediaCard(media, topic, index) {
                         <span class="content-type-badge ${contentType}">
                             ${isEducational ? '📚 Educational' : '🎭 Entertainment'}
                         </span>
+                        ${isDisabled ? '<span class="reported-badge">🚩 Reported</span>' : ''}
                     </div>
-                    <label class="watched-checkbox" onclick="event.stopPropagation()">
-                        <input type="checkbox" ${watched ? 'checked' : ''} />
-                        Watched
-                    </label>
+                    <div class="card-actions">
+                        <button class="report-btn" onclick="openReportModal(${media.id}, '${media.title.replace(/'/g, "\\'")}', event)" title="Report issue">
+                            🚩
+                        </button>
+                        <label class="watched-checkbox" onclick="event.stopPropagation()">
+                            <input type="checkbox" ${watched ? 'checked' : ''} />
+                            Watched
+                        </label>
+                    </div>
                 </div>
                 <h4>${media.title}</h4>
                 <div class="media-year-rating">
@@ -916,10 +925,101 @@ function debounce(func, wait) {
     };
 }
 
+// ===========================================
+// Report Modal Functions
+// ===========================================
+
+function openReportModal(mediaId, mediaTitle, event) {
+    if (event) event.stopPropagation();
+    
+    document.getElementById('reportMediaId').value = mediaId;
+    document.getElementById('reportMediaTitle').textContent = `"${mediaTitle}"`;
+    document.getElementById('reportType').value = '';
+    document.getElementById('reportNotes').value = '';
+    document.getElementById('reportModal').classList.add('active');
+}
+
+function closeReportModal() {
+    document.getElementById('reportModal').classList.remove('active');
+}
+
+async function submitReport(event) {
+    event.preventDefault();
+    
+    const mediaId = document.getElementById('reportMediaId').value;
+    const reportType = document.getElementById('reportType').value;
+    const notes = document.getElementById('reportNotes').value;
+    
+    if (!reportType) {
+        alert('Please select an issue type');
+        return;
+    }
+    
+    const currentUser = (state.users || []).find(u => u.user_id === state.studentId);
+    
+    try {
+        const response = await fetch(`${API_BASE}/api/reports`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                mediaId: parseInt(mediaId),
+                reporterId: state.studentId,
+                reporterName: currentUser?.name || state.studentId,
+                reportType: reportType,
+                notes: notes
+            })
+        });
+        
+        if (response.ok) {
+            closeReportModal();
+            alert('Thank you! Your report has been submitted. This content will be reviewed.');
+            
+            // Refresh the media display to show disabled state
+            await loadGradeData(state.currentGrade, true);
+            renderMedia();
+        } else {
+            throw new Error('Failed to submit report');
+        }
+    } catch (error) {
+        console.error('Error submitting report:', error);
+        alert('Sorry, there was an error submitting your report. Please try again.');
+    }
+}
+
+// Force reload grade data
+async function loadGradeData(grade, forceReload = false) {
+    if (state.data[grade] && !forceReload) return state.data[grade];
+
+    try {
+        const response = await fetch(`${API_BASE}/api/grades/${grade}`);
+        if (!response.ok) throw new Error('Failed to fetch grade data');
+        
+        const data = await response.json();
+        state.data[grade] = data;
+        return data;
+    } catch (error) {
+        console.error(`Error loading grade ${grade}:`, error);
+        return await loadGradeFromJSON(grade);
+    }
+}
+
+// Setup report form handler
+function setupReportForm() {
+    const form = document.getElementById('reportForm');
+    if (form) {
+        form.addEventListener('submit', submitReport);
+    }
+}
+
 // Global exports
 window.showLessonPlan = showLessonPlan;
 window.toggleWatched = toggleWatched;
 window.toggleWatchedFromModal = toggleWatchedFromModal;
+window.openReportModal = openReportModal;
+window.closeReportModal = closeReportModal;
 
 // Initialize
-document.addEventListener('DOMContentLoaded', init);
+document.addEventListener('DOMContentLoaded', () => {
+    init();
+    setupReportForm();
+});
