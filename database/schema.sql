@@ -93,9 +93,6 @@ CREATE TABLE IF NOT EXISTS users (
     last_active TIMESTAMP DEFAULT NOW()
 );
 
--- Legacy alias for backwards compatibility
-CREATE OR REPLACE VIEW students AS SELECT * FROM users WHERE role = 'student';
-
 -- Indexes for performance
 CREATE INDEX IF NOT EXISTS idx_categories_grade ON categories(grade_id);
 CREATE INDEX IF NOT EXISTS idx_topics_category ON topics(category_id);

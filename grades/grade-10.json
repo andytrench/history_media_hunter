@@ -14,12 +14,65 @@
           "name": "Absolute Monarchies",
           "description": "European absolute monarchs and centralized power in the 17th-18th centuries",
           "order": 1,
-          "subtopics": ["Louis XIV and Versailles", "Peter the Great - modernizing Russia", "Divine right of kings", "Centralization of power"],
+          "subtopics": [
+            "Louis XIV and Versailles",
+            "Peter the Great - modernizing Russia",
+            "Divine right of kings",
+            "Centralization of power"
+          ],
           "media": [
-            {"title": "The Man in the Iron Mask", "type": "movie", "year": 1998, "rating": "PG-13", "runtime": 132, "relevance": "Set during Louis XIV's reign; shows Versailles court", "links": {"imdb": "https://www.imdb.com/title/tt0120744/"}, "ageAppropriate": true, "notes": "Leonardo DiCaprio; good depiction of French court life"},
-            {"title": "Marie Antoinette", "type": "movie", "year": 2006, "rating": "PG-13", "runtime": 123, "relevance": "Sofia Coppola film on French queen; shows absolute monarchy excess", "links": {"imdb": "https://www.imdb.com/title/tt0422720/"}, "ageAppropriate": true, "notes": "PG-13; beautiful Versailles visuals; leads into French Revolution"},
-            {"title": "Versailles (TV Series)", "type": "series", "year": 2015, "rating": "TV-MA", "runtime": 52, "relevance": "BBC drama about Louis XIV building Versailles", "links": {"imdb": "https://www.imdb.com/title/tt3830558/"}, "ageAppropriate": false, "notes": "TV-MA; NOT for classroom; teacher reference on absolute monarchy"},
-            {"title": "Peter the Great (1986)", "type": "movie", "year": 1986, "rating": "NR", "runtime": 371, "relevance": "NBC miniseries on Peter the Great's reign", "links": {"imdb": "https://www.imdb.com/title/tt0090483/"}, "ageAppropriate": true, "notes": "Maximilian Schell; comprehensive look at Russian absolutism"}
+            {
+              "title": "The Man in the Iron Mask",
+              "type": "movie",
+              "year": 1998,
+              "rating": "PG-13",
+              "runtime": 132,
+              "relevance": "Set during Louis XIV's reign; shows Versailles court",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0120744/"
+              },
+              "ageAppropriate": true,
+              "notes": "Leonardo DiCaprio; good depiction of French court life"
+            },
+            {
+              "title": "Marie Antoinette",
+              "type": "movie",
+              "year": 2006,
+              "rating": "PG-13",
+              "runtime": 123,
+              "relevance": "Sofia Coppola film on French queen; shows absolute monarchy excess",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0422720/"
+              },
+              "ageAppropriate": true,
+              "notes": "PG-13; beautiful Versailles visuals; leads into French Revolution"
+            },
+            {
+              "title": "Versailles (TV Series)",
+              "type": "series",
+              "year": 2015,
+              "rating": "TV-MA",
+              "runtime": 52,
+              "relevance": "BBC drama about Louis XIV building Versailles",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt3830558/"
+              },
+              "ageAppropriate": false,
+              "notes": "TV-MA; NOT for classroom; teacher reference on absolute monarchy"
+            },
+            {
+              "title": "Peter the Great (1986)",
+              "type": "movie",
+              "year": 1986,
+              "rating": "NR",
+              "runtime": 371,
+              "relevance": "NBC miniseries on Peter the Great's reign",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0090483/"
+              },
+              "ageAppropriate": true,
+              "notes": "Maximilian Schell; comprehensive look at Russian absolutism"
+            }
           ]
         }
       ]
@@ -34,11 +87,161 @@
           "name": "Age of Enlightenment",
           "description": "Philosophical movement emphasizing reason, individual rights, and scientific method",
           "order": 1,
-          "subtopics": ["Locke - natural rights", "Voltaire - free speech and tolerance", "Rousseau - social contract", "Montesquieu - separation of powers", "Impact on revolutions"],
+          "subtopics": [
+            "Locke - natural rights",
+            "Voltaire - free speech and tolerance",
+            "Rousseau - social contract",
+            "Montesquieu - separation of powers",
+            "Impact on revolutions"
+          ],
           "media": [
-            {"title": "The Enlightenment", "type": "documentary", "year": 2018, "rating": "NR", "runtime": 60, "relevance": "Documentary covering Enlightenment philosophers and ideas", "links": {}, "ageAppropriate": true, "notes": "Covers major thinkers and their influence"},
-            {"title": "Dangerous Liaisons", "type": "movie", "year": 1988, "rating": "R", "runtime": 119, "relevance": "Shows aristocratic French society before Revolution", "links": {"imdb": "https://www.imdb.com/title/tt0094947/"}, "ageAppropriate": false, "notes": "R-rated; NOT for classroom; depicts pre-revolutionary French elite"},
-            {"title": "Liberty! The American Revolution", "type": "documentary", "year": 1997, "rating": "NR", "runtime": 360, "relevance": "PBS documentary showing Enlightenment ideas in action", "links": {"imdb": "https://www.imdb.com/title/tt0166960/", "streaming": [{"service": "PBS", "url": ""}]}, "ageAppropriate": true, "notes": "6-part series; shows how Enlightenment influenced American founders"}
+            {
+              "title": "The Enlightenment",
+              "type": "documentary",
+              "year": 2018,
+              "rating": "NR",
+              "runtime": 60,
+              "relevance": "Documentary covering Enlightenment philosophers and ideas",
+              "links": {},
+              "ageAppropriate": true,
+              "notes": "Covers major thinkers and their influence"
+            },
+            {
+              "title": "Dangerous Liaisons",
+              "type": "movie",
+              "year": 1988,
+              "rating": "R",
+              "runtime": 119,
+              "relevance": "Shows aristocratic French society before Revolution",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0094947/"
+              },
+              "ageAppropriate": false,
+              "notes": "R-rated; NOT for classroom; depicts pre-revolutionary French elite"
+            },
+            {
+              "title": "Liberty! The American Revolution",
+              "type": "documentary",
+              "year": 1997,
+              "rating": "NR",
+              "runtime": 360,
+              "relevance": "PBS documentary showing Enlightenment ideas in action",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0166960/",
+                "streaming": [
+                  {
+                    "service": "PBS",
+                    "url": ""
+                  }
+                ]
+              },
+              "ageAppropriate": true,
+              "notes": "6-part series; shows how Enlightenment influenced American founders"
+            },
+            {
+              "title": "Crash Course World History: The Enlightenment",
+              "type": "short",
+              "year": 2012,
+              "rating": "NR",
+              "runtime": 12,
+              "relevance": "Enlightenment philosophy",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=5eLSX3QG3QY"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Locke, Voltaire, Rousseau"
+            },
+            {
+              "title": "TED-Ed: What Caused the French Revolution?",
+              "type": "short",
+              "year": 2015,
+              "rating": "NR",
+              "runtime": 5,
+              "relevance": "French Revolution causes",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=lTTvKwCylFY"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Quick overview"
+            },
+            {
+              "title": "Crash Course World History: The French Revolution",
+              "type": "short",
+              "year": 2012,
+              "rating": "NR",
+              "runtime": 12,
+              "relevance": "French Revolution overview",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=lTTvKwCylFY"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] 1789 to Thermidor"
+            },
+            {
+              "title": "Oversimplified: The French Revolution (Part 1)",
+              "type": "short",
+              "year": 2019,
+              "rating": "NR",
+              "runtime": 18,
+              "relevance": "Animated French Revolution",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=8qRZcXIODNU"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] HIGHLY RECOMMENDED - engaging"
+            },
+            {
+              "title": "Oversimplified: The French Revolution (Part 2)",
+              "type": "short",
+              "year": 2019,
+              "rating": "NR",
+              "runtime": 20,
+              "relevance": "Terror through Napoleon",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=EQmjXM4VK2U"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Continues through Directory"
+            },
+            {
+              "title": "Crash Course World History: The Industrial Revolution",
+              "type": "short",
+              "year": 2012,
+              "rating": "NR",
+              "runtime": 11,
+              "relevance": "Industrialization overview",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=zhL5DCizj5c"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Factory system, urbanization"
+            },
+            {
+              "title": "TED-Ed: The Industrial Revolution (4-Part Series)",
+              "type": "short",
+              "year": 2019,
+              "rating": "NR",
+              "runtime": 20,
+              "relevance": "Industrial Revolution deep dive",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=GYln_S21Gts"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Comprehensive series"
+            },
+            {
+              "title": "Crash Course World History: Latin American Revolutions",
+              "type": "short",
+              "year": 2012,
+              "rating": "NR",
+              "runtime": 14,
+              "relevance": "Independence movements",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=ZBw35Ze3bg8"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Bolivar, Haiti, Mexico"
+            }
           ]
         }
       ]
@@ -53,11 +256,58 @@
           "name": "American Revolution",
           "description": "Colonial rebellion and creation of the United States",
           "order": 1,
-          "subtopics": ["Enlightenment influences", "Declaration of Independence", "Revolutionary War", "Constitution as model"],
+          "subtopics": [
+            "Enlightenment influences",
+            "Declaration of Independence",
+            "Revolutionary War",
+            "Constitution as model"
+          ],
           "media": [
-            {"title": "Hamilton", "type": "movie", "year": 2020, "rating": "PG-13", "runtime": 160, "relevance": "Lin-Manuel Miranda musical covering Hamilton and American Revolution", "links": {"imdb": "https://www.imdb.com/title/tt8503618/", "streaming": [{"service": "Disney+", "url": ""}]}, "ageAppropriate": true, "notes": "HIGHLY RECOMMENDED - engaging musical; some language"},
-            {"title": "John Adams", "type": "series", "year": 2008, "rating": "TV-14", "runtime": 501, "relevance": "HBO miniseries on John Adams and founding era", "links": {"imdb": "https://www.imdb.com/title/tt0472027/"}, "ageAppropriate": true, "notes": "Paul Giamatti; excellent for understanding founding era"},
-            {"title": "1776", "type": "movie", "year": 1972, "rating": "G", "runtime": 141, "relevance": "Musical depicting Continental Congress and Declaration", "links": {"imdb": "https://www.imdb.com/title/tt0068156/"}, "ageAppropriate": true, "notes": "G-rated; engaging way to learn about Declaration debates"}
+            {
+              "title": "Hamilton",
+              "type": "movie",
+              "year": 2020,
+              "rating": "PG-13",
+              "runtime": 160,
+              "relevance": "Lin-Manuel Miranda musical covering Hamilton and American Revolution",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt8503618/",
+                "streaming": [
+                  {
+                    "service": "Disney+",
+                    "url": ""
+                  }
+                ]
+              },
+              "ageAppropriate": true,
+              "notes": "HIGHLY RECOMMENDED - engaging musical; some language"
+            },
+            {
+              "title": "John Adams",
+              "type": "series",
+              "year": 2008,
+              "rating": "TV-14",
+              "runtime": 501,
+              "relevance": "HBO miniseries on John Adams and founding era",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0472027/"
+              },
+              "ageAppropriate": true,
+              "notes": "Paul Giamatti; excellent for understanding founding era"
+            },
+            {
+              "title": "1776",
+              "type": "movie",
+              "year": 1972,
+              "rating": "G",
+              "runtime": 141,
+              "relevance": "Musical depicting Continental Congress and Declaration",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0068156/"
+              },
+              "ageAppropriate": true,
+              "notes": "G-rated; engaging way to learn about Declaration debates"
+            }
           ]
         },
         {
@@ -65,13 +315,84 @@
           "name": "French Revolution",
           "description": "Overthrow of the French monarchy, Reign of Terror, and rise of Napoleon",
           "order": 2,
-          "subtopics": ["Causes - inequality, financial crisis", "Storming of Bastille", "Declaration of Rights of Man", "Reign of Terror", "Rise of Napoleon"],
+          "subtopics": [
+            "Causes - inequality, financial crisis",
+            "Storming of Bastille",
+            "Declaration of Rights of Man",
+            "Reign of Terror",
+            "Rise of Napoleon"
+          ],
           "media": [
-            {"title": "Les Misérables", "type": "movie", "year": 2012, "rating": "PG-13", "runtime": 158, "relevance": "Musical set in post-revolutionary France and 1832 uprising", "links": {"imdb": "https://www.imdb.com/title/tt1707386/"}, "ageAppropriate": true, "notes": "Actually depicts later period but captures revolutionary spirit; Hugh Jackman"},
-            {"title": "A Tale of Two Cities", "type": "movie", "year": 1935, "rating": "NR", "runtime": 121, "relevance": "Dickens adaptation set during French Revolution", "links": {"imdb": "https://www.imdb.com/title/tt0027067/"}, "ageAppropriate": true, "notes": "Classic adaptation; shows Terror period"},
-            {"title": "The French Revolution", "type": "documentary", "year": 2005, "rating": "NR", "runtime": 200, "relevance": "History Channel comprehensive documentary", "links": {"imdb": "https://www.imdb.com/title/tt0484852/"}, "ageAppropriate": true, "notes": "Can be shown in segments; detailed coverage"},
-            {"title": "Napoleon (2023)", "type": "movie", "year": 2023, "rating": "R", "runtime": 158, "relevance": "Ridley Scott epic on Napoleon's rise and fall", "links": {"imdb": "https://www.imdb.com/title/tt13287846/"}, "ageAppropriate": false, "notes": "R-rated; spectacular visuals; teacher reference for Napoleon era"},
-            {"title": "Napoleon", "type": "documentary", "year": 2015, "rating": "TV-14", "runtime": 240, "relevance": "PBS documentary miniseries on Napoleon", "links": {"streaming": [{"service": "PBS", "url": ""}]}, "ageAppropriate": true, "notes": "4 parts; comprehensive look at Napoleon's life and impact"}
+            {
+              "title": "Les Misérables",
+              "type": "movie",
+              "year": 2012,
+              "rating": "PG-13",
+              "runtime": 158,
+              "relevance": "Musical set in post-revolutionary France and 1832 uprising",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt1707386/"
+              },
+              "ageAppropriate": true,
+              "notes": "Actually depicts later period but captures revolutionary spirit; Hugh Jackman"
+            },
+            {
+              "title": "A Tale of Two Cities",
+              "type": "movie",
+              "year": 1935,
+              "rating": "NR",
+              "runtime": 121,
+              "relevance": "Dickens adaptation set during French Revolution",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0027067/"
+              },
+              "ageAppropriate": true,
+              "notes": "Classic adaptation; shows Terror period"
+            },
+            {
+              "title": "The French Revolution",
+              "type": "documentary",
+              "year": 2005,
+              "rating": "NR",
+              "runtime": 200,
+              "relevance": "History Channel comprehensive documentary",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0484852/"
+              },
+              "ageAppropriate": true,
+              "notes": "Can be shown in segments; detailed coverage"
+            },
+            {
+              "title": "Napoleon (2023)",
+              "type": "movie",
+              "year": 2023,
+              "rating": "R",
+              "runtime": 158,
+              "relevance": "Ridley Scott epic on Napoleon's rise and fall",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt13287846/"
+              },
+              "ageAppropriate": false,
+              "notes": "R-rated; spectacular visuals; teacher reference for Napoleon era"
+            },
+            {
+              "title": "Napoleon",
+              "type": "documentary",
+              "year": 2015,
+              "rating": "TV-14",
+              "runtime": 240,
+              "relevance": "PBS documentary miniseries on Napoleon",
+              "links": {
+                "streaming": [
+                  {
+                    "service": "PBS",
+                    "url": ""
+                  }
+                ]
+              },
+              "ageAppropriate": true,
+              "notes": "4 parts; comprehensive look at Napoleon's life and impact"
+            }
           ]
         },
         {
@@ -79,11 +400,58 @@
           "name": "Latin American Independence",
           "description": "Independence movements in Latin America led by figures like Bolivar and San Martin",
           "order": 3,
-          "subtopics": ["Simón Bolívar - Liberator", "José de San Martín", "Mexican independence - Hidalgo", "Haitian Revolution", "Impact of Enlightenment"],
+          "subtopics": [
+            "Simón Bolívar - Liberator",
+            "José de San Martín",
+            "Mexican independence - Hidalgo",
+            "Haitian Revolution",
+            "Impact of Enlightenment"
+          ],
           "media": [
-            {"title": "Libertador", "type": "movie", "year": 2013, "rating": "R", "runtime": 119, "relevance": "Venezuelan film about Simón Bolívar", "links": {"imdb": "https://www.imdb.com/title/tt2265792/"}, "ageAppropriate": false, "notes": "R-rated; Spanish language; select scenes may work"},
-            {"title": "The Other Conquest", "type": "movie", "year": 1998, "rating": "R", "runtime": 105, "relevance": "Mexican film about conquest from indigenous perspective", "links": {"imdb": "https://www.imdb.com/title/tt0174793/"}, "ageAppropriate": false, "notes": "R-rated; NOT for classroom; Spanish language"},
-            {"title": "Égalité for All: Toussaint Louverture and the Haitian Revolution", "type": "documentary", "year": 2009, "rating": "NR", "runtime": 60, "relevance": "PBS documentary on Haitian Revolution", "links": {"streaming": [{"service": "PBS", "url": ""}]}, "ageAppropriate": true, "notes": "Covers first successful slave revolution"}
+            {
+              "title": "Libertador",
+              "type": "movie",
+              "year": 2013,
+              "rating": "R",
+              "runtime": 119,
+              "relevance": "Venezuelan film about Simón Bolívar",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt2265792/"
+              },
+              "ageAppropriate": false,
+              "notes": "R-rated; Spanish language; select scenes may work"
+            },
+            {
+              "title": "The Other Conquest",
+              "type": "movie",
+              "year": 1998,
+              "rating": "R",
+              "runtime": 105,
+              "relevance": "Mexican film about conquest from indigenous perspective",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0174793/"
+              },
+              "ageAppropriate": false,
+              "notes": "R-rated; NOT for classroom; Spanish language"
+            },
+            {
+              "title": "Égalité for All: Toussaint Louverture and the Haitian Revolution",
+              "type": "documentary",
+              "year": 2009,
+              "rating": "NR",
+              "runtime": 60,
+              "relevance": "PBS documentary on Haitian Revolution",
+              "links": {
+                "streaming": [
+                  {
+                    "service": "PBS",
+                    "url": ""
+                  }
+                ]
+              },
+              "ageAppropriate": true,
+              "notes": "Covers first successful slave revolution"
+            }
           ]
         }
       ]
@@ -98,13 +466,84 @@
           "name": "Industrialization",
           "description": "Industrial Revolution, technological changes, and social impacts",
           "order": 1,
-          "subtopics": ["British origins", "Factory system", "Steam power and railroads", "Urbanization", "Child labor", "Social classes"],
+          "subtopics": [
+            "British origins",
+            "Factory system",
+            "Steam power and railroads",
+            "Urbanization",
+            "Child labor",
+            "Social classes"
+          ],
           "media": [
-            {"title": "Oliver Twist", "type": "movie", "year": 2005, "rating": "PG-13", "runtime": 130, "relevance": "Dickens adaptation showing industrial England poverty", "links": {"imdb": "https://www.imdb.com/title/tt0380599/"}, "ageAppropriate": true, "notes": "Roman Polanski version; shows workhouses and poverty"},
-            {"title": "North and South", "type": "series", "year": 2004, "rating": "NR", "runtime": 235, "relevance": "BBC adaptation of Gaskell novel set in industrial England", "links": {"imdb": "https://www.imdb.com/title/tt0417349/"}, "ageAppropriate": true, "notes": "4-part series; shows factories, labor conditions, class tensions"},
-            {"title": "The Victorian Slum", "type": "documentary", "year": 2016, "rating": "NR", "runtime": 300, "relevance": "BBC documentary recreating Victorian slum conditions", "links": {}, "ageAppropriate": true, "notes": "5-part series; shows real conditions of industrial era poor"},
-            {"title": "The Men Who Built America", "type": "documentary", "year": 2012, "rating": "TV-PG", "runtime": 360, "relevance": "History Channel series on industrial tycoons", "links": {"imdb": "https://www.imdb.com/title/tt2167393/"}, "ageAppropriate": true, "notes": "8 parts; covers Carnegie, Rockefeller, Morgan, Ford"},
-            {"title": "Newsies", "type": "movie", "year": 1992, "rating": "PG", "runtime": 121, "relevance": "Disney musical about newsboy strike showing child labor", "links": {"imdb": "https://www.imdb.com/title/tt0104990/", "streaming": [{"service": "Disney+", "url": ""}]}, "ageAppropriate": true, "notes": "HIGHLY RECOMMENDED - engaging introduction to labor issues"}
+            {
+              "title": "Oliver Twist",
+              "type": "movie",
+              "year": 2005,
+              "rating": "PG-13",
+              "runtime": 130,
+              "relevance": "Dickens adaptation showing industrial England poverty",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0380599/"
+              },
+              "ageAppropriate": true,
+              "notes": "Roman Polanski version; shows workhouses and poverty"
+            },
+            {
+              "title": "North and South",
+              "type": "series",
+              "year": 2004,
+              "rating": "NR",
+              "runtime": 235,
+              "relevance": "BBC adaptation of Gaskell novel set in industrial England",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0417349/"
+              },
+              "ageAppropriate": true,
+              "notes": "4-part series; shows factories, labor conditions, class tensions"
+            },
+            {
+              "title": "The Victorian Slum",
+              "type": "documentary",
+              "year": 2016,
+              "rating": "NR",
+              "runtime": 300,
+              "relevance": "BBC documentary recreating Victorian slum conditions",
+              "links": {},
+              "ageAppropriate": true,
+              "notes": "5-part series; shows real conditions of industrial era poor"
+            },
+            {
+              "title": "The Men Who Built America",
+              "type": "documentary",
+              "year": 2012,
+              "rating": "TV-PG",
+              "runtime": 360,
+              "relevance": "History Channel series on industrial tycoons",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt2167393/"
+              },
+              "ageAppropriate": true,
+              "notes": "8 parts; covers Carnegie, Rockefeller, Morgan, Ford"
+            },
+            {
+              "title": "Newsies",
+              "type": "movie",
+              "year": 1992,
+              "rating": "PG",
+              "runtime": 121,
+              "relevance": "Disney musical about newsboy strike showing child labor",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0104990/",
+                "streaming": [
+                  {
+                    "service": "Disney+",
+                    "url": ""
+                  }
+                ]
+              },
+              "ageAppropriate": true,
+              "notes": "HIGHLY RECOMMENDED - engaging introduction to labor issues"
+            }
           ]
         }
       ]
@@ -119,10 +558,39 @@
           "name": "Nationalism and Imperialism",
           "description": "Rise of nationalism and European imperial expansion",
           "order": 1,
-          "subtopics": ["Nation-state concept", "Unification movements - Germany, Italy", "Imperial competition", "Social Darwinism"],
+          "subtopics": [
+            "Nation-state concept",
+            "Unification movements - Germany, Italy",
+            "Imperial competition",
+            "Social Darwinism"
+          ],
           "media": [
-            {"title": "The Young Victoria", "type": "movie", "year": 2009, "rating": "PG", "runtime": 105, "relevance": "Depicts Queen Victoria's early reign during imperial expansion", "links": {"imdb": "https://www.imdb.com/title/tt0962736/"}, "ageAppropriate": true, "notes": "PG; Emily Blunt; shows Victorian era Britain"},
-            {"title": "Victoria & Abdul", "type": "movie", "year": 2017, "rating": "PG-13", "runtime": 111, "relevance": "Victoria's friendship with Indian servant; shows British imperialism", "links": {"imdb": "https://www.imdb.com/title/tt5816682/"}, "ageAppropriate": true, "notes": "Judi Dench; shows late Victorian Britain-India relations"}
+            {
+              "title": "The Young Victoria",
+              "type": "movie",
+              "year": 2009,
+              "rating": "PG",
+              "runtime": 105,
+              "relevance": "Depicts Queen Victoria's early reign during imperial expansion",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0962736/"
+              },
+              "ageAppropriate": true,
+              "notes": "PG; Emily Blunt; shows Victorian era Britain"
+            },
+            {
+              "title": "Victoria & Abdul",
+              "type": "movie",
+              "year": 2017,
+              "rating": "PG-13",
+              "runtime": 111,
+              "relevance": "Victoria's friendship with Indian servant; shows British imperialism",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt5816682/"
+              },
+              "ageAppropriate": true,
+              "notes": "Judi Dench; shows late Victorian Britain-India relations"
+            }
           ]
         }
       ]
@@ -137,12 +605,150 @@
           "name": "Scramble for Africa",
           "description": "European colonization and partition of Africa",
           "order": 1,
-          "subtopics": ["Berlin Conference 1884-85", "Colonial rule types", "Belgian Congo atrocities", "African resistance", "Long-term impacts"],
+          "subtopics": [
+            "Berlin Conference 1884-85",
+            "Colonial rule types",
+            "Belgian Congo atrocities",
+            "African resistance",
+            "Long-term impacts"
+          ],
           "media": [
-            {"title": "Hotel Rwanda", "type": "movie", "year": 2004, "rating": "PG-13", "runtime": 121, "relevance": "Rwandan genocide showing colonial legacy", "links": {"imdb": "https://www.imdb.com/title/tt0395169/"}, "ageAppropriate": true, "notes": "PG-13; powerful but intense; shows colonialism's lasting effects"},
-            {"title": "Out of Africa", "type": "movie", "year": 1985, "rating": "PG", "runtime": 161, "relevance": "Colonial Kenya through European settler's eyes", "links": {"imdb": "https://www.imdb.com/title/tt0089755/"}, "ageAppropriate": true, "notes": "PG; Meryl Streep; shows colonial Africa"},
-            {"title": "King Leopold's Ghost", "type": "documentary", "year": 2006, "rating": "NR", "runtime": 102, "relevance": "Documentary on Belgian Congo atrocities", "links": {"imdb": "https://www.imdb.com/title/tt0910965/"}, "ageAppropriate": true, "notes": "Disturbing content but important; covers Congo exploitation"},
-            {"title": "Africa's Great Civilizations", "type": "documentary", "year": 2017, "rating": "NR", "runtime": 360, "relevance": "Henry Louis Gates Jr. documentary including colonial era", "links": {"imdb": "https://www.imdb.com/title/tt6398804/", "streaming": [{"service": "PBS", "url": ""}]}, "ageAppropriate": true, "notes": "Episode 5-6 cover colonial period and resistance"}
+            {
+              "title": "Hotel Rwanda",
+              "type": "movie",
+              "year": 2004,
+              "rating": "PG-13",
+              "runtime": 121,
+              "relevance": "Rwandan genocide showing colonial legacy",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0395169/"
+              },
+              "ageAppropriate": true,
+              "notes": "PG-13; powerful but intense; shows colonialism's lasting effects"
+            },
+            {
+              "title": "Out of Africa",
+              "type": "movie",
+              "year": 1985,
+              "rating": "PG",
+              "runtime": 161,
+              "relevance": "Colonial Kenya through European settler's eyes",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0089755/"
+              },
+              "ageAppropriate": true,
+              "notes": "PG; Meryl Streep; shows colonial Africa"
+            },
+            {
+              "title": "King Leopold's Ghost",
+              "type": "documentary",
+              "year": 2006,
+              "rating": "NR",
+              "runtime": 102,
+              "relevance": "Documentary on Belgian Congo atrocities",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0910965/"
+              },
+              "ageAppropriate": true,
+              "notes": "Disturbing content but important; covers Congo exploitation"
+            },
+            {
+              "title": "Africa's Great Civilizations",
+              "type": "documentary",
+              "year": 2017,
+              "rating": "NR",
+              "runtime": 360,
+              "relevance": "Henry Louis Gates Jr. documentary including colonial era",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt6398804/",
+                "streaming": [
+                  {
+                    "service": "PBS",
+                    "url": ""
+                  }
+                ]
+              },
+              "ageAppropriate": true,
+              "notes": "Episode 5-6 cover colonial period and resistance"
+            },
+            {
+              "title": "Crash Course World History: Imperialism",
+              "type": "short",
+              "year": 2012,
+              "rating": "NR",
+              "runtime": 14,
+              "relevance": "European imperialism overview",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=alJaltUmrGo"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Scramble for Africa, Asia"
+            },
+            {
+              "title": "TED-Ed: The Scramble for Africa",
+              "type": "short",
+              "year": 2020,
+              "rating": "NR",
+              "runtime": 6,
+              "relevance": "Partition of Africa",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=4GXNsM1KHng"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Berlin Conference context"
+            },
+            {
+              "title": "Crash Course World History: Opium Wars",
+              "type": "short",
+              "year": 2012,
+              "rating": "NR",
+              "runtime": 12,
+              "relevance": "British imperialism in China",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=fA-_2b6kFXg"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] China and European powers"
+            },
+            {
+              "title": "History Matters: Why Did Britain Colonize India?",
+              "type": "short",
+              "year": 2019,
+              "rating": "NR",
+              "runtime": 4,
+              "relevance": "British India explanation",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=3mZWjW3c-Z8"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Quick explanation"
+            },
+            {
+              "title": "Extra History: The Scramble for Africa",
+              "type": "short",
+              "year": 2018,
+              "rating": "NR",
+              "runtime": 45,
+              "relevance": "African colonization (4 parts)",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=Sj8XnPSnt4k&list=PLhyKYa0YJ_5CAYJyW4Xb8YzKyhP1ht2cX"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Animated detailed history"
+            },
+            {
+              "title": "Crash Course World History: Samurai, Daimyo, Matthew Perry, and Gunboat Diplomacy",
+              "type": "short",
+              "year": 2012,
+              "rating": "NR",
+              "runtime": 12,
+              "relevance": "Japan modernization",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=Mh5LY4Mz15o"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Meiji Restoration context"
+            }
           ]
         }
       ]
@@ -157,13 +763,79 @@
           "name": "Imperialism in Asia",
           "description": "European and American imperialism in India, China, and Southeast Asia",
           "order": 1,
-          "subtopics": ["British Raj in India", "Opium Wars in China", "Boxer Rebellion", "Meiji Japan response", "Southeast Asian colonies"],
+          "subtopics": [
+            "British Raj in India",
+            "Opium Wars in China",
+            "Boxer Rebellion",
+            "Meiji Japan response",
+            "Southeast Asian colonies"
+          ],
           "media": [
-            {"title": "Gandhi", "type": "movie", "year": 1982, "rating": "PG", "runtime": 191, "relevance": "Epic biography of Gandhi and Indian independence movement", "links": {"imdb": "https://www.imdb.com/title/tt0083987/"}, "ageAppropriate": true, "notes": "HIGHLY RECOMMENDED - Academy Award winner; Ben Kingsley"},
-            {"title": "A Passage to India", "type": "movie", "year": 1984, "rating": "PG", "runtime": 164, "relevance": "David Lean film set in British India", "links": {"imdb": "https://www.imdb.com/title/tt0087892/"}, "ageAppropriate": true, "notes": "Shows British-Indian relations and colonialism"},
-            {"title": "The Last Emperor", "type": "movie", "year": 1987, "rating": "PG-13", "runtime": 163, "relevance": "Academy Award winner about China's last emperor", "links": {"imdb": "https://www.imdb.com/title/tt0093389/"}, "ageAppropriate": true, "notes": "Beautiful; covers end of Chinese empire through WWII"},
-            {"title": "55 Days at Peking", "type": "movie", "year": 1963, "rating": "NR", "runtime": 154, "relevance": "Classic depicting Boxer Rebellion siege", "links": {"imdb": "https://www.imdb.com/title/tt0056800/"}, "ageAppropriate": true, "notes": "Charlton Heston; shows Western imperialism in China"},
-            {"title": "The Opium War", "type": "movie", "year": 1997, "rating": "NR", "runtime": 153, "relevance": "Chinese film on First Opium War", "links": {"imdb": "https://www.imdb.com/title/tt0119847/"}, "ageAppropriate": true, "notes": "Chinese perspective on British imperialism"}
+            {
+              "title": "Gandhi",
+              "type": "movie",
+              "year": 1982,
+              "rating": "PG",
+              "runtime": 191,
+              "relevance": "Epic biography of Gandhi and Indian independence movement",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0083987/"
+              },
+              "ageAppropriate": true,
+              "notes": "HIGHLY RECOMMENDED - Academy Award winner; Ben Kingsley"
+            },
+            {
+              "title": "A Passage to India",
+              "type": "movie",
+              "year": 1984,
+              "rating": "PG",
+              "runtime": 164,
+              "relevance": "David Lean film set in British India",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0087892/"
+              },
+              "ageAppropriate": true,
+              "notes": "Shows British-Indian relations and colonialism"
+            },
+            {
+              "title": "The Last Emperor",
+              "type": "movie",
+              "year": 1987,
+              "rating": "PG-13",
+              "runtime": 163,
+              "relevance": "Academy Award winner about China's last emperor",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0093389/"
+              },
+              "ageAppropriate": true,
+              "notes": "Beautiful; covers end of Chinese empire through WWII"
+            },
+            {
+              "title": "55 Days at Peking",
+              "type": "movie",
+              "year": 1963,
+              "rating": "NR",
+              "runtime": 154,
+              "relevance": "Classic depicting Boxer Rebellion siege",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0056800/"
+              },
+              "ageAppropriate": true,
+              "notes": "Charlton Heston; shows Western imperialism in China"
+            },
+            {
+              "title": "The Opium War",
+              "type": "movie",
+              "year": 1997,
+              "rating": "NR",
+              "runtime": 153,
+              "relevance": "Chinese film on First Opium War",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0119847/"
+              },
+              "ageAppropriate": true,
+              "notes": "Chinese perspective on British imperialism"
+            }
           ]
         }
       ]
@@ -178,15 +850,395 @@
           "name": "The Great War",
           "description": "Causes, course, and consequences of World War I",
           "order": 1,
-          "subtopics": ["Alliance system - Triple Entente vs Central Powers", "Assassination of Franz Ferdinand", "Trench warfare", "New weapons technology", "Treaty of Versailles"],
+          "subtopics": [
+            "Alliance system - Triple Entente vs Central Powers",
+            "Assassination of Franz Ferdinand",
+            "Trench warfare",
+            "New weapons technology",
+            "Treaty of Versailles"
+          ],
           "media": [
-            {"title": "War Horse", "type": "movie", "year": 2011, "rating": "PG-13", "runtime": 146, "relevance": "Spielberg WWI film following a horse through the war", "links": {"imdb": "https://www.imdb.com/title/tt1568911/"}, "ageAppropriate": true, "notes": "PG-13; emotional but appropriate; shows WWI from unique perspective"},
-            {"title": "1917", "type": "movie", "year": 2019, "rating": "R", "runtime": 119, "relevance": "Single-shot style WWI trench warfare film", "links": {"imdb": "https://www.imdb.com/title/tt8579674/"}, "ageAppropriate": false, "notes": "R-rated; NOT for classroom; stunning visuals for teacher reference"},
-            {"title": "They Shall Not Grow Old", "type": "documentary", "year": 2018, "rating": "R", "runtime": 99, "relevance": "Peter Jackson restored and colorized WWI footage", "links": {"imdb": "https://www.imdb.com/title/tt7905466/"}, "ageAppropriate": false, "notes": "R-rated; powerful restored footage; select scenes may work"},
-            {"title": "The Great War", "type": "documentary", "year": 1964, "rating": "NR", "runtime": 1560, "relevance": "BBC 26-part documentary on WWI", "links": {}, "ageAppropriate": true, "notes": "Classic documentary; comprehensive; select relevant episodes"},
-            {"title": "Paths of Glory", "type": "movie", "year": 1957, "rating": "NR", "runtime": 88, "relevance": "Kubrick anti-war film set in WWI French army", "links": {"imdb": "https://www.imdb.com/title/tt0050825/"}, "ageAppropriate": true, "notes": "Kirk Douglas; shows futility of war; anti-war message"},
-            {"title": "All Quiet on the Western Front", "type": "movie", "year": 2022, "rating": "R", "runtime": 148, "relevance": "German perspective WWI; Netflix adaptation", "links": {"imdb": "https://www.imdb.com/title/tt1016150/", "streaming": [{"service": "Netflix", "url": ""}]}, "ageAppropriate": false, "notes": "R-rated; excellent German perspective; select scenes"},
-            {"title": "Sergeant York", "type": "movie", "year": 1941, "rating": "NR", "runtime": 134, "relevance": "Classic about WWI hero Alvin York", "links": {"imdb": "https://www.imdb.com/title/tt0034167/"}, "ageAppropriate": true, "notes": "Gary Cooper; shows American experience in WWI"}
+            {
+              "title": "War Horse",
+              "type": "movie",
+              "year": 2011,
+              "rating": "PG-13",
+              "runtime": 146,
+              "relevance": "Spielberg WWI film following a horse through the war",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt1568911/"
+              },
+              "ageAppropriate": true,
+              "notes": "PG-13; emotional but appropriate; shows WWI from unique perspective"
+            },
+            {
+              "title": "1917",
+              "type": "movie",
+              "year": 2019,
+              "rating": "R",
+              "runtime": 119,
+              "relevance": "Single-shot style WWI trench warfare film",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt8579674/"
+              },
+              "ageAppropriate": false,
+              "notes": "R-rated; NOT for classroom; stunning visuals for teacher reference"
+            },
+            {
+              "title": "They Shall Not Grow Old",
+              "type": "documentary",
+              "year": 2018,
+              "rating": "R",
+              "runtime": 99,
+              "relevance": "Peter Jackson restored and colorized WWI footage",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt7905466/"
+              },
+              "ageAppropriate": false,
+              "notes": "R-rated; powerful restored footage; select scenes may work"
+            },
+            {
+              "title": "The Great War",
+              "type": "documentary",
+              "year": 1964,
+              "rating": "NR",
+              "runtime": 1560,
+              "relevance": "BBC 26-part documentary on WWI",
+              "links": {},
+              "ageAppropriate": true,
+              "notes": "Classic documentary; comprehensive; select relevant episodes"
+            },
+            {
+              "title": "Paths of Glory",
+              "type": "movie",
+              "year": 1957,
+              "rating": "NR",
+              "runtime": 88,
+              "relevance": "Kubrick anti-war film set in WWI French army",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0050825/"
+              },
+              "ageAppropriate": true,
+              "notes": "Kirk Douglas; shows futility of war; anti-war message"
+            },
+            {
+              "title": "All Quiet on the Western Front",
+              "type": "movie",
+              "year": 2022,
+              "rating": "R",
+              "runtime": 148,
+              "relevance": "German perspective WWI; Netflix adaptation",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt1016150/",
+                "streaming": [
+                  {
+                    "service": "Netflix",
+                    "url": ""
+                  }
+                ]
+              },
+              "ageAppropriate": false,
+              "notes": "R-rated; excellent German perspective; select scenes"
+            },
+            {
+              "title": "Sergeant York",
+              "type": "movie",
+              "year": 1941,
+              "rating": "NR",
+              "runtime": 134,
+              "relevance": "Classic about WWI hero Alvin York",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0034167/"
+              },
+              "ageAppropriate": true,
+              "notes": "Gary Cooper; shows American experience in WWI"
+            },
+            {
+              "title": "Crash Course World History: Archdukes, Cynicism, and WWI",
+              "type": "short",
+              "year": 2012,
+              "rating": "NR",
+              "runtime": 11,
+              "relevance": "WWI causes and start",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=_XPZQ0LAlR4"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Assassination to war"
+            },
+            {
+              "title": "Oversimplified: WWI (Part 1)",
+              "type": "short",
+              "year": 2017,
+              "rating": "NR",
+              "runtime": 12,
+              "relevance": "Animated WWI history",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=dHSQAEam2yc"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] HIGHLY RECOMMENDED"
+            },
+            {
+              "title": "Oversimplified: WWI (Part 2)",
+              "type": "short",
+              "year": 2017,
+              "rating": "NR",
+              "runtime": 15,
+              "relevance": "WWI continuation",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=Mun1dKkc_As"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] War through Treaty of Versailles"
+            },
+            {
+              "title": "TED-Ed: The Treaty of Versailles",
+              "type": "short",
+              "year": 2016,
+              "rating": "NR",
+              "runtime": 5,
+              "relevance": "Peace treaty analysis",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=mPEGRwVMOV8"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Seeds of WWII"
+            },
+            {
+              "title": "Epic History TV: WWI Documentary",
+              "type": "short",
+              "year": 2018,
+              "rating": "NR",
+              "runtime": 30,
+              "relevance": "Comprehensive WWI overview",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=KBp1MkcaToU"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Detailed animated maps"
+            },
+            {
+              "title": "Simple History: Life in the Trenches",
+              "type": "short",
+              "year": 2016,
+              "rating": "NR",
+              "runtime": 6,
+              "relevance": "Trench warfare",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=9CI8p1M0x7g"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Soldier experience"
+            },
+            {
+              "title": "Oversimplified: WWII (Part 1)",
+              "type": "short",
+              "year": 2019,
+              "rating": "NR",
+              "runtime": 15,
+              "relevance": "WWII begins",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=_uk_6vfqwTA"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] HIGHLY RECOMMENDED"
+            },
+            {
+              "title": "Oversimplified: WWII (Part 2)",
+              "type": "short",
+              "year": 2019,
+              "rating": "NR",
+              "runtime": 17,
+              "relevance": "WWII conclusion",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=fo2Rb9h788s"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] D-Day to atomic bomb"
+            },
+            {
+              "title": "Crash Course World History: WWII",
+              "type": "short",
+              "year": 2012,
+              "rating": "NR",
+              "runtime": 13,
+              "relevance": "WWII overview",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=Q78COTwT7nE"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Complete war overview"
+            },
+            {
+              "title": "TED-Ed: The Holocaust and Ordinary Germans",
+              "type": "short",
+              "year": 2019,
+              "rating": "NR",
+              "runtime": 6,
+              "relevance": "Holocaust context",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=B6N6iNzN2fs"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] How it happened"
+            },
+            {
+              "title": "Extra History: D-Day",
+              "type": "short",
+              "year": 2019,
+              "rating": "NR",
+              "runtime": 45,
+              "relevance": "Normandy invasion (4 parts)",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=QYS0i8CZ8yw&list=PLhyKYa0YJ_5AiJmDG6v_lITyLLnkKrvNL"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Detailed D-Day history"
+            },
+            {
+              "title": "Simple History: Pearl Harbor",
+              "type": "short",
+              "year": 2017,
+              "rating": "NR",
+              "runtime": 6,
+              "relevance": "Attack on Pearl Harbor",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=rVZfqfXSbWo"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] US enters war"
+            },
+            {
+              "title": "Crash Course World History: The Cold War",
+              "type": "short",
+              "year": 2012,
+              "rating": "NR",
+              "runtime": 14,
+              "relevance": "Cold War overview",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=y9HjvHZfCUI"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] US-Soviet rivalry"
+            },
+            {
+              "title": "Oversimplified: Cold War (Part 1)",
+              "type": "short",
+              "year": 2020,
+              "rating": "NR",
+              "runtime": 17,
+              "relevance": "Animated Cold War",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=I79TpDe3t2g"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Origins through crises"
+            },
+            {
+              "title": "Oversimplified: Cold War (Part 2)",
+              "type": "short",
+              "year": 2020,
+              "rating": "NR",
+              "runtime": 20,
+              "relevance": "Cold War continuation",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=OIYy32RuHao"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Vietnam through fall of USSR"
+            },
+            {
+              "title": "TED-Ed: The Cuban Missile Crisis",
+              "type": "short",
+              "year": 2016,
+              "rating": "NR",
+              "runtime": 5,
+              "relevance": "Nuclear standoff",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=bwWW3sbk4EU"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] 13 days that changed world"
+            },
+            {
+              "title": "Crash Course World History: Decolonization",
+              "type": "short",
+              "year": 2012,
+              "rating": "NR",
+              "runtime": 12,
+              "relevance": "End of colonial empires",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=OMtl-Rf52to"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Africa, Asia independence"
+            },
+            {
+              "title": "Simple History: Fall of the Berlin Wall",
+              "type": "short",
+              "year": 2019,
+              "rating": "NR",
+              "runtime": 5,
+              "relevance": "Cold War ends",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=6D6YnU6Yzlg"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] 1989 and aftermath"
+            },
+            {
+              "title": "Crash Course World History: Globalization I",
+              "type": "short",
+              "year": 2012,
+              "rating": "NR",
+              "runtime": 14,
+              "relevance": "Modern globalization",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=s_iwrt7D5OA"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Trade, culture, technology"
+            },
+            {
+              "title": "TED-Ed: 9/11 and the War on Terror",
+              "type": "short",
+              "year": 2021,
+              "rating": "NR",
+              "runtime": 6,
+              "relevance": "Post-9/11 world",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=h0FNlPb3GbU"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Modern terrorism context"
+            },
+            {
+              "title": "Kurzgesagt: Climate Change Overview",
+              "type": "short",
+              "year": 2022,
+              "rating": "NR",
+              "runtime": 12,
+              "relevance": "Climate science",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=wbR-5mHI6bo"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Animated climate science"
+            },
+            {
+              "title": "Crash Course World History: How and Why We Read",
+              "type": "short",
+              "year": 2012,
+              "rating": "NR",
+              "runtime": 12,
+              "relevance": "Historical thinking",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=MSYw502dJNY"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Historical methods"
+            }
           ]
         }
       ]
@@ -201,12 +1253,148 @@
           "name": "Russian Revolution",
           "description": "Bolshevik Revolution, creation of the Soviet Union, and rise of communism",
           "order": 1,
-          "subtopics": ["Causes - war, poverty, autocracy", "February and October Revolutions", "Lenin and Bolsheviks", "Russian Civil War", "Creation of USSR"],
+          "subtopics": [
+            "Causes - war, poverty, autocracy",
+            "February and October Revolutions",
+            "Lenin and Bolsheviks",
+            "Russian Civil War",
+            "Creation of USSR"
+          ],
           "media": [
-            {"title": "Anastasia", "type": "movie", "year": 1997, "rating": "G", "runtime": 94, "relevance": "Animated film about Russian Revolution's impact", "links": {"imdb": "https://www.imdb.com/title/tt0118617/", "streaming": [{"service": "Disney+", "url": ""}]}, "ageAppropriate": true, "notes": "G-rated; fictional but good starting point for discussion"},
-            {"title": "Doctor Zhivago", "type": "movie", "year": 1965, "rating": "PG-13", "runtime": 197, "relevance": "Epic spanning Russian Revolution and Civil War", "links": {"imdb": "https://www.imdb.com/title/tt0059113/"}, "ageAppropriate": true, "notes": "David Lean epic; Omar Sharif; shows revolutionary era"},
-            {"title": "Reds", "type": "movie", "year": 1981, "rating": "PG", "runtime": 195, "relevance": "Warren Beatty film about John Reed witnessing Russian Revolution", "links": {"imdb": "https://www.imdb.com/title/tt0082979/"}, "ageAppropriate": true, "notes": "PG; American journalist's perspective on revolution"},
-            {"title": "The Russian Revolution", "type": "documentary", "year": 2017, "rating": "NR", "runtime": 90, "relevance": "Documentary on the 1917 revolution", "links": {}, "ageAppropriate": true, "notes": "Made for 100th anniversary; comprehensive coverage"}
+            {
+              "title": "Anastasia",
+              "type": "movie",
+              "year": 1997,
+              "rating": "G",
+              "runtime": 94,
+              "relevance": "Animated film about Russian Revolution's impact",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0118617/",
+                "streaming": [
+                  {
+                    "service": "Disney+",
+                    "url": ""
+                  }
+                ]
+              },
+              "ageAppropriate": true,
+              "notes": "G-rated; fictional but good starting point for discussion"
+            },
+            {
+              "title": "Doctor Zhivago",
+              "type": "movie",
+              "year": 1965,
+              "rating": "PG-13",
+              "runtime": 197,
+              "relevance": "Epic spanning Russian Revolution and Civil War",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0059113/"
+              },
+              "ageAppropriate": true,
+              "notes": "David Lean epic; Omar Sharif; shows revolutionary era"
+            },
+            {
+              "title": "Reds",
+              "type": "movie",
+              "year": 1981,
+              "rating": "PG",
+              "runtime": 195,
+              "relevance": "Warren Beatty film about John Reed witnessing Russian Revolution",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0082979/"
+              },
+              "ageAppropriate": true,
+              "notes": "PG; American journalist's perspective on revolution"
+            },
+            {
+              "title": "The Russian Revolution",
+              "type": "documentary",
+              "year": 2017,
+              "rating": "NR",
+              "runtime": 90,
+              "relevance": "Documentary on the 1917 revolution",
+              "links": {},
+              "ageAppropriate": true,
+              "notes": "Made for 100th anniversary; comprehensive coverage"
+            },
+            {
+              "title": "Crash Course World History: The Russian Revolution",
+              "type": "short",
+              "year": 2012,
+              "rating": "NR",
+              "runtime": 13,
+              "relevance": "1917 Revolution",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=kllhI1DEt4w"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Lenin, Bolsheviks"
+            },
+            {
+              "title": "Oversimplified: The Russian Revolution",
+              "type": "short",
+              "year": 2017,
+              "rating": "NR",
+              "runtime": 16,
+              "relevance": "Animated Revolution",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=1H5f3YLhBWY"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Engaging overview"
+            },
+            {
+              "title": "Crash Course World History: Fascism and Mussolini",
+              "type": "short",
+              "year": 2012,
+              "rating": "NR",
+              "runtime": 11,
+              "relevance": "Rise of Fascism",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=1lW7dAf5WMo"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Italy, fascist ideology"
+            },
+            {
+              "title": "Oversimplified: Hitler (Part 1)",
+              "type": "short",
+              "year": 2018,
+              "rating": "NR",
+              "runtime": 14,
+              "relevance": "Hitler's rise",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=ATlila3e9dM"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Rise of Nazi party"
+            },
+            {
+              "title": "Oversimplified: Hitler (Part 2)",
+              "type": "short",
+              "year": 2018,
+              "rating": "NR",
+              "runtime": 18,
+              "relevance": "Nazi consolidation",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=FuLN_V2fZ6k"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Road to WWII"
+            },
+            {
+              "title": "Crash Course World History: The Great Depression",
+              "type": "short",
+              "year": 2012,
+              "rating": "NR",
+              "runtime": 14,
+              "relevance": "Economic crisis",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=GCQfMWAikyU"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Global economic collapse"
+            }
           ]
         },
         {
@@ -214,12 +1402,66 @@
           "name": "Rise of Totalitarianism",
           "description": "Fascism in Italy, Nazism in Germany, and militarism in Japan",
           "order": 2,
-          "subtopics": ["Mussolini and Italian Fascism", "Hitler and Nazi rise to power", "Stalin's Soviet Union", "Japanese militarism", "Propaganda techniques"],
+          "subtopics": [
+            "Mussolini and Italian Fascism",
+            "Hitler and Nazi rise to power",
+            "Stalin's Soviet Union",
+            "Japanese militarism",
+            "Propaganda techniques"
+          ],
           "media": [
-            {"title": "The Great Dictator", "type": "movie", "year": 1940, "rating": "G", "runtime": 125, "relevance": "Charlie Chaplin satire of Hitler and fascism", "links": {"imdb": "https://www.imdb.com/title/tt0032553/"}, "ageAppropriate": true, "notes": "G-rated; Chaplin's famous anti-fascist speech"},
-            {"title": "Triumph of the Will", "type": "documentary", "year": 1935, "rating": "NR", "runtime": 114, "relevance": "Nazi propaganda film - for analyzing propaganda techniques", "links": {"imdb": "https://www.imdb.com/title/tt0025913/"}, "ageAppropriate": false, "notes": "PROPAGANDA - show clips ONLY for analysis; discuss manipulation"},
-            {"title": "The Rise of Evil", "type": "movie", "year": 2003, "rating": "TV-14", "runtime": 180, "relevance": "CBS miniseries on Hitler's rise to power", "links": {"imdb": "https://www.imdb.com/title/tt0322788/"}, "ageAppropriate": true, "notes": "Robert Carlyle; shows how Hitler came to power"},
-            {"title": "The World at War", "type": "documentary", "year": 1973, "rating": "NR", "runtime": 1560, "relevance": "Classic documentary series; episodes on rise of fascism", "links": {"imdb": "https://www.imdb.com/title/tt0071075/"}, "ageAppropriate": true, "notes": "Laurence Olivier narrates; select relevant episodes"}
+            {
+              "title": "The Great Dictator",
+              "type": "movie",
+              "year": 1940,
+              "rating": "G",
+              "runtime": 125,
+              "relevance": "Charlie Chaplin satire of Hitler and fascism",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0032553/"
+              },
+              "ageAppropriate": true,
+              "notes": "G-rated; Chaplin's famous anti-fascist speech"
+            },
+            {
+              "title": "Triumph of the Will",
+              "type": "documentary",
+              "year": 1935,
+              "rating": "NR",
+              "runtime": 114,
+              "relevance": "Nazi propaganda film - for analyzing propaganda techniques",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0025913/"
+              },
+              "ageAppropriate": false,
+              "notes": "PROPAGANDA - show clips ONLY for analysis; discuss manipulation"
+            },
+            {
+              "title": "The Rise of Evil",
+              "type": "movie",
+              "year": 2003,
+              "rating": "TV-14",
+              "runtime": 180,
+              "relevance": "CBS miniseries on Hitler's rise to power",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0322788/"
+              },
+              "ageAppropriate": true,
+              "notes": "Robert Carlyle; shows how Hitler came to power"
+            },
+            {
+              "title": "The World at War",
+              "type": "documentary",
+              "year": 1973,
+              "rating": "NR",
+              "runtime": 1560,
+              "relevance": "Classic documentary series; episodes on rise of fascism",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0071075/"
+              },
+              "ageAppropriate": true,
+              "notes": "Laurence Olivier narrates; select relevant episodes"
+            }
           ]
         }
       ]
@@ -234,15 +1476,105 @@
           "name": "Second World War",
           "description": "Global conflict, the Holocaust, and Allied victory",
           "order": 1,
-          "subtopics": ["Causes and aggression", "Blitzkrieg and early German victories", "Pearl Harbor - US entry", "Major battles - Stalingrad, D-Day, Midway", "Atomic bombs and war's end"],
+          "subtopics": [
+            "Causes and aggression",
+            "Blitzkrieg and early German victories",
+            "Pearl Harbor - US entry",
+            "Major battles - Stalingrad, D-Day, Midway",
+            "Atomic bombs and war's end"
+          ],
           "media": [
-            {"title": "Dunkirk", "type": "movie", "year": 2017, "rating": "PG-13", "runtime": 106, "relevance": "Christopher Nolan film on Dunkirk evacuation", "links": {"imdb": "https://www.imdb.com/title/tt5013056/"}, "ageAppropriate": true, "notes": "PG-13; intense but minimal graphic violence; shows British resilience"},
-            {"title": "Saving Private Ryan", "type": "movie", "year": 1998, "rating": "R", "runtime": 169, "relevance": "Spielberg D-Day epic", "links": {"imdb": "https://www.imdb.com/title/tt0120815/"}, "ageAppropriate": false, "notes": "R-rated; NOT for classroom; D-Day landing sequence for reference"},
-            {"title": "The Longest Day", "type": "movie", "year": 1962, "rating": "G", "runtime": 178, "relevance": "Classic D-Day film from multiple perspectives", "links": {"imdb": "https://www.imdb.com/title/tt0056197/"}, "ageAppropriate": true, "notes": "G-rated; all-star cast; comprehensive D-Day coverage"},
-            {"title": "Tora! Tora! Tora!", "type": "movie", "year": 1970, "rating": "G", "runtime": 144, "relevance": "Pearl Harbor attack from both Japanese and American perspectives", "links": {"imdb": "https://www.imdb.com/title/tt0066473/"}, "ageAppropriate": true, "notes": "G-rated; shows both sides of Pearl Harbor"},
-            {"title": "Midway", "type": "movie", "year": 2019, "rating": "PG-13", "runtime": 138, "relevance": "Battle of Midway - turning point in Pacific", "links": {"imdb": "https://www.imdb.com/title/tt6924650/"}, "ageAppropriate": true, "notes": "PG-13; modern effects; shows Pacific Theater"},
-            {"title": "The World at War", "type": "documentary", "year": 1973, "rating": "NR", "runtime": 1560, "relevance": "Definitive WWII documentary series", "links": {"imdb": "https://www.imdb.com/title/tt0071075/"}, "ageAppropriate": true, "notes": "26 episodes; Laurence Olivier narrates; comprehensive"},
-            {"title": "WWII in HD", "type": "documentary", "year": 2009, "rating": "TV-14", "runtime": 600, "relevance": "History Channel series with restored color footage", "links": {"imdb": "https://www.imdb.com/title/tt1508238/"}, "ageAppropriate": true, "notes": "10 parts; color footage makes war more real"}
+            {
+              "title": "Dunkirk",
+              "type": "movie",
+              "year": 2017,
+              "rating": "PG-13",
+              "runtime": 106,
+              "relevance": "Christopher Nolan film on Dunkirk evacuation",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt5013056/"
+              },
+              "ageAppropriate": true,
+              "notes": "PG-13; intense but minimal graphic violence; shows British resilience"
+            },
+            {
+              "title": "Saving Private Ryan",
+              "type": "movie",
+              "year": 1998,
+              "rating": "R",
+              "runtime": 169,
+              "relevance": "Spielberg D-Day epic",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0120815/"
+              },
+              "ageAppropriate": false,
+              "notes": "R-rated; NOT for classroom; D-Day landing sequence for reference"
+            },
+            {
+              "title": "The Longest Day",
+              "type": "movie",
+              "year": 1962,
+              "rating": "G",
+              "runtime": 178,
+              "relevance": "Classic D-Day film from multiple perspectives",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0056197/"
+              },
+              "ageAppropriate": true,
+              "notes": "G-rated; all-star cast; comprehensive D-Day coverage"
+            },
+            {
+              "title": "Tora! Tora! Tora!",
+              "type": "movie",
+              "year": 1970,
+              "rating": "G",
+              "runtime": 144,
+              "relevance": "Pearl Harbor attack from both Japanese and American perspectives",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0066473/"
+              },
+              "ageAppropriate": true,
+              "notes": "G-rated; shows both sides of Pearl Harbor"
+            },
+            {
+              "title": "Midway",
+              "type": "movie",
+              "year": 2019,
+              "rating": "PG-13",
+              "runtime": 138,
+              "relevance": "Battle of Midway - turning point in Pacific",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt6924650/"
+              },
+              "ageAppropriate": true,
+              "notes": "PG-13; modern effects; shows Pacific Theater"
+            },
+            {
+              "title": "The World at War",
+              "type": "documentary",
+              "year": 1973,
+              "rating": "NR",
+              "runtime": 1560,
+              "relevance": "Definitive WWII documentary series",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0071075/"
+              },
+              "ageAppropriate": true,
+              "notes": "26 episodes; Laurence Olivier narrates; comprehensive"
+            },
+            {
+              "title": "WWII in HD",
+              "type": "documentary",
+              "year": 2009,
+              "rating": "TV-14",
+              "runtime": 600,
+              "relevance": "History Channel series with restored color footage",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt1508238/"
+              },
+              "ageAppropriate": true,
+              "notes": "10 parts; color footage makes war more real"
+            }
           ]
         },
         {
@@ -250,15 +1582,106 @@
           "name": "The Holocaust",
           "description": "Genocide of European Jews and other groups by Nazi Germany",
           "order": 2,
-          "subtopics": ["Nazi racial ideology", "Nuremberg Laws", "Kristallnacht", "Concentration and death camps", "Final Solution", "Resistance and rescue"],
+          "subtopics": [
+            "Nazi racial ideology",
+            "Nuremberg Laws",
+            "Kristallnacht",
+            "Concentration and death camps",
+            "Final Solution",
+            "Resistance and rescue"
+          ],
           "media": [
-            {"title": "The Boy in the Striped Pajamas", "type": "movie", "year": 2008, "rating": "PG-13", "runtime": 94, "relevance": "Holocaust from child's perspective", "links": {"imdb": "https://www.imdb.com/title/tt0914798/"}, "ageAppropriate": true, "notes": "PG-13; age-appropriate introduction; emotionally powerful"},
-            {"title": "The Diary of Anne Frank", "type": "movie", "year": 1959, "rating": "NR", "runtime": 180, "relevance": "Classic adaptation of Anne Frank's diary", "links": {"imdb": "https://www.imdb.com/title/tt0052738/"}, "ageAppropriate": true, "notes": "Academy Award winner; excellent for this topic"},
-            {"title": "Schindler's List", "type": "movie", "year": 1993, "rating": "R", "runtime": 195, "relevance": "Spielberg's definitive Holocaust film", "links": {"imdb": "https://www.imdb.com/title/tt0108052/"}, "ageAppropriate": false, "notes": "R-rated; may be shown with parental permission; essential film"},
-            {"title": "Life is Beautiful", "type": "movie", "year": 1997, "rating": "PG-13", "runtime": 116, "relevance": "Italian film about father protecting son in concentration camp", "links": {"imdb": "https://www.imdb.com/title/tt0118799/"}, "ageAppropriate": true, "notes": "PG-13; Roberto Benigni; Italian language; touching approach"},
-            {"title": "The Pianist", "type": "movie", "year": 2002, "rating": "R", "runtime": 150, "relevance": "True story of Jewish pianist surviving Warsaw Ghetto", "links": {"imdb": "https://www.imdb.com/title/tt0253474/"}, "ageAppropriate": false, "notes": "R-rated; Polanski; select scenes appropriate"},
-            {"title": "Shoah", "type": "documentary", "year": 1985, "rating": "NR", "runtime": 566, "relevance": "Landmark Holocaust documentary with survivor testimonies", "links": {"imdb": "https://www.imdb.com/title/tt0090015/"}, "ageAppropriate": true, "notes": "9+ hours; extremely comprehensive; select segments"},
-            {"title": "Night and Fog", "type": "documentary", "year": 1956, "rating": "NR", "runtime": 32, "relevance": "Short documentary showing concentration camp footage", "links": {"imdb": "https://www.imdb.com/title/tt0048434/"}, "ageAppropriate": false, "notes": "Disturbing imagery; teacher discretion required"}
+            {
+              "title": "The Boy in the Striped Pajamas",
+              "type": "movie",
+              "year": 2008,
+              "rating": "PG-13",
+              "runtime": 94,
+              "relevance": "Holocaust from child's perspective",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0914798/"
+              },
+              "ageAppropriate": true,
+              "notes": "PG-13; age-appropriate introduction; emotionally powerful"
+            },
+            {
+              "title": "The Diary of Anne Frank",
+              "type": "movie",
+              "year": 1959,
+              "rating": "NR",
+              "runtime": 180,
+              "relevance": "Classic adaptation of Anne Frank's diary",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0052738/"
+              },
+              "ageAppropriate": true,
+              "notes": "Academy Award winner; excellent for this topic"
+            },
+            {
+              "title": "Schindler's List",
+              "type": "movie",
+              "year": 1993,
+              "rating": "R",
+              "runtime": 195,
+              "relevance": "Spielberg's definitive Holocaust film",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0108052/"
+              },
+              "ageAppropriate": false,
+              "notes": "R-rated; may be shown with parental permission; essential film"
+            },
+            {
+              "title": "Life is Beautiful",
+              "type": "movie",
+              "year": 1997,
+              "rating": "PG-13",
+              "runtime": 116,
+              "relevance": "Italian film about father protecting son in concentration camp",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0118799/"
+              },
+              "ageAppropriate": true,
+              "notes": "PG-13; Roberto Benigni; Italian language; touching approach"
+            },
+            {
+              "title": "The Pianist",
+              "type": "movie",
+              "year": 2002,
+              "rating": "R",
+              "runtime": 150,
+              "relevance": "True story of Jewish pianist surviving Warsaw Ghetto",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0253474/"
+              },
+              "ageAppropriate": false,
+              "notes": "R-rated; Polanski; select scenes appropriate"
+            },
+            {
+              "title": "Shoah",
+              "type": "documentary",
+              "year": 1985,
+              "rating": "NR",
+              "runtime": 566,
+              "relevance": "Landmark Holocaust documentary with survivor testimonies",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0090015/"
+              },
+              "ageAppropriate": true,
+              "notes": "9+ hours; extremely comprehensive; select segments"
+            },
+            {
+              "title": "Night and Fog",
+              "type": "documentary",
+              "year": 1956,
+              "rating": "NR",
+              "runtime": 32,
+              "relevance": "Short documentary showing concentration camp footage",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0048434/"
+              },
+              "ageAppropriate": false,
+              "notes": "Disturbing imagery; teacher discretion required"
+            }
           ]
         }
       ]
@@ -273,14 +1696,94 @@
           "name": "Cold War",
           "description": "Ideological conflict between capitalism and communism, proxy wars, and nuclear tensions",
           "order": 1,
-          "subtopics": ["Iron Curtain and containment", "NATO vs Warsaw Pact", "Nuclear arms race", "Korean War", "Cuban Missile Crisis", "Vietnam War", "Space Race"],
+          "subtopics": [
+            "Iron Curtain and containment",
+            "NATO vs Warsaw Pact",
+            "Nuclear arms race",
+            "Korean War",
+            "Cuban Missile Crisis",
+            "Vietnam War",
+            "Space Race"
+          ],
           "media": [
-            {"title": "The Post", "type": "movie", "year": 2017, "rating": "PG-13", "runtime": 116, "relevance": "Pentagon Papers and Vietnam War secrets", "links": {"imdb": "https://www.imdb.com/title/tt6294822/"}, "ageAppropriate": true, "notes": "Spielberg; Meryl Streep, Tom Hanks; journalism during Vietnam"},
-            {"title": "Thirteen Days", "type": "movie", "year": 2000, "rating": "PG-13", "runtime": 145, "relevance": "Cuban Missile Crisis from Kennedy administration perspective", "links": {"imdb": "https://www.imdb.com/title/tt0146309/"}, "ageAppropriate": true, "notes": "Kevin Costner; tense dramatization of nuclear crisis"},
-            {"title": "The Spy Who Came in from the Cold", "type": "movie", "year": 1965, "rating": "NR", "runtime": 112, "relevance": "Le Carré adaptation showing Cold War espionage", "links": {"imdb": "https://www.imdb.com/title/tt0059749/"}, "ageAppropriate": true, "notes": "Richard Burton; shows bleak reality of Cold War"},
-            {"title": "Dr. Strangelove", "type": "movie", "year": 1964, "rating": "PG", "runtime": 95, "relevance": "Kubrick satire on nuclear war and Cold War paranoia", "links": {"imdb": "https://www.imdb.com/title/tt0057012/"}, "ageAppropriate": true, "notes": "PG; dark comedy about MAD doctrine"},
-            {"title": "Bridge of Spies", "type": "movie", "year": 2015, "rating": "PG-13", "runtime": 142, "relevance": "Spielberg film on U-2 spy plane incident and prisoner exchange", "links": {"imdb": "https://www.imdb.com/title/tt3682448/"}, "ageAppropriate": true, "notes": "Tom Hanks; shows Cold War espionage and diplomacy"},
-            {"title": "The Cold War", "type": "documentary", "year": 1998, "rating": "NR", "runtime": 1200, "relevance": "CNN 24-episode documentary on the Cold War", "links": {"imdb": "https://www.imdb.com/title/tt0170896/"}, "ageAppropriate": true, "notes": "Comprehensive; Kenneth Branagh narrates"}
+            {
+              "title": "The Post",
+              "type": "movie",
+              "year": 2017,
+              "rating": "PG-13",
+              "runtime": 116,
+              "relevance": "Pentagon Papers and Vietnam War secrets",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt6294822/"
+              },
+              "ageAppropriate": true,
+              "notes": "Spielberg; Meryl Streep, Tom Hanks; journalism during Vietnam"
+            },
+            {
+              "title": "Thirteen Days",
+              "type": "movie",
+              "year": 2000,
+              "rating": "PG-13",
+              "runtime": 145,
+              "relevance": "Cuban Missile Crisis from Kennedy administration perspective",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0146309/"
+              },
+              "ageAppropriate": true,
+              "notes": "Kevin Costner; tense dramatization of nuclear crisis"
+            },
+            {
+              "title": "The Spy Who Came in from the Cold",
+              "type": "movie",
+              "year": 1965,
+              "rating": "NR",
+              "runtime": 112,
+              "relevance": "Le Carré adaptation showing Cold War espionage",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0059749/"
+              },
+              "ageAppropriate": true,
+              "notes": "Richard Burton; shows bleak reality of Cold War"
+            },
+            {
+              "title": "Dr. Strangelove",
+              "type": "movie",
+              "year": 1964,
+              "rating": "PG",
+              "runtime": 95,
+              "relevance": "Kubrick satire on nuclear war and Cold War paranoia",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0057012/"
+              },
+              "ageAppropriate": true,
+              "notes": "PG; dark comedy about MAD doctrine"
+            },
+            {
+              "title": "Bridge of Spies",
+              "type": "movie",
+              "year": 2015,
+              "rating": "PG-13",
+              "runtime": 142,
+              "relevance": "Spielberg film on U-2 spy plane incident and prisoner exchange",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt3682448/"
+              },
+              "ageAppropriate": true,
+              "notes": "Tom Hanks; shows Cold War espionage and diplomacy"
+            },
+            {
+              "title": "The Cold War",
+              "type": "documentary",
+              "year": 1998,
+              "rating": "NR",
+              "runtime": 1200,
+              "relevance": "CNN 24-episode documentary on the Cold War",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0170896/"
+              },
+              "ageAppropriate": true,
+              "notes": "Comprehensive; Kenneth Branagh narrates"
+            }
           ]
         }
       ]
@@ -295,13 +1798,78 @@
           "name": "End of Empires",
           "description": "Independence movements in Africa, Asia, and the Middle East",
           "order": 1,
-          "subtopics": ["Indian independence and partition", "African independence movements", "Middle East decolonization", "Challenges of new nations"],
+          "subtopics": [
+            "Indian independence and partition",
+            "African independence movements",
+            "Middle East decolonization",
+            "Challenges of new nations"
+          ],
           "media": [
-            {"title": "Gandhi", "type": "movie", "year": 1982, "rating": "PG", "runtime": 191, "relevance": "Gandhi and Indian independence", "links": {"imdb": "https://www.imdb.com/title/tt0083987/"}, "ageAppropriate": true, "notes": "PG; essential for decolonization unit"},
-            {"title": "A Cry Freedom", "type": "movie", "year": 1987, "rating": "PG", "runtime": 157, "relevance": "Steve Biko and South African apartheid resistance", "links": {"imdb": "https://www.imdb.com/title/tt0092804/"}, "ageAppropriate": true, "notes": "Denzel Washington as Biko; shows apartheid"},
-            {"title": "Mandela: Long Walk to Freedom", "type": "movie", "year": 2013, "rating": "PG-13", "runtime": 141, "relevance": "Biography of Nelson Mandela", "links": {"imdb": "https://www.imdb.com/title/tt2304771/"}, "ageAppropriate": true, "notes": "Idris Elba; covers apartheid struggle"},
-            {"title": "The Battle of Algiers", "type": "movie", "year": 1966, "rating": "NR", "runtime": 121, "relevance": "Algerian war of independence from France", "links": {"imdb": "https://www.imdb.com/title/tt0058946/"}, "ageAppropriate": true, "notes": "Italian neorealism; influential film on decolonization"},
-            {"title": "Viceroy's House", "type": "movie", "year": 2017, "rating": "PG-13", "runtime": 106, "relevance": "Partition of India in 1947", "links": {"imdb": "https://www.imdb.com/title/tt4977530/"}, "ageAppropriate": true, "notes": "Shows traumatic partition of India and Pakistan"}
+            {
+              "title": "Gandhi",
+              "type": "movie",
+              "year": 1982,
+              "rating": "PG",
+              "runtime": 191,
+              "relevance": "Gandhi and Indian independence",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0083987/"
+              },
+              "ageAppropriate": true,
+              "notes": "PG; essential for decolonization unit"
+            },
+            {
+              "title": "A Cry Freedom",
+              "type": "movie",
+              "year": 1987,
+              "rating": "PG",
+              "runtime": 157,
+              "relevance": "Steve Biko and South African apartheid resistance",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0092804/"
+              },
+              "ageAppropriate": true,
+              "notes": "Denzel Washington as Biko; shows apartheid"
+            },
+            {
+              "title": "Mandela: Long Walk to Freedom",
+              "type": "movie",
+              "year": 2013,
+              "rating": "PG-13",
+              "runtime": 141,
+              "relevance": "Biography of Nelson Mandela",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt2304771/"
+              },
+              "ageAppropriate": true,
+              "notes": "Idris Elba; covers apartheid struggle"
+            },
+            {
+              "title": "The Battle of Algiers",
+              "type": "movie",
+              "year": 1966,
+              "rating": "NR",
+              "runtime": 121,
+              "relevance": "Algerian war of independence from France",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0058946/"
+              },
+              "ageAppropriate": true,
+              "notes": "Italian neorealism; influential film on decolonization"
+            },
+            {
+              "title": "Viceroy's House",
+              "type": "movie",
+              "year": 2017,
+              "rating": "PG-13",
+              "runtime": 106,
+              "relevance": "Partition of India in 1947",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt4977530/"
+              },
+              "ageAppropriate": true,
+              "notes": "Shows traumatic partition of India and Pakistan"
+            }
           ]
         }
       ]
@@ -316,11 +1884,51 @@
           "name": "Contemporary Global Issues",
           "description": "Recent conflicts, terrorism, globalization, and international relations",
           "order": 1,
-          "subtopics": ["Fall of Soviet Union", "9/11 and War on Terror", "Middle East conflicts", "Rise of China", "Global challenges"],
+          "subtopics": [
+            "Fall of Soviet Union",
+            "9/11 and War on Terror",
+            "Middle East conflicts",
+            "Rise of China",
+            "Global challenges"
+          ],
           "media": [
-            {"title": "The Fall of the Berlin Wall", "type": "documentary", "year": 2019, "rating": "NR", "runtime": 90, "relevance": "Documentary on 1989 events and end of Cold War", "links": {}, "ageAppropriate": true, "notes": "30th anniversary documentary; covers collapse of communism"},
-            {"title": "Zero Dark Thirty", "type": "movie", "year": 2012, "rating": "R", "runtime": 157, "relevance": "Hunt for Osama bin Laden", "links": {"imdb": "https://www.imdb.com/title/tt1790885/"}, "ageAppropriate": false, "notes": "R-rated; NOT for classroom; teacher reference on War on Terror"},
-            {"title": "Charlie Wilson's War", "type": "movie", "year": 2007, "rating": "R", "runtime": 102, "relevance": "US support for Afghan mujahideen - origins of later conflicts", "links": {"imdb": "https://www.imdb.com/title/tt0472062/"}, "ageAppropriate": false, "notes": "R-rated; Tom Hanks; shows Cold War Afghanistan connection"}
+            {
+              "title": "The Fall of the Berlin Wall",
+              "type": "documentary",
+              "year": 2019,
+              "rating": "NR",
+              "runtime": 90,
+              "relevance": "Documentary on 1989 events and end of Cold War",
+              "links": {},
+              "ageAppropriate": true,
+              "notes": "30th anniversary documentary; covers collapse of communism"
+            },
+            {
+              "title": "Zero Dark Thirty",
+              "type": "movie",
+              "year": 2012,
+              "rating": "R",
+              "runtime": 157,
+              "relevance": "Hunt for Osama bin Laden",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt1790885/"
+              },
+              "ageAppropriate": false,
+              "notes": "R-rated; NOT for classroom; teacher reference on War on Terror"
+            },
+            {
+              "title": "Charlie Wilson's War",
+              "type": "movie",
+              "year": 2007,
+              "rating": "R",
+              "runtime": 102,
+              "relevance": "US support for Afghan mujahideen - origins of later conflicts",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0472062/"
+              },
+              "ageAppropriate": false,
+              "notes": "R-rated; Tom Hanks; shows Cold War Afghanistan connection"
+            }
           ]
         }
       ]
@@ -335,12 +1943,66 @@
           "name": "Human Rights Movements",
           "description": "Civil rights movements, women's rights, and social justice globally",
           "order": 1,
-          "subtopics": ["UN Declaration of Human Rights", "Civil rights movements worldwide", "Women's rights movements", "LGBTQ rights", "Ongoing challenges"],
+          "subtopics": [
+            "UN Declaration of Human Rights",
+            "Civil rights movements worldwide",
+            "Women's rights movements",
+            "LGBTQ rights",
+            "Ongoing challenges"
+          ],
           "media": [
-            {"title": "Selma", "type": "movie", "year": 2014, "rating": "PG-13", "runtime": 128, "relevance": "MLK and Selma voting rights marches", "links": {"imdb": "https://www.imdb.com/title/tt1020072/"}, "ageAppropriate": true, "notes": "Powerful depiction of civil rights struggle"},
-            {"title": "12 Years a Slave", "type": "movie", "year": 2013, "rating": "R", "runtime": 134, "relevance": "Solomon Northup's slavery memoir", "links": {"imdb": "https://www.imdb.com/title/tt2024544/"}, "ageAppropriate": false, "notes": "R-rated; powerful; may be shown with parental permission"},
-            {"title": "Suffragette", "type": "movie", "year": 2015, "rating": "PG-13", "runtime": 106, "relevance": "British women's suffrage movement", "links": {"imdb": "https://www.imdb.com/title/tt3077214/"}, "ageAppropriate": true, "notes": "Carey Mulligan; shows suffragette struggle"},
-            {"title": "Milk", "type": "movie", "year": 2008, "rating": "R", "runtime": 128, "relevance": "Harvey Milk and LGBTQ rights", "links": {"imdb": "https://www.imdb.com/title/tt1013753/"}, "ageAppropriate": false, "notes": "R-rated; Sean Penn; covers LGBTQ rights history"}
+            {
+              "title": "Selma",
+              "type": "movie",
+              "year": 2014,
+              "rating": "PG-13",
+              "runtime": 128,
+              "relevance": "MLK and Selma voting rights marches",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt1020072/"
+              },
+              "ageAppropriate": true,
+              "notes": "Powerful depiction of civil rights struggle"
+            },
+            {
+              "title": "12 Years a Slave",
+              "type": "movie",
+              "year": 2013,
+              "rating": "R",
+              "runtime": 134,
+              "relevance": "Solomon Northup's slavery memoir",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt2024544/"
+              },
+              "ageAppropriate": false,
+              "notes": "R-rated; powerful; may be shown with parental permission"
+            },
+            {
+              "title": "Suffragette",
+              "type": "movie",
+              "year": 2015,
+              "rating": "PG-13",
+              "runtime": 106,
+              "relevance": "British women's suffrage movement",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt3077214/"
+              },
+              "ageAppropriate": true,
+              "notes": "Carey Mulligan; shows suffragette struggle"
+            },
+            {
+              "title": "Milk",
+              "type": "movie",
+              "year": 2008,
+              "rating": "R",
+              "runtime": 128,
+              "relevance": "Harvey Milk and LGBTQ rights",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt1013753/"
+              },
+              "ageAppropriate": false,
+              "notes": "R-rated; Sean Penn; covers LGBTQ rights history"
+            }
           ]
         }
       ]
@@ -355,11 +2017,53 @@
           "name": "Global Economics",
           "description": "Capitalism, communism, and mixed economies in the modern world",
           "order": 1,
-          "subtopics": ["Market vs command economies", "Globalization", "Economic development", "International trade", "Economic inequality"],
+          "subtopics": [
+            "Market vs command economies",
+            "Globalization",
+            "Economic development",
+            "International trade",
+            "Economic inequality"
+          ],
           "media": [
-            {"title": "The Big Short", "type": "movie", "year": 2015, "rating": "R", "runtime": 130, "relevance": "2008 financial crisis explained", "links": {"imdb": "https://www.imdb.com/title/tt1596363/"}, "ageAppropriate": false, "notes": "R-rated; excellent for understanding financial systems"},
-            {"title": "Inside Job", "type": "documentary", "year": 2010, "rating": "PG-13", "runtime": 109, "relevance": "Documentary on 2008 financial crisis", "links": {"imdb": "https://www.imdb.com/title/tt1645089/"}, "ageAppropriate": true, "notes": "Academy Award winner; explains global economics"},
-            {"title": "Inequality for All", "type": "documentary", "year": 2013, "rating": "PG", "runtime": 85, "relevance": "Robert Reich documentary on economic inequality", "links": {"imdb": "https://www.imdb.com/title/tt2215151/"}, "ageAppropriate": true, "notes": "PG; accessible explanation of economic inequality"}
+            {
+              "title": "The Big Short",
+              "type": "movie",
+              "year": 2015,
+              "rating": "R",
+              "runtime": 130,
+              "relevance": "2008 financial crisis explained",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt1596363/"
+              },
+              "ageAppropriate": false,
+              "notes": "R-rated; excellent for understanding financial systems"
+            },
+            {
+              "title": "Inside Job",
+              "type": "documentary",
+              "year": 2010,
+              "rating": "PG-13",
+              "runtime": 109,
+              "relevance": "Documentary on 2008 financial crisis",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt1645089/"
+              },
+              "ageAppropriate": true,
+              "notes": "Academy Award winner; explains global economics"
+            },
+            {
+              "title": "Inequality for All",
+              "type": "documentary",
+              "year": 2013,
+              "rating": "PG",
+              "runtime": 85,
+              "relevance": "Robert Reich documentary on economic inequality",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt2215151/"
+              },
+              "ageAppropriate": true,
+              "notes": "PG; accessible explanation of economic inequality"
+            }
           ]
         }
       ]
@@ -374,125 +2078,72 @@
           "name": "Technological Change",
           "description": "Impact of technology on society including digital revolution and communication",
           "order": 1,
-          "subtopics": ["Digital revolution", "Internet and social media", "Artificial intelligence", "Climate change technology", "Future challenges"],
+          "subtopics": [
+            "Digital revolution",
+            "Internet and social media",
+            "Artificial intelligence",
+            "Climate change technology",
+            "Future challenges"
+          ],
           "media": [
-            {"title": "The Social Dilemma", "type": "documentary", "year": 2020, "rating": "PG-13", "runtime": 94, "relevance": "Social media's impact on society", "links": {"imdb": "https://www.imdb.com/title/tt11464826/", "streaming": [{"service": "Netflix", "url": ""}]}, "ageAppropriate": true, "notes": "HIGHLY RECOMMENDED - relevant for students; good discussion starter"},
-            {"title": "An Inconvenient Truth", "type": "documentary", "year": 2006, "rating": "PG", "runtime": 100, "relevance": "Al Gore documentary on climate change", "links": {"imdb": "https://www.imdb.com/title/tt0497116/"}, "ageAppropriate": true, "notes": "PG; foundational climate change documentary"},
-            {"title": "Steve Jobs", "type": "movie", "year": 2015, "rating": "R", "runtime": 122, "relevance": "Biography of Apple founder", "links": {"imdb": "https://www.imdb.com/title/tt2080374/"}, "ageAppropriate": false, "notes": "R-rated; Michael Fassbender; shows tech revolution"},
-            {"title": "The Imitation Game", "type": "movie", "year": 2014, "rating": "PG-13", "runtime": 114, "relevance": "Alan Turing and origins of computing", "links": {"imdb": "https://www.imdb.com/title/tt2084970/"}, "ageAppropriate": true, "notes": "Benedict Cumberbatch; shows origins of computer age"}
-          ]
-        }
-      ]
-    },
-    {
-      "id": "quick-clips",
-      "name": "Quick Clips & Educational Shorts",
-      "order": 99,
-      "description": "Short-form educational content from YouTube, TED-Ed, Crash Course - perfect for Global History II",
-      "topics": [
-        {
-          "id": "enlightenment-revolution-shorts",
-          "name": "Enlightenment & Revolution Quick Clips",
-          "description": "Short videos on Enlightenment ideas and revolutionary movements",
-          "order": 1,
-          "subtopics": ["Enlightenment", "French Revolution", "Industrial Revolution", "Latin American Independence"],
-          "media": [
-            {"title": "Crash Course World History: The Enlightenment", "type": "short", "year": 2012, "rating": "NR", "runtime": 12, "relevance": "Enlightenment philosophy", "links": {"youtube": "https://www.youtube.com/watch?v=5eLSX3QG3QY"}, "ageAppropriate": true, "notes": "Locke, Voltaire, Rousseau"},
-            {"title": "TED-Ed: What Caused the French Revolution?", "type": "short", "year": 2015, "rating": "NR", "runtime": 5, "relevance": "French Revolution causes", "links": {"youtube": "https://www.youtube.com/watch?v=lTTvKwCylFY"}, "ageAppropriate": true, "notes": "Quick overview"},
-            {"title": "Crash Course World History: The French Revolution", "type": "short", "year": 2012, "rating": "NR", "runtime": 12, "relevance": "French Revolution overview", "links": {"youtube": "https://www.youtube.com/watch?v=lTTvKwCylFY"}, "ageAppropriate": true, "notes": "1789 to Thermidor"},
-            {"title": "Oversimplified: The French Revolution (Part 1)", "type": "short", "year": 2019, "rating": "NR", "runtime": 18, "relevance": "Animated French Revolution", "links": {"youtube": "https://www.youtube.com/watch?v=8qRZcXIODNU"}, "ageAppropriate": true, "notes": "HIGHLY RECOMMENDED - engaging"},
-            {"title": "Oversimplified: The French Revolution (Part 2)", "type": "short", "year": 2019, "rating": "NR", "runtime": 20, "relevance": "Terror through Napoleon", "links": {"youtube": "https://www.youtube.com/watch?v=EQmjXM4VK2U"}, "ageAppropriate": true, "notes": "Continues through Directory"},
-            {"title": "Crash Course World History: The Industrial Revolution", "type": "short", "year": 2012, "rating": "NR", "runtime": 11, "relevance": "Industrialization overview", "links": {"youtube": "https://www.youtube.com/watch?v=zhL5DCizj5c"}, "ageAppropriate": true, "notes": "Factory system, urbanization"},
-            {"title": "TED-Ed: The Industrial Revolution (4-Part Series)", "type": "short", "year": 2019, "rating": "NR", "runtime": 20, "relevance": "Industrial Revolution deep dive", "links": {"youtube": "https://www.youtube.com/watch?v=GYln_S21Gts"}, "ageAppropriate": true, "notes": "Comprehensive series"},
-            {"title": "Crash Course World History: Latin American Revolutions", "type": "short", "year": 2012, "rating": "NR", "runtime": 14, "relevance": "Independence movements", "links": {"youtube": "https://www.youtube.com/watch?v=ZBw35Ze3bg8"}, "ageAppropriate": true, "notes": "Bolivar, Haiti, Mexico"}
-          ]
-        },
-        {
-          "id": "imperialism-shorts",
-          "name": "Imperialism Quick Clips",
-          "description": "Short videos on 19th century imperialism and colonialism",
-          "order": 2,
-          "subtopics": ["Africa", "Asia", "India", "China"],
-          "media": [
-            {"title": "Crash Course World History: Imperialism", "type": "short", "year": 2012, "rating": "NR", "runtime": 14, "relevance": "European imperialism overview", "links": {"youtube": "https://www.youtube.com/watch?v=alJaltUmrGo"}, "ageAppropriate": true, "notes": "Scramble for Africa, Asia"},
-            {"title": "TED-Ed: The Scramble for Africa", "type": "short", "year": 2020, "rating": "NR", "runtime": 6, "relevance": "Partition of Africa", "links": {"youtube": "https://www.youtube.com/watch?v=4GXNsM1KHng"}, "ageAppropriate": true, "notes": "Berlin Conference context"},
-            {"title": "Crash Course World History: Opium Wars", "type": "short", "year": 2012, "rating": "NR", "runtime": 12, "relevance": "British imperialism in China", "links": {"youtube": "https://www.youtube.com/watch?v=fA-_2b6kFXg"}, "ageAppropriate": true, "notes": "China and European powers"},
-            {"title": "History Matters: Why Did Britain Colonize India?", "type": "short", "year": 2019, "rating": "NR", "runtime": 4, "relevance": "British India explanation", "links": {"youtube": "https://www.youtube.com/watch?v=3mZWjW3c-Z8"}, "ageAppropriate": true, "notes": "Quick explanation"},
-            {"title": "Extra History: The Scramble for Africa", "type": "short", "year": 2018, "rating": "NR", "runtime": 45, "relevance": "African colonization (4 parts)", "links": {"youtube": "https://www.youtube.com/watch?v=Sj8XnPSnt4k&list=PLhyKYa0YJ_5CAYJyW4Xb8YzKyhP1ht2cX"}, "ageAppropriate": true, "notes": "Animated detailed history"},
-            {"title": "Crash Course World History: Samurai, Daimyo, Matthew Perry, and Gunboat Diplomacy", "type": "short", "year": 2012, "rating": "NR", "runtime": 12, "relevance": "Japan modernization", "links": {"youtube": "https://www.youtube.com/watch?v=Mh5LY4Mz15o"}, "ageAppropriate": true, "notes": "Meiji Restoration context"}
-          ]
-        },
-        {
-          "id": "wwi-shorts",
-          "name": "World War I Quick Clips",
-          "description": "Short videos on WWI causes, events, and aftermath",
-          "order": 3,
-          "subtopics": ["Causes", "Trench Warfare", "Key Events", "Treaty of Versailles"],
-          "media": [
-            {"title": "Crash Course World History: Archdukes, Cynicism, and WWI", "type": "short", "year": 2012, "rating": "NR", "runtime": 11, "relevance": "WWI causes and start", "links": {"youtube": "https://www.youtube.com/watch?v=_XPZQ0LAlR4"}, "ageAppropriate": true, "notes": "Assassination to war"},
-            {"title": "Oversimplified: WWI (Part 1)", "type": "short", "year": 2017, "rating": "NR", "runtime": 12, "relevance": "Animated WWI history", "links": {"youtube": "https://www.youtube.com/watch?v=dHSQAEam2yc"}, "ageAppropriate": true, "notes": "HIGHLY RECOMMENDED"},
-            {"title": "Oversimplified: WWI (Part 2)", "type": "short", "year": 2017, "rating": "NR", "runtime": 15, "relevance": "WWI continuation", "links": {"youtube": "https://www.youtube.com/watch?v=Mun1dKkc_As"}, "ageAppropriate": true, "notes": "War through Treaty of Versailles"},
-            {"title": "TED-Ed: The Treaty of Versailles", "type": "short", "year": 2016, "rating": "NR", "runtime": 5, "relevance": "Peace treaty analysis", "links": {"youtube": "https://www.youtube.com/watch?v=mPEGRwVMOV8"}, "ageAppropriate": true, "notes": "Seeds of WWII"},
-            {"title": "Epic History TV: WWI Documentary", "type": "short", "year": 2018, "rating": "NR", "runtime": 30, "relevance": "Comprehensive WWI overview", "links": {"youtube": "https://www.youtube.com/watch?v=KBp1MkcaToU"}, "ageAppropriate": true, "notes": "Detailed animated maps"},
-            {"title": "Simple History: Life in the Trenches", "type": "short", "year": 2016, "rating": "NR", "runtime": 6, "relevance": "Trench warfare", "links": {"youtube": "https://www.youtube.com/watch?v=9CI8p1M0x7g"}, "ageAppropriate": true, "notes": "Soldier experience"}
-          ]
-        },
-        {
-          "id": "interwar-shorts",
-          "name": "Interwar Period Quick Clips",
-          "description": "Short videos on Russian Revolution, Rise of Fascism, Great Depression",
-          "order": 4,
-          "subtopics": ["Russian Revolution", "Fascism", "Great Depression", "Rise of Nazi Germany"],
-          "media": [
-            {"title": "Crash Course World History: The Russian Revolution", "type": "short", "year": 2012, "rating": "NR", "runtime": 13, "relevance": "1917 Revolution", "links": {"youtube": "https://www.youtube.com/watch?v=kllhI1DEt4w"}, "ageAppropriate": true, "notes": "Lenin, Bolsheviks"},
-            {"title": "Oversimplified: The Russian Revolution", "type": "short", "year": 2017, "rating": "NR", "runtime": 16, "relevance": "Animated Revolution", "links": {"youtube": "https://www.youtube.com/watch?v=1H5f3YLhBWY"}, "ageAppropriate": true, "notes": "Engaging overview"},
-            {"title": "Crash Course World History: Fascism and Mussolini", "type": "short", "year": 2012, "rating": "NR", "runtime": 11, "relevance": "Rise of Fascism", "links": {"youtube": "https://www.youtube.com/watch?v=1lW7dAf5WMo"}, "ageAppropriate": true, "notes": "Italy, fascist ideology"},
-            {"title": "Oversimplified: Hitler (Part 1)", "type": "short", "year": 2018, "rating": "NR", "runtime": 14, "relevance": "Hitler's rise", "links": {"youtube": "https://www.youtube.com/watch?v=ATlila3e9dM"}, "ageAppropriate": true, "notes": "Rise of Nazi party"},
-            {"title": "Oversimplified: Hitler (Part 2)", "type": "short", "year": 2018, "rating": "NR", "runtime": 18, "relevance": "Nazi consolidation", "links": {"youtube": "https://www.youtube.com/watch?v=FuLN_V2fZ6k"}, "ageAppropriate": true, "notes": "Road to WWII"},
-            {"title": "Crash Course World History: The Great Depression", "type": "short", "year": 2012, "rating": "NR", "runtime": 14, "relevance": "Economic crisis", "links": {"youtube": "https://www.youtube.com/watch?v=GCQfMWAikyU"}, "ageAppropriate": true, "notes": "Global economic collapse"}
-          ]
-        },
-        {
-          "id": "wwii-shorts",
-          "name": "World War II Quick Clips",
-          "description": "Short videos on WWII events and Holocaust",
-          "order": 5,
-          "subtopics": ["European Theater", "Pacific Theater", "Holocaust", "Aftermath"],
-          "media": [
-            {"title": "Oversimplified: WWII (Part 1)", "type": "short", "year": 2019, "rating": "NR", "runtime": 15, "relevance": "WWII begins", "links": {"youtube": "https://www.youtube.com/watch?v=_uk_6vfqwTA"}, "ageAppropriate": true, "notes": "HIGHLY RECOMMENDED"},
-            {"title": "Oversimplified: WWII (Part 2)", "type": "short", "year": 2019, "rating": "NR", "runtime": 17, "relevance": "WWII conclusion", "links": {"youtube": "https://www.youtube.com/watch?v=fo2Rb9h788s"}, "ageAppropriate": true, "notes": "D-Day to atomic bomb"},
-            {"title": "Crash Course World History: WWII", "type": "short", "year": 2012, "rating": "NR", "runtime": 13, "relevance": "WWII overview", "links": {"youtube": "https://www.youtube.com/watch?v=Q78COTwT7nE"}, "ageAppropriate": true, "notes": "Complete war overview"},
-            {"title": "TED-Ed: The Holocaust and Ordinary Germans", "type": "short", "year": 2019, "rating": "NR", "runtime": 6, "relevance": "Holocaust context", "links": {"youtube": "https://www.youtube.com/watch?v=B6N6iNzN2fs"}, "ageAppropriate": true, "notes": "How it happened"},
-            {"title": "Extra History: D-Day", "type": "short", "year": 2019, "rating": "NR", "runtime": 45, "relevance": "Normandy invasion (4 parts)", "links": {"youtube": "https://www.youtube.com/watch?v=QYS0i8CZ8yw&list=PLhyKYa0YJ_5AiJmDG6v_lITyLLnkKrvNL"}, "ageAppropriate": true, "notes": "Detailed D-Day history"},
-            {"title": "Simple History: Pearl Harbor", "type": "short", "year": 2017, "rating": "NR", "runtime": 6, "relevance": "Attack on Pearl Harbor", "links": {"youtube": "https://www.youtube.com/watch?v=rVZfqfXSbWo"}, "ageAppropriate": true, "notes": "US enters war"}
-          ]
-        },
-        {
-          "id": "cold-war-shorts",
-          "name": "Cold War Quick Clips",
-          "description": "Short videos on Cold War tensions and events",
-          "order": 6,
-          "subtopics": ["Origins", "Korean War", "Cuban Missile Crisis", "Vietnam", "Fall of USSR"],
-          "media": [
-            {"title": "Crash Course World History: The Cold War", "type": "short", "year": 2012, "rating": "NR", "runtime": 14, "relevance": "Cold War overview", "links": {"youtube": "https://www.youtube.com/watch?v=y9HjvHZfCUI"}, "ageAppropriate": true, "notes": "US-Soviet rivalry"},
-            {"title": "Oversimplified: Cold War (Part 1)", "type": "short", "year": 2020, "rating": "NR", "runtime": 17, "relevance": "Animated Cold War", "links": {"youtube": "https://www.youtube.com/watch?v=I79TpDe3t2g"}, "ageAppropriate": true, "notes": "Origins through crises"},
-            {"title": "Oversimplified: Cold War (Part 2)", "type": "short", "year": 2020, "rating": "NR", "runtime": 20, "relevance": "Cold War continuation", "links": {"youtube": "https://www.youtube.com/watch?v=OIYy32RuHao"}, "ageAppropriate": true, "notes": "Vietnam through fall of USSR"},
-            {"title": "TED-Ed: The Cuban Missile Crisis", "type": "short", "year": 2016, "rating": "NR", "runtime": 5, "relevance": "Nuclear standoff", "links": {"youtube": "https://www.youtube.com/watch?v=bwWW3sbk4EU"}, "ageAppropriate": true, "notes": "13 days that changed world"},
-            {"title": "Crash Course World History: Decolonization", "type": "short", "year": 2012, "rating": "NR", "runtime": 12, "relevance": "End of colonial empires", "links": {"youtube": "https://www.youtube.com/watch?v=OMtl-Rf52to"}, "ageAppropriate": true, "notes": "Africa, Asia independence"},
-            {"title": "Simple History: Fall of the Berlin Wall", "type": "short", "year": 2019, "rating": "NR", "runtime": 5, "relevance": "Cold War ends", "links": {"youtube": "https://www.youtube.com/watch?v=6D6YnU6Yzlg"}, "ageAppropriate": true, "notes": "1989 and aftermath"}
-          ]
-        },
-        {
-          "id": "modern-world-shorts",
-          "name": "Modern World Quick Clips",
-          "description": "Short videos on globalization, terrorism, and contemporary issues",
-          "order": 7,
-          "subtopics": ["Globalization", "Middle East", "Climate", "Technology"],
-          "media": [
-            {"title": "Crash Course World History: Globalization I", "type": "short", "year": 2012, "rating": "NR", "runtime": 14, "relevance": "Modern globalization", "links": {"youtube": "https://www.youtube.com/watch?v=s_iwrt7D5OA"}, "ageAppropriate": true, "notes": "Trade, culture, technology"},
-            {"title": "TED-Ed: 9/11 and the War on Terror", "type": "short", "year": 2021, "rating": "NR", "runtime": 6, "relevance": "Post-9/11 world", "links": {"youtube": "https://www.youtube.com/watch?v=h0FNlPb3GbU"}, "ageAppropriate": true, "notes": "Modern terrorism context"},
-            {"title": "Kurzgesagt: Climate Change Overview", "type": "short", "year": 2022, "rating": "NR", "runtime": 12, "relevance": "Climate science", "links": {"youtube": "https://www.youtube.com/watch?v=wbR-5mHI6bo"}, "ageAppropriate": true, "notes": "Animated climate science"},
-            {"title": "Crash Course World History: How and Why We Read", "type": "short", "year": 2012, "rating": "NR", "runtime": 12, "relevance": "Historical thinking", "links": {"youtube": "https://www.youtube.com/watch?v=MSYw502dJNY"}, "ageAppropriate": true, "notes": "Historical methods"}
+            {
+              "title": "The Social Dilemma",
+              "type": "documentary",
+              "year": 2020,
+              "rating": "PG-13",
+              "runtime": 94,
+              "relevance": "Social media's impact on society",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt11464826/",
+                "streaming": [
+                  {
+                    "service": "Netflix",
+                    "url": ""
+                  }
+                ]
+              },
+              "ageAppropriate": true,
+              "notes": "HIGHLY RECOMMENDED - relevant for students; good discussion starter"
+            },
+            {
+              "title": "An Inconvenient Truth",
+              "type": "documentary",
+              "year": 2006,
+              "rating": "PG",
+              "runtime": 100,
+              "relevance": "Al Gore documentary on climate change",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt0497116/"
+              },
+              "ageAppropriate": true,
+              "notes": "PG; foundational climate change documentary"
+            },
+            {
+              "title": "Steve Jobs",
+              "type": "movie",
+              "year": 2015,
+              "rating": "R",
+              "runtime": 122,
+              "relevance": "Biography of Apple founder",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt2080374/"
+              },
+              "ageAppropriate": false,
+              "notes": "R-rated; Michael Fassbender; shows tech revolution"
+            },
+            {
+              "title": "The Imitation Game",
+              "type": "movie",
+              "year": 2014,
+              "rating": "PG-13",
+              "runtime": 114,
+              "relevance": "Alan Turing and origins of computing",
+              "links": {
+                "imdb": "https://www.imdb.com/title/tt2084970/"
+              },
+              "ageAppropriate": true,
+              "notes": "Benedict Cumberbatch; shows origins of computer age"
+            }
           ]
         }
       ]

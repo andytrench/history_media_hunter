@@ -34,17 +34,37 @@
                 "youtube": "https://www.youtube.com/results?search_query=road+to+el+dorado+full+movie",
                 "justwatch": "https://www.justwatch.com/us/movie/the-road-to-el-dorado",
                 "streaming": [
-                  {"service": "Netflix", "url": "https://www.netflix.com/title/60000432"},
-                  {"service": "Amazon", "url": "https://www.amazon.com/gp/video/detail/B001EBV0JK"}
+                  {
+                    "service": "Netflix",
+                    "url": "https://www.netflix.com/title/60000432"
+                  },
+                  {
+                    "service": "Amazon",
+                    "url": "https://www.amazon.com/gp/video/detail/B001EBV0JK"
+                  }
                 ]
               },
               "ageAppropriate": true,
               "notes": "Fictional but excellent visual introduction to Mesoamerican aesthetics and architecture",
               "lessonPlan": {
-                "objectives": ["Identify key elements of Mesoamerican architecture and art", "Compare fictional vs historical El Dorado legends", "Discuss cultural encounters between Europeans and indigenous peoples"],
-                "preActivities": ["Locate El Dorado legends on a map", "Review vocabulary: Mesoamerica, conquistador, temple, pyramid"],
-                "discussionQuestions": ["How does the film portray indigenous people?", "What was the real El Dorado legend?", "How accurate are the buildings and cities shown?"],
-                "extensions": ["Research actual Mesoamerican gold work", "Create a comparison chart: movie vs reality"]
+                "objectives": [
+                  "Identify key elements of Mesoamerican architecture and art",
+                  "Compare fictional vs historical El Dorado legends",
+                  "Discuss cultural encounters between Europeans and indigenous peoples"
+                ],
+                "preActivities": [
+                  "Locate El Dorado legends on a map",
+                  "Review vocabulary: Mesoamerica, conquistador, temple, pyramid"
+                ],
+                "discussionQuestions": [
+                  "How does the film portray indigenous people?",
+                  "What was the real El Dorado legend?",
+                  "How accurate are the buildings and cities shown?"
+                ],
+                "extensions": [
+                  "Research actual Mesoamerican gold work",
+                  "Create a comparison chart: movie vs reality"
+                ]
               }
             },
             {
@@ -59,16 +79,33 @@
                 "youtube": "https://www.youtube.com/results?search_query=emperor%27s+new+groove+trailer",
                 "justwatch": "https://www.justwatch.com/us/movie/the-emperors-new-groove",
                 "streaming": [
-                  {"service": "Disney+", "url": "https://www.disneyplus.com/movies/the-emperors-new-groove/3qZBVdraVfIw"}
+                  {
+                    "service": "Disney+",
+                    "url": "https://www.disneyplus.com/movies/the-emperors-new-groove/3qZBVdraVfIw"
+                  }
                 ]
               },
               "ageAppropriate": true,
               "notes": "Lighthearted but shows Incan-style palaces, llamas, and Andean landscapes",
               "lessonPlan": {
-                "objectives": ["Identify Incan architectural features", "Understand Andean geography and climate", "Explore the role of llamas in Incan society"],
-                "preActivities": ["Locate Andes Mountains and Peru on map", "Show images of real Incan architecture for comparison"],
-                "discussionQuestions": ["What elements of the film reflect real Incan culture?", "How did geography affect Incan civilization?", "What role did animals play in Incan life?"],
-                "extensions": ["Create a Venn diagram comparing movie palace to Machu Picchu", "Research terraced farming"]
+                "objectives": [
+                  "Identify Incan architectural features",
+                  "Understand Andean geography and climate",
+                  "Explore the role of llamas in Incan society"
+                ],
+                "preActivities": [
+                  "Locate Andes Mountains and Peru on map",
+                  "Show images of real Incan architecture for comparison"
+                ],
+                "discussionQuestions": [
+                  "What elements of the film reflect real Incan culture?",
+                  "How did geography affect Incan civilization?",
+                  "What role did animals play in Incan life?"
+                ],
+                "extensions": [
+                  "Create a Venn diagram comparing movie palace to Machu Picchu",
+                  "Research terraced farming"
+                ]
               }
             },
             {
@@ -80,7 +117,12 @@
               "relevance": "Features Aztec exhibits and artifacts coming to life in a museum setting",
               "links": {
                 "imdb": "https://www.imdb.com/title/tt0477347/",
-                "streaming": [{"service": "Disney+", "url": ""}]
+                "streaming": [
+                  {
+                    "service": "Disney+",
+                    "url": ""
+                  }
+                ]
               },
               "ageAppropriate": true,
               "notes": "Fun introduction to museum artifacts from various civilizations including Aztec"
@@ -138,6 +180,344 @@
               },
               "ageAppropriate": true,
               "notes": "Beautiful visuals of Machu Picchu; discusses Incan achievements"
+            },
+            {
+              "title": "The Maya Civilization Explained in 11 Minutes",
+              "type": "short",
+              "year": 2020,
+              "rating": "NR",
+              "runtime": 11,
+              "relevance": "Quick overview of Maya civilization",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=Q6LOrQ3BtQo"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Captivating History channel; good introduction"
+            },
+            {
+              "title": "The Aztec Empire Explained in 10 Minutes",
+              "type": "short",
+              "year": 2020,
+              "rating": "NR",
+              "runtime": 10,
+              "relevance": "Overview of Aztec civilization",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=Pj7m7MJRXxo"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Quick comprehensive overview"
+            },
+            {
+              "title": "The Inca Empire Explained in 14 Minutes",
+              "type": "short",
+              "year": 2019,
+              "rating": "NR",
+              "runtime": 14,
+              "relevance": "Overview of Incan civilization",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=J1F95JT3K-c"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Covers Machu Picchu, roads, and society"
+            },
+            {
+              "title": "TED-Ed: The Rise and Fall of the Inca Empire",
+              "type": "short",
+              "year": 2018,
+              "rating": "NR",
+              "runtime": 5,
+              "relevance": "Animated TED-Ed lesson on Inca Empire",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=XjNsL4RRMMA"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] HIGHLY RECOMMENDED - beautiful animation"
+            },
+            {
+              "title": "TED-Ed: The Rise and Fall of the Aztec Empire",
+              "type": "short",
+              "year": 2019,
+              "rating": "NR",
+              "runtime": 5,
+              "relevance": "Animated TED-Ed lesson on Aztec Empire",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=7paVqUfFbk8"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Excellent 5-minute overview"
+            },
+            {
+              "title": "TED-Ed: The Maya Myth of the Morning Star",
+              "type": "short",
+              "year": 2017,
+              "rating": "NR",
+              "runtime": 5,
+              "relevance": "Maya mythology and astronomy",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=3V1_kYK3g4Y"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Shows Maya astronomical knowledge"
+            },
+            {
+              "title": "BrainPOP: Maya Civilization",
+              "type": "short",
+              "year": 2015,
+              "rating": "NR",
+              "runtime": 5,
+              "relevance": "BrainPOP intro to Maya",
+              "links": {
+                "youtube": "https://www.brainpop.com/socialstudies/worldhistory/maya/"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Requires BrainPOP subscription"
+            },
+            {
+              "title": "Native American Regions Overview",
+              "type": "short",
+              "year": 2020,
+              "rating": "NR",
+              "runtime": 8,
+              "relevance": "Overview of Native American cultural regions",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=E8tHcmZ8M_8"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Good for geographic understanding"
+            },
+            {
+              "title": "The Iroquois Confederacy Explained",
+              "type": "short",
+              "year": 2021,
+              "rating": "NR",
+              "runtime": 10,
+              "relevance": "History of the Haudenosaunee",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=gfqxWCVdPPw"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Democracy origins in Native America"
+            },
+            {
+              "title": "Schoolhouse Rock: No More Kings",
+              "type": "short",
+              "year": 1975,
+              "rating": "TV-Y",
+              "runtime": 3,
+              "relevance": "Animated song about colonial rebellion",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=oex3dwFnhck"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Classic Schoolhouse Rock"
+            },
+            {
+              "title": "Schoolhouse Rock: The Shot Heard Round the World",
+              "type": "short",
+              "year": 1975,
+              "rating": "TV-Y",
+              "runtime": 3,
+              "relevance": "Start of the Revolution song",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=Y6ikO6LMxF4"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Memorable song about Lexington & Concord"
+            },
+            {
+              "title": "Schoolhouse Rock: Fireworks",
+              "type": "short",
+              "year": 1975,
+              "rating": "TV-Y",
+              "runtime": 3,
+              "relevance": "Declaration of Independence song",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=SBNVaKLxokU"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Explains Declaration writing"
+            },
+            {
+              "title": "Oversimplified: The American Revolution (Part 1)",
+              "type": "short",
+              "year": 2019,
+              "rating": "NR",
+              "runtime": 16,
+              "relevance": "Animated humorous overview of Revolution",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=gzALIXcY4pg"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] HIGHLY RECOMMENDED - engaging animation"
+            },
+            {
+              "title": "Oversimplified: The American Revolution (Part 2)",
+              "type": "short",
+              "year": 2019,
+              "rating": "NR",
+              "runtime": 18,
+              "relevance": "Continuation covering war and victory",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=rtYC2jx1LM0"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Covers war through Treaty of Paris"
+            },
+            {
+              "title": "TED-Ed: What You Might Not Know About the Declaration of Independence",
+              "type": "short",
+              "year": 2014,
+              "rating": "NR",
+              "runtime": 4,
+              "relevance": "Lesser-known facts about Declaration",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=yb7MI8NHmSs"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Interesting historical details"
+            },
+            {
+              "title": "Schoolhouse Rock: The Preamble",
+              "type": "short",
+              "year": 1975,
+              "rating": "TV-Y",
+              "runtime": 3,
+              "relevance": "Constitution preamble set to music",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=0hEYvdMoF2g"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] ESSENTIAL - helps memorize preamble"
+            },
+            {
+              "title": "Schoolhouse Rock: I'm Just a Bill",
+              "type": "short",
+              "year": 1975,
+              "rating": "TV-Y",
+              "runtime": 3,
+              "relevance": "How a bill becomes law",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=OgVKvqTItto"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] ESSENTIAL - classic civics education"
+            },
+            {
+              "title": "Schoolhouse Rock: Three Ring Government",
+              "type": "short",
+              "year": 1979,
+              "rating": "TV-Y",
+              "runtime": 3,
+              "relevance": "Three branches of government",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=tEPd98CbbMk"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Circus metaphor for branches"
+            },
+            {
+              "title": "Schoolhouse Rock: Elbow Room",
+              "type": "short",
+              "year": 1976,
+              "rating": "TV-Y",
+              "runtime": 3,
+              "relevance": "Westward expansion song",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=8sIoq9mpbUs"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Manifest Destiny concept"
+            },
+            {
+              "title": "TED-Ed: Why is the US Constitution So Hard to Amend?",
+              "type": "short",
+              "year": 2016,
+              "rating": "NR",
+              "runtime": 5,
+              "relevance": "Amendment process explained",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=FwREAW4SlVY"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Good for civics understanding"
+            },
+            {
+              "title": "The Bill of Rights in 5 Minutes",
+              "type": "short",
+              "year": 2020,
+              "rating": "NR",
+              "runtime": 5,
+              "relevance": "Quick overview of first 10 amendments",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=yYEfLm5dLMg"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Concise Bill of Rights summary"
+            },
+            {
+              "title": "Geography Now: Canada",
+              "type": "short",
+              "year": 2020,
+              "rating": "NR",
+              "runtime": 20,
+              "relevance": "Comprehensive look at Canada",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=3DsIB9G6lHI"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Geography Now channel; thorough"
+            },
+            {
+              "title": "Geography Now: Mexico",
+              "type": "short",
+              "year": 2018,
+              "rating": "NR",
+              "runtime": 18,
+              "relevance": "Comprehensive look at Mexico",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=PhNuO48ut30"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Covers geography, culture, history"
+            },
+            {
+              "title": "Geography Now: Brazil",
+              "type": "short",
+              "year": 2017,
+              "rating": "NR",
+              "runtime": 17,
+              "relevance": "Comprehensive look at Brazil",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=HpCw0dlsWn4"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Largest South American country"
+            },
+            {
+              "title": "Countries of North America Geography",
+              "type": "short",
+              "year": 2020,
+              "rating": "NR",
+              "runtime": 10,
+              "relevance": "All North American countries",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=cxyzT1EeB3Y"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Quick continental overview"
+            },
+            {
+              "title": "Countries of South America Geography",
+              "type": "short",
+              "year": 2020,
+              "rating": "NR",
+              "runtime": 12,
+              "relevance": "All South American countries",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=5jvDh8X8K-8"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Quick continental overview"
             }
           ]
         },
@@ -167,16 +547,33 @@
                 "youtube": "https://www.youtube.com/results?search_query=pocahontas+disney+trailer",
                 "justwatch": "https://www.justwatch.com/us/movie/pocahontas",
                 "streaming": [
-                  {"service": "Disney+", "url": "https://www.disneyplus.com/movies/pocahontas/1CPmvJoKl0es"}
+                  {
+                    "service": "Disney+",
+                    "url": "https://www.disneyplus.com/movies/pocahontas/1CPmvJoKl0es"
+                  }
                 ]
               },
               "ageAppropriate": true,
               "notes": "Historically romanticized - excellent discussion starter about real history vs Hollywood; depicts Eastern Woodlands culture",
               "lessonPlan": {
-                "objectives": ["Compare Disney's portrayal with historical records", "Understand Powhatan culture and Eastern Woodlands life", "Analyze first contact between English colonists and Native Americans"],
-                "preActivities": ["Show map of Jamestown colony location", "Review vocabulary: colony, chief, Powhatan Confederacy"],
-                "discussionQuestions": ["How old was the real Pocahontas when colonists arrived?", "What did the Powhatan people really think of the colonists?", "How does Hollywood change history and why?"],
-                "extensions": ["Research the real Pocahontas story", "Write a diary entry from the real Pocahontas's perspective"]
+                "objectives": [
+                  "Compare Disney's portrayal with historical records",
+                  "Understand Powhatan culture and Eastern Woodlands life",
+                  "Analyze first contact between English colonists and Native Americans"
+                ],
+                "preActivities": [
+                  "Show map of Jamestown colony location",
+                  "Review vocabulary: colony, chief, Powhatan Confederacy"
+                ],
+                "discussionQuestions": [
+                  "How old was the real Pocahontas when colonists arrived?",
+                  "What did the Powhatan people really think of the colonists?",
+                  "How does Hollywood change history and why?"
+                ],
+                "extensions": [
+                  "Research the real Pocahontas story",
+                  "Write a diary entry from the real Pocahontas's perspective"
+                ]
               }
             },
             {
@@ -188,7 +585,12 @@
               "relevance": "Features Pacific Northwest indigenous culture, spirituality, and connection to nature",
               "links": {
                 "imdb": "https://www.imdb.com/title/tt0328880/",
-                "streaming": [{"service": "Disney+", "url": ""}]
+                "streaming": [
+                  {
+                    "service": "Disney+",
+                    "url": ""
+                  }
+                ]
               },
               "ageAppropriate": true,
               "notes": "Good introduction to Native American spiritual beliefs and Pacific Northwest setting"
@@ -230,7 +632,12 @@
               "relevance": "PBS documentary on Wampanoag people and early contact with Pilgrims",
               "links": {
                 "imdb": "https://www.imdb.com/title/tt1340561/",
-                "streaming": [{"service": "PBS", "url": ""}]
+                "streaming": [
+                  {
+                    "service": "PBS",
+                    "url": ""
+                  }
+                ]
               },
               "ageAppropriate": true,
               "notes": "PBS American Experience; tells story from Native American perspective"
@@ -308,7 +715,12 @@
               "relevance": "Shows early English exploration and settlement in Virginia",
               "links": {
                 "imdb": "https://www.imdb.com/title/tt0114148/",
-                "streaming": [{"service": "Disney+", "url": ""}]
+                "streaming": [
+                  {
+                    "service": "Disney+",
+                    "url": ""
+                  }
+                ]
               },
               "ageAppropriate": true,
               "notes": "Romanticized but good starting point for discussing exploration's impact"
@@ -336,7 +748,12 @@
               "relevance": "BBC/PBS documentary following routes of Spanish conquistadors",
               "links": {
                 "imdb": "https://www.imdb.com/title/tt0273116/",
-                "streaming": [{"service": "PBS", "url": ""}]
+                "streaming": [
+                  {
+                    "service": "PBS",
+                    "url": ""
+                  }
+                ]
               },
               "ageAppropriate": true,
               "notes": "Michael Wood narrates; show relevant episodes on Spanish exploration"
@@ -353,6 +770,71 @@
               },
               "ageAppropriate": true,
               "notes": "Focuses on exploration challenges and navigation"
+            },
+            {
+              "title": "TED-Ed: The Columbian Exchange",
+              "type": "short",
+              "year": 2019,
+              "rating": "NR",
+              "runtime": 5,
+              "relevance": "Explains exchange of plants, animals, diseases",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=HQPA5oNpfM4"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] HIGHLY RECOMMENDED - essential topic explained well"
+            },
+            {
+              "title": "The True Story of Christopher Columbus",
+              "type": "short",
+              "year": 2020,
+              "rating": "NR",
+              "runtime": 12,
+              "relevance": "More accurate history of Columbus",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=3hDrM76GWak"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Balanced view of Columbus"
+            },
+            {
+              "title": "Simple History: Spanish Conquistadors",
+              "type": "short",
+              "year": 2019,
+              "rating": "NR",
+              "runtime": 7,
+              "relevance": "Overview of Spanish conquest",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=xUzDC7HO-vE"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Simple History channel; animated"
+            },
+            {
+              "title": "TED-Ed: What Really Happened During the Salem Witch Trials",
+              "type": "short",
+              "year": 2020,
+              "rating": "NR",
+              "runtime": 6,
+              "relevance": "Colonial America witch trials",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=NVd8kuufBhM"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Colonial era context"
+            },
+            {
+              "title": "Life in the 13 Colonies",
+              "type": "short",
+              "year": 2020,
+              "rating": "NR",
+              "runtime": 15,
+              "relevance": "Overview of colonial life",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=o69TvQqyGdg"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Mr. Beat channel; comprehensive"
             }
           ]
         },
@@ -393,7 +875,12 @@
               "relevance": "Disney film about Squanto and his role helping Plymouth colonists",
               "links": {
                 "imdb": "https://www.imdb.com/title/tt0111271/",
-                "streaming": [{"service": "Disney+", "url": ""}]
+                "streaming": [
+                  {
+                    "service": "Disney+",
+                    "url": ""
+                  }
+                ]
               },
               "ageAppropriate": true,
               "notes": "Shows both Native American and Pilgrim perspectives; Thanksgiving history"
@@ -407,7 +894,12 @@
               "relevance": "Adventure film featuring American history, colonial artifacts, and founding documents",
               "links": {
                 "imdb": "https://www.imdb.com/title/tt0368891/",
-                "streaming": [{"service": "Disney+", "url": ""}]
+                "streaming": [
+                  {
+                    "service": "Disney+",
+                    "url": ""
+                  }
+                ]
               },
               "ageAppropriate": true,
               "notes": "Fictional treasure hunt but teaches about Declaration of Independence and colonial history"
@@ -421,7 +913,12 @@
               "relevance": "PBS reality series where modern families live as 1628 colonists",
               "links": {
                 "imdb": "https://www.imdb.com/title/tt0386702/",
-                "streaming": [{"service": "PBS", "url": ""}]
+                "streaming": [
+                  {
+                    "service": "PBS",
+                    "url": ""
+                  }
+                ]
               },
               "ageAppropriate": true,
               "notes": "Shows daily life challenges; excellent for understanding colonial hardships"
@@ -502,7 +999,12 @@
               "links": {
                 "imdb": "https://www.imdb.com/title/tt0069627/",
                 "youtube": "https://www.youtube.com/watch?v=Y6ikO6LMxF4",
-                "streaming": [{"service": "Disney+", "url": ""}]
+                "streaming": [
+                  {
+                    "service": "Disney+",
+                    "url": ""
+                  }
+                ]
               },
               "ageAppropriate": true,
               "notes": "Short segments perfect for introducing topics; memorable songs aid retention"
@@ -516,7 +1018,12 @@
               "relevance": "Disney classic about a young silversmith's apprentice in Boston during the Revolution",
               "links": {
                 "imdb": "https://www.imdb.com/title/tt0050561/",
-                "streaming": [{"service": "Disney+", "url": ""}]
+                "streaming": [
+                  {
+                    "service": "Disney+",
+                    "url": ""
+                  }
+                ]
               },
               "ageAppropriate": true,
               "notes": "Classic Disney; shows Sons of Liberty, Boston Tea Party from young person's view"
@@ -615,7 +1122,12 @@
               "relevance": "Classic song explaining how a bill becomes a law",
               "links": {
                 "youtube": "https://www.youtube.com/watch?v=OgVKvqTItto",
-                "streaming": [{"service": "Disney+", "url": ""}]
+                "streaming": [
+                  {
+                    "service": "Disney+",
+                    "url": ""
+                  }
+                ]
               },
               "ageAppropriate": true,
               "notes": "Essential viewing; memorable and effective"
@@ -629,7 +1141,12 @@
               "relevance": "Sets the Constitution's preamble to music",
               "links": {
                 "youtube": "https://www.youtube.com/watch?v=0hEYvdMoF2g",
-                "streaming": [{"service": "Disney+", "url": ""}]
+                "streaming": [
+                  {
+                    "service": "Disney+",
+                    "url": ""
+                  }
+                ]
               },
               "ageAppropriate": true,
               "notes": "Students can memorize preamble through the song"
@@ -643,7 +1160,12 @@
               "relevance": "Explains the three branches of government",
               "links": {
                 "youtube": "https://www.youtube.com/watch?v=tEPd98CbbMk",
-                "streaming": [{"service": "Disney+", "url": ""}]
+                "streaming": [
+                  {
+                    "service": "Disney+",
+                    "url": ""
+                  }
+                ]
               },
               "ageAppropriate": true,
               "notes": "Uses circus metaphor to explain branches"
@@ -657,7 +1179,12 @@
               "relevance": "Adventure featuring the Declaration of Independence and founding history",
               "links": {
                 "imdb": "https://www.imdb.com/title/tt0368891/",
-                "streaming": [{"service": "Disney+", "url": ""}]
+                "streaming": [
+                  {
+                    "service": "Disney+",
+                    "url": ""
+                  }
+                ]
               },
               "ageAppropriate": true,
               "notes": "Exciting way to spark interest in founding documents"
@@ -670,7 +1197,12 @@
               "runtime": 5,
               "relevance": "Animated educational video explaining the Constitution",
               "links": {
-                "streaming": [{"service": "BrainPOP", "url": "https://www.brainpop.com/socialstudies/usgovernment/constitution/"}]
+                "streaming": [
+                  {
+                    "service": "BrainPOP",
+                    "url": "https://www.brainpop.com/socialstudies/usgovernment/constitution/"
+                  }
+                ]
               },
               "ageAppropriate": true,
               "notes": "Subscription required; designed for classroom use"
@@ -795,6 +1327,97 @@
               },
               "ageAppropriate": true,
               "notes": "Classic epic; long but covers major westward expansion themes"
+            },
+            {
+              "title": "Oversimplified: The Civil War (Part 1)",
+              "type": "short",
+              "year": 2019,
+              "rating": "NR",
+              "runtime": 15,
+              "relevance": "Animated overview of Civil War causes and early war",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=tsxmyL7TUJg"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Engaging animated history"
+            },
+            {
+              "title": "Oversimplified: The Civil War (Part 2)",
+              "type": "short",
+              "year": 2019,
+              "rating": "NR",
+              "runtime": 18,
+              "relevance": "Later Civil War and aftermath",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=sV6uuMAnJUE"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Covers war end through Reconstruction"
+            },
+            {
+              "title": "TED-Ed: The Atlantic Slave Trade: What Too Few Textbooks Told You",
+              "type": "short",
+              "year": 2014,
+              "rating": "NR",
+              "runtime": 6,
+              "relevance": "Important context on Atlantic slave trade",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=3NXC4Q_4JVg"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Important historical context"
+            },
+            {
+              "title": "The Underground Railroad Explained",
+              "type": "short",
+              "year": 2020,
+              "rating": "NR",
+              "runtime": 8,
+              "relevance": "How the Underground Railroad worked",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=Kn6GcEYQzPg"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Explains network and key figures"
+            },
+            {
+              "title": "TED-Ed: Harriet Tubman: The Life and Times of a Conductor",
+              "type": "short",
+              "year": 2019,
+              "rating": "NR",
+              "runtime": 5,
+              "relevance": "Harriet Tubman biography",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=u8iYG9_QPHA"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Excellent Tubman overview"
+            },
+            {
+              "title": "Simple History: The Trail of Tears",
+              "type": "short",
+              "year": 2018,
+              "rating": "NR",
+              "runtime": 5,
+              "relevance": "Cherokee removal explained",
+              "links": {
+                "youtube": "https://www.youtube.com/watch?v=LfBPpJqV9Fw"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Animated explanation of forced removal"
+            },
+            {
+              "title": "BrainPOP: Civil War",
+              "type": "short",
+              "year": 2015,
+              "rating": "NR",
+              "runtime": 5,
+              "relevance": "Civil War overview for students",
+              "links": {
+                "youtube": "https://www.brainpop.com/socialstudies/ushistory/civilwar/"
+              },
+              "ageAppropriate": true,
+              "notes": "[Quick Clip] Requires BrainPOP subscription"
             }
           ]
         },
@@ -821,7 +1444,12 @@
               "runtime": 45,
               "relevance": "PBS documentary about Harriet Tubman and the Underground Railroad",
               "links": {
-                "streaming": [{"service": "PBS", "url": "https://www.pbs.org/video/harriet-tubman-they-called-her-moses-qipbxn/"}]
+                "streaming": [
+                  {
+                    "service": "PBS",
+                    "url": "https://www.pbs.org/video/harriet-tubman-they-called-her-moses-qipbxn/"
+                  }
+                ]
               },
               "ageAppropriate": true,
               "notes": "Age-appropriate documentary designed for educational use"
@@ -904,7 +1532,12 @@
               "relevance": "Definitive documentary on the Civil War; select age-appropriate segments",
               "links": {
                 "imdb": "https://www.imdb.com/title/tt0098769/",
-                "streaming": [{"service": "PBS", "url": ""}]
+                "streaming": [
+                  {
+                    "service": "PBS",
+                    "url": ""
+                  }
+                ]
               },
               "ageAppropriate": true,
               "notes": "Select segments carefully; some content may be intense; excellent primary sources"
@@ -954,7 +1587,12 @@
               "relevance": "Explores Mexican culture, traditions, and family values through Día de los Muertos",
               "links": {
                 "imdb": "https://www.imdb.com/title/tt2380307/",
-                "streaming": [{"service": "Disney+", "url": ""}]
+                "streaming": [
+                  {
+                    "service": "Disney+",
+                    "url": ""
+                  }
+                ]
               },
               "ageAppropriate": true,
               "notes": "Excellent introduction to Mexican culture; beautiful animation"
@@ -968,7 +1606,12 @@
               "relevance": "Explores Colombian culture, family dynamics, and community",
               "links": {
                 "imdb": "https://www.imdb.com/title/tt2953050/",
-                "streaming": [{"service": "Disney+", "url": ""}]
+                "streaming": [
+                  {
+                    "service": "Disney+",
+                    "url": ""
+                  }
+                ]
               },
               "ageAppropriate": true,
               "notes": "Showcases Colombian landscapes, music, and cultural heritage"
@@ -996,7 +1639,12 @@
               "relevance": "Polynesian culture and Pacific Island navigation",
               "links": {
                 "imdb": "https://www.imdb.com/title/tt3521164/",
-                "streaming": [{"service": "Disney+", "url": ""}]
+                "streaming": [
+                  {
+                    "service": "Disney+",
+                    "url": ""
+                  }
+                ]
               },
               "ageAppropriate": true,
               "notes": "While Pacific Islands aren't Western Hemisphere, useful for comparing cultures"
@@ -1010,111 +1658,16 @@
               "relevance": "True story of innovation from Malawi - connects to global citizenship themes",
               "links": {
                 "imdb": "https://www.imdb.com/title/tt7533152/",
-                "streaming": [{"service": "Netflix", "url": ""}]
+                "streaming": [
+                  {
+                    "service": "Netflix",
+                    "url": ""
+                  }
+                ]
               },
               "ageAppropriate": true,
               "notes": "While set in Africa, excellent for discussing global issues and innovation"
             }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "quick-clips",
-      "name": "Quick Clips & Educational Shorts",
-      "order": 99,
-      "description": "Short-form educational content from YouTube, TED-Ed, Crash Course, and other sources - perfect for warm-ups, lesson supplements, or quick reviews",
-      "topics": [
-        {
-          "id": "mesoamerica-shorts",
-          "name": "Ancient Americas Quick Clips",
-          "description": "Short videos about Maya, Aztec, Inca, and Native American civilizations",
-          "order": 1,
-          "subtopics": ["Maya", "Aztec", "Inca", "Native Americans"],
-          "media": [
-            {"title": "The Maya Civilization Explained in 11 Minutes", "type": "short", "year": 2020, "rating": "NR", "runtime": 11, "relevance": "Quick overview of Maya civilization", "links": {"youtube": "https://www.youtube.com/watch?v=Q6LOrQ3BtQo"}, "ageAppropriate": true, "notes": "Captivating History channel; good introduction"},
-            {"title": "The Aztec Empire Explained in 10 Minutes", "type": "short", "year": 2020, "rating": "NR", "runtime": 10, "relevance": "Overview of Aztec civilization", "links": {"youtube": "https://www.youtube.com/watch?v=Pj7m7MJRXxo"}, "ageAppropriate": true, "notes": "Quick comprehensive overview"},
-            {"title": "The Inca Empire Explained in 14 Minutes", "type": "short", "year": 2019, "rating": "NR", "runtime": 14, "relevance": "Overview of Incan civilization", "links": {"youtube": "https://www.youtube.com/watch?v=J1F95JT3K-c"}, "ageAppropriate": true, "notes": "Covers Machu Picchu, roads, and society"},
-            {"title": "TED-Ed: The Rise and Fall of the Inca Empire", "type": "short", "year": 2018, "rating": "NR", "runtime": 5, "relevance": "Animated TED-Ed lesson on Inca Empire", "links": {"youtube": "https://www.youtube.com/watch?v=XjNsL4RRMMA"}, "ageAppropriate": true, "notes": "HIGHLY RECOMMENDED - beautiful animation"},
-            {"title": "TED-Ed: The Rise and Fall of the Aztec Empire", "type": "short", "year": 2019, "rating": "NR", "runtime": 5, "relevance": "Animated TED-Ed lesson on Aztec Empire", "links": {"youtube": "https://www.youtube.com/watch?v=7paVqUfFbk8"}, "ageAppropriate": true, "notes": "Excellent 5-minute overview"},
-            {"title": "TED-Ed: The Maya Myth of the Morning Star", "type": "short", "year": 2017, "rating": "NR", "runtime": 5, "relevance": "Maya mythology and astronomy", "links": {"youtube": "https://www.youtube.com/watch?v=3V1_kYK3g4Y"}, "ageAppropriate": true, "notes": "Shows Maya astronomical knowledge"},
-            {"title": "BrainPOP: Maya Civilization", "type": "short", "year": 2015, "rating": "NR", "runtime": 5, "relevance": "BrainPOP intro to Maya", "links": {"youtube": "https://www.brainpop.com/socialstudies/worldhistory/maya/"}, "ageAppropriate": true, "notes": "Requires BrainPOP subscription"},
-            {"title": "Native American Regions Overview", "type": "short", "year": 2020, "rating": "NR", "runtime": 8, "relevance": "Overview of Native American cultural regions", "links": {"youtube": "https://www.youtube.com/watch?v=E8tHcmZ8M_8"}, "ageAppropriate": true, "notes": "Good for geographic understanding"},
-            {"title": "The Iroquois Confederacy Explained", "type": "short", "year": 2021, "rating": "NR", "runtime": 10, "relevance": "History of the Haudenosaunee", "links": {"youtube": "https://www.youtube.com/watch?v=gfqxWCVdPPw"}, "ageAppropriate": true, "notes": "Democracy origins in Native America"}
-          ]
-        },
-        {
-          "id": "exploration-shorts",
-          "name": "European Exploration Quick Clips",
-          "description": "Short videos about Columbus, explorers, and the Age of Exploration",
-          "order": 2,
-          "subtopics": ["Columbus", "Columbian Exchange", "Conquistadors"],
-          "media": [
-            {"title": "TED-Ed: The Columbian Exchange", "type": "short", "year": 2019, "rating": "NR", "runtime": 5, "relevance": "Explains exchange of plants, animals, diseases", "links": {"youtube": "https://www.youtube.com/watch?v=HQPA5oNpfM4"}, "ageAppropriate": true, "notes": "HIGHLY RECOMMENDED - essential topic explained well"},
-            {"title": "The True Story of Christopher Columbus", "type": "short", "year": 2020, "rating": "NR", "runtime": 12, "relevance": "More accurate history of Columbus", "links": {"youtube": "https://www.youtube.com/watch?v=3hDrM76GWak"}, "ageAppropriate": true, "notes": "Balanced view of Columbus"},
-            {"title": "Simple History: Spanish Conquistadors", "type": "short", "year": 2019, "rating": "NR", "runtime": 7, "relevance": "Overview of Spanish conquest", "links": {"youtube": "https://www.youtube.com/watch?v=xUzDC7HO-vE"}, "ageAppropriate": true, "notes": "Simple History channel; animated"},
-            {"title": "TED-Ed: What Really Happened During the Salem Witch Trials", "type": "short", "year": 2020, "rating": "NR", "runtime": 6, "relevance": "Colonial America witch trials", "links": {"youtube": "https://www.youtube.com/watch?v=NVd8kuufBhM"}, "ageAppropriate": true, "notes": "Colonial era context"},
-            {"title": "Life in the 13 Colonies", "type": "short", "year": 2020, "rating": "NR", "runtime": 15, "relevance": "Overview of colonial life", "links": {"youtube": "https://www.youtube.com/watch?v=o69TvQqyGdg"}, "ageAppropriate": true, "notes": "Mr. Beat channel; comprehensive"}
-          ]
-        },
-        {
-          "id": "revolution-shorts",
-          "name": "American Revolution Quick Clips",
-          "description": "Short videos about the causes and events of the American Revolution",
-          "order": 3,
-          "subtopics": ["Causes", "Key Events", "Key Figures", "Constitution"],
-          "media": [
-            {"title": "Schoolhouse Rock: No More Kings", "type": "short", "year": 1975, "rating": "TV-Y", "runtime": 3, "relevance": "Animated song about colonial rebellion", "links": {"youtube": "https://www.youtube.com/watch?v=oex3dwFnhck"}, "ageAppropriate": true, "notes": "Classic Schoolhouse Rock"},
-            {"title": "Schoolhouse Rock: The Shot Heard Round the World", "type": "short", "year": 1975, "rating": "TV-Y", "runtime": 3, "relevance": "Start of the Revolution song", "links": {"youtube": "https://www.youtube.com/watch?v=Y6ikO6LMxF4"}, "ageAppropriate": true, "notes": "Memorable song about Lexington & Concord"},
-            {"title": "Schoolhouse Rock: Fireworks", "type": "short", "year": 1975, "rating": "TV-Y", "runtime": 3, "relevance": "Declaration of Independence song", "links": {"youtube": "https://www.youtube.com/watch?v=SBNVaKLxokU"}, "ageAppropriate": true, "notes": "Explains Declaration writing"},
-            {"title": "Oversimplified: The American Revolution (Part 1)", "type": "short", "year": 2019, "rating": "NR", "runtime": 16, "relevance": "Animated humorous overview of Revolution", "links": {"youtube": "https://www.youtube.com/watch?v=gzALIXcY4pg"}, "ageAppropriate": true, "notes": "HIGHLY RECOMMENDED - engaging animation"},
-            {"title": "Oversimplified: The American Revolution (Part 2)", "type": "short", "year": 2019, "rating": "NR", "runtime": 18, "relevance": "Continuation covering war and victory", "links": {"youtube": "https://www.youtube.com/watch?v=rtYC2jx1LM0"}, "ageAppropriate": true, "notes": "Covers war through Treaty of Paris"},
-            {"title": "TED-Ed: What You Might Not Know About the Declaration of Independence", "type": "short", "year": 2014, "rating": "NR", "runtime": 4, "relevance": "Lesser-known facts about Declaration", "links": {"youtube": "https://www.youtube.com/watch?v=yb7MI8NHmSs"}, "ageAppropriate": true, "notes": "Interesting historical details"}
-          ]
-        },
-        {
-          "id": "civics-shorts",
-          "name": "Government & Civics Quick Clips",
-          "description": "Short videos about US government, Constitution, and citizenship",
-          "order": 4,
-          "subtopics": ["Constitution", "Bill of Rights", "Branches of Government"],
-          "media": [
-            {"title": "Schoolhouse Rock: The Preamble", "type": "short", "year": 1975, "rating": "TV-Y", "runtime": 3, "relevance": "Constitution preamble set to music", "links": {"youtube": "https://www.youtube.com/watch?v=0hEYvdMoF2g"}, "ageAppropriate": true, "notes": "ESSENTIAL - helps memorize preamble"},
-            {"title": "Schoolhouse Rock: I'm Just a Bill", "type": "short", "year": 1975, "rating": "TV-Y", "runtime": 3, "relevance": "How a bill becomes law", "links": {"youtube": "https://www.youtube.com/watch?v=OgVKvqTItto"}, "ageAppropriate": true, "notes": "ESSENTIAL - classic civics education"},
-            {"title": "Schoolhouse Rock: Three Ring Government", "type": "short", "year": 1979, "rating": "TV-Y", "runtime": 3, "relevance": "Three branches of government", "links": {"youtube": "https://www.youtube.com/watch?v=tEPd98CbbMk"}, "ageAppropriate": true, "notes": "Circus metaphor for branches"},
-            {"title": "Schoolhouse Rock: Elbow Room", "type": "short", "year": 1976, "rating": "TV-Y", "runtime": 3, "relevance": "Westward expansion song", "links": {"youtube": "https://www.youtube.com/watch?v=8sIoq9mpbUs"}, "ageAppropriate": true, "notes": "Manifest Destiny concept"},
-            {"title": "TED-Ed: Why is the US Constitution So Hard to Amend?", "type": "short", "year": 2016, "rating": "NR", "runtime": 5, "relevance": "Amendment process explained", "links": {"youtube": "https://www.youtube.com/watch?v=FwREAW4SlVY"}, "ageAppropriate": true, "notes": "Good for civics understanding"},
-            {"title": "The Bill of Rights in 5 Minutes", "type": "short", "year": 2020, "rating": "NR", "runtime": 5, "relevance": "Quick overview of first 10 amendments", "links": {"youtube": "https://www.youtube.com/watch?v=yYEfLm5dLMg"}, "ageAppropriate": true, "notes": "Concise Bill of Rights summary"}
-          ]
-        },
-        {
-          "id": "expansion-civil-war-shorts",
-          "name": "Expansion & Civil War Quick Clips",
-          "description": "Short videos about westward expansion, slavery, and the Civil War",
-          "order": 5,
-          "subtopics": ["Westward Expansion", "Slavery", "Underground Railroad", "Civil War"],
-          "media": [
-            {"title": "Oversimplified: The Civil War (Part 1)", "type": "short", "year": 2019, "rating": "NR", "runtime": 15, "relevance": "Animated overview of Civil War causes and early war", "links": {"youtube": "https://www.youtube.com/watch?v=tsxmyL7TUJg"}, "ageAppropriate": true, "notes": "Engaging animated history"},
-            {"title": "Oversimplified: The Civil War (Part 2)", "type": "short", "year": 2019, "rating": "NR", "runtime": 18, "relevance": "Later Civil War and aftermath", "links": {"youtube": "https://www.youtube.com/watch?v=sV6uuMAnJUE"}, "ageAppropriate": true, "notes": "Covers war end through Reconstruction"},
-            {"title": "TED-Ed: The Atlantic Slave Trade: What Too Few Textbooks Told You", "type": "short", "year": 2014, "rating": "NR", "runtime": 6, "relevance": "Important context on Atlantic slave trade", "links": {"youtube": "https://www.youtube.com/watch?v=3NXC4Q_4JVg"}, "ageAppropriate": true, "notes": "Important historical context"},
-            {"title": "The Underground Railroad Explained", "type": "short", "year": 2020, "rating": "NR", "runtime": 8, "relevance": "How the Underground Railroad worked", "links": {"youtube": "https://www.youtube.com/watch?v=Kn6GcEYQzPg"}, "ageAppropriate": true, "notes": "Explains network and key figures"},
-            {"title": "TED-Ed: Harriet Tubman: The Life and Times of a Conductor", "type": "short", "year": 2019, "rating": "NR", "runtime": 5, "relevance": "Harriet Tubman biography", "links": {"youtube": "https://www.youtube.com/watch?v=u8iYG9_QPHA"}, "ageAppropriate": true, "notes": "Excellent Tubman overview"},
-            {"title": "Simple History: The Trail of Tears", "type": "short", "year": 2018, "rating": "NR", "runtime": 5, "relevance": "Cherokee removal explained", "links": {"youtube": "https://www.youtube.com/watch?v=LfBPpJqV9Fw"}, "ageAppropriate": true, "notes": "Animated explanation of forced removal"},
-            {"title": "BrainPOP: Civil War", "type": "short", "year": 2015, "rating": "NR", "runtime": 5, "relevance": "Civil War overview for students", "links": {"youtube": "https://www.brainpop.com/socialstudies/ushistory/civilwar/"}, "ageAppropriate": true, "notes": "Requires BrainPOP subscription"}
-          ]
-        },
-        {
-          "id": "geography-shorts",
-          "name": "Western Hemisphere Geography Quick Clips",
-          "description": "Short videos about geography of North and South America",
-          "order": 6,
-          "subtopics": ["Physical Geography", "Countries", "Regions"],
-          "media": [
-            {"title": "Geography Now: Canada", "type": "short", "year": 2020, "rating": "NR", "runtime": 20, "relevance": "Comprehensive look at Canada", "links": {"youtube": "https://www.youtube.com/watch?v=3DsIB9G6lHI"}, "ageAppropriate": true, "notes": "Geography Now channel; thorough"},
-            {"title": "Geography Now: Mexico", "type": "short", "year": 2018, "rating": "NR", "runtime": 18, "relevance": "Comprehensive look at Mexico", "links": {"youtube": "https://www.youtube.com/watch?v=PhNuO48ut30"}, "ageAppropriate": true, "notes": "Covers geography, culture, history"},
-            {"title": "Geography Now: Brazil", "type": "short", "year": 2017, "rating": "NR", "runtime": 17, "relevance": "Comprehensive look at Brazil", "links": {"youtube": "https://www.youtube.com/watch?v=HpCw0dlsWn4"}, "ageAppropriate": true, "notes": "Largest South American country"},
-            {"title": "Countries of North America Geography", "type": "short", "year": 2020, "rating": "NR", "runtime": 10, "relevance": "All North American countries", "links": {"youtube": "https://www.youtube.com/watch?v=cxyzT1EeB3Y"}, "ageAppropriate": true, "notes": "Quick continental overview"},
-            {"title": "Countries of South America Geography", "type": "short", "year": 2020, "rating": "NR", "runtime": 12, "relevance": "All South American countries", "links": {"youtube": "https://www.youtube.com/watch?v=5jvDh8X8K-8"}, "ageAppropriate": true, "notes": "Quick continental overview"}
           ]
         }
       ]
