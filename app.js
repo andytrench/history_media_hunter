@@ -898,6 +898,7 @@ function toggleView(view) {
 function closeModals() {
     elements.movieModal.classList.remove('active');
     elements.lessonModal.classList.remove('active');
+    document.getElementById('reportModal')?.classList.remove('active');
 }
 
 function updateStats() {
