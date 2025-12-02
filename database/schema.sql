@@ -79,16 +79,22 @@ CREATE TABLE IF NOT EXISTS student_progress (
     UNIQUE(student_id, media_id)
 );
 
--- Students table (optional - for registered users)
-CREATE TABLE IF NOT EXISTS students (
+-- Users table (students, teachers, admins)
+CREATE TABLE IF NOT EXISTS users (
     id SERIAL PRIMARY KEY,
-    student_id VARCHAR(100) UNIQUE NOT NULL,
+    user_id VARCHAR(100) UNIQUE NOT NULL,
     name VARCHAR(200) NOT NULL,
+    role VARCHAR(50) NOT NULL DEFAULT 'student', -- student, teacher, admin
+    avatar_color VARCHAR(20) DEFAULT '#58a6ff',
     email VARCHAR(200),
     grade_level VARCHAR(10),
     parent_email VARCHAR(200),
-    created_at TIMESTAMP DEFAULT NOW()
+    created_at TIMESTAMP DEFAULT NOW(),
+    last_active TIMESTAMP DEFAULT NOW()
 );
+
+-- Legacy alias for backwards compatibility
+CREATE OR REPLACE VIEW students AS SELECT * FROM users WHERE role = 'student';
 
 -- Indexes for performance
 CREATE INDEX IF NOT EXISTS idx_categories_grade ON categories(grade_id);

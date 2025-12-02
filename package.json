@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node server.js",
     "dev": "node server.js",
-    "seed": "node database/seed.js"
+    "seed": "node database/seed.js",
+    "seed-users": "node database/seed-users.js"
   },
   "keywords": [
     "education",

@@ -287,31 +287,174 @@ app.post('/api/progress', async (req, res) => {
     }
 });
 
-// Get all students with stats
+// Get all registered users
+app.get('/api/users', async (req, res) => {
+    if (!pool) return res.status(503).json({ error: 'Database not configured' });
+    
+    try {
+        const result = await pool.query(`
+            SELECT u.*,
+                   COALESCE(progress.watched_count, 0) as watched_count,
+                   COALESCE(progress.grades_touched, 0) as grades_touched,
+                   progress.last_activity
+            FROM users u
+            LEFT JOIN (
+                SELECT 
+                    sp.student_id,
+                    COUNT(*) FILTER (WHERE sp.watched = true) as watched_count,
+                    COUNT(DISTINCT g.id) as grades_touched,
+                    MAX(sp.updated_at) as last_activity
+                FROM student_progress sp
+                JOIN media m ON m.id = sp.media_id
+                JOIN topics t ON t.id = m.topic_id
+                JOIN categories c ON c.id = t.category_id
+                JOIN grades g ON g.id = c.grade_id
+                GROUP BY sp.student_id
+            ) progress ON progress.student_id = u.user_id
+            ORDER BY u.role, u.name
+        `);
+        res.json(result.rows);
+    } catch (error) {
+        console.error('Error fetching users:', error);
+        res.status(500).json({ error: 'Failed to fetch users' });
+    }
+});
+
+// Get single user info
+app.get('/api/users/:userId', async (req, res) => {
+    if (!pool) return res.status(503).json({ error: 'Database not configured' });
+    
+    try {
+        const result = await pool.query(
+            'SELECT * FROM users WHERE user_id = $1',
+            [req.params.userId]
+        );
+        if (result.rows.length === 0) {
+            return res.status(404).json({ error: 'User not found' });
+        }
+        res.json(result.rows[0]);
+    } catch (error) {
+        console.error('Error fetching user:', error);
+        res.status(500).json({ error: 'Failed to fetch user' });
+    }
+});
+
+// Get all students with stats (for admin/teacher dashboard)
 app.get('/api/students', async (req, res) => {
     if (!pool) return res.status(503).json({ error: 'Database not configured' });
     
     try {
         const result = await pool.query(`
             SELECT 
-                sp.student_id,
-                COALESCE(s.name, sp.student_id) as name,
-                COUNT(*) FILTER (WHERE sp.watched = true) as watched_count,
-                COUNT(DISTINCT g.id) as grades_touched,
-                MAX(sp.updated_at) as last_activity
-            FROM student_progress sp
-            LEFT JOIN students s ON s.student_id = sp.student_id
-            JOIN media m ON m.id = sp.media_id
-            JOIN topics t ON t.id = m.topic_id
-            JOIN categories c ON c.id = t.category_id
-            JOIN grades g ON g.id = c.grade_id
-            GROUP BY sp.student_id, s.name
-            ORDER BY last_activity DESC
+                u.user_id as student_id,
+                u.name,
+                u.avatar_color,
+                u.last_active,
+                COALESCE(progress.watched_count, 0) as watched_count,
+                COALESCE(progress.grades_touched, 0) as grades_touched,
+                progress.last_activity,
+                progress.recent_titles
+            FROM users u
+            LEFT JOIN (
+                SELECT 
+                    sp.student_id,
+                    COUNT(*) FILTER (WHERE sp.watched = true) as watched_count,
+                    COUNT(DISTINCT g.id) as grades_touched,
+                    MAX(sp.updated_at) as last_activity,
+                    array_agg(DISTINCT m.title ORDER BY m.title) FILTER (WHERE sp.watched = true) as recent_titles
+                FROM student_progress sp
+                JOIN media m ON m.id = sp.media_id
+                JOIN topics t ON t.id = m.topic_id
+                JOIN categories c ON c.id = t.category_id
+                JOIN grades g ON g.id = c.grade_id
+                GROUP BY sp.student_id
+            ) progress ON progress.student_id = u.user_id
+            WHERE u.role = 'student'
+            ORDER BY u.name
         `);
         res.json(result.rows);
     } catch (error) {
         console.error('Error fetching students:', error);
         res.status(500).json({ error: 'Failed to fetch students' });
+    }
+});
+
+// Get dashboard data for admin/teacher
+app.get('/api/dashboard', async (req, res) => {
+    if (!pool) return res.status(503).json({ error: 'Database not configured' });
+    
+    try {
+        // Total media count
+        const totalMedia = await pool.query('SELECT COUNT(*) FROM media');
+        
+        // Students with progress
+        const studentsResult = await pool.query(`
+            SELECT 
+                u.user_id,
+                u.name,
+                u.avatar_color,
+                COALESCE(watched.count, 0) as watched_count
+            FROM users u
+            LEFT JOIN (
+                SELECT student_id, COUNT(*) as count 
+                FROM student_progress 
+                WHERE watched = true 
+                GROUP BY student_id
+            ) watched ON watched.student_id = u.user_id
+            WHERE u.role = 'student'
+            ORDER BY u.name
+        `);
+        
+        // Progress by grade for each student
+        const gradeProgress = await pool.query(`
+            SELECT 
+                sp.student_id,
+                g.grade_number,
+                g.name as grade_name,
+                COUNT(*) FILTER (WHERE sp.watched = true) as watched,
+                (SELECT COUNT(*) FROM media m2 
+                 JOIN topics t2 ON t2.id = m2.topic_id 
+                 JOIN categories c2 ON c2.id = t2.category_id 
+                 WHERE c2.grade_id = g.id) as total
+            FROM grades g
+            CROSS JOIN users u
+            LEFT JOIN categories c ON c.grade_id = g.id
+            LEFT JOIN topics t ON t.category_id = c.id
+            LEFT JOIN media m ON m.topic_id = t.id
+            LEFT JOIN student_progress sp ON sp.media_id = m.id AND sp.student_id = u.user_id
+            WHERE u.role = 'student'
+            GROUP BY sp.student_id, g.id, g.grade_number, g.name
+            ORDER BY g.grade_number::int
+        `);
+        
+        // Recent activity
+        const recentActivity = await pool.query(`
+            SELECT 
+                u.name as student_name,
+                u.avatar_color,
+                m.title,
+                g.grade_number,
+                sp.watch_date
+            FROM student_progress sp
+            JOIN users u ON u.user_id = sp.student_id
+            JOIN media m ON m.id = sp.media_id
+            JOIN topics t ON t.id = m.topic_id
+            JOIN categories c ON c.id = t.category_id
+            JOIN grades g ON g.id = c.grade_id
+            WHERE sp.watched = true AND sp.watch_date IS NOT NULL
+            ORDER BY sp.watch_date DESC
+            LIMIT 20
+        `);
+        
+        res.json({
+            totalMedia: parseInt(totalMedia.rows[0].count),
+            students: studentsResult.rows,
+            gradeProgress: gradeProgress.rows,
+            recentActivity: recentActivity.rows
+        });
+    } catch (error) {
+        console.error('Error fetching dashboard:', error);
+        res.status(500).json({ error: 'Failed to fetch dashboard data' });
     }
 });
 
@@ -377,6 +520,14 @@ app.get('/api/stats/:studentId', async (req, res) => {
 
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'index.html'));
+});
+
+app.get('/dashboard', (req, res) => {
+    res.sendFile(path.join(__dirname, 'dashboard.html'));
+});
+
+app.get('/dashboard.html', (req, res) => {
+    res.sendFile(path.join(__dirname, 'dashboard.html'));
 });
 
 app.get('*', (req, res) => {

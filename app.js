@@ -62,7 +62,17 @@ const elements = {
 async function init() {
     // Check for student ID in URL or localStorage
     const urlParams = new URLSearchParams(window.location.search);
-    state.studentId = urlParams.get('student') || localStorage.getItem('studentId') || generateStudentId();
+    state.studentId = urlParams.get('student') || localStorage.getItem('studentId');
+    
+    // Load users and setup selector
+    await loadUsers();
+    
+    // If no student selected, prompt selection
+    if (!state.studentId) {
+        showUserSelector();
+        return;
+    }
+    
     localStorage.setItem('studentId', state.studentId);
     
     // Load watched state
@@ -71,6 +81,97 @@ async function init() {
     setupEventListeners();
     await loadGradeData(state.currentGrade);
     renderUI();
+    
+    // Check user role for dashboard link
+    checkUserRole();
+}
+
+async function loadUsers() {
+    try {
+        const response = await fetch(`${API_BASE}/api/users`);
+        if (response.ok) {
+            state.users = await response.json();
+            renderUserSelector();
+        }
+    } catch (error) {
+        console.log('Could not load users');
+        state.users = [];
+    }
+}
+
+function renderUserSelector() {
+    const select = document.getElementById('studentSelect');
+    if (!select || !state.users) return;
+    
+    // Group by role
+    const students = state.users.filter(u => u.role === 'student');
+    const supervisors = state.users.filter(u => u.role !== 'student');
+    
+    let options = '<option value="">Select Student...</option>';
+    
+    if (students.length > 0) {
+        options += '<optgroup label="🎓 Students">';
+        students.forEach(u => {
+            const selected = state.studentId === u.user_id ? 'selected' : '';
+            options += `<option value="${u.user_id}" ${selected}>${u.name}</option>`;
+        });
+        options += '</optgroup>';
+    }
+    
+    if (supervisors.length > 0) {
+        options += '<optgroup label="👁️ Supervisors">';
+        supervisors.forEach(u => {
+            const icon = u.role === 'admin' ? '👑' : '📚';
+            const selected = state.studentId === u.user_id ? 'selected' : '';
+            options += `<option value="${u.user_id}" ${selected}>${icon} ${u.name}</option>`;
+        });
+        options += '</optgroup>';
+    }
+    
+    select.innerHTML = options;
+}
+
+function switchStudent(userId) {
+    if (!userId) return;
+    window.location.href = `/?student=${userId}`;
+}
+
+function showUserSelector() {
+    // Show a modal to select user
+    const modal = document.createElement('div');
+    modal.className = 'user-select-modal';
+    modal.innerHTML = `
+        <div class="user-select-content">
+            <h2>👋 Welcome!</h2>
+            <p>Who's learning today?</p>
+            <div class="user-buttons" id="userButtons"></div>
+        </div>
+    `;
+    document.body.appendChild(modal);
+    
+    // Populate buttons
+    const container = document.getElementById('userButtons');
+    const students = (state.users || []).filter(u => u.role === 'student');
+    
+    if (students.length > 0) {
+        container.innerHTML = students.map(u => `
+            <button class="user-button" onclick="switchStudent('${u.user_id}')" style="--user-color: ${u.avatar_color}">
+                <span class="user-initial">${u.name.charAt(0)}</span>
+                <span class="user-name">${u.name}</span>
+            </button>
+        `).join('');
+    } else {
+        container.innerHTML = '<p>No students configured. Add students via the database.</p>';
+    }
+}
+
+function checkUserRole() {
+    const currentUser = (state.users || []).find(u => u.user_id === state.studentId);
+    const dashboardLink = document.getElementById('dashboardLink');
+    
+    if (currentUser && (currentUser.role === 'admin' || currentUser.role === 'teacher')) {
+        if (dashboardLink) dashboardLink.style.display = 'flex';
+    }
 }
 
 function generateStudentId() {

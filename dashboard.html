@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress Dashboard | Curriculum Media Hunter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .dashboard {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        .dashboard-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+        
+        .dashboard-header h1 {
+            font-size: 1.8rem;
+            color: var(--text-primary);
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+        
+        .back-link {
+            color: var(--accent-blue);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.9rem;
+        }
+        
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .stat-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 1.5rem;
+            text-align: center;
+        }
+        
+        .stat-card .number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--accent-blue);
+            line-height: 1;
+        }
+        
+        .stat-card .label {
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            margin-top: 0.5rem;
+        }
+        
+        .students-section {
+            margin-bottom: 2rem;
+        }
+        
+        .section-title {
+            font-size: 1.2rem;
+            color: var(--text-primary);
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .student-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1rem;
+        }
+        
+        .student-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 1.25rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .student-card:hover {
+            border-color: var(--accent-blue);
+            transform: translateY(-2px);
+        }
+        
+        .student-card-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+        
+        .student-avatar {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: white;
+            text-transform: uppercase;
+        }
+        
+        .student-name {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+        
+        .student-meta {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+        }
+        
+        .progress-bars {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+        
+        .progress-row {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+        
+        .progress-label {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            width: 50px;
+            flex-shrink: 0;
+        }
+        
+        .progress-bar {
+            flex: 1;
+            height: 8px;
+            background: var(--bg-tertiary);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            border-radius: 4px;
+            transition: width 0.3s;
+        }
+        
+        .progress-count {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            width: 50px;
+            text-align: right;
+        }
+        
+        .activity-section {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 1.5rem;
+        }
+        
+        .activity-list {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        
+        .activity-item {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding: 0.75rem;
+            background: var(--bg-tertiary);
+            border-radius: 8px;
+        }
+        
+        .activity-avatar {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: white;
+            flex-shrink: 0;
+        }
+        
+        .activity-content {
+            flex: 1;
+            min-width: 0;
+        }
+        
+        .activity-text {
+            font-size: 0.9rem;
+            color: var(--text-primary);
+        }
+        
+        .activity-text strong {
+            color: var(--accent-blue);
+        }
+        
+        .activity-time {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+        }
+        
+        .empty-state {
+            text-align: center;
+            padding: 3rem;
+            color: var(--text-secondary);
+        }
+        
+        .user-selector {
+            position: fixed;
+            top: 1rem;
+            right: 1rem;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 0.5rem 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .user-selector select {
+            background: var(--bg-tertiary);
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            color: var(--text-primary);
+            padding: 0.25rem 0.5rem;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="app">
+        <div class="dashboard">
+            <div class="dashboard-header">
+                <h1>📊 Progress Dashboard</h1>
+                <a href="/" class="back-link">← Back to Browser</a>
+            </div>
+            
+            <div class="stats-grid" id="statsGrid">
+                <div class="stat-card">
+                    <div class="number" id="totalMedia">--</div>
+                    <div class="label">Total Titles</div>
+                </div>
+                <div class="stat-card">
+                    <div class="number" id="totalWatched">--</div>
+                    <div class="label">Total Watched</div>
+                </div>
+                <div class="stat-card">
+                    <div class="number" id="studentCount">--</div>
+                    <div class="label">Students</div>
+                </div>
+                <div class="stat-card">
+                    <div class="number" id="completionRate">--%</div>
+                    <div class="label">Avg. Completion</div>
+                </div>
+            </div>
+            
+            <div class="students-section">
+                <h2 class="section-title">🎓 Student Progress</h2>
+                <div class="student-grid" id="studentGrid">
+                    <!-- Students loaded dynamically -->
+                </div>
+            </div>
+            
+            <div class="activity-section">
+                <h2 class="section-title">📝 Recent Activity</h2>
+                <div class="activity-list" id="activityList">
+                    <!-- Activity loaded dynamically -->
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        const gradeColors = {
+            '5': '#58a6ff',
+            '7': '#3fb950',
+            '9': '#a371f7',
+            '10': '#f0883e',
+            '11': '#f778ba'
+        };
+        
+        async function loadDashboard() {
+            try {
+                const response = await fetch('/api/dashboard');
+                const data = await response.json();
+                
+                // Update stats
+                document.getElementById('totalMedia').textContent = data.totalMedia;
+                document.getElementById('studentCount').textContent = data.students.length;
+                
+                // Calculate totals
+                const totalWatched = data.students.reduce((sum, s) => sum + parseInt(s.watched_count), 0);
+                document.getElementById('totalWatched').textContent = totalWatched;
+                
+                const avgCompletion = data.students.length > 0 
+                    ? Math.round((totalWatched / (data.totalMedia * data.students.length)) * 100)
+                    : 0;
+                document.getElementById('completionRate').textContent = avgCompletion + '%';
+                
+                // Render students
+                renderStudents(data.students, data.gradeProgress, data.totalMedia);
+                
+                // Render activity
+                renderActivity(data.recentActivity);
+                
+            } catch (error) {
+                console.error('Error loading dashboard:', error);
+            }
+        }
+        
+        function renderStudents(students, gradeProgress, totalMedia) {
+            const container = document.getElementById('studentGrid');
+            
+            if (students.length === 0) {
+                container.innerHTML = '<div class="empty-state">No students found</div>';
+                return;
+            }
+            
+            // Group grade progress by student
+            const progressByStudent = {};
+            gradeProgress.forEach(p => {
+                if (!progressByStudent[p.student_id]) {
+                    progressByStudent[p.student_id] = [];
+                }
+                progressByStudent[p.student_id].push(p);
+            });
+            
+            container.innerHTML = students.map(student => {
+                const studentProgress = progressByStudent[student.user_id] || [];
+                const progressBars = ['5', '7', '9', '10', '11'].map(grade => {
+                    const p = studentProgress.find(sp => sp.grade_number === grade) || { watched: 0, total: 0 };
+                    const pct = p.total > 0 ? Math.round((parseInt(p.watched) / parseInt(p.total)) * 100) : 0;
+                    return `
+                        <div class="progress-row">
+                            <span class="progress-label">Gr. ${grade}</span>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: ${pct}%; background: ${gradeColors[grade]}"></div>
+                            </div>
+                            <span class="progress-count">${p.watched}/${p.total}</span>
+                        </div>
+                    `;
+                }).join('');
+                
+                return `
+                    <div class="student-card" onclick="viewStudent('${student.user_id}')">
+                        <div class="student-card-header">
+                            <div class="student-avatar" style="background: ${student.avatar_color}">
+                                ${student.name.charAt(0)}
+                            </div>
+                            <div>
+                                <div class="student-name">${student.name}</div>
+                                <div class="student-meta">${student.watched_count} titles watched</div>
+                            </div>
+                        </div>
+                        <div class="progress-bars">
+                            ${progressBars}
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+        
+        function renderActivity(activity) {
+            const container = document.getElementById('activityList');
+            
+            if (!activity || activity.length === 0) {
+                container.innerHTML = '<div class="empty-state">No recent activity</div>';
+                return;
+            }
+            
+            container.innerHTML = activity.map(item => {
+                const timeAgo = formatTimeAgo(new Date(item.watch_date));
+                return `
+                    <div class="activity-item">
+                        <div class="activity-avatar" style="background: ${item.avatar_color || '#58a6ff'}">
+                            ${item.student_name.charAt(0)}
+                        </div>
+                        <div class="activity-content">
+                            <div class="activity-text">
+                                <strong>${item.student_name}</strong> watched "${item.title}"
+                            </div>
+                            <div class="activity-time">Grade ${item.grade_number} • ${timeAgo}</div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+        
+        function viewStudent(userId) {
+            window.location.href = `/?student=${userId}`;
+        }
+        
+        function formatTimeAgo(date) {
+            const seconds = Math.floor((new Date() - date) / 1000);
+            
+            if (seconds < 60) return 'just now';
+            if (seconds < 3600) return Math.floor(seconds / 60) + ' min ago';
+            if (seconds < 86400) return Math.floor(seconds / 3600) + ' hours ago';
+            if (seconds < 604800) return Math.floor(seconds / 86400) + ' days ago';
+            return date.toLocaleDateString();
+        }
+        
+        // Initialize
+        loadDashboard();
+        
+        // Refresh every 30 seconds
+        setInterval(loadDashboard, 30000);
+    </script>
+</body>
+</html>
+

@@ -25,6 +25,14 @@
                     <input type="text" id="search" placeholder="Search movies, topics, or themes..." autocomplete="off">
                     <span class="search-icon">⌘K</span>
                 </div>
+                <div class="user-area" id="userArea">
+                    <div class="user-selector" id="userSelector">
+                        <select id="studentSelect" onchange="switchStudent(this.value)">
+                            <option value="">Select Student...</option>
+                        </select>
+                    </div>
+                    <a href="/dashboard.html" class="dashboard-link" id="dashboardLink" style="display: none;">📊 Dashboard</a>
+                </div>
             </div>
         </header>
 

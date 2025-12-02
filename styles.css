@@ -1254,3 +1254,150 @@ body {
         color: black;
     }
 }
+
+/* ========================================
+   User Selector & Welcome Screen
+   ======================================== */
+
+.user-area {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+}
+
+.user-selector select {
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    color: var(--text-primary);
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    font-family: var(--font-body);
+    cursor: pointer;
+    transition: var(--transition-fast);
+}
+
+.user-selector select:hover {
+    border-color: var(--accent-blue);
+}
+
+.user-selector select:focus {
+    outline: none;
+    border-color: var(--accent-blue);
+    box-shadow: 0 0 0 3px rgba(88, 166, 255, 0.2);
+}
+
+.dashboard-link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    color: var(--accent-blue);
+    text-decoration: none;
+    font-size: 0.85rem;
+    transition: var(--transition-fast);
+}
+
+.dashboard-link:hover {
+    background: var(--bg-hover);
+    border-color: var(--accent-blue);
+}
+
+/* Welcome Modal */
+.user-select-modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    animation: fadeIn 0.3s ease;
+}
+
+.user-select-content {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+    padding: var(--space-2xl);
+    max-width: 500px;
+    width: 90%;
+    text-align: center;
+    animation: slideUp 0.3s ease;
+}
+
+.user-select-content h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: var(--text-primary);
+}
+
+.user-select-content p {
+    color: var(--text-secondary);
+    margin-bottom: var(--space-xl);
+    font-size: 1.1rem;
+}
+
+.user-buttons {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: var(--space-md);
+}
+
+.user-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+    padding: var(--space-lg);
+    background: var(--bg-tertiary);
+    border: 2px solid transparent;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: var(--transition-base);
+}
+
+.user-button:hover {
+    border-color: var(--user-color, var(--accent-blue));
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+}
+
+.user-button .user-initial {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: var(--user-color, var(--accent-blue));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+}
+
+.user-button .user-name {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideUp {
+    from { 
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to { 
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
